@@ -46,10 +46,10 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 2. Clone your forked repository to your local machine with the command:
 
 ```bash
-git clone https://github.com/<your-username>/learn-to-contribute.git
+git clone https://github.com/your-username/learn-to-contribute.git
 ```
 
-Replace <your-username> with your GitHub username.
+Replace 'your-username' with your GitHub username.
 
 3. Navigate to your project folder and install the necessary dependencies with the commands:
 
@@ -102,15 +102,11 @@ git push -u origin fix-tests
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
--   Click on the "Pull requests" tab and then the green "New pull request" button.
+-   You should see text "learn-to-contribute had recent pushes" and button "Compare & Pull request" next to it.
 
--   GitHub will direct you to the original repository that you created your fork from. Click the dropdown menu button labeled "base:", and select the branch of the original repository you would like to pull changes into.
+-   Click the "Compare & Pull request" button to proceed to the pull request page of the original learn-to-contribute repository.
 
--   Using the dropdown menu button labeled "compare:", select the branch that contains the changes you want to propose.
-
--   Click "Create pull request".
-
--   Fill in the title and description boxes to inform the original repository's maintainers about what you propose.
+-   Fill in the title and description boxes to inform what you did to make all of the tests pass successfully.
 
 -   Finally, click "Create pull request" to finish creating the pull request.
 
