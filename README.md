@@ -102,17 +102,17 @@ git push -u origin fix-tests
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
-    Click on the "Pull requests" tab and then the green "New pull request" button.
+-   Click on the "Pull requests" tab and then the green "New pull request" button.
 
-    GitHub will direct you to the original repository that you created your fork from. Click the dropdown menu button labeled "base:", and select the branch of the original repository you would like to pull changes into.
+-   GitHub will direct you to the original repository that you created your fork from. Click the dropdown menu button labeled "base:", and select the branch of the original repository you would like to pull changes into.
 
-    Using the dropdown menu button labeled "compare:", select the branch that contains the changes you want to propose.
+-   Using the dropdown menu button labeled "compare:", select the branch that contains the changes you want to propose.
 
-    Click "Create pull request".
+-   Click "Create pull request".
 
-    Fill in the title and description boxes to inform the original repository's maintainers about what you propose.
+-   Fill in the title and description boxes to inform the original repository's maintainers about what you propose.
 
-    Finally, click "Create pull request" to finish creating the pull request.
+-   Finally, click "Create pull request" to finish creating the pull request.
 
 Congratulations on making your first open source contribution on GitHub!
 
