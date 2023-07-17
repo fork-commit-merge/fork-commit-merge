@@ -138,3 +138,4 @@ This project is licensed under the terms of the MIT license.
 
 For any queries, feel free to open an issue or reach out to me at niko.hoffren@gmail.com.
 
+This is a bot test.
