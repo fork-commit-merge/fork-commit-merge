@@ -46,8 +46,10 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 2. Clone your forked repository to your local machine with the command:
 
 ```bash
-git clone https://github.com/nikohoffren/learn-to-contribute.git
+git clone https://github.com/<your-username>/learn-to-contribute.git
 ```
+
+Replace <your-username> with your GitHub username.
 
 3. Navigate to your project folder and install the necessary dependencies with the commands:
 
@@ -121,6 +123,6 @@ Congratulations on making your first open source contribution! If you're looking
 
 This project is licensed under the terms of the MIT license.
 
-# Contact
+## Contact
 
 For any queries, feel free to open an issue or reach out to me at niko.hoffren@gmail.com.
