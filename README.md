@@ -69,6 +69,7 @@ You'll find that all four tests are failing.
 ## Task
 
 Your task is to make the tests pass. You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
+Running `npm test` will give you some helpful information about what is wrong with the tests.
 
 Note: You shouldn't need to modify the source code in src/library.js.
 
