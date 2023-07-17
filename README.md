@@ -58,7 +58,13 @@ cd learn-to-contribute
 npm install
 ```
 
-4. Run the test suite with the command:
+4. Create a new branch with the command:
+
+```bash
+git switch -c fix-tests
+```
+
+5. Run the test suite with the command:
 
 ```bash
 npm test
@@ -77,25 +83,19 @@ Note: You shouldn't need to modify the source code in src/library.js.
 
 Once you've made the necessary changes and all the tests are passing, you're ready to submit your changes!
 
-1. Create a new branch for your changes with the command:
-
-```bash
-git switch -c fix-tests
-```
-
-2. Stage your changes with the command:
+1. Stage your changes with the command:
 
 ```bash
 git add <file-that-you-changed>
 ```
 
-3. Commit your changes with the command:
+2. Commit your changes with the command:
 
 ```bash
 git commit -m "Fixed failing tests"
 ```
 
-4. Push your changes to your forked repository with the command:
+3. Push your changes to your forked repository with the command:
 
 ```bash
 git push -u origin fix-tests
@@ -112,6 +112,8 @@ Once you've pushed your changes to GitHub, you're ready to create a pull request
 -   Finally, click "Create pull request" to finish creating the pull request.
 
 Congratulations on making your first open source contribution on GitHub!
+
+Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged.
 
 ## Influences
 
