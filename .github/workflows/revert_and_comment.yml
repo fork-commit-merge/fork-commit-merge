@@ -1,0 +1,38 @@
+name: Revert and Comment
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  auto-revert:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Revert merge commit
+        run: |
+          git revert -m 1 HEAD
+          git push origin main
+
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Comment on PR
+        uses: actions/github-script@v3
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: "Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor."
+            })
