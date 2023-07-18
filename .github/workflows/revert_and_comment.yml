@@ -18,6 +18,8 @@ jobs:
 
       - name: Revert merge commit
         run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           git revert -m 1 HEAD
           git push origin main --force
 
