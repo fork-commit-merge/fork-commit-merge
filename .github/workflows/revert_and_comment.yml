@@ -15,17 +15,14 @@ jobs:
         with:
           ref: main
           token: ${{ secrets.REPO_PAT }}
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Revert merge commit
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git revert -n HEAD~1 || true
-          git checkout --theirs . || true
-          git add .
-          git commit -m "Revert last commit"
-          git push origin main --force
+          git revert -m 1 HEAD
+          git push origin main
 
   comment:
     runs-on: ubuntu-latest
