@@ -28,9 +28,16 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_PAT }}
       - name: Setup GitHub CLI
         run: |
           gh auth login --with-token <<< "${{ secrets.REPO_PAT }}"
       - name: Comment on PR
         run: |
           gh pr comment "${{ github.event.pull_request.number }}" --body "Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor."
+        env:
+          GH_TOKEN: ${{ secrets.REPO_PAT }}
+          GH_REPO: ${{ github.repository }}
