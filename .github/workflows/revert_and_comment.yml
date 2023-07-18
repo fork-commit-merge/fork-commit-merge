@@ -21,8 +21,9 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git revert -n HEAD~1
-          git checkout --theirs .
+          git revert -n HEAD~1 || true
+          git checkout --theirs . || true
+          git add .
           git commit -m "Revert last commit"
           git push origin main --force
 
