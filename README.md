@@ -2,6 +2,8 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/puck-hub/pulls)
 
+<img src="https://github.com/nikohoffren/learn-to-contribute/blob/assets/images/lean-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="300">
+
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
 
 This project involves a simple Book Library application written in JavaScript. The application allows you to create a book, get information about a book, update a book's information, and delete a book. There are some Jest tests for this application, but they're failing...
