@@ -15,6 +15,7 @@ jobs:
         with:
           ref: main
           token: ${{ secrets.REPO_PAT }}
+          fetch-depth: 2
 
       - name: Revert merge commit
         run: |
