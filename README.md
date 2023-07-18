@@ -115,6 +115,8 @@ Congratulations on making your first open source contribution on GitHub!
 
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged.
 
+After the merge, actions-user bot will reset the tests for the next contributor.
+
 ## Influences
 
 This project was inspired by a number of fantastic resources designed to help newcomers make their first contributions to open source. In particular, we would like to acknowledge:
