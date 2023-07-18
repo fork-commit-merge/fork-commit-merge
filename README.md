@@ -2,7 +2,10 @@
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/puck-hub/pulls)
 
-<img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="500">
+<p align="center">
+  <img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="400">
+</p>
+
 
 
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
