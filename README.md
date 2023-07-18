@@ -1,4 +1,6 @@
+<p align="center">
 # Learn to Contribute
+</p>
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/puck-hub/pulls)
 
