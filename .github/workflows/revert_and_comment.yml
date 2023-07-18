@@ -37,7 +37,15 @@ jobs:
           gh auth login --with-token <<< "${{ secrets.REPO_PAT }}"
       - name: Comment on PR
         run: |
-          gh pr comment "${{ github.event.pull_request.number }}" --body "Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor."
+          gh pr comment "${{ github.event.pull_request.number }}" --body "## Merged
+
+          Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor.
+
+          ## What's next?
+
+          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve.
+
+          I look forward to seeing your contributions!"
         env:
           GH_TOKEN: ${{ secrets.REPO_PAT }}
           GH_REPO: ${{ github.repository }}
