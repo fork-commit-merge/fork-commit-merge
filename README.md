@@ -91,7 +91,7 @@ Once you've made the necessary changes and all the tests are passing, you're rea
 1. Stage your changes with the command:
 
 ```bash
-git add .
+git add <file-that-you-changed>
 ```
 
 2. Commit your changes with the command:
