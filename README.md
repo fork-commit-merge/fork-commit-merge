@@ -145,7 +145,7 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 
 [radhey30](https://github.com/radhey30)
 
-[Akiva1992](https://github.com/Akiva92)
+[Akiva1992](https://github.com/Akiva1992)
 
 ## Contact
 
