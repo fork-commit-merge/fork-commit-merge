@@ -141,6 +141,8 @@ Congratulations on making your first open source contribution! If you're looking
 
 Massive thanks to all of the these fine individuals who contributed to this project!
 
+[ChrisM922](https://github.com/ChrisM922)
+
 [jaas666](https://github.com/jaas666)
 
 [radhey30](https://github.com/radhey30)
