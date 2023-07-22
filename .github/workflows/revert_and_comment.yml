@@ -33,7 +33,7 @@ jobs:
         run: |
           if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
           then
-            sed -i "/## List of Contributors/a \\n- [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
+          sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add README.md
