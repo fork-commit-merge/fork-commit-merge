@@ -39,11 +39,15 @@ jobs:
         run: |
           gh pr comment "${{ github.event.pull_request.number }}" --body "## Merged
 
+          > This is an automated message from Learn to Contribute [BOT].
+
           Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor.
 
-          ## What's next?
+          ### What's next?
 
-          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve.
+          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories to find more. These projects contain real issues that you can help resolve.
+
+          Also please leave a star to this project if you feel it helped you, i would really appreciate it!
 
           I look forward to seeing your contributions!"
         env:
