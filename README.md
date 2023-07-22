@@ -23,8 +23,9 @@ This project involves using the terminal, but don't be afraid! If you're new to 
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
--   [License](#license)
+-   [List of Contibutors](#list-of-contibutors)
 -   [Contact](#contact)
+-   [License](#license)
 
 ## Prerequisites
 
@@ -136,11 +137,20 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve. I look forward to seeing your contributions!
 
+## List of Contributors
 
-## License
+Massive thanks to all of the these fine individuals who contributed to this project!
 
-This project is licensed under the terms of the MIT license.
+[jaas666](https://github.com/jaas666)
+
+[radhey30](https://github.com/radhey30)
+
+[Akiva1992](https://github.com/Akiva92)
 
 ## Contact
 
 For any queries, feel free to open an issue or reach out to me at niko.hoffren@gmail.com.
+
+## License
+
+This project is licensed under the terms of the MIT license.
