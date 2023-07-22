@@ -25,22 +25,6 @@ jobs:
           git revert -m 1 HEAD
           git push origin main
 
-  add-contributor-to-readme:
-    runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
-    steps:
-      - name: Add contributor to README
-        run: |
-          if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
-          then
-          sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
-            git config --local user.email "action@github.com"
-            git config --local user.name "GitHub Action"
-            git add README.md
-            git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
-            git push
-          fi
-
   comment:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
@@ -67,6 +51,23 @@ jobs:
           Also please leave a star to this project if you feel it helped you, i would really appreciate it.
 
           I look forward to seeing your contributions!"
+
+  add-contributor-to-readme:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Add contributor to README
+        run: |
+          if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
+          then
+          sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add README.md
+            git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
+            git push
+          fi
+          
         env:
           GH_TOKEN: ${{ secrets.REPO_PAT }}
           GH_REPO: ${{ github.repository }}
