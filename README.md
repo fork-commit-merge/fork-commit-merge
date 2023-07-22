@@ -138,6 +138,7 @@ I highly recommend checking out these projects if you want to learn more about c
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve. I look forward to seeing your contributions!
 
 ## List of Contributors
+n- [kabszac](https://github.com/kabszac)
 
 Massive thanks to all of the these fine individuals who contributed to this project!
 
