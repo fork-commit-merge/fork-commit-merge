@@ -147,6 +147,8 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 
 [Akiva1992](https://github.com/Akiva1992)
 
+[kabszac](https://github.com/kabszac)
+
 ## Contact
 
 For any queries, feel free to open an issue or reach out to me at niko.hoffren@gmail.com.

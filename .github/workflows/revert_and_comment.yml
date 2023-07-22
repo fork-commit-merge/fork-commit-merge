@@ -18,6 +18,17 @@ jobs:
           token: ${{ secrets.REPO_PAT }}
           fetch-depth: 0
 
+      - name: Revert merge commit
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git revert -m 1 HEAD
+          git push origin main
+
+  add-contributor-to-readme:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
       - name: Add contributor to README
         run: |
           if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
@@ -29,13 +40,6 @@ jobs:
             git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
             git push
           fi
-
-      - name: Revert merge commit
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git revert -m 1 HEAD
-          git push origin main
 
   comment:
     runs-on: ubuntu-latest
@@ -58,7 +62,7 @@ jobs:
 
           ### What's next?
 
-          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories to find more. These projects contain real issues that you can help resolve.
+          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories) to find more. These projects contain real issues that you can help resolve.
 
           Also please leave a star to this project if you feel it helped you, i would really appreciate it!
 
