@@ -53,21 +53,32 @@ jobs:
           I look forward to seeing your contributions!"
 
   add-contributor-to-readme:
+    needs: auto-revert
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_PAT }}
+          fetch-depth: 0
+
+      - name: Reset to the latest main
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+
       - name: Add contributor to README
         run: |
           if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
           then
-          sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
+            sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add README.md
             git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
             git push
           fi
-          
         env:
           GH_TOKEN: ${{ secrets.REPO_PAT }}
           GH_REPO: ${{ github.repository }}

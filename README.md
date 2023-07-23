@@ -141,6 +141,8 @@ Congratulations on making your first open source contribution! If you're looking
 
 Massive thanks to all of the these fine individuals who contributed to this project!
 
+[nakel-ola](https://github.com/nakel-ola)
+
 [ChrisM922](https://github.com/ChrisM922)
 
 [jaas666](https://github.com/jaas666)
