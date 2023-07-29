@@ -72,7 +72,7 @@ jobs:
         run: |
           if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
           then
-            sed -i "/Massive thanks to all of the these fine individuals who contributed to this project!/a [${{ github.event.pull_request.user.login }}](https://github.com/${{ github.event.pull_request.user.login }})" README.md
+            echo "<a href=\"https://github.com/${{ github.event.pull_request.user.login }}\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/${{ github.event.pull_request.user.id }}?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> README.md
             git config --local user.email "action@github.com"
             git config --local user.name "GitHub Action"
             git add README.md
