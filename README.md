@@ -141,17 +141,12 @@ Congratulations on making your first open source contribution! If you're looking
 
 Massive thanks to all of the these fine individuals who contributed to this project!
 
-[nakel-ola](https://github.com/nakel-ola)
-
-[ChrisM922](https://github.com/ChrisM922)
-
-[jaas666](https://github.com/jaas666)
-
-[radhey30](https://github.com/radhey30)
-
-[Akiva1992](https://github.com/Akiva1992)
-
-[kabszac](https://github.com/kabszac)
+<a href="https://github.com/nakel-ola"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109567025?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ChrisM922"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112943995?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/jaas666"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30204147?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/radhey30"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/89542093?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Akiva1992"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107344160?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/kabszac"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69686216?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 
 ## Contact
 
