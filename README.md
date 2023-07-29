@@ -1,15 +1,13 @@
-<p align="center">
+<div align="center">
 
 # Learn to Contribute
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
 
-</p>
-
-<p align="center">
 <img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="500">
-</p>
+
+</div>
 
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
 
