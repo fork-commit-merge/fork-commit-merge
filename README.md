@@ -1,9 +1,10 @@
+<p align="center">
+
 # Learn to Contribute
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
 
-<p align="center">
   <img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="500">
 </p>
 
@@ -19,7 +20,7 @@ This project involves using the terminal, but don't be afraid! If you're new to 
 
 -   [Prerequisites](#prerequisites)
 -   [Setup Instructions](#setup-instructions)
--   [Task](#task)
+-   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
@@ -57,7 +58,7 @@ git clone https://github.com/your-username/learn-to-contribute.git
 
 Replace 'your-username' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies with the commands:
+3. Navigate to your project folder and install the necessary dependencies with the commands (if you are solving the Easy difficulty issue, you don't need to run `npm install`):
 
 ```bash
 cd learn-to-contribute
@@ -70,20 +71,21 @@ npm install
 git switch -c fix-tests
 ```
 
-5. Run the test suite with the command:
+## Tasks
 
-```bash
-npm test
-```
+We present two tasks of varying difficulty. You're free to choose either the easy or medium issue, depending on your proficiency in HTML or JavaScript. Don't worry if you're a beginner with JavaScript; you should still be able to solve the problem.
 
-You'll find that all four tests are failing.
+**EASY**
 
-## Task
+Your task is to insert an h1 tag with the name `John Doe` above the h2 tag in the index.html file.
 
-Your task is to make the tests pass. You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
-Running `npm test` will give you some helpful information about what is wrong with the tests.
+Note: Only the index.html file needs modification for this task.
 
-Note: You shouldn't need to modify the source code in src/library.js.
+**MEDIUM**
+Your task is to make JavaScript tests pass. You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
+Running `npm test` will give you some helpful information about what is wrong with the tests. Once all your tests are passing, you are done!
+
+Note: Only the library.test.js file requires modification for this task.
 
 ## Submitting Your Changes
 
@@ -104,7 +106,7 @@ git commit -m "Fixed failing tests"
 3. Push your changes to your forked repository with the command:
 
 ```bash
-git push -u origin fix-tests
+git push origin fix-tests
 ```
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
