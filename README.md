@@ -75,13 +75,14 @@ git switch -c fix-tests
 
 We present two tasks of varying difficulty. You're free to choose either the easy or medium issue, depending on your proficiency in HTML or JavaScript. Don't worry if you're a beginner with JavaScript; you should still be able to solve the problem.
 
-**EASY**
+**EASY ISSUE:**
 
 Your task is to insert an h1 tag with the name `John Doe` above the h2 tag in the index.html file.
 
 Note: Only the index.html file needs modification for this task.
 
-**MEDIUM**
+**MEDIUM ISSUE:**
+
 Your task is to make JavaScript tests pass. You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
 Running `npm test` will give you some helpful information about what is wrong with the tests. Once all your tests are passing, you are done!
 
