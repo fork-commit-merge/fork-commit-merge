@@ -11,12 +11,6 @@
 
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
 
-This project involves a simple Book Library application written in JavaScript. The application allows you to create a book, get information about a book, update a book's information, and delete a book. There are some Jest tests for this application, but they're failing...
-
-Your task is to make these tests pass!
-
-This project involves using the terminal, but don't be afraid! If you're new to the terminal, it's just another way to interact with your computer. All the commands you'll need are provided in this README. By following along, you'll get comfortable using the terminal in no time.
-
 ## Table of Contents
 
 -   [Prerequisites](#prerequisites)
@@ -84,7 +78,13 @@ Note: Only the index.html file needs modification for this task.
 
 **MEDIUM ISSUE:**
 
-Your task is to make JavaScript tests pass. You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
+This issue involves a simple Book Library application written in JavaScript. The application allows you to create a book, get information about a book, update a book's information, and delete a book. There are some Jest tests for this application, but they're failing...
+
+Your task is to make these tests pass!
+
+This project involves using the terminal, but don't be afraid! If you're new to the terminal, it's just another way to interact with your computer. All the commands you'll need are provided in this README. By following along, you'll get comfortable using the terminal in no time.
+
+You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
 Running `npm test` will give you some helpful information about what is wrong with the tests. Once all your tests are passing, you are done!
 
 Note: Only the library.test.js file requires modification for this task.
