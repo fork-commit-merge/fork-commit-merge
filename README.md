@@ -7,9 +7,11 @@
 
 <img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="400">
 
-</div>
 <br>
+
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
+
+</div>
 
 ## Table of Contents
 
