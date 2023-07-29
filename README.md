@@ -6,9 +6,8 @@
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
 
 <img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="400">
-
 <br>
-
+<br>
 Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
 
 </div>
