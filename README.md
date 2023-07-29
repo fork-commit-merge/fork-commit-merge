@@ -59,7 +59,7 @@ git clone https://github.com/your-username/learn-to-contribute.git
 
 Replace 'your-username' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies with the commands (if you are solving the Easy difficulty issue, you don't need to run `npm install`):
+3. Navigate to your project folder and install the necessary dependencies. If you are solving the Easy difficulty issue, you don't need to run `npm install`.
 
 ```bash
 cd learn-to-contribute
