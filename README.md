@@ -139,7 +139,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve. Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren) to find more. These projects contain real issues that you can help resolve. Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
 ## Contact
 
