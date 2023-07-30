@@ -9,7 +9,10 @@ jobs:
 
   auto-revert:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.user.login != 'dependabot[bot]' &&
+      github.event.pull_request.user.login != 'dependabot-preview[bot]'
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -27,7 +30,10 @@ jobs:
 
   comment:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.user.login != 'dependabot[bot]' &&
+      github.event.pull_request.user.login != 'dependabot-preview[bot]'
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -55,7 +61,10 @@ jobs:
   add-contributor-to-readme:
     needs: auto-revert
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true
+    if: |
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.user.login != 'dependabot[bot]' &&
+      github.event.pull_request.user.login != 'dependabot-preview[bot]'
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
