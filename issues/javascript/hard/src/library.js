@@ -1,3 +1,5 @@
+// JavaScript - Hard
+
 class Library {
     constructor() {
         this.books = [];
@@ -31,6 +33,14 @@ class Library {
             this.books.splice(bookIndex, 1);
         }
         return this.books;
+    }
+
+    searchBooks(query) {
+        // TODO: Implement search functionality
+    }
+
+    filterBooks(criteria) {
+        // TODO: Implement filter functionality
     }
 }
 

@@ -1,10 +1,10 @@
 {
-    "name": "learn-to-contribute",
-    "version": "1.0.0",
-    "description": "A simple library app for learning Git and GitHub.",
-    "main": "src/library.js",
+    "name": "fork-commit-merge",
+    "version": "1.0.2",
+    "description": "Tests for learning Git and GitHub.",
     "scripts": {
-        "test": "jest"
+        "test:medium": "jest issues/javascript/medium",
+        "test:hard": "jest issues/javascript/hard"
     },
     "devDependencies": {
         "jest": "^27.2.0"

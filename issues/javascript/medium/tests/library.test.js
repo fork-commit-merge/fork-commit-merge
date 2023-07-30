@@ -1,4 +1,4 @@
-// MEDIUM ISSUE
+// JavaScript - Medium
 
 const Library = require("../src/library");
 
