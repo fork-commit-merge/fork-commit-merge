@@ -5,7 +5,7 @@
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![Contributors Welcome](https://img.shields.io/badge/Contributors-Welcome-purple.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
-[![Version 1.0.2](https://img.shields.io/badge/Version-1.0.2-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![Version 1.0.2](https://img.shields.io/badge/Version-1.0.2-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
 
 <br>
