@@ -82,8 +82,11 @@ Then you can open one of these directories to choose between three difficulties:
 After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
+
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/41)
+
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/40)
+
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
 ## Submitting Your Changes
