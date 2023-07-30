@@ -40,7 +40,7 @@ jobs:
         run: |
           gh pr comment "${{ github.event.pull_request.number }}" --body "## Merged
 
-          > This is an automated message from Learn to Contribute [BOT].
+          > This is an automated message from Fork, Commit, Merge [BOT].
 
           Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor.
 

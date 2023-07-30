@@ -1,14 +1,14 @@
 <div align="center">
 
-# Learn to Contribute
+# Fork, Commit, Merge
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
-[![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/learn-to-contribute/pulls)
+[![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 
-<img src="https://github.com/nikohoffren/learn-to-contribute/blob/main/assets/images/learn-to-contribute-logo.jpg?raw=true" alt="Learn to Contribute" width="400">
+<img src="https://github.com/nikohoffren/fork-commit-merge/blob/main/assets/images/fork-commit-merge-logo.jpg?raw=true" alt="Fork, Commit, Merge logo" width="400">
 <br>
 <br>
-Welcome to "Learn to Contribute", a project designed to help you familiarize yourself with the open source contribution workflow on GitHub!
+Welcome to "Fork, Commit, Merge"! A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
 
 </div>
 
@@ -20,9 +20,9 @@ Welcome to "Learn to Contribute", a project designed to help you familiarize you
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
--   [List of Contibutors](#list-of-contibutors)
 -   [Contact](#contact)
 -   [License](#license)
+-   [List of Contibutors](#list-of-contibutors)
 
 ## Prerequisites
 
@@ -49,7 +49,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 2. Clone your forked repository to your local machine with the command:
 
 ```bash
-git clone https://github.com/your-username/learn-to-contribute.git
+git clone https://github.com/your-username/fork-commit-merge.git
 ```
 
 Replace 'your-username' with your GitHub username.
@@ -57,7 +57,7 @@ Replace 'your-username' with your GitHub username.
 3. Navigate to your project folder and install the necessary dependencies. If you are solving the Easy difficulty issue, you don't need to run `npm install`.
 
 ```bash
-cd learn-to-contribute
+cd fork-commit-merge
 npm install
 ```
 
@@ -114,9 +114,9 @@ git push origin fix-tests
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
--   You should see text "learn-to-contribute had recent pushes" and button "Compare & Pull request" next to it.
+-   You should see text "fork-commit-merge had recent pushes" and button "Compare & Pull request" next to it.
 
--   Click the "Compare & Pull request" button to proceed to the pull request page of the original learn-to-contribute repository.
+-   Click the "Compare & Pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
 
 -   Fill in the title and description boxes to inform what you did to make all of the tests pass successfully.
 

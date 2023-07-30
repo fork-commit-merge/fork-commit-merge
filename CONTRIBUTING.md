@@ -1,4 +1,4 @@
-# Contributing to Learn to Contribute repository
+# Contributing to Fork, Commit, Merge -repository
 
 First off, thanks for taking the time to contribute!
 
@@ -6,7 +6,7 @@ The following is a set of guidelines for contributing to this project. These are
 
 ## Code of Conduct
 
-This project and everyone participating in it are governed by the [Learn to Contribute](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
+This project and everyone participating in it are governed by the [Fork, Commit, Merge](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
 
 ## How Can I Contribute?
 
