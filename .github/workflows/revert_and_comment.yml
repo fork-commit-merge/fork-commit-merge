@@ -1,0 +1,84 @@
+name: Revert and Comment
+
+on:
+  pull_request_target:
+    types:
+      - closed
+
+jobs:
+
+  auto-revert:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: main
+          token: ${{ secrets.REPO_PAT }}
+          fetch-depth: 0
+
+      - name: Revert merge commit
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git revert -m 1 HEAD
+          git push origin main
+
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_PAT }}
+      - name: Setup GitHub CLI
+        run: |
+          gh auth login --with-token <<< "${{ secrets.REPO_PAT }}"
+      - name: Comment on PR
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" --body "## Merged
+
+          > This is an automated message from Learn to Contribute [BOT].
+
+          Thank you for your contribution! Your pull request has been merged. The tests have been reset for the next contributor.
+
+          ### What's next?
+
+          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories) to find more. These projects contain real issues that you can help resolve.
+
+          Also please leave a star to this project if you feel it helped you, i would really appreciate it.
+
+          I look forward to seeing your contributions!"
+
+  add-contributor-to-readme:
+    needs: auto-revert
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_PAT }}
+          fetch-depth: 0
+
+      - name: Reset to the latest main
+        run: |
+          git fetch origin
+          git reset --hard origin/main
+
+      - name: Add contributor to README
+        run: |
+          if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
+          then
+            echo "<a href=\"https://github.com/${{ github.event.pull_request.user.login }}\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/${{ github.event.pull_request.user.id }}?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> README.md
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add README.md
+            git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
+            git push
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.REPO_PAT }}
+          GH_REPO: ${{ github.repository }}

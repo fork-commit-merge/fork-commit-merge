@@ -1,0 +1,14 @@
+{
+    "name": "learn-to-contribute",
+    "version": "1.0.0",
+    "description": "A simple library app for learning Git and GitHub.",
+    "main": "src/library.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^27.2.0"
+    },
+    "author": "Niko Hoffrén",
+    "license": "MIT"
+}
