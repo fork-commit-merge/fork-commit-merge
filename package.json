@@ -3,8 +3,8 @@
     "version": "1.0.2",
     "description": "Tests for learning Git and GitHub.",
     "scripts": {
-        "test:medium": "jest issues/javascript/medium",
-        "test:hard": "jest issues/javascript/hard"
+        "test:medium": "jest tasks/javascript/medium",
+        "test:hard": "jest tasks/javascript/hard"
     },
     "devDependencies": {
         "jest": "^27.2.0"

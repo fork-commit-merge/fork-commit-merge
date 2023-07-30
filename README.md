@@ -52,7 +52,7 @@ git clone https://github.com/your-username/fork-commit-merge.git
 
 Replace 'your-username' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies. If you are solving the Easy difficulty issue, you don't need to run `npm install`.
+3. Navigate to your project folder and install the necessary dependencies. If you are solving the HTML or CSS issues, you don't need to run `npm install`.
 
 ```bash
 cd fork-commit-merge
@@ -62,31 +62,29 @@ npm install
 4. Create a new branch with the command:
 
 ```bash
-git switch -c fix-tests
+git switch -c fix-issue
 ```
 
 ## Tasks
 
-We present two tasks of varying difficulty. You're free to choose either the easy or medium issue, depending on your proficiency in HTML or JavaScript. Don't worry if you're a beginner with JavaScript; you should still be able to solve the problem.
+We present several tasks with different languages and varying difficulty.
+Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
+-   HTML
+-   CSS
+-   JavaScript
+-   TypeScript
 
-**EASY ISSUE:**
+Then you can open one of these directories to choose between three difficulties:
+-   Easy
+-   Medium
+-   Hard
 
-Your task is to insert an h1 tag with the name `John Doe` above the h2 tag in the index.html file.
+After that you are ready to get solving!
 
-Note: Only the index.html file needs modification for this task.
-
-**MEDIUM ISSUE:**
-
-This issue involves a simple Book Library application written in JavaScript. The application allows you to create a book, get information about a book, update a book's information, and delete a book. There are some Jest tests for this application, but they're failing...
-
-Your task is to make these tests pass!
-
-This project involves using the terminal, but don't be afraid! If you're new to the terminal, it's just another way to interact with your computer. All the commands you'll need are provided in this README. By following along, you'll get comfortable using the terminal in no time.
-
-You'll need to inspect the tests in __tests__/library.test.js, figure out why they're failing, and make the necessary changes.
-Running `npm test` will give you some helpful information about what is wrong with the tests. Once all your tests are passing, you are done!
-
-Note: Only the library.test.js file requires modification for this task.
+Go to the task you selected to get more info about the issue by clicking one of the following:
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/41)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/40)
+[JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
 ## Submitting Your Changes
 
@@ -95,7 +93,7 @@ Once you've made the necessary changes and all the tests are passing, you're rea
 1. Stage your changes with the command:
 
 ```bash
-git add <file-that-you-changed>
+git add <files-that-you-changed>
 ```
 
 2. Commit your changes with the command:
@@ -107,7 +105,7 @@ git commit -m "Fixed failing tests"
 3. Push your changes to your forked repository with the command:
 
 ```bash
-git push origin fix-tests
+git push origin fix-issue
 ```
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
@@ -124,7 +122,7 @@ Congratulations on making your first open source contribution on GitHub!
 
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged.
 
-After the merge, actions-user bot will reset the file for the next contributor.
+After the merge, actions-user bot will reset the files for the next contributor.
 
 ## Influences
 
@@ -138,7 +136,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve. I look forward to seeing your contributions!
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click my username to find more. These projects contain real issues that you can help resolve. Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
 ## Contact
 
