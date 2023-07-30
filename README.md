@@ -1,6 +1,7 @@
 <div align="center">
 
 # Fork, Commit, Merge
+![Dev Gallery Screenshot](/public/fork-commit-merge-web-banner.png)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
