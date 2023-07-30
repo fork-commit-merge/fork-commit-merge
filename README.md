@@ -1,12 +1,11 @@
 <div align="center">
 
 # Fork, Commit, Merge
-![Dev Gallery Screenshot](/public/fork-commit-merge-web-banner.png)
+![Dev Gallery Screenshot](/assets/images/fork-commit-merge-web-banner.png)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-Welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![first contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 
-<img src="https://github.com/nikohoffren/fork-commit-merge/blob/main/assets/images/fork-commit-merge-logo.jpg?raw=true" alt="Fork, Commit, Merge logo" width="400">
 <br>
 <br>
 Welcome to "Fork, Commit, Merge"! A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
