@@ -95,6 +95,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
+[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/46)
+
 ## Submitting Your Changes
 
 Once you've made the necessary changes and all the tests are passing, you're ready to submit your changes!

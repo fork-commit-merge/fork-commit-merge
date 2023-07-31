@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "strict": true,
+      "outDir": "./js"
+    },
+    "include": ["./tasks/typescript"],
+    "exclude": ["node_modules"]
+  }
