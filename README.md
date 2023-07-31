@@ -9,13 +9,12 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
 
 <br>
-Welcome to "Fork, Commit, Merge"! A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
-
-</div>
-
+Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app)
+
+</div>
 
 ## Table of Contents
 
