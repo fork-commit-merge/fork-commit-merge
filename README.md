@@ -103,9 +103,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/50)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/51)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/52)
 
 ## Submitting Your Changes
 
