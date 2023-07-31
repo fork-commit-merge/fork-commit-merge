@@ -82,6 +82,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   CSS
 -   JavaScript
 -   TypeScript
+-   Markdown
 
 Then you can open one of these directories to choose between three difficulties:
 -   Easy
@@ -99,6 +100,12 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/46)
+
+[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/50)
+
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/)
+
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/)
 
 ## Submitting Your Changes
 
@@ -158,7 +165,7 @@ For any queries, feel free to open an issue or reach out to me at niko.hoffren@g
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the [MIT License](LICENSE).
 
 ## List of Contributors
 
