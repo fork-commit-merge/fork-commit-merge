@@ -13,6 +13,7 @@ Welcome to "Fork, Commit, Merge"! A project designed to help you familiarize you
 
 </div>
 
+
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app)
 
