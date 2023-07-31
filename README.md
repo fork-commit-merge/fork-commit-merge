@@ -11,7 +11,8 @@
 <br>
 Welcome to "Fork, Commit, Merge"! A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
 
-More info about this project, contributing and open source resources available on our website at
+More info about this project, contributing and open source resources, are available on our website at
+
 [Fork, Commit, Merge - website](https://forkcommitmerge.vercel.app)
 
 </div>
