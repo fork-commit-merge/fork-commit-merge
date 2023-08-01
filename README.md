@@ -29,7 +29,7 @@ More info about this project, contributing and open source resources, are availa
 -   [What's Next?](#whats-next)
 -   [Contact](#contact)
 -   [License](#license)
--   [List of Contibutors](#list-of-contibutors)
+-   [List of Contibutors](#list-of-contributors)
 
 ## Prerequisites
 
