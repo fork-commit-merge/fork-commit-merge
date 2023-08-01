@@ -114,7 +114,7 @@ Once you've made the necessary changes and all the tests are passing, you're rea
 1. Stage your changes with the command:
 
 ```bash
-git add .
+git add files-that-you-changed
 ```
 
 2. Commit your changes with the command:
@@ -126,7 +126,7 @@ git commit -m "Fixed issue"
 3. Push your changes to your forked repository with the command:
 
 ```bash
-git push -u origin fix-issue
+git push origin fix-issue
 ```
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
