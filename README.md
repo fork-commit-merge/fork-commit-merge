@@ -56,16 +56,16 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 2. Clone your forked repository to your local machine with the command:
 
 ```bash
-git clone https://github.com/your-username/fork-commit-merge.git
+git clone https://github.com/<your-username>/fork-commit-merge.git
 ```
 
-Replace 'your-username' with your GitHub username.
+Replace '<your-username>' with your GitHub username.
 
 3. Navigate to your project folder and install the necessary dependencies. If you are solving the HTML or CSS issues, you don't need to run `npm install`.
 
 ```bash
 cd fork-commit-merge
-npm install
+npm i
 ```
 
 4. Create a new branch with the command:
@@ -114,19 +114,19 @@ Once you've made the necessary changes and all the tests are passing, you're rea
 1. Stage your changes with the command:
 
 ```bash
-git add <files-that-you-changed>
+git add .
 ```
 
 2. Commit your changes with the command:
 
 ```bash
-git commit -m "Fixed failing tests"
+git commit -m "Fixed issue"
 ```
 
 3. Push your changes to your forked repository with the command:
 
 ```bash
-git push origin fix-issue
+git push -u origin fix-issue
 ```
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
