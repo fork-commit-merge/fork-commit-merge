@@ -105,7 +105,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/51)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/52)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
 
 ## Submitting Your Changes
 
@@ -144,6 +144,8 @@ Congratulations on making your first open source contribution on GitHub!
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged.
 
 After the merge, actions-user bot will reset the files for the next contributor.
+
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app)!
 
 ## Influences
 
