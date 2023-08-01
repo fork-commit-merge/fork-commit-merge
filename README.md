@@ -61,7 +61,7 @@ git clone https://github.com/<your-username>/fork-commit-merge.git
 
 Replace '<your-username>' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies. If you are solving the HTML or CSS issues, you don't need to run `npm install`.
+3. Navigate to your project folder and install the necessary dependencies. If you are solving the HTML or CSS issues, you don't need to run `npm i`.
 
 ```bash
 cd fork-commit-merge
