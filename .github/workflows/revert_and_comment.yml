@@ -1,15 +1,18 @@
-name: Revert and Comment
+name: Revert, Comment, and Mirror Contributors
 
 on:
   pull_request_target:
     types:
       - closed
+  push:
+    paths:
+      - 'README.md'
 
 jobs:
-
   auto-revert:
     runs-on: ubuntu-latest
     if: |
+      github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
       github.event.pull_request.user.login != 'dependabot[bot]' &&
       github.event.pull_request.user.login != 'dependabot-preview[bot]'
@@ -31,6 +34,7 @@ jobs:
   comment:
     runs-on: ubuntu-latest
     if: |
+      github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
       github.event.pull_request.user.login != 'dependabot[bot]' &&
       github.event.pull_request.user.login != 'dependabot-preview[bot]'
@@ -62,6 +66,7 @@ jobs:
     needs: auto-revert
     runs-on: ubuntu-latest
     if: |
+      github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
       github.event.pull_request.user.login != 'dependabot[bot]' &&
       github.event.pull_request.user.login != 'dependabot-preview[bot]'
@@ -91,3 +96,46 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.REPO_PAT }}
           GH_REPO: ${{ github.repository }}
+
+  sync-contributors:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    needs: add-contributor-to-readme
+    steps:
+    - name: Checkout repo1
+      uses: actions/checkout@v2
+
+    - name: Extract last contributor
+      id: extract_last_contributor
+      run: |
+        LAST_CONTRIBUTOR=$(tail -n 1 README.md | awk -F'[@"]' '{print $2}')
+        echo "::set-output name=last_contributor::$LAST_CONTRIBUTOR"
+
+    - name: Get contributor id
+      id: get_contributor_id
+      run: |
+        CONTRIBUTOR_ID=$(curl -s -H "Authorization: token ${{ secrets.REPO_PAT }}" "https://api.github.com/users/${{ steps.extract_last_contributor.outputs.last_contributor }}" | jq '.id')
+        echo "::set-output name=contributor_id::$CONTRIBUTOR_ID"
+
+    - name: Checkout fork-commit-merge-web
+      uses: actions/checkout@v2
+      with:
+        repository: 'nikohoffren/fork-commit-merge-web'
+        token: ${{ secrets.REPO_PAT }}
+        path: 'fork-commit-merge-web'
+
+    - name: Add contributors to components/contributorData.ts
+      run: |
+        CONTRIBUTOR_LOGIN="${{ steps.extract_last_contributor.outputs.last_contributor }}"
+        CONTRIBUTOR_ID="${{ steps.get_contributor_id.outputs.contributor_id }}"
+        echo "Adding contributor: $CONTRIBUTOR_LOGIN with ID: $CONTRIBUTOR_ID"
+        echo "<a href=\"https://github.com/$CONTRIBUTOR_LOGIN\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> fork-commit-merge-web/components/contributorData.ts
+
+    - name: Commit and push to fork-commit-merge-web
+      run: |
+        cd fork-commit-merge-web
+        git config user.name "nikohoffren"
+        git config user.email "niko.hoffren@gmail.com"
+        git add components/contributorData.ts
+        git commit -m "Sync contributors from fork-commit-merge"
+        git push
