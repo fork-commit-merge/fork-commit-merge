@@ -12,7 +12,7 @@
 Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
 
 More info about this project, contributing and open source resources, are available on our website at
-<br>[forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app)
+<br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
@@ -114,7 +114,7 @@ Once you've made the necessary changes and all the tests are passing, you're rea
 1. Stage your changes with the command:
 
 ```bash
-git add .
+git add files-that-you-changed
 ```
 
 2. Commit your changes with the command:
@@ -126,7 +126,7 @@ git commit -m "Fixed issue"
 3. Push your changes to your forked repository with the command:
 
 ```bash
-git push -u origin fix-issue
+git push origin fix-issue
 ```
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
@@ -145,7 +145,7 @@ Sit back and wait for a response and feedback of the pull request. If everything
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app)!
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io)!
 
 ## Influences
 
@@ -185,4 +185,6 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/DarshanDixit05"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76871537?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/sakibian"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/40847839?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Nkiriobasi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/88588310?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
-<a href="https://github.com/Nitin-kumar199"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112743746?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Nitin-kumar199 "><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112743746?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/EmekaManuel"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107403276?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+
