@@ -1,4 +1,4 @@
-/* eslint-disable no-console */
+/* eslint-disable no-console, prefer-template */
 "use strict";
 
 /**
@@ -29,7 +29,14 @@ exports.wrap = function (func, msg) {
  * @returns {string}
  */
 exports.defaultMsg = function (packageName, funcName) {
-    return `${packageName}.${funcName} is deprecated and will be removed from the public API in a future version of ${packageName}.`;
+    return (
+        packageName +
+        "." +
+        funcName +
+        " is deprecated and will be removed from the public API in a future version of " +
+        packageName +
+        "."
+    );
 };
 
 /**
