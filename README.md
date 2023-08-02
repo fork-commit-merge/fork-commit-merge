@@ -100,7 +100,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/40)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/63)
 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
