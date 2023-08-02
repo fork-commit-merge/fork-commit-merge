@@ -97,6 +97,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/59)
 
+[CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
+
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/40)
 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
@@ -108,6 +110,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/51)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
+
+*Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away!*
 
 ## Submitting Your Changes
 
