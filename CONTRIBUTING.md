@@ -8,7 +8,7 @@ The following is a set of guidelines for contributing to this project. These are
 
 ## Code of Conduct
 
-This project and everyone participating in it are governed by the [Fork, Commit, Merge](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
+This project and everyone participating in it are governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
 
 ## How Can I Contribute?
 
@@ -45,5 +45,4 @@ Unsure where to begin contributing to this project? You can start by looking thr
 
 ## Styleguides
 
-* Use `camelCase` for file names.
 * Commit messages should clearly communicate the purpose of the change.
