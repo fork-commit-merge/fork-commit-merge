@@ -199,3 +199,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Nitin-kumar199 "><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112743746?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/EmekaManuel"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107403276?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 
+<a href="https://github.com/Ereakin"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/98915665?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
