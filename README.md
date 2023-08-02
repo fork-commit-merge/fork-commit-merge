@@ -34,7 +34,9 @@ More info about this project, contributing and open source resources, are availa
 
 ## Prerequisites
 
-Before you start, you'll need to install Git, Node.js, and npm.
+Before you start, you'll need to install Git.
+If you are solving JavaScript or TypeScript related issues, you need to install Node.js, and npm.
+If you are solving Ruby related issues, you need to install Ruby.
 
 ### Installing Git
 
@@ -50,6 +52,35 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 
 - You can download Node.js and npm from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and npm on your machine. Follow the instructions on the website to install them.
 
+### Installing Ruby
+
+#### Windows:
+
+Download the RubyInstaller for Windows from the [official website](https://rubyinstaller.org/).
+Run the installer package and follow the on-screen instructions.
+
+#### Mac OS:
+Ruby comes pre-installed on Mac OS X, but if you need to upgrade or install a different version, you can use Homebrew or RVM (Ruby Version Manager).
+
+**With Homebrew**:
+
+Open terminal and type `brew install ruby`
+
+**With RVM**:
+
+Open Terminal and type `\curl -sSL https://get.rvm.io | bash -s stable`
+Then install Ruby with `rvm install ruby`
+
+#### Linux:
+**Ubuntu/Debian**:
+
+Open Terminal and type `sudo apt-get install ruby-full`
+
+**Arch Linux**:
+
+Open Terminal and type `sudo pacman -S ruby`
+
+For other Linux distributions, the command may be different. Refer to the documentation specific to your package manager.
 
 ## Setup Instructions
 
@@ -83,6 +114,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   CSS
 -   JavaScript
 -   TypeScript
+-   Ruby
 -   Markdown
 
 Then you can open one of these directories to choose between three difficulties:
@@ -105,6 +137,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/54)
+
+[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/50)
 
