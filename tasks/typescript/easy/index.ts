@@ -1,8 +1,7 @@
 // TypeScript - Easy
 
 function greet(name: string): string {
-    //return statement below
-    return `Hello, ${name}!`
+    // TODO: Add return statement
 }
 
 let user: string = 'John Doe';
