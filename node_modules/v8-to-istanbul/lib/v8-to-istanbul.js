@@ -15,7 +15,7 @@ try {
 } catch (_err) {
   // most likely we're on an older version of Node.js.
 }
-const { SourceMapConsumer } = require('source-map')
+const { TraceMap } = require('@jridgewell/trace-mapping')
 const isOlderNode10 = /^v10\.(([0-9]\.)|(1[0-5]\.))/u.test(process.version)
 const isNode8 = /^v8\./.test(process.version)
 
@@ -53,7 +53,7 @@ module.exports = class V8ToIstanbul {
 
     if (this.rawSourceMap) {
       if (this.rawSourceMap.sourcemap.sources.length > 1) {
-        this.sourceMap = await new SourceMapConsumer(this.rawSourceMap.sourcemap)
+        this.sourceMap = new TraceMap(this.rawSourceMap.sourcemap)
         if (!this.sourceMap.sourcesContent) {
           this.sourceMap.sourcesContent = await this.sourcesContentFromSources()
         }
@@ -62,7 +62,7 @@ module.exports = class V8ToIstanbul {
       } else {
         const candidatePath = this.rawSourceMap.sourcemap.sources.length >= 1 ? this.rawSourceMap.sourcemap.sources[0] : this.rawSourceMap.sourcemap.file
         this.path = this._resolveSource(this.rawSourceMap, candidatePath || this.path)
-        this.sourceMap = await new SourceMapConsumer(this.rawSourceMap.sourcemap)
+        this.sourceMap = new TraceMap(this.rawSourceMap.sourcemap)
 
         let originalRawSource
         if (this.sources.sourceMap && this.sources.sourceMap.sourcemap && this.sources.sourceMap.sourcemap.sourcesContent && this.sources.sourceMap.sourcemap.sourcesContent.length === 1) {
@@ -102,10 +102,7 @@ module.exports = class V8ToIstanbul {
   }
 
   destroy () {
-    if (this.sourceMap) {
-      this.sourceMap.destroy()
-      this.sourceMap = undefined
-    }
+    // no longer necessary, but preserved for backwards compatibility.
   }
 
   _resolveSource (rawSourceMap, sourcePath) {
