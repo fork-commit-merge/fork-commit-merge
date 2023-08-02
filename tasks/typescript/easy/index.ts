@@ -1,7 +1,6 @@
 // TypeScript - Easy
 
 function greet(name: string): string {
-    //return statement below
     return `Hello, ${name}!`
 }
 
