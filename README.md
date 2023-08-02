@@ -109,7 +109,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
 
-*Note: You don't have ask permission to start solving the issue or get assigned since these issues are supposed to be always open. You can just simply start working with the issue right away!*
+*Note: You don't have ask permission to start solving the issue or get assigned, since these issues are supposed to be always open for new contributors. You can just simply start working with the issue right away!*
 
 ## Submitting Your Changes
 
