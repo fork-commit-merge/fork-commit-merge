@@ -4,9 +4,11 @@ First off, thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to this project. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
+*Note: You don't have ask permission to start solving the issue or get assigned, since these issues are supposed to be always open for new contributors. The actions-user bot will reset the file back to previous state for the next contributor after your commit is merged. So you can just simply start working with the issue right away!*
+
 ## Code of Conduct
 
-This project and everyone participating in it are governed by the [Fork, Commit, Merge](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
+This project and everyone participating in it are governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
 
 ## How Can I Contribute?
 
@@ -43,5 +45,4 @@ Unsure where to begin contributing to this project? You can start by looking thr
 
 ## Styleguides
 
-* Use `camelCase` for file names.
 * Commit messages should clearly communicate the purpose of the change.
