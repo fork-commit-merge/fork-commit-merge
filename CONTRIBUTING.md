@@ -3,6 +3,7 @@
 First off, thanks for taking the time to contribute!
 
 The following is a set of guidelines for contributing to this project. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+
 *Note: You don't have ask permission to start solving the issue or get assigned, since these issues are supposed to be always open for new contributors. The actions-user bot will reset the file back to previous state for the next contributor after your commit is merged. So you can just simply start working with the issue right away!*
 
 ## Code of Conduct
