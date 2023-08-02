@@ -27,6 +27,7 @@ More info about this project, contributing and open source resources, are availa
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
+-   [Creating New Tasks](#creating-new-tasks)
 -   [Contact](#contact)
 -   [License](#license)
 -   [List of Contibutors](#list-of-contributors)
@@ -166,6 +167,10 @@ I highly recommend checking out these projects if you want to learn more about c
 ## What's Next?
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren) to find more. These projects contain real issues that you can help resolve. Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
+
+## Creating new tasks
+
+Feel free to contribute to this project also by creating new tasks for other contributors to tackle. To do so, please submit a pull request containing detailed information about the task, including relevant code examples. We encourage you to propose tasks across the programming languages already represented in our project, as this helps broaden its versatility and accessibility for developers worldwide. 
 
 ## Contact
 
