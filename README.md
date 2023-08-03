@@ -67,7 +67,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm 
 
 #### Mac OS:
 
-Mac OS X comes pre-installed with Python, but in case it's not, here's how to install it:
+Mac OS X should come pre-installed with Python, but in case it's not installed, here's how to install it:
 
 -   Visit the official Python website's download page.
 -   Click on the latest Python release.
