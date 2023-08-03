@@ -118,6 +118,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   JavaScript
 -   TypeScript
 -   Ruby
+-   JSON
 -   Markdown
 
 Then you can open one of these directories to choose between three difficulties:
@@ -142,6 +143,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/54)
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
+
+[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/76)
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/50)
 
