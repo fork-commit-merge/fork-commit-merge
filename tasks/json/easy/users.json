@@ -1,8 +1,27 @@
 [
   {
-    "JSON": "Easy"
+    "name": "Magnus Carlsen",
+    "email": "magnus@gmail.com",
+    "ID" : "adffn123"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "name": "Hikaru Nakamura",
+    "email": "hikaru@gmail.com",
+    "ID" : "advfs423"
+  },
+  {
+    "name": "John Doe",
+    "email": "john@gmail.com",
+    "ID" : "rdvfs223"
+  },
+  {
+    "name": "Jane Doe",
+    "email": "jane@gmail.com",
+    "ID" : "rcvts353"
+  },
+  {
+    "name": "Alex Carey",
+    "email": "alex@gmail.com",
+    "ID" : "iyrbd938"
   }
 ]
