@@ -40,7 +40,7 @@ Also:
 -   If you are solving JavaScript or TypeScript related issues, you need to install Node.js, and npm.
 -   If your are solving Python related issues, you need to install Python.
 -   If you are solving Ruby related issues, you need to install Ruby.
--   IF you are solving PHP related issues, you need to install PHP.
+-   If you are solving PHP related issues, you need to install PHP.
 -   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
 ### Installing Git
