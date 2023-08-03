@@ -40,6 +40,7 @@ Also:
 -   If you are solving JavaScript or TypeScript related issues, you need to install Node.js, and npm.
 -   If your are solving Python related issues, you need to install Python.
 -   If you are solving Ruby related issues, you need to install Ruby.
+-   IF you are solving PHP related issues, you need to install PHP.
 -   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
 ### Installing Git
@@ -115,6 +116,25 @@ Open Terminal and type `sudo pacman -S ruby`
 
 For other Linux distributions, the command may be different. Refer to the documentation specific to your package manager.
 
+### Installing PHP
+
+Windows:
+
+-   Download the PHP ZIP package from https://windows.php.net/download.
+-   Extract the ZIP file and rename the extracted directory to php.
+-   Move the php directory to C:\.
+-   Add C:\php to your system's PATH environment variable.
+
+Mac OS:
+
+PHP comes pre-installed on Mac OS X. To upgrade or install a different version, consider using Homebrew:
+
+-   Open Terminal and type `brew install php`.
+
+Linux (Ubuntu/Debian):
+
+-   Open Terminal and type `sudo apt install php`.
+
 ## Setup Instructions
 
 1. Fork this repository by clicking on the "Fork" button at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
@@ -126,7 +146,7 @@ git clone https://github.com/<your-username>/fork-commit-merge.git
 
 Replace '<your-username>' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies. If you are solving the HTML or CSS issues, you don't need to run `npm i`.
+3. Navigate to your project folder and install the necessary dependencies. If you are solving other than JavaScript or TypeScript issues, you don't need to run `npm i`.
 
 ```bash
 cd fork-commit-merge
@@ -149,6 +169,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   TypeScript
 -   Python
 -   Ruby
+-   PHP
 -   JSON
 -   Markdown
 
@@ -176,6 +197,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/79)
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
+
+[PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/81)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/76)
 
