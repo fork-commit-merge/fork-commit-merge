@@ -36,11 +36,30 @@ class Library {
     }
 
     searchBooks(query) {
-        // TODO: Implement search functionality
+        const result = []
+        for(let book of this.books){
+            if(book.title.includes(query) || book.author.includes(query)){
+                result.push(book);
+            }
+        }
+        return result;
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        const res = [];
+        for(let book of this.books){
+            let match = true;
+            for(let key in criteria){
+                if(book[key] !== criteria[key]){
+                    match = false;
+                    break;
+                }
+            }
+            if(match){
+                res.push(book);
+            }
+        }
+        return res;
     }
 }
 
