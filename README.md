@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 
 </div>
@@ -38,8 +38,9 @@ Before you start, you'll need to install Git.
 
 Also:
 -   If you are solving JavaScript or TypeScript related issues, you need to install Node.js, and npm.
+-   If your are solving Python related issues, you need to install Python.
 -   If you are solving Ruby related issues, you need to install Ruby.
--   If you are solving only HTML, CSS or Markdown related issues, you don't need to install anything else.
+-   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
 ### Installing Git
 
@@ -54,6 +55,35 @@ Git is a version control system that lets you manage and keep track of your sour
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm is a package manager for Node.js.
 
 - You can download Node.js and npm from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and npm on your machine. Follow the instructions on the website to install them.
+
+### Installing Python
+
+#### Windows:
+
+-   Visit the official Python website's download page.
+-   Click on the latest Python release.
+-   Scroll down to the Files section and download the Windows x86-64 executable installer for 64-bit version of Windows.
+-   Run the installer file and follow the instructions, making sure to tick the box that says "Add Python to PATH" before clicking Install Now.
+
+#### Mac OS:
+
+Mac OS X comes pre-installed with Python, but in case it's not, here's how to install it:
+
+-   Visit the official Python website's download page.
+-   Click on the latest Python release.
+-   Download the macOS 64-bit installer.
+-   Open the downloaded .pkg file and follow the instructions to install Python.
+
+#### Linux:
+
+Most Linux distributions come with Python pre-installed. To check if you have Python installed, open a terminal and type `python3 --version`.
+
+If you need to install or upgrade Python, you can do so with the package manager for your Linux distribution. For Ubuntu, you can use the following commands:
+
+```bash
+sudo apt update
+sudo apt install python3
+```
 
 ### Installing Ruby
 
@@ -117,6 +147,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   CSS
 -   JavaScript
 -   TypeScript
+-   Python
 -   Ruby
 -   JSON
 -   Markdown
@@ -141,6 +172,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/54)
+
+[Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/79)
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
 
