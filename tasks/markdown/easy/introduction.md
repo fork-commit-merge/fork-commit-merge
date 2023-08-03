@@ -7,4 +7,4 @@ Header
 - with bad
 formatting
 
-Visit our website [here] (https://forkcommitmerge.vercel.app)
+Visit our website [here] (https://forkcommitmerge.io)
