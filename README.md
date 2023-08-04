@@ -308,3 +308,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/python-fuse"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/129158431?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/KshitijTodkar48"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120639775?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/pytechlady"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84632589?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/FrankXenarthra"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/140912769?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
