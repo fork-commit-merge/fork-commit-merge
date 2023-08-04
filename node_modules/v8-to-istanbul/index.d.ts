@@ -2,7 +2,7 @@
 
 import { Profiler } from 'inspector'
 import { CoverageMapData } from 'istanbul-lib-coverage'
-import { RawSourceMap } from 'source-map'
+import { SourceMapInput } from '@jridgewell/trace-mapping'
 
 declare type Sources =
   | {
@@ -11,7 +11,7 @@ declare type Sources =
   | {
       source: string
       originalSource: string
-      sourceMap: { sourcemap: RawSourceMap }
+      sourceMap: { sourcemap: SourceMapInput }
     }
 declare class V8ToIstanbul {
   load(): Promise<void>
