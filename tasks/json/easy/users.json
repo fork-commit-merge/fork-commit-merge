@@ -1,37 +1,8 @@
 [
   {
-      "id": 1,
-      "name": "John Adams",
-      "email": "john@gmail.com"
-    },
-   {
-      "id": 2,
-      "name": "Samuel Etim",
-      "email": "john@gmail.com"
-    },
-   {
-      "id": 3,
-      "name": "Kingsley Edwards",
-      "email": "kingson@gmail.com"
-  },
-   {
-      "id": 4,
-      "name": "Abigail Natasha",
-      "email": "bigirl@gmail.com"
-    },
-   {
-      "id": 6,
-      "name": "Emmanuel Samson",
-      "email": "emma@gmail.com"
+    "JSON": "Easy"
   },
   {
-      "id": 7,
-      "name": "Anyanime Akpan",
-      "email": "ben@gmail.com"
-    },
-   {
-      "id": 8,
-      "name": "Rachel Aaron",
-      "email": "john@gmail.com"
-    }
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+  }
 ]
