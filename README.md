@@ -16,12 +16,17 @@ More info about this project, contributing and open source resources, are availa
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-
 </div>
 
 ## Table of Contents
 
 -   [Prerequisites](#prerequisites)
+    -   [Installing Git](#installing-git)
+    -   [Installing NodeJS and npm](#installing-nodejs-and-npm)
+    -   [Installing Python](#installing-python)
+    -   [Installing Ruby](#installing-ruby)
+    -   [Installing PHP](#installing-php)
+    -   [Installing sqlite3](#installing-sqlite3)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
