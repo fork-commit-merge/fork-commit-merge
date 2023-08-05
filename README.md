@@ -26,6 +26,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing Python](#installing-python)
     -   [Installing Ruby](#installing-ruby)
     -   [Installing PHP](#installing-php)
+    -   [Installing Golang](#installing-golang)
     -   [Installing sqlite3](#installing-sqlite3)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
@@ -46,6 +47,7 @@ Also:
 -   If your are solving Python related issues, you need to install [Python](#installing-python).
 -   If you are solving Ruby related issues, you need to install [Ruby](#installing-ruby).
 -   If you are solving PHP related issues, you need to install [PHP](#installing-php).
+-   If you are solving Go related issues, you need to install [Golang](#installing-golang).
 -   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
@@ -153,6 +155,18 @@ Linux (Ubuntu/Debian):
 
 ---
 
+### Installing Golang
+
+For macOS and Linux, you can  use the terminal to install Go:
+
+-   On macOS, if you have Homebrew installed, type: `brew install go`.
+-   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install golang`.
+-   On Windows, go to the official [Go downloads page](https://go.dev/dl/), and download the binary release suitable. Use the MSI installer and follow the prompts to install the Go tools. It is recommended to leave the default settings for when asked about installation directory or PATH variables.
+
+To check your installation, open a terminal and type: `go version`. This should return the installed version of Go.
+
+---
+
 ### Installing sqlite3
 
 #### macOS and Linux:
@@ -222,6 +236,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Python
 -   Ruby
 -   PHP
+-   Go
 -   SQL
 -   JSON
 -   Markdown
@@ -254,6 +269,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/81)
+
+[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/95)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
