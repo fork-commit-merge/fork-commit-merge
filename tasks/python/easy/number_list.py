@@ -8,6 +8,7 @@ def calculate_sum_list(_list: any):
 
 # Setting amount of natural numbers we want
 natural_numbers_amount = 10
+
 # Creating our natural numbers test list 1-10
 natural_numbers = [n for n in range(1,natural_numbers_amount+1)]
 
