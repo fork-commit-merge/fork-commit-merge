@@ -44,6 +44,8 @@ Also:
 -   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
+---
+
 ### Installing Git
 
 Git is a version control system that lets you manage and keep track of your source code history.
@@ -52,11 +54,15 @@ Git is a version control system that lets you manage and keep track of your sour
 - For macOS users, you can install Git via [Homebrew](https://brew.sh/) with the command: `brew install git`
 - For Windows users, download Git from [Git for Windows](https://gitforwindows.org/) and follow the installation instructions.
 
+---
+
 ### Installing Node.js and npm
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm is a package manager for Node.js.
 
 - You can download Node.js and npm from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and npm on your machine. Follow the instructions on the website to install them.
+
+---
 
 ### Installing Python
 
@@ -86,6 +92,8 @@ If you need to install or upgrade Python, you can do so with the package manager
 sudo apt update
 sudo apt install python3
 ```
+
+---
 
 ### Installing Ruby
 
@@ -117,6 +125,8 @@ Open Terminal and type `sudo pacman -S ruby`
 
 For other Linux distributions, the command may be different. Refer to the documentation specific to your package manager.
 
+---
+
 ### Installing PHP
 
 Windows:
@@ -135,6 +145,8 @@ PHP comes pre-installed on Mac OS X. To upgrade or install a different version, 
 Linux (Ubuntu/Debian):
 
 -   Open Terminal and type `sudo apt install php`.
+
+---
 
 ### Installing sqlite3
 
@@ -167,6 +179,8 @@ sqlite3 --version
 This should output the version number if SQLite is installed correctly.
 
 Note that the terminal in Visual Studio Code (VS Code) uses your system's PATH, so once you've added SQLite to your PATH as described above, you'll be able to use SQLite in the VS Code terminal.
+
+---
 
 ## Setup Instructions
 
@@ -245,6 +259,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
 
 *Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away!*
+
+---
 
 ## Submitting Your Changes
 
