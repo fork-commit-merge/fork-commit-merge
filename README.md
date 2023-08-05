@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sql&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 
 </div>
@@ -37,10 +37,11 @@ More info about this project, contributing and open source resources, are availa
 Before you start, you'll need to install Git.
 
 Also:
--   If you are solving JavaScript or TypeScript related issues, you need to install Node.js, and npm.
--   If your are solving Python related issues, you need to install Python.
--   If you are solving Ruby related issues, you need to install Ruby.
--   If you are solving PHP related issues, you need to install PHP.
+-   If you are solving JavaScript or TypeScript related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
+-   If your are solving Python related issues, you need to install [Python](#installing-python).
+-   If you are solving Ruby related issues, you need to install [Ruby](#installing-ruby).
+-   If you are solving PHP related issues, you need to install [PHP](#installing-php).
+-   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
 
 ### Installing Git
@@ -135,6 +136,38 @@ Linux (Ubuntu/Debian):
 
 -   Open Terminal and type `sudo apt install php`.
 
+### Installing sqlite3
+
+#### macOS and Linux:
+
+SQLite comes pre-installed on macOS and most Linux distributions. To verify if sqlite3 is installed, you can open a terminal and type:
+
+```bash
+sqlite3 --version
+```
+
+If SQLite is installed, this will output the version number.
+
+#### Windows:
+
+To install SQLite on Windows:
+
+-   Visit the SQLite download page.
+-   In the "Precompiled Binaries for Windows" section, download the `sqlite-tools-win32-x86-xxxxxx.zip` file.
+-   Unzip the downloaded file. It will create a directory named `sqlite-tools-win32-x86-xxxxxx`.
+-   Move the directory to `C:\` (or another location if you prefer) and rename it to `sqlite`.
+-   Add `C:\sqlite` to your PATH environment variable.
+
+To check whether SQLite has been installed successfully, open Terminal window and run:
+
+```bash
+sqlite3 --version
+```
+
+This should output the version number if SQLite is installed correctly.
+
+Note that the terminal in Visual Studio Code (VS Code) uses your system's PATH, so once you've added SQLite to your PATH as described above, you'll be able to use SQLite in the VS Code terminal.
+
 ## Setup Instructions
 
 1. Fork this repository by clicking on the "Fork" button at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
@@ -170,6 +203,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Python
 -   Ruby
 -   PHP
+-   SQL
 -   JSON
 -   Markdown
 
@@ -199,6 +233,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/81)
+
+[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/76)
 
