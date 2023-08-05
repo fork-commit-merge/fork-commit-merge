@@ -237,6 +237,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/41)
 
+[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/93)
+
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/59)
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
