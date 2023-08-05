@@ -347,3 +347,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/FrankXenarthra"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/140912769?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/AshimZed"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121566909?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/anyanime"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/58043661?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Fulosophy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76975743?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
