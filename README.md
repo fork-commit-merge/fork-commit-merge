@@ -40,7 +40,7 @@ More info about this project, contributing and open source resources, are availa
 
 ## Prerequisites
 
-Before you start, you'll need to install Git.
+Before you start, you'll need to install [Git](#installing-git).
 
 Also:
 -   If you are solving JavaScript or TypeScript related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
