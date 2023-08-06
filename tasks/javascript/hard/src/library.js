@@ -37,13 +37,10 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
-        return this.books.filter(book => book.title === query || book.author === query || book.id === query ||
-            book.title.includes(query) || book.author.includes(query))
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
-        return this.books.filter(books => (books.title === criteria.title && books.author === criteria.author) || books.title === criteria.title || books.author === criteria.author)
     }
 }
 
