@@ -27,6 +27,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing Ruby](#installing-ruby)
     -   [Installing PHP](#installing-php)
     -   [Installing Golang](#installing-golang)
+    -   [Installing Dart](#installing-dart)
     -   [Installing sqlite3](#installing-sqlite3)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
@@ -48,6 +49,7 @@ Also:
 -   If you are solving Ruby related issues, you need to install [Ruby](#installing-ruby).
 -   If you are solving PHP related issues, you need to install [PHP](#installing-php).
 -   If you are solving Go related issues, you need to install [Golang](#installing-golang).
+-   If you are solving Dart related issues, you need to install [Dart](#installing-dart).
 -   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   If you are solving only HTML, CSS, JSON, YAML or Markdown related issues, you don't need to install anything else.
 
@@ -167,6 +169,18 @@ To check your installation, open a terminal and type: `go version`. This should 
 
 ---
 
+### Installing Dart
+
+For macOS and Linux, you can use the terminal to install Dart:
+-   On macOS, if you have Homebrew installed, type: `brew install dart`.
+-   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install dart`.
+
+For Windows, go to the official [Dart SDK Install page](https://dart.dev/get-dart), and download the SDK suitable for your system. Use the Dart installer and follow the prompts to install the Dart SDK. It is recommended to leave the default settings for when asked about installation directory or PATH variables.
+
+To check your installation, open a terminal and type: dart --version. This should return the installed version of Dart.
+
+---
+
 ### Installing sqlite3
 
 #### macOS and Linux:
@@ -237,6 +251,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Ruby
 -   PHP
 -   Go
+-   Dart
 -   SQL
 -   JSON
 -   YAML
@@ -272,6 +287,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/81)
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/95)
+
+[Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/103)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
