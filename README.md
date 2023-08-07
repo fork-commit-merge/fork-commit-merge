@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 </div>
 
@@ -49,7 +49,7 @@ Also:
 -   If you are solving PHP related issues, you need to install [PHP](#installing-php).
 -   If you are solving Go related issues, you need to install [Golang](#installing-golang).
 -   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
--   If you are solving only HTML, CSS, JSON or Markdown related issues, you don't need to install anything else.
+-   If you are solving only HTML, CSS, JSON, YAML or Markdown related issues, you don't need to install anything else.
 
 ---
 
@@ -239,6 +239,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Go
 -   SQL
 -   JSON
+-   YAML
 -   Markdown
 
 Then you can open one of these directories to choose between three difficulties:
@@ -275,6 +276,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/76)
+
+[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/102)
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/50)
 
@@ -388,3 +391,8 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/AshimZed"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121566909?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/anyanime"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/58043661?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Fulosophy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76975743?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Shahzaib-Iqbal-1057"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/98122801?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/robgric3"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/49682982?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dork7"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54894721?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/avivk9"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/67284525?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Broderick-Westrope"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/55474351?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
