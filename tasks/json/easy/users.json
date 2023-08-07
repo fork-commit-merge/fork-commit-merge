@@ -1,8 +1,27 @@
 [
-   {
-    "JSON": "Easy"
+  {
+    "id": 1,
+    "name": "Lewis Hamilton",
+    "email": "lewis@hamilton.com"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 2,
+    "name": "Lando Norris",
+    "email": "lando@norris.com"
+  },
+  {
+    "id": 3,
+    "name": "Charles Lerclerc",
+    "email": "charlie@ferrari.com"
+  },
+  {
+    "id": 4,
+    "name": "Valterri Bottas",
+    "email": "mustach@alpha.com"
+  },
+  {
+    "id": 5,
+    "name": "Marc Marcus",
+    "email": "marc@marques.com"
   }
 ]
