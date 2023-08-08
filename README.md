@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%231572B6.svg?style=for-the-badge&logo=dart&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E34F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%231572B6.svg?style=for-the-badge&logo=dart&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E34F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23007ACC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 </div>
 
@@ -28,6 +28,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing PHP](#installing-php)
     -   [Installing Golang](#installing-golang)
     -   [Installing Dart](#installing-dart)
+    -   [Installing Rust](#installing-rust)
     -   [Installing sqlite3](#installing-sqlite3)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
@@ -50,6 +51,7 @@ Also:
 -   If you are solving PHP related issues, you need to install [PHP](#installing-php).
 -   If you are solving Go related issues, you need to install [Golang](#installing-golang).
 -   If you are solving Dart related issues, you need to install [Dart](#installing-dart).
+-   If you are solving Rust related issues, you need to install [Rust](#installing-rust).
 -   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   If you are solving only HTML, CSS, JSON, YAML or Markdown related issues, you don't need to install anything else.
 
@@ -181,6 +183,29 @@ To check your installation, open a terminal and type: dart --version. This shoul
 
 ---
 
+### Installing Rust
+
+Windows:
+
+-   Go to rust-lang.org to download the "rustup-init.exe" installer.
+-   Run the installer and follow the on-screen instructions.
+-   Once installation is complete, open a new Command Prompt and verify with `rustc --version`.
+
+Mac and Linux:
+
+-   Open a terminal.
+-   Run the following command:
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+-   Follow the on-screen instructions.
+-   Restart your terminal (or source the changes as instructed at the end of the installation) to ensure the cargo and rustc commands are available.
+-   You can verify the installation with `rustc --version`.
+
+---
+
 ### Installing sqlite3
 
 #### macOS and Linux:
@@ -253,6 +278,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   PHP
 -   Go
 -   Dart
+-   Rust
 -   SQL
 -   JSON
 -   YAML
@@ -292,6 +318,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/95)
 
 [Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/103)
+
+[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/114)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
