@@ -34,7 +34,7 @@ More info about this project, contributing and open source resources, are availa
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Best Practices](#best-practices)
-    -   [Rust Best Practices & Coding Style Guide](#rust-best-practices-&-coding-style-guide)
+    -   [Rust Best Practices And Coding Style Guide](#rust-best-practices-and-coding-style-guide)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
 -   [Creating New Tasks](#creating-new-tasks)
@@ -399,7 +399,7 @@ Why Follow Best Practices?
 
 In this section, you'll find guides tailored to various languages. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
-### Rust Best Practices & Coding Style Guide
+### Rust Best Practices and Coding Style Guide
 
 -   Ownership and Borrowing:
     -   Always try to use references (&) when you don't need to take ownership of a value.
