@@ -33,6 +33,8 @@ More info about this project, contributing and open source resources, are availa
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
+-   [Best Practices](#best-practices)
+    -   [Rust Best Practices & Coding Style Guide](#rust-best-practices-&-coding-style-guide)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
 -   [Creating New Tasks](#creating-new-tasks)
@@ -376,6 +378,93 @@ Sit back and wait for a response and feedback of the pull request. If everything
 After the merge, actions-user bot will reset the files for the next contributor.
 
 All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io)!
+
+---
+
+## 📚 Best Practices
+
+Programming languages, despite their diverse syntax and underlying paradigms, universally emphasize the importance of adhering to best practices. These practices evolve over time, influenced by shared challenges faced by developers, innovations in the field, and the inherent features and limitations of the languages themselves. This section serves as a compass, guiding you through the idiomatic ways of coding in various languages, ensuring not only that your code works but also that it aligns with the conventions and norms of the community.
+
+Why Follow Best Practices?
+
+-   Readability: Code is read more often than it's written. Adopting best practices ensures your code remains accessible and comprehensible to other developers, or even to your future self!
+
+-   Maintainability: Idiomatic code, by adhering to established patterns and standards, is easier to update, debug, and expand upon.
+
+-   Performance: Often, best practices evolve in response to the understanding of a language's performance characteristics. Writing idiomatic code might also mean squeezing the best performance out of your programs.
+
+-   Community Support: If you're writing code in the way that the broader community expects, you're more likely to receive help when you run into issues. Moreover, you can benefit from tools, linters, and extensions built with these practices in mind.
+
+-   Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
+
+In this section, you'll find guides tailored to various languages. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+
+### Rust Best Practices & Coding Style Guide
+
+-   Ownership and Borrowing:
+    -   Always try to use references (&) when you don't need to take ownership of a value.
+    -   Be explicit with lifetimes where required, but rely on Rust's lifetime elision rules whenever possible to keep code concise.
+
+-   Immutability:
+    -   Prefer immutability by default. Use let to create immutable bindings and let mut only when you need to mutate the value.
+
+-   Error Handling:
+    -   Use the Result type for functions that can fail. Avoid using unwrap() and expect() unless you're absolutely certain the Result is Ok or the Option is Some.
+    -   Prefer the ? operator for propagating errors in most situations.
+
+-   Use of Enums:
+    -   Use enums to represent data that can be one of several variants. This is much more idiomatic in Rust than, for instance, class hierarchies in object-oriented languages.
+
+-   Match Statement:
+    -   Use match statements for pattern matching. It's exhaustive, ensuring every possible case is handled.
+
+-   Clippy:
+    -   Use clippy, the Rust linting tool. It provides a lot of suggestions and idiomatic ways to write Rust code. You can use it with cargo clippy.
+
+-   Formatting:
+    -   Run cargo fmt before committing to ensure your code conforms to the Rust community coding standards.
+
+-   Use of Crates:
+    -   Don't reinvent the wheel. If there's a well-maintained crate (Rust's term for libraries) that does what you need, consider using it. But also be wary of adding too many dependencies.
+
+-   Documentation:
+    -   Document public APIs with triple-slash /// comments. Use markdown inside these comments.
+
+-   Concurrency:
+
+    -   Make use of Rust's powerful concurrency guarantees. The borrow checker will help you a lot here. When shared state is needed, prefer using types like Mutex or RwLock from the standard library.
+
+    -   Tests:
+
+        -   Write unit tests using Rust's built-in testing framework. Put tests in a mod tests block within your source files and use the #[test] attribute for test functions.
+
+    -   Avoiding unsafe:
+
+        -   Rust offers the unsafe keyword to bypass the borrow checker. While it's there for valid use-cases, use it sparingly and always document the exact reason and ensure that the surrounding code truly upholds the safety guarantees.
+
+    -   Performance:
+
+        -   Rust allows for great performance, but always remember: write clear and readable code first, then optimize. With Rust, it's often the case that more idiomatic code is also faster, thanks to compiler optimizations.
+
+    -   Keep Cargo.toml Clean:
+
+        -   Regularly check your dependencies and remove any that you aren't using. This reduces compile time, binary size, and potential security risks.
+
+Official Rust documentation:
+
+[Rust Programming Language - Official Documentation](https://www.rust-lang.org/learn)
+
+You might also want to check out these sites:
+
+-   [The Rust Programming Language Book](https://doc.rust-lang.org/book/): This is affectionately known as "The Book" in the Rust community and serves as the main resource for many learners.
+
+-   [Rust by Example](https://doc.rust-lang.org/rust-by-example/): This provides a series of exercises and examples to help grasp Rust concepts.
+
+-   [Rust API Documentation](https://doc.rust-lang.org/std/): Comprehensive documentation for Rust's standard library.
+
+-   [Rust Playground](https://play.rust-lang.org): An online environment where Rust code can be written and executed, which is useful for testing out small bits of Rust code.
+
+---
 
 ## Influences
 
