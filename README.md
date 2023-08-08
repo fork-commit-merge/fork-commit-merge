@@ -45,15 +45,15 @@ More info about this project, contributing and open source resources, are availa
 Before you start, you'll need to install [Git](#installing-git).
 
 Also:
--   If you are solving JavaScript, TypeScript or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
--   If your are solving Python related issues, you need to install [Python](#installing-python).
--   If you are solving Ruby related issues, you need to install [Ruby](#installing-ruby).
--   If you are solving PHP related issues, you need to install [PHP](#installing-php).
--   If you are solving Go related issues, you need to install [Golang](#installing-golang).
--   If you are solving Dart related issues, you need to install [Dart](#installing-dart).
--   If you are solving Rust related issues, you need to install [Rust](#installing-rust).
--   If you are solving SQL related issues, you need to install [sqlite3](#installing-sqlite3).
--   If you are solving only HTML, CSS, JSON, YAML or Markdown related issues, you don't need to install anything else.
+-   For JavaScript, TypeScript or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
+-   For Python related issues, you need to install [Python](#installing-python).
+-   For Ruby related issues, you need to install [Ruby](#installing-ruby).
+-   For PHP related issues, you need to install [PHP](#installing-php).
+-   For Go related issues, you need to install [Golang](#installing-golang).
+-   For Dart related issues, you need to install [Dart](#installing-dart).
+-   For Rust related issues, you need to install [Rust](#installing-rust).
+-   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
+-   For HTML, CSS, JSON, YAML or Markdown related issues, you don't need to install anything else.
 
 ---
 
