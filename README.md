@@ -34,7 +34,9 @@ More info about this project, contributing and open source resources, are availa
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
 -   [Best Practices](#best-practices)
-    -   [Rust Best Practices And Coding Style Guide](#rust-best-practices-and-coding-style-guide)
+    -   [JavaScript Best Practices and Coding Style Guide](#javascript-best-practices-and-coding-style-guide)
+    -   [TypeScript Best Practices and Coding Style Guide](#typescript-best-practices-and-coding-style-guide)
+    -   [Rust Best Practices and Coding Style Guide](#rust-best-practices-and-coding-style-guide)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
 -   [Creating New Tasks](#creating-new-tasks)
@@ -463,6 +465,86 @@ You might also want to check out these sites:
 -   [Rust API Documentation](https://doc.rust-lang.org/std/): Comprehensive documentation for Rust's standard library.
 
 -   [Rust Playground](https://play.rust-lang.org): An online environment where Rust code can be written and executed, which is useful for testing out small bits of Rust code.
+
+---
+
+### JavaScript Best Practices and Coding Style Guide
+
+-   Variable Declaration:
+    -   Use let for block-scoped variables. Avoid var.
+    -   Use const for values that won't change.
+
+-   Functions:
+    -   Prefer arrow functions for short, non-method functions.
+    -   Use default parameters instead of manually checking and setting a default inside the function.
+
+-   Objects and Arrays:
+    -   Use object destructuring to extract properties from objects.
+    -   Use array destructuring to extract items from arrays.
+    -   Use the spread operator (...) to clone or merge arrays and objects.
+
+-   Promises and Asynchronous Code:
+    -   Always handle promise rejections. Use .catch() or async/await with try-catch blocks.
+    -   Use async/await for more readable asynchronous code, especially when there are multiple steps involved.
+
+-   Loops:
+    -   Prefer Array methods like map, filter, and reduce over traditional for loops.
+
+-   Type Checking:
+    -   Use typeof and instanceof wisely. Remember, typeof null is "object".
+    -   Use triple equals (===) over double equals (==) to avoid unexpected type coercion.
+
+-   Modules:
+    -   Use ES6 modules (import/export) over older module systems.
+
+-   Linters:
+    -   Use tools like ESLint to catch potential problems and enforce style consistency.
+
+[The Modern JavaScript Tutorial](https://javascript.info/)
+[MDN - JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+---
+
+### TypeScript Best Practices and Coding Style Guide
+
+-   Strong Typing:
+    -   Always prefer to provide specific types over using the any type.
+    -   Use interfaces for defining the shape of objects.
+
+-   Type Inference:
+    -   Allow TypeScript to infer types whenever possible. For instance, prefer const foo = "bar" over const foo: string = "bar".
+
+-   Enums:
+    -   Use string enums for better debugging and readability.
+
+-   Generics:
+    -   Use generics to create reusable components and utility functions, ensuring type safety without sacrificing flexibility.
+
+-   Type Guards:
+    -   Use type guards to narrow down types in a specific scope, especially when dealing with union types.
+
+-   Type Aliases:
+    -   Use type aliases to create your own custom types, especially for complex types used in multiple places.
+
+-   Access Modifiers:
+    -   Explicitly mark properties and methods with public, private, or protected to indicate their intended accessibility.
+
+-   Linter and Config:
+    -   Use TSLint or ESLint with TypeScript support. Ensure you have a good tsconfig.json.
+
+-   Always Use strict Mode:
+    -   Enable strict mode in your tsconfig.json for stricter type-checking.
+
+-   Type Definitions:
+    -   When using third-party libraries, ensure you have the appropriate type definitions installed, often available as @types/package-name.
+
+[TypeScript - Official Documentation](https://www.typescriptlang.org/docs/)
+
+You might also want to check out:
+
+-   [TypeScript Handbook: A comprehensive guide to TypeScript language features](https://www.typescriptlang.org/docs/handbook/intro.html)
+
+-   [TypeScript Playground: An online environment where TypeScript code can be written, tested, and shared](https://www.typescriptlang.org/play)
 
 ---
 
