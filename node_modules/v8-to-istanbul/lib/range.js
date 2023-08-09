@@ -4,30 +4,32 @@
  */
 module.exports.sliceRange = (lines, startCol, endCol, inclusive = false) => {
   let start = 0
-  let end = lines.length - 1
+  let end = lines.length
 
-  /**
-   * I consider this a temporary solution until I find an alternaive way to fix the "off by one issue"
-   */
-  const extStartCol = inclusive ? startCol - 1 : startCol
+  if (inclusive) {
+    // I consider this a temporary solution until I find an alternaive way to fix the "off by one issue"
+    --startCol
+  }
 
   while (start < end) {
-    const mid = (start + end) >> 1
-    if (lines[mid].startCol <= startCol && lines[mid].endCol > extStartCol) {
-      start = mid
-      end = start
-    } else if (lines[mid].startCol > startCol) {
+    let mid = (start + end) >> 1
+    if (startCol >= lines[mid].endCol) {
+      start = mid + 1
+    } else if (endCol < lines[mid].startCol) {
       end = mid - 1
     } else {
+      end = mid
+      while (mid >= 0 && startCol < lines[mid].endCol && endCol >= lines[mid].startCol) {
+        --mid
+      }
       start = mid + 1
+      break
     }
   }
-  if (start === end) {
-    while (end < lines.length && extStartCol < lines[end].endCol && endCol >= lines[end].startCol) {
-      ++end
-    }
-    return lines.slice(start, end)
-  } else {
-    return []
+
+  while (end < lines.length && startCol < lines[end].endCol && endCol >= lines[end].startCol) {
+    ++end
   }
+
+  return lines.slice(start, end)
 }
