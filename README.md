@@ -401,6 +401,8 @@ Why Follow Best Practices?
 
 In this section, you'll find guides tailored to various languages. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
+---
+
 ### Rust Best Practices and Coding Style Guide
 
 -   Ownership and Borrowing:
@@ -501,6 +503,7 @@ You might also want to check out these sites:
     -   Use tools like ESLint to catch potential problems and enforce style consistency.
 
 [The Modern JavaScript Tutorial](https://javascript.info/)
+
 [MDN - JavaScript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 ---
