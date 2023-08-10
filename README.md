@@ -36,6 +36,7 @@ More info about this project, contributing and open source resources, are availa
 -   [Best Practices](#best-practices)
     -   [JavaScript Best Practices and Coding Style Guide](#javascript-best-practices-and-coding-style-guide)
     -   [TypeScript Best Practices and Coding Style Guide](#typescript-best-practices-and-coding-style-guide)
+    -   [Ruby Best Practices and Coding Style Guide](#ruby-best-practices-and-coding-style-guide)
     -   [Rust Best Practices and Coding Style Guide](#rust-best-practices-and-coding-style-guide)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
@@ -403,73 +404,6 @@ In this section, you'll find guides tailored to various languages. Whether you'r
 
 ---
 
-### Rust Best Practices and Coding Style Guide
-
--   Ownership and Borrowing:
-    -   Always try to use references (&) when you don't need to take ownership of a value.
-    -   Be explicit with lifetimes where required, but rely on Rust's lifetime elision rules whenever possible to keep code concise.
-
--   Immutability:
-    -   Prefer immutability by default. Use let to create immutable bindings and let mut only when you need to mutate the value.
-
--   Error Handling:
-    -   Use the Result type for functions that can fail. Avoid using unwrap() and expect() unless you're absolutely certain the Result is Ok or the Option is Some.
-    -   Prefer the ? operator for propagating errors in most situations.
-
--   Use of Enums:
-    -   Use enums to represent data that can be one of several variants. This is much more idiomatic in Rust than, for instance, class hierarchies in object-oriented languages.
-
--   Match Statement:
-    -   Use match statements for pattern matching. It's exhaustive, ensuring every possible case is handled.
-
--   Clippy:
-    -   Use clippy, the Rust linting tool. It provides a lot of suggestions and idiomatic ways to write Rust code. You can use it with cargo clippy.
-
--   Formatting:
-    -   Run cargo fmt before committing to ensure your code conforms to the Rust community coding standards.
-
--   Use of Crates:
-    -   Don't reinvent the wheel. If there's a well-maintained crate (Rust's term for libraries) that does what you need, consider using it. But also be wary of adding too many dependencies.
-
--   Documentation:
-    -   Document public APIs with triple-slash /// comments. Use markdown inside these comments.
-
--   Concurrency:
-
-    -   Make use of Rust's powerful concurrency guarantees. The borrow checker will help you a lot here. When shared state is needed, prefer using types like Mutex or RwLock from the standard library.
-
-    -   Tests:
-
-        -   Write unit tests using Rust's built-in testing framework. Put tests in a mod tests block within your source files and use the #[test] attribute for test functions.
-
-    -   Avoiding unsafe:
-
-        -   Rust offers the unsafe keyword to bypass the borrow checker. While it's there for valid use-cases, use it sparingly and always document the exact reason and ensure that the surrounding code truly upholds the safety guarantees.
-
-    -   Performance:
-
-        -   Rust allows for great performance, but always remember: write clear and readable code first, then optimize. With Rust, it's often the case that more idiomatic code is also faster, thanks to compiler optimizations.
-
-    -   Keep Cargo.toml Clean:
-
-        -   Regularly check your dependencies and remove any that you aren't using. This reduces compile time, binary size, and potential security risks.
-
-Official Rust documentation:
-
-[Rust Programming Language - Official Documentation](https://www.rust-lang.org/learn)
-
-You might also want to check out these sites:
-
--   [The Rust Programming Language Book](https://doc.rust-lang.org/book/): This is affectionately known as "The Book" in the Rust community and serves as the main resource for many learners.
-
--   [Rust by Example](https://doc.rust-lang.org/rust-by-example/): This provides a series of exercises and examples to help grasp Rust concepts.
-
--   [Rust API Documentation](https://doc.rust-lang.org/std/): Comprehensive documentation for Rust's standard library.
-
--   [Rust Playground](https://play.rust-lang.org): An online environment where Rust code can be written and executed, which is useful for testing out small bits of Rust code.
-
----
-
 ### JavaScript Best Practices and Coding Style Guide
 
 -   Variable Declaration:
@@ -548,6 +482,149 @@ You might also want to check out:
 -   [TypeScript Handbook: A comprehensive guide to TypeScript language features](https://www.typescriptlang.org/docs/handbook/intro.html)
 
 -   [TypeScript Playground: An online environment where TypeScript code can be written, tested, and shared](https://www.typescriptlang.org/play)
+
+---
+
+### Ruby Best Practices and Coding Style Guide
+
+-   Indentation and Whitespace:
+    -   Use two spaces per indentation level, no tabs.
+    -   Avoid trailing whitespace.
+    -   Use spaces around operators, after commas, colons, and semicolons.
+
+-   Naming:
+    -   Use snake_case for methods and variables.
+    -   Use CamelCase for classes and modules.
+    -   Use SCREAMING_SNAKE_CASE for constants.
+    -   Use a trailing underscore for unused block parameters or variables (e.g., do |used_var, _|).
+
+-   Methods:
+    -   Prefer methods with clear names over using comments.
+    -   Use def with parentheses when there are parameters.
+    -   Avoid methods longer than 10 LOC (Lines of Code).
+
+-   Strings:
+    -   Prefer string interpolation over string concatenation.
+    -   Use single-quoted strings unless you need double quotes for interpolation or special characters.
+    -   Avoid using String#+ when modifying a string. Instead, use String#<<.
+
+-   Blocks:
+    -   Use {...} for single-line blocks. Use do..end for multi-line blocks.
+    -   Prefer &:method_name for simple block operations (array.map(&:method_name)).
+
+-   Hashes:
+    -   Use the Ruby 1.9 hash literal syntax when your hash keys are symbols: { key: value } instead of {:key => value}.
+    -   Prefer symbols over strings as hash keys.
+
+-   Arrays:
+    -   Use %w or %W for arrays of words without spaces. Like %w(apple orange grape).
+    -   For array literals, use square brackets. For example: array = [1, 2, 3].
+
+-   Control Flow:
+    -   Use && and || for logical expressions.
+    -   Use unless instead of if !.
+    -   Avoid multi-line ?: (the ternary operator); use if/unless instead.
+
+-   Error Handling:
+    -   Prefer exceptions from the standard library over introducing new exception classes.
+    -   Always specify which exceptions you're catching.
+
+-   Comments:
+    -   Write self-explanatory code and only comment when necessary.
+    -   Start comments with a space and use consistent capitalization.
+
+-   Gems and Dependencies:
+    -   Be judicious about adding new gems; each addition increases your technical debt.
+    -   Use the latest stable version of Ruby and libraries.
+
+-   Testing:
+    -   Aim for thorough test coverage, but don't be dogmatic about it.
+    -   Use factories and not fixtures.
+
+-   Performance:
+    -   Write clear and readable code first, then optimize.
+    -   Use the built-in Ruby methods and libraries for common operations.
+
+-   Linting and Formatting:
+    -   Use tools like [RuboCop](https://github.com/rubocop/rubocop) to enforce style and linting rules. Configure it according to your team's preferences.
+
+Official Ruby documentation:
+
+[Ruby Programming Language - Official Documentation](https://www.ruby-lang.org/en/documentation/)
+
+Additional Resources:
+
+-   [The Ruby Style Guide](https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/cops_style.adoc): This provides a comprehensive list of best practices for writing Ruby code.
+-   [The Well-Grounded Rubyist](https://www.manning.com/books/the-well-grounded-rubyist-third-edition): A popular book that provides a thorough introduction to Ruby.
+
+Remember, the most important thing is to keep your code readable and maintainable. The community's best practices are a guide, but always prioritize what makes sense for your team and project.
+
+---
+
+### Rust Best Practices and Coding Style Guide
+
+-   Ownership and Borrowing:
+    -   Always try to use references (&) when you don't need to take ownership of a value.
+    -   Be explicit with lifetimes where required, but rely on Rust's lifetime elision rules whenever possible to keep code concise.
+
+-   Immutability:
+    -   Prefer immutability by default. Use let to create immutable bindings and let mut only when you need to mutate the value.
+
+-   Error Handling:
+    -   Use the Result type for functions that can fail. Avoid using unwrap() and expect() unless you're absolutely certain the Result is Ok or the Option is Some.
+    -   Prefer the ? operator for propagating errors in most situations.
+
+-   Use of Enums:
+    -   Use enums to represent data that can be one of several variants. This is much more idiomatic in Rust than, for instance, class hierarchies in object-oriented languages.
+
+-   Match Statement:
+    -   Use match statements for pattern matching. It's exhaustive, ensuring every possible case is handled.
+
+-   Clippy:
+    -   Use clippy, the Rust linting tool. It provides a lot of suggestions and idiomatic ways to write Rust code. You can use it with cargo clippy.
+
+-   Formatting:
+    -   Run cargo fmt before committing to ensure your code conforms to the Rust community coding standards.
+
+-   Use of Crates:
+    -   Don't reinvent the wheel. If there's a well-maintained crate (Rust's term for libraries) that does what you need, consider using it. But also be wary of adding too many dependencies.
+
+-   Documentation:
+    -   Document public APIs with triple-slash /// comments. Use markdown inside these comments.
+
+-   Concurrency:
+
+    -   Make use of Rust's powerful concurrency guarantees. The borrow checker will help you a lot here. When shared state is needed, prefer using types like Mutex or RwLock from the standard library.
+
+    -   Tests:
+
+        -   Write unit tests using Rust's built-in testing framework. Put tests in a mod tests block within your source files and use the #[test] attribute for test functions.
+
+    -   Avoiding unsafe:
+
+        -   Rust offers the unsafe keyword to bypass the borrow checker. While it's there for valid use-cases, use it sparingly and always document the exact reason and ensure that the surrounding code truly upholds the safety guarantees.
+
+    -   Performance:
+
+        -   Rust allows for great performance, but always remember: write clear and readable code first, then optimize. With Rust, it's often the case that more idiomatic code is also faster, thanks to compiler optimizations.
+
+    -   Keep Cargo.toml Clean:
+
+        -   Regularly check your dependencies and remove any that you aren't using. This reduces compile time, binary size, and potential security risks.
+
+Official Rust documentation:
+
+[Rust Programming Language - Official Documentation](https://www.rust-lang.org/learn)
+
+You might also want to check out these sites:
+
+-   [The Rust Programming Language Book](https://doc.rust-lang.org/book/): This is affectionately known as "The Book" in the Rust community and serves as the main resource for many learners.
+
+-   [Rust by Example](https://doc.rust-lang.org/rust-by-example/): This provides a series of exercises and examples to help grasp Rust concepts.
+
+-   [Rust API Documentation](https://doc.rust-lang.org/std/): Comprehensive documentation for Rust's standard library.
+
+-   [Rust Playground](https://play.rust-lang.org): An online environment where Rust code can be written and executed, which is useful for testing out small bits of Rust code.
 
 ---
 
