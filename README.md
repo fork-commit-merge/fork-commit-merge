@@ -253,7 +253,7 @@ Note that the terminal in Visual Studio Code (VS Code) uses your system's PATH, 
 git clone https://github.com/<your-username>/fork-commit-merge.git
 ```
 
-Replace '<your-username>' with your GitHub username.
+Replace 'your-username' with your GitHub username.
 
 3. Navigate to your project folder and install the necessary dependencies. If you are solving other than JavaScript or TypeScript issues, you don't need to run `npm i`.
 
@@ -624,3 +624,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Agastsya"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/42830736?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/saram7619"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/82645022?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Vidhanvyrs"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/94836010?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/michaelmuthomi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/108736931?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
