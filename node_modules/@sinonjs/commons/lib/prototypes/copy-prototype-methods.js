@@ -24,7 +24,7 @@ module.exports = function copyPrototypeMethods(prototype) {
         result,
         name
     ) {
-        if (disallowedProperties.indexOf(name) > -1) {
+        if (disallowedProperties.includes(name)) {
             return result;
         }
 
