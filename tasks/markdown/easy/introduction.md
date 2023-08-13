@@ -7,4 +7,4 @@
 - with bad
 - formatting
 
-Visit our website [here] (https://forkcommitmerge.io)
+Visit our website [here](https://forkcommitmerge.io)
