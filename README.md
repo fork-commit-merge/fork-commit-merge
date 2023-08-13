@@ -9,7 +9,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
 
 <br>
-Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub.
+Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming in different languages.
 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
