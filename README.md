@@ -23,7 +23,7 @@ More info about this project, contributing and open source resources, are availa
 -   [Prerequisites](#prerequisites)
     -   [Installing Git](#installing-git)
     -   [Installing NodeJS and npm](#installing-nodejs-and-npm)
-    -   [Installing C++](#installing-c++)
+    -   [Installing C++](#installing-c)
     -   [Installing Python](#installing-python)
     -   [Installing Ruby](#installing-ruby)
     -   [Installing PHP](#installing-php)
@@ -52,7 +52,7 @@ Before you start, you'll need to install [Git](#installing-git).
 
 Also:
 -   For JavaScript, TypeScript or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
--   For C++ related issues, you need to install [C++](#installing-c++).
+-   For C++ related issues, you need to install [C++](#installing-c).
 -   For Python related issues, you need to install [Python](#installing-python).
 -   For Ruby related issues, you need to install [Ruby](#installing-ruby).
 -   For PHP related issues, you need to install [PHP](#installing-php).
