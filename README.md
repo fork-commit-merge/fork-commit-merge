@@ -276,8 +276,8 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Install Haskell Platform:
 
 The Haskell Platform provides everything needed to get started with Haskell.
-    -   Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
-    -   Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
+   -   Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
+   -   Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
 
 Install Haskell Extensions for VS Code:
 
