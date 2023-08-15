@@ -66,3 +66,52 @@ fn f_to_c(val: f32) -> f32 {
 fn c_to_f(val: f32) -> f32 {
     (val * 9.0 / 5.0) + 32.0
 }
+
+#[cfg(test)]
+
+mod tests {
+    use std::time::Duration;
+
+    use super::*;
+
+    #[test]
+    fn test_fn_to_fahrenheit() {
+        assert_eq!(c_to_f(0.0), 32.0);
+        assert_eq!(c_to_f(100.0), 212.0);
+    }
+    #[test]
+    fn test_fn_to_celsius() {
+        assert_eq!(f_to_c(32.0), 0.0);
+        assert_eq!(f_to_c(212.0), 100.0);
+    }
+    #[test]
+    fn test_fn_convert() {
+        assert_eq!(convert_temperature(0.0, &Unit::Celsius), 32.0);
+        assert_eq!(convert_temperature(32.0, &Unit::Fahrenheit), 0.0);
+    }
+
+    // reference: https://rust-cli.github.io/book/tutorial/testing.html
+    use assert_cmd::Command;
+    use predicates::prelude::*;
+
+    #[test]
+    fn test_user_input_from_f() -> Result<(), Box<dyn std::error::Error>> {
+        let mut cmd = Command::cargo_bin("medium")?;
+        cmd.write_stdin("32\nF\n")
+            .timeout(Duration::from_millis(50))
+            .assert()
+            .success()
+            .stdout(predicate::str::contains("0"));
+        Ok(())
+    }
+    #[test]
+    fn test_user_input_from_c() -> Result<(), Box<dyn std::error::Error>> {
+        let mut cmd = Command::cargo_bin("medium")?;
+        cmd.write_stdin("0\nC\n")
+            .timeout(Duration::from_millis(50))
+            .assert()
+            .success()
+            .stdout(predicate::str::contains("32"));
+        Ok(())
+    }
+}
