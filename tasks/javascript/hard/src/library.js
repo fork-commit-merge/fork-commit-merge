@@ -37,27 +37,10 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
-        return this.books.filter((book) =>
-            book.title.includes(query) || book.author.includes(query)
-        )
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
-        let results = [];
-        const keys = Object.keys(criteria);
-        if (keys.length === 1) {
-            if (keys[0] === "title") {
-                results = this.books.filter((book) => book.title === criteria.title);
-            } else {
-                results = this.books.filter((book) => book.author === criteria.author);
-            }
-        } else {
-            results = this.books.filter((book) =>
-                book.title === criteria.title && book.author === criteria.author
-            );
-        }
-        return results;
     }
 }
 
