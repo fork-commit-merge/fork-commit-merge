@@ -1,20 +1,6 @@
 // Rust - Medium
 
 use std::io;
-/*
-Task Details:
-
-    Prompt the user for the temperature value.
-    Prompt the user for the current unit (Fahrenheit or Celsius).
-    Convert the given temperature to the opposite unit.
-    Display the converted temperature to the user.
-
-Acceptance Criteria:
-
-    The program should handle both Fahrenheit to Celsius and Celsius to Fahrenheit conversions.
-    The program should be properly documented with comments.
-    Ensure error handling for invalid inputs.
- */
 
 fn main() {
     let input_temp: f32 = get_temperature();
