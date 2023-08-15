@@ -5,7 +5,7 @@ use std::io;
 fn main() {
     let input_temp: f32 = get_temperature();
     let input_unit: Unit = get_unit();
-    let output_temp: f32 = convert_temperature(&input_unit, input_temp);
+    let output_temp: f32 = convert_temperature(input_temp, &input_unit);
     print_result(output_temp, input_temp, &input_unit)
 }
 
@@ -45,7 +45,7 @@ fn get_unit() -> Unit {
     input_unit
 }
 
-fn convert_temperature(unit: &Unit, temp: f32) -> f32 {
+fn convert_temperature(temp: f32, unit: &Unit) -> f32 {
     match unit {
         Unit::Celsius => c_to_f(temp),
         Unit::Fahrenheit => f_to_c(temp),
