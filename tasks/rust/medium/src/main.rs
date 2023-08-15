@@ -6,7 +6,7 @@ fn main() {
     let input_temp: f32 = get_temperature();
     let input_unit: Unit = get_unit();
     let output_temp: f32 = convert_temperature(&input_unit, input_temp);
-    print_result(&output_temp, &input_temp, &input_unit)
+    print_result(output_temp, input_temp, &input_unit)
 }
 
 enum Unit {
@@ -52,7 +52,7 @@ fn convert_temperature(unit: &Unit, temp: f32) -> f32 {
     }
 }
 
-fn print_result(out_temp: &f32, in_temp: &f32, in_unit: &Unit) {
+fn print_result(out_temp: f32, in_temp: f32, in_unit: &Unit) {
     match in_unit {
         Unit::Celsius => println!("{}°C is equal to {}°F", in_temp, out_temp),
         Unit::Fahrenheit => println!("{}°F is equal to {}°C", in_temp, out_temp),
