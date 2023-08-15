@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C++](https://img.shields.io/badge/c++-%23E32F26.svg?style=for-the-badge&logo=c++&logoColor=white) ![Java](https://img.shields.io/badge/java-%23000000.svg?style=for-the-badge&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%2300ACCC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C++](https://img.shields.io/badge/c++-%23E32F26.svg?style=for-the-badge&logo=c++&logoColor=white) ![Java](https://img.shields.io/badge/java-%23000000.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%239B30FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%2300ACCC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 </div>
 
@@ -25,6 +25,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing NodeJS and npm](#installing-nodejs-and-npm)
     -   [Installing C++](#installing-c)
     -   [Installing Java](#installing-java)
+    -   [Installing Kotlin](#installing-kotlin)
     -   [Installing Python](#installing-python)
     -   [Installing Ruby](#installing-ruby)
     -   [Installing Elixir](#installing-elixir)
@@ -57,6 +58,7 @@ Also:
 -   For JavaScript, TypeScript or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For Java related issues, you need to install [Java](#installing-java).
+-   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin).
 -   For Python related issues, you need to install [Python](#installing-python).
 -   For Ruby related issues, you need to install [Ruby](#installing-ruby).
 -   For Elixir related issues, you need to install [Elixir](#installing-elixir).
@@ -115,6 +117,26 @@ Install Java Extensions for VS Code:
 Configure Java in VS Code:
 
 -   VS Code should automatically detect the JDK you installed. If not, you can set the `java.home` setting in VS Code to point to your JDK location.
+
+---
+
+### Installing Kotlin
+
+-   macOS: `brew install kotlin`
+-   Linux:
+    -   Arch: `sudo pacman -S kotlin`
+    -   Ubuntu/Debian: `sudo snap install --classic kotlin`
+-   Windows: Download [Kotlin Compiler](https://github.com/JetBrains/kotlin/releases/tag/v1.9.0) and add it to the PATH.
+
+Install Kotlin Language Extension:
+
+For VS Code you can install the Kotlin Language Extension like this:
+-   Go to Extensions (you can use the shortcut Ctrl+Shift+X).
+-   Search for "Kotlin" and install the "Kotlin Language" extension by FWCD.
+
+Install Java Development Kit (JDK):
+
+-   Kotlin runs on the JVM, so you'll need the [Java Development Kit - JDK](#installing-java) installed.
 
 ---
 
@@ -355,6 +377,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   TypeScript
 -   C++
 -   Java
+-   Kotlin
 -   Python
 -   Ruby
 -   Elixir
@@ -401,6 +424,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/139)
 
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/141)
+
+[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/162)
 
 [Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/79)
 
