@@ -14,7 +14,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C++](https://img.shields.io/badge/c++-%23E32F26.svg?style=for-the-badge&logo=c++&logoColor=white) ![Java](https://img.shields.io/badge/java-%23000000.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%239B30AA.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%2300ACCC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C++](https://img.shields.io/badge/c++-%23E32F26.svg?style=for-the-badge&logo=c++&logoColor=white) ![Java](https://img.shields.io/badge/java-%23000000.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%239B30AA.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go!](https://img.shields.io/badge/go-%23ADD8E6.svg?style=for-the-badge&logo=go&logoColor=blue) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%23E34F26.svg?style=for-the-badge&logo=lua&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%2300ACCC.svg?style=for-the-badge&logo=sqlite&logoColor=yellow) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 </div>
 
@@ -35,6 +35,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing Dart](#installing-dart)
     -   [Installing Rust](#installing-rust)
     -   [Installing Haskell](#installing-haskell)
+    -   [Installing Lua](#installing-lua)
     -   [Installing sqlite3](#installing-sqlite3)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
@@ -69,6 +70,7 @@ Also:
 -   For Dart related issues, you need to install [Dart](#installing-dart).
 -   For Rust related issues, you need to install [Rust](#installing-rust).
 -   For Haskell related issues, you need to install [Haskell](#installing-haskell).
+-   For Lua related issues, you need to install [Lua](#installing-lua).
 -   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   For HTML, CSS, Bootstrap, JSON, YAML, XML or Markdown related issues, you don't need to install anything else.
 
@@ -337,6 +339,15 @@ Install Haskell Extensions for VS Code:
 
 ---
 
+### Installing Lua
+
+-   macOS: `brew install lua`
+-   Ubuntu/Debian: `sudo apt-get install lua5.3`
+-   Arch Linux: `sudo pacman -S lua`
+-   Windows: Download and install from the official website: [Lua.org](https://www.lua.org/start.html)
+
+---
+
 ### Installing sqlite3
 
 #### macOS and Linux:
@@ -417,6 +428,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Dart
 -   Rust
 -   Haskell
+-   Lua
 -   SQL
 -   JSON
 -   YAML
@@ -475,6 +487,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/129)
 
 [Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/150)
+
+[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/169)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
 
