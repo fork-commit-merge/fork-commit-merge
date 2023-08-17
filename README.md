@@ -37,6 +37,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing Haskell](#installing-haskell)
     -   [Installing Lua](#installing-lua)
     -   [Installing sqlite3](#installing-sqlite3)
+    -   [Installing Bash](#installing-bash)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
