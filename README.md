@@ -1015,3 +1015,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/dpass47"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/105099652?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/EiseWilliam"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111694130?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Nancy64-bit"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/84574362?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/TheBarr"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/64077991?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
