@@ -435,9 +435,10 @@ Note that the terminal in Visual Studio Code (VS Code) uses your system's PATH, 
 
 ### Installing TLA+
 
-The TLA Toolbox is an IDE (integrated development environment) for the TLA+ tools.
+**The TLA Toolbox is an IDE (integrated development environment) for the TLA+ tools.**
 
 Install the TLA+ Toolbox: This is the standard IDE for TLA+. You can download it from [here](https://lamport.azurewebsites.net/tla/toolbox.html).
+
 Install the TLA+ extension for Visual Studio Code from the VS Code marketplace.
 
 ---
