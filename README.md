@@ -81,7 +81,7 @@ Also:
 -   For Clojure related issues, you need to install [Clojure](#installing-clojure).
 -   For Lisp related issues, you need to install [Lisp](#installing-lisp).
 -   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
--   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla+-toolbox).
+-   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-+-toolbox).
 -   For Bash related issues, you need to install [Bash](#installing-bash).
 -   For Perl related issues, you need to install [Perl](#installing-perl).
 -   For HTML, CSS, Bootstrap, JSON, YAML, XML or Markdown related issues, you don't need to install anything else.
