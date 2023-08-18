@@ -40,7 +40,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing Clojure](#installing-clojure)
     -   [Installing Lisp](#installing-lisp)
     -   [Installing sqlite3](#installing-sqlite3)
-    -   [Installing TLA+](#installing-tla)
+    -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
     -   [Installing Perl](#installing-perl)
 -   [Setup Instructions](#setup-instructions)
