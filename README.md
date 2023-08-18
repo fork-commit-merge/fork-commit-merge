@@ -319,6 +319,7 @@ To check your installation, open a terminal and type: dart --version. This shoul
 Install Swift:
 -   For macOS: Swift comes pre-installed. If not, you can download it from the [Swift website](https://swift.org/download/).
 -   For Linux: Follow the instructions on the [Swift website](https://swift.org/download/) for Linux installations.
+
 VS Code Setup:
 -   Search for the "Swift" extension by Swift Server Work Group and install it. This extension provides support for Swift language, including features like autocomplete, linting, and debugging.
 
