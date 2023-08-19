@@ -9,6 +9,7 @@ function App() {
                 <div className="card">
                     <img src="https://loremflickr.com/320/240" alt="random-image" />
                     <h2>Card Title</h2>
+                    <p>Card Description</p>
                 </div>
             </div>
         </>
