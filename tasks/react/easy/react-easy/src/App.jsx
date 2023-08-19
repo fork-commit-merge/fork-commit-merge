@@ -8,6 +8,7 @@ function App() {
                 <h1>React/Vite - Easy</h1>
                 <div className="card">
                     <img src="https://loremflickr.com/320/240" alt="random-image" />
+                    <h2>Card Title</h2>
                 </div>
             </div>
         </>
