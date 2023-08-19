@@ -37,24 +37,10 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
-        
-        const bookMatches = this.books.filter(book=>Object.keys(book).some(key=>{
-            if(String(book[key]).includes(query))return true
-            else return false
-        }))
-        return bookMatches;
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
-        const bookFilter = this.books.filter(book=>{
-            if(Object.keys(criteria).every(key=>String(book[key])===String(criteria[key])))return true
-            else return false
-        }
-            )
-        return bookFilter;
-
-
     }
 }
 
