@@ -5,7 +5,7 @@ function App() {
     return (
         <>
             <div className="center">
-                {/* TODO: Implement the card component */}
+                <h1>React/Vite - Easy</h1>
             </div>
         </>
     );
