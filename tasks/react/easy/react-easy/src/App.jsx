@@ -6,6 +6,9 @@ function App() {
         <>
             <div className="center">
                 <h1>React/Vite - Easy</h1>
+                <div className="card">
+                    
+                </div>
             </div>
         </>
     );
