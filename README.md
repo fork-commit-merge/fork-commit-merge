@@ -614,7 +614,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vue - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/193)
 
-[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/196)
+[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/202)
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/139)
 
