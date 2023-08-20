@@ -1,3 +1,6 @@
 **/node_modules/
 **/.clj-kondo/
 **/.lsp/
+/.vs/Github Commits Working
+/.vs
+/CppProperties.json
