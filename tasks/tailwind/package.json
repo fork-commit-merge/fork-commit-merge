@@ -1,0 +1,18 @@
+{
+    "name": "tailwind",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "postcss styles.css -o output.css",
+        "watch": "postcss styles.css -o output.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "autoprefixer": "^10.4.14",
+        "postcss-cli": "^10.1.0",
+        "tailwindcss": "^3.3.3"
+    }
+}
