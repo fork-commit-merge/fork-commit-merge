@@ -619,6 +619,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/139)
 
+[C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/208)
+
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/141)
 
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/162)
