@@ -570,6 +570,7 @@ Depending on your OS, here's how you install the Fortran compiler:
 -   Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
 
 **Linux:**
+
 Ubuntu/Debian:
 
 ```bash
