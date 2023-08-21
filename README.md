@@ -15,7 +15,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84.svg?style=for-the-badge&logo=android-studio&logoColor=white) ![Atom](https://img.shields.io/badge/Atom-%2366595C.svg?style=for-the-badge&logo=atom&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![Emacs](https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white) ![WebStorm](https://img.shields.io/badge/webstorm-143?style=for-the-badge&logo=webstorm&logoColor=white&color=black) ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
 
 *Find awesome badges for your project in this repository*: [markdown-badges](https://github.com/Ileriayo/markdown-badges)
 
@@ -29,6 +29,7 @@ More info about this project, contributing and open source resources, are availa
     -   [Installing NodeJS and npm](#installing-nodejs-and-npm)
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
+    -   [Installing C# (Dotnet-SDK)](#installing-c)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
     -   [Installing Scala](#installing-scala)
@@ -92,6 +93,7 @@ Also:
 -   For JavaScript, TypeScript, React, NextJS, Vue or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
+-   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
 -   For Scala related issues, you need to install [Scala](#installing-scala).
@@ -157,6 +159,83 @@ Install a C++ Compiler:
 -   Windows: Install [Mingw-w64](https://www.mingw-w64.org/doku.php) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/). After installation, make sure the compiler's bin directory is in your system's PATH.
 -   Linux: You can usually install the GCC compiler with your distribution's package manager. For example, on Ubuntu/Debian, you'd run `sudo apt-get install g++`.
 -   Mac: Install Xcode from the App Store. Once Xcode is installed, you'll also have the compiler.
+
+---
+
+### Installing C# (Dotnet-SDK)
+
+#### Windows
+Using the Installer:
+
+-   Go to the .NET download page.
+-   Under the ".NET SDK" section, choose your preferred version.
+-   Click on the "Download x64" or "Download Arm" button for Windows.
+-   Once downloaded, run the installer and follow the on-screen instructions.
+
+Using the Command Line with Chocolatey:
+
+If you have Chocolatey installed, you can use it to install the .NET SDK:
+
+```bash
+choco install dotnet-sdk
+```
+
+#### Linux
+
+The instructions can vary depending on the Linux distribution. Here's a general overview:
+
+-   Go to the .NET download page.
+-   Under the ".NET SDK" section, choose your preferred version.
+-   Select your specific Linux distribution from the list to get detailed instructions.
+
+For example, for Ubuntu 20.04, the instructions at the time of writing are:
+
+```bash
+wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+
+sudo apt-get update
+sudo apt-get install -y apt-transport-https
+sudo apt-get update
+sudo apt-get install -y dotnet-sdk-5.0 # Replace "5.0" with your specific desired version
+```
+
+And for Arch Linux, you can just install the dotnet-sdk package from the official repositories:
+
+```bash
+sudo pacman -S dotnet-sdk
+```
+
+Please note that the version and specific commands can change, so always refer to the official documentation for the most up-to-date instructions.
+
+#### macOS
+Using the Installer:
+
+-   Go to the .NET download page.
+-   Under the ".NET SDK" section, choose your preferred version.
+-   Click on the "Download .NET SDK" button for macOS.
+-   Once downloaded, run the installer and follow the on-screen instructions.
+
+Using Homebrew:
+
+If you have Homebrew installed, you can use it to install the .NET SDK:
+
+```bash
+brew install --cask dotnet-sdk
+```
+
+After installation, you can test if it's installed correctly by running:
+
+```bash
+dotnet --version
+```
+
+Setting up C# in Visual Studio Code:
+
+-   Launch Visual Studio Code.
+-   Open the Extensions view (Ctrl+Shift+X).
+-   Search for the C# extension provided by Microsoft and install it.
+-   Once the extension is installed, it will prompt you to install the .NET Core SDK if it's not already installed. Please follow the link and instructions to install it.
 
 ---
 
@@ -578,6 +657,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Vue
 -   C
 -   C++
+-   C#
 -   Java
 -   Kotlin
 -   Scala
@@ -642,6 +722,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/139)
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/208)
+
+[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/213)
 
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/141)
 
