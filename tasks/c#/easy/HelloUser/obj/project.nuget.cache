@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Nnvekf/ssdNCDF9/KG35TnvcgoGZtqVfPQqwOk7J6VVlPNEcT17VtYSwC6/81K5Lywh2io5QamhmxCD4TUYMXg==",
+  "dgSpecHash": "Qb0Ta/OiCwDqeSoNHYvG2fm4fG5IQWF/aeUgEWyuVcEZl0lFfzV9qes9kEcaJdjsM39Oqh1tWDsQt467VZfynw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rohit\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+  "expectedPackageFiles": [
+    "/home/nikohoffren/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

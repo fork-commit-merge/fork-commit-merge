@@ -13,17 +13,3 @@
 /home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.pdb
 /home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.genruntimeconfig.cache
 /home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/ref/HelloUser.dll
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\bin\Debug\net7.0\HelloUser.exe
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\bin\Debug\net7.0\HelloUser.deps.json
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\bin\Debug\net7.0\HelloUser.runtimeconfig.json
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\bin\Debug\net7.0\HelloUser.dll
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\bin\Debug\net7.0\HelloUser.pdb
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.AssemblyInfoInputs.cache
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.AssemblyInfo.cs
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.csproj.CoreCompileInputs.cache
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.dll
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\refint\HelloUser.dll
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.pdb
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\HelloUser.genruntimeconfig.cache
-C:\Users\rohit\fork-commit-merge\tasks\c#\easy\HelloUser\obj\Debug\net7.0\ref\HelloUser.dll
