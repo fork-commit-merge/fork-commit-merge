@@ -606,7 +606,7 @@ Setting up Visual Studio Code:
 
 **Windows:**
 
--   Download the installer from the official Erlang website: Erlang Downloads
+-   Download the installer from the official Erlang website: [Erlang Downloads](https://www.erlang.org/downloads)
 -   Run the installer and follow the on-screen instructions.
 
 **Linux:**
