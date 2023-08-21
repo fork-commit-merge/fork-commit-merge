@@ -566,7 +566,7 @@ After installing the extension, you may need to set up your Lisp environment by 
 Depending on your OS, here's how you install the Fortran compiler:
 
 **Windows:**
--   Download and install the MinGW-w64 compiler which includes Fortran.
+-   Download and install the [MinGW-w64](https://www.mingw-w64.org/) compiler which includes Fortran.
 -   Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
 
 **Linux:**
