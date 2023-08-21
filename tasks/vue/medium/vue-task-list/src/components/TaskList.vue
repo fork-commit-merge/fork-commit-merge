@@ -57,6 +57,7 @@
         </li>
       </ul>
     </footer>
+  <div>
     <!-- Add a button to add a task -->
     <!-- Display tasks in a list. Ensure you loop through tasks and display them. -->
     <!-- Display total tasks and completed tasks count -->
