@@ -68,8 +68,7 @@ More info about this project, contributing and open source resources, are availa
 
 ### Installing an IDE
 
-#### IDEs: Integrated Development Environments
-##### What is an IDE?
+#### What is an IDE?
 
 An Integrated Development Environment (IDE) is a software application that consolidates basic tools required for software testing and development. An IDE typically consists of a source code editor, build automation tools, and a debugger. Some IDEs, like Android Studio or Visual Studio, even offer more advanced features such as version control, databases, cloud services, and more. Why use an IDE? Using an IDE can significantly speed up the development process by offering a variety of tools and features under one roof.
 
@@ -82,6 +81,8 @@ Here are a few reasons why developers use IDEs:
 -   Integrated Debugging: Integrated debuggers allow developers to test and debug their programs within the IDE, speeding up the development cycle.
 
 -   Extensions & Plugins: Most modern IDEs support a wide range of extensions and plugins, enabling developers to customize their environment and add even more functionalities.
+
+We recommend using VS Code as your IDE for this project. It's free, open-source, and supports a wide range of languages and extensions. You can download it from the [VS Code - Official website](https://code.visualstudio.com/). However, if you prefer to use another IDE, that's fine too!
 
 Instructions of how to install an IDE that suits for you can be found in our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
 
