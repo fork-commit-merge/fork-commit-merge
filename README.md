@@ -565,24 +565,24 @@ After installing the extension, you may need to set up your Lisp environment by 
 
 Depending on your OS, here's how you install the Fortran compiler:
 
-Windows:
+**Windows:**
 -   Download and install the MinGW-w64 compiler which includes Fortran.
 -   Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
 
-Linux:
-    - Ubuntu/Debian:
+**Linux:**
+Ubuntu/Debian:
 
 ```bash
 sudo apt-get install gfortran
 ```
 
-    - Arch Linux:
+Arch Linux:
 
 ```bash
 sudo pacman -S gcc-fortran
 ```
 
-macOS:
+**macOS:**
 
 If you have Homebrew:
 
@@ -590,12 +590,12 @@ If you have Homebrew:
 brew install gcc
 ```
 
-2. Setting up Visual Studio Code:
+Setting up Visual Studio Code:
 
-    Install Visual Studio Code.
-    Open VS Code and go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X.
-    Search for and install the "Modern Fortran" extension for Fortran support.
-    For better integration, you can also install the "Code Runner" extension which will allow you to run your Fortran code directly from VS Code.
+-   Install Visual Studio Code.
+-   Open VS Code and go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X.
+-   Search for and install the "Modern Fortran" extension for Fortran support.
+-   For better integration, you can also install the "Code Runner" extension which will allow you to run your Fortran code directly from VS Code.
 
 ---
 
