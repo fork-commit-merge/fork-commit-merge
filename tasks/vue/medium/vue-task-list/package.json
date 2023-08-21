@@ -5,9 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "test:unit": "vitest --ui",
-    "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --e2e'"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
@@ -16,19 +14,12 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "@vitejs/plugin-vue": "^4.3.1",
-    "@vitejs/plugin-vue-jsx": "^3.0.2",
-    "@vitest/ui": "^0.34.2",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "@vue/test-utils": "^2.4.1",
     "babel-eslint": "^10.1.0",
-    "cypress": "^12.17.4",
     "eslint": "^7.32.0",
-    "eslint-plugin-cypress": "^2.14.0",
-    "eslint-plugin-vue": "^8.0.3",
-    "vitest": "^0.34.2"
+    "eslint-plugin-vue": "^8.0.3"
   },
   "eslintConfig": {
     "root": true,
