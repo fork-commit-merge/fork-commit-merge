@@ -10,23 +10,51 @@
     </head>
     <body>
         <nav id="navbar">
-            <!-- TODO: Add navbar -->
+            <ul>
+              <li><a href="default.asp">Home</a></li>
+              <li><a href="news.asp">About</a></li>
+              <li><a href="contact.asp">Services</a></li>
+              <li><a href="about.asp">Contact</a></li>
+            </ul>
         </nav>
 
         <section id="about">
-            <!-- TODO: Add about section -->
+            <p> lorem ipsum 3000 </p>
+            <img src="https://loremflickr.com/320/240"> </img>
         </section>
 
         <section id="services">
-            <!-- TODO: Add services section -->
+            <p> lorem ipsum 3000 </p>
+            <img src="https://loremflickr.com/320/240"> </img>
         </section>
 
         <section id="contact">
-            <!-- TODO: Add contact section -->
+          <form action="#contact">
+        
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">India</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
         </section>
 
         <footer>
-            <!-- TODO: Add footer -->
+            <p>Author: Vishesh Rawal</p>
+            <p><a href="mailto:vishesh@example.com">vishesh@thapar.com</a></p>
         </footer>
     </body>
 </html>
