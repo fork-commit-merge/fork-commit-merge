@@ -640,7 +640,7 @@ Setting up VS Code extension:
 
 ### Installing Zig
 
-**Windows and macOS:*
+**Windows and macOS:**
 
 -   Download the Zig compiler from the official Zig website: Zig Downloads
 -   Extract the downloaded package to a directory of your choice.
