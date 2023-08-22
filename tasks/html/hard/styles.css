@@ -1,0 +1,103 @@
+/* HTML - Hard */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+section {
+    padding: 20px;
+    background: rgb(210, 223, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+img {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+p {
+    margin: 0 0 10px;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
+}

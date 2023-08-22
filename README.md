@@ -811,6 +811,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/128)
 
+[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/229)
+
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/59)
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
