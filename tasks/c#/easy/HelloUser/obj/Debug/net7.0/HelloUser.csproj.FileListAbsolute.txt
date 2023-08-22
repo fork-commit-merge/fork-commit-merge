@@ -1,0 +1,15 @@
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/bin/Debug/net7.0/HelloUser
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/bin/Debug/net7.0/HelloUser.deps.json
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/bin/Debug/net7.0/HelloUser.runtimeconfig.json
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/bin/Debug/net7.0/HelloUser.dll
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/bin/Debug/net7.0/HelloUser.pdb
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.csproj.AssemblyReference.cache
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.GeneratedMSBuildEditorConfig.editorconfig
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.AssemblyInfoInputs.cache
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.AssemblyInfo.cs
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.csproj.CoreCompileInputs.cache
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.dll
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/refint/HelloUser.dll
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.pdb
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/HelloUser.genruntimeconfig.cache
+/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/Debug/net7.0/ref/HelloUser.dll
