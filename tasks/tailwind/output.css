@@ -4,7 +4,9 @@
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *,
 ::before,
 ::after {
@@ -501,6 +503,9 @@ video {
 .mt-5 {
   margin-top: 1.25rem;
 }
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
 .block {
   display: block;
 }
@@ -519,6 +524,9 @@ video {
 .w-full {
   width: 100%;
 }
+.h-full {
+  height: 100%;
+}
 .max-w-sm {
   max-width: 24rem;
 }
@@ -530,6 +538,9 @@ video {
 }
 .items-center {
   align-items: center;
+}
+.align-center {
+  text-align: center;
 }
 .justify-center {
   justify-content: center;
@@ -558,6 +569,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-100{
+  --tw-bg-opacity:0.9;
+  background-color: gray;
+}
 .bg-indigo-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(79 70 229 / var(--tw-bg-opacity));
@@ -569,6 +584,16 @@ video {
 .p-6 {
   padding: 1.5rem;
 }
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+.plr-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+
+}
 .p-8 {
   padding: 2rem;
 }
@@ -579,6 +604,10 @@ video {
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+.text-bold{
+  font-size: larger;
+  font-weight: bold;
 }
 .text-xl {
   font-size: 1.25rem;
@@ -651,16 +680,24 @@ video {
 .focus\:ring-offset-2:focus {
   --tw-ring-offset-width: 2px;
 }
-@media (min-width: 768px) {
+@media (max-width: 1045px) {
 
   .md\:flex {
     display: flex;
   }
 
+  .md\:block {
+    display: block;
+  }
+
   .md\:h-full {
     height: 100%;
   }
-
+  
+  .md\:w-full {
+    width: 80%;
+  }
+  
   .md\:w-48 {
     width: 12rem;
   }
@@ -673,3 +710,4 @@ video {
     flex-shrink: 0;
   }
 }
+
