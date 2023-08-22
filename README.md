@@ -1275,3 +1275,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/PlasticPath"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126716491?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Hello-Utkarsh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/106660104?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/alxhal"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/57196291?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ananyajain10"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78138175?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
