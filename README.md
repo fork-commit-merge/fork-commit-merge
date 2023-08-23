@@ -15,7 +15,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
 _Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)_
 
@@ -40,6 +40,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Golang](#installing-golang)
     -   [Installing Dart](#installing-dart)
     -   [Installing Swift](#installing-swift)
+    -   [Installing Julia](#installing-julia)
     -   [Installing Rust](#installing-rust)
     -   [Installing Haskell](#installing-haskell)
     -   [Installing Lua](#installing-lua)
@@ -105,6 +106,7 @@ Also:
 -   For Go related issues, you need to install [Golang](#installing-golang).
 -   For Dart related issues, you need to install [Dart](#installing-dart).
 -   For Swift related issues, you need to install [Swift](#installing-swift).
+-   For Julia related issues, you need to install [Julia](#installing-julia).
 -   For Rust related issues, you need to install [Rust](#installing-rust).
 -   For Haskell related issues, you need to install [Haskell](#installing-haskell).
 -   For Lua related issues, you need to install [Lua](#installing-lua).
@@ -462,6 +464,20 @@ Additional Resources:
 
 ---
 
+### Installing Julia
+
+-   Windows: Download the installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
+-   macOS: Download the macOS installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
+-   Linux: Use the appropriate package manager for your distribution. For example in Arch Linux you would use `sudo pacman -S julia`, or download the binaries from the [Official Julia website](https://julialang.org/downloads/).
+
+
+Install the Julia extension for VS Code:
+
+-   Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+-   Search for "Julia" and install the extension provided by the Julia Language team.
+
+---
+
 ### Installing Rust
 
 Windows:
@@ -793,6 +809,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Go
 -   Dart
 -   Swift
+-   Julia
 -   Rust
 -   Haskell
 -   Lua
@@ -875,6 +892,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/103)
 
 [Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/187)
+
+[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/250)
 
 [Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/129)
 
