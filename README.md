@@ -821,7 +821,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/154)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/63)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/239)
 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/42)
 
