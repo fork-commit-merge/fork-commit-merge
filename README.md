@@ -15,9 +15,9 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0) ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Atom](https://img.shields.io/badge/Atom-%2366595C.svg?style=for-the-badge&logo=atom&logoColor=white) ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white) ![Emacs](https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=for-the-badge&logo=gnu-emacs&logoColor=white) ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white) ![Notepad++](https://img.shields.io/badge/Notepad++-90E59A.svg?style=for-the-badge&logo=notepad%2b%2b&logoColor=black) ![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green) ![Sublime Text](https://img.shields.io/badge/sublime_text-%23575757.svg?style=for-the-badge&logo=sublime-text&logoColor=important) ![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![WebStorm](https://img.shields.io/badge/webstorm-143?style=for-the-badge&logo=webstorm&logoColor=white&color=black) ![Xcode](https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=Xcode&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue](https://img.shields.io/badge/vue-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-*Find awesome badges for your project in this repository*: [markdown-badges](https://github.com/Ileriayo/markdown-badges)
+*Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)*
 
 </div>
 
@@ -94,6 +94,7 @@ Instructions of how to install an IDE that suits for you can be found in our web
 Before you start, you'll need to install [Git](#installing-git).
 
 Also:
+
 -   For JavaScript, TypeScript, React, NextJS, Vue or TailwindCSS related issues, you need to install [Node.js and npm](#installing-nodejs-and-npm).
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
@@ -128,9 +129,9 @@ Also:
 
 Git is a version control system that lets you manage and keep track of your source code history.
 
-- For Linux users, you can install Git via your distribution's package manager. For example, on Arch you would use the command: `sudo pacman -S git` and in Ubuntu/Debian: `sudo apt-get install git`
-- For macOS users, you can install Git via [Homebrew](https://brew.sh/) with the command: `brew install git`
-- For Windows users, download Git from [Git for Windows](https://gitforwindows.org/) and follow the installation instructions.
+-   For Linux users, you can install Git via your distribution's package manager. For example, on Arch you would use the command: `sudo pacman -S git` and in Ubuntu/Debian: `sudo apt-get install git`
+-   For macOS users, you can install Git via [Homebrew](https://brew.sh/) with the command: `brew install git`
+-   For Windows users, download Git from [Git for Windows](https://gitforwindows.org/) and follow the installation instructions.
 
 ---
 
@@ -138,7 +139,7 @@ Git is a version control system that lets you manage and keep track of your sour
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm is a package manager for Node.js.
 
-- You can download Node.js and npm from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and npm on your machine. Follow the instructions on the website to install them.
+-   You can download Node.js and npm from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and npm on your machine. Follow the instructions on the website to install them.
 
 ---
 
@@ -158,7 +159,7 @@ Set up a compiler:
 
 ### Installing C++
 
-If you are using  VS Code, you can install the C++ extension:
+If you are using VS Code, you can install the C++ extension:
 Launch VS Code, head to Extensions (or press Ctrl+Shift+X), and search for C++. Install the one by Microsoft called C/C++.
 
 Install a C++ Compiler:
@@ -172,6 +173,7 @@ Install a C++ Compiler:
 ### Installing C# (Dotnet-SDK)
 
 #### Windows
+
 Using the Installer:
 
 -   Go to the .NET download page.
@@ -216,6 +218,7 @@ sudo pacman -S dotnet-sdk
 Please note that the version and specific commands can change, so always refer to the official documentation for the most up-to-date instructions.
 
 #### macOS
+
 Using the Installer:
 
 -   Go to the .NET download page.
@@ -251,6 +254,7 @@ Setting up C# in Visual Studio Code:
 Install Java Development Kit (JDK):
 
 Before working with Java in VS Code, you must have the Java Development Kit (JDK) installed on your machine.
+
 -   Windows/Mac/Linux: You can download the JDK from [Oracle's official website](https://www.oracle.com/java/technologies/downloads/#java11) or opt for OpenJDK.
 
 Install Java Extensions for VS Code:
@@ -274,6 +278,7 @@ Configure Java in VS Code:
 Install Kotlin Language Extension:
 
 For VS Code you can install the Kotlin Language Extension like this:
+
 -   Go to Extensions (you can use the shortcut Ctrl+Shift+X).
 -   Search for "Kotlin" and install the "Kotlin Language" extension by FWCD.
 
@@ -350,6 +355,7 @@ Download the RubyInstaller for Windows from the [official website](https://rubyi
 Run the installer package and follow the on-screen instructions.
 
 #### Mac OS:
+
 Ruby comes pre-installed on Mac OS X, but if you need to upgrade or install a different version, you can use Homebrew or RVM (Ruby Version Manager).
 
 **With Homebrew**:
@@ -362,6 +368,7 @@ Open Terminal and type `\curl -sSL https://get.rvm.io | bash -s stable`
 Then install Ruby with `rvm install ruby`
 
 #### Linux:
+
 **Ubuntu/Debian**:
 
 Open Terminal and type `sudo apt-get install ruby-full`
@@ -419,7 +426,7 @@ Linux (Ubuntu/Debian):
 
 ### Installing Golang
 
-For macOS and Linux, you can  use the terminal to install Go:
+For macOS and Linux, you can use the terminal to install Go:
 
 -   On macOS, if you have Homebrew installed, type: `brew install go`.
 -   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install golang`.
@@ -432,6 +439,7 @@ To check your installation, open a terminal and type: `go version`. This should 
 ### Installing Dart
 
 For macOS and Linux, you can use the terminal to install Dart:
+
 -   On macOS, if you have Homebrew installed, type: `brew install dart`.
 -   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install dart`.
 
@@ -444,10 +452,12 @@ To check your installation, open a terminal and type: dart --version. This shoul
 ### Installing Swift
 
 Install Swift:
+
 -   For macOS: Swift comes pre-installed. If not, you can download it from the [Swift website](https://swift.org/download/).
 -   For Linux: Follow the instructions on the [Swift website](https://swift.org/download/) for Linux installations.
 
 VS Code Setup:
+
 -   Search for the "Swift" extension by Swift Server Work Group and install it. This extension provides support for Swift language, including features like autocomplete, linting, and debugging.
 
 Additional Resources:
@@ -484,8 +494,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Install Haskell Platform:
 
 The Haskell Platform provides everything needed to get started with Haskell.
-   -   Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
-   -   Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
+
+-   Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
+-   Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
 
 Install Haskell Extensions for VS Code:
 
@@ -519,6 +530,7 @@ sudo ./linux-install-1.10.3.967.sh
 ```
 
 On Arch Linux:
+
 ```bash
 sudo pacman -S clojure
 ```
@@ -534,11 +546,13 @@ Setting up Calva for VS Code:
 Install Leiningen, a popular Clojure build tool:
 
 On macOS:
+
 ```bash
 brew install leiningen
 ```
 
 On Arch Linux:
+
 ```bash
 sudo pacman -S leiningen
 ```
@@ -570,6 +584,7 @@ After installing the extension, you may need to set up your Lisp environment by 
 Depending on your OS, here's how you install the Fortran compiler:
 
 **Windows:**
+
 -   Download and install the [MinGW-w64](https://www.mingw-w64.org/) compiler which includes Fortran.
 -   Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
 
@@ -619,10 +634,10 @@ sudo apt-get install erlang
 ```
 
 Arch Linux:
+
 ```bash
 sudo pacman -S erlang
 ```
-
 
 **macOS:**
 
@@ -759,6 +774,7 @@ git switch -c fix-issue
 
 We present several tasks for different languages, libraries and frameworks with varying difficulty.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
+
 -   HTML
 -   CSS
 -   Tailwind CSS
@@ -799,6 +815,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Markdown
 
 Then you can open one of these directories to choose between three difficulties:
+
 -   Easy
 -   Medium
 -   Hard
@@ -899,7 +916,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
 
-*Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time.*
+_Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
 ---
 
@@ -968,30 +985,37 @@ In this section, you'll find guides tailored to various languages. Whether you'r
 ### JavaScript Best Practices and Coding Style Guide
 
 -   Variable Declaration:
+
     -   Use let for block-scoped variables. Avoid var.
     -   Use const for values that won't change.
 
 -   Functions:
+
     -   Prefer arrow functions for short, non-method functions.
     -   Use default parameters instead of manually checking and setting a default inside the function.
 
 -   Objects and Arrays:
+
     -   Use object destructuring to extract properties from objects.
     -   Use array destructuring to extract items from arrays.
     -   Use the spread operator (...) to clone or merge arrays and objects.
 
 -   Promises and Asynchronous Code:
+
     -   Always handle promise rejections. Use .catch() or async/await with try-catch blocks.
     -   Use async/await for more readable asynchronous code, especially when there are multiple steps involved.
 
 -   Loops:
+
     -   Prefer Array methods like map, filter, and reduce over traditional for loops.
 
 -   Type Checking:
+
     -   Use typeof and instanceof wisely. Remember, typeof null is "object".
     -   Use triple equals (===) over double equals (==) to avoid unexpected type coercion.
 
 -   Modules:
+
     -   Use ES6 modules (import/export) over older module systems.
 
 -   Linters:
@@ -1006,31 +1030,40 @@ In this section, you'll find guides tailored to various languages. Whether you'r
 ### TypeScript Best Practices and Coding Style Guide
 
 -   Strong Typing:
+
     -   Always prefer to provide specific types over using the any type.
     -   Use interfaces for defining the shape of objects.
 
 -   Type Inference:
+
     -   Allow TypeScript to infer types whenever possible. For instance, prefer const foo = "bar" over const foo: string = "bar".
 
 -   Enums:
+
     -   Use string enums for better debugging and readability.
 
 -   Generics:
+
     -   Use generics to create reusable components and utility functions, ensuring type safety without sacrificing flexibility.
 
 -   Type Guards:
+
     -   Use type guards to narrow down types in a specific scope, especially when dealing with union types.
 
 -   Type Aliases:
+
     -   Use type aliases to create your own custom types, especially for complex types used in multiple places.
 
 -   Access Modifiers:
+
     -   Explicitly mark properties and methods with public, private, or protected to indicate their intended accessibility.
 
 -   Linter and Config:
+
     -   Use TSLint or ESLint with TypeScript support. Ensure you have a good tsconfig.json.
 
 -   Always Use strict Mode:
+
     -   Enable strict mode in your tsconfig.json for stricter type-checking.
 
 -   Type Definitions:
@@ -1049,60 +1082,73 @@ You might also want to check out:
 ### Ruby Best Practices and Coding Style Guide
 
 -   Indentation and Whitespace:
+
     -   Use two spaces per indentation level, no tabs.
     -   Avoid trailing whitespace.
     -   Use spaces around operators, after commas, colons, and semicolons.
 
 -   Naming:
+
     -   Use snake_case for methods and variables.
     -   Use CamelCase for classes and modules.
     -   Use SCREAMING_SNAKE_CASE for constants.
-    -   Use a trailing underscore for unused block parameters or variables (e.g., do |used_var, _|).
+    -   Use a trailing underscore for unused block parameters or variables (e.g., do |used*var, *|).
 
 -   Methods:
+
     -   Prefer methods with clear names over using comments.
     -   Use def with parentheses when there are parameters.
     -   Avoid methods longer than 10 LOC (Lines of Code).
 
 -   Strings:
+
     -   Prefer string interpolation over string concatenation.
     -   Use single-quoted strings unless you need double quotes for interpolation or special characters.
     -   Avoid using String#+ when modifying a string. Instead, use String#<<.
 
 -   Blocks:
+
     -   Use {...} for single-line blocks. Use do..end for multi-line blocks.
     -   Prefer &:method_name for simple block operations (array.map(&:method_name)).
 
 -   Hashes:
+
     -   Use the Ruby 1.9 hash literal syntax when your hash keys are symbols: { key: value } instead of {:key => value}.
     -   Prefer symbols over strings as hash keys.
 
 -   Arrays:
+
     -   Use %w or %W for arrays of words without spaces. Like %w(apple orange grape).
     -   For array literals, use square brackets. For example: array = [1, 2, 3].
 
 -   Control Flow:
+
     -   Use && and || for logical expressions.
     -   Use unless instead of if !.
     -   Avoid multi-line ?: (the ternary operator); use if/unless instead.
 
 -   Error Handling:
+
     -   Prefer exceptions from the standard library over introducing new exception classes.
     -   Always specify which exceptions you're catching.
 
 -   Comments:
+
     -   Write self-explanatory code and only comment when necessary.
     -   Start comments with a space and use consistent capitalization.
 
 -   Gems and Dependencies:
+
     -   Be judicious about adding new gems; each addition increases your technical debt.
     -   Use the latest stable version of Ruby and libraries.
 
 -   Testing:
+
     -   Aim for thorough test coverage, but don't be dogmatic about it.
     -   Use factories and not fixtures.
 
 -   Performance:
+
     -   Write clear and readable code first, then optimize.
     -   Use the built-in Ruby methods and libraries for common operations.
 
@@ -1125,32 +1171,41 @@ Remember, the most important thing is to keep your code readable and maintainabl
 ### Rust Best Practices and Coding Style Guide
 
 -   Ownership and Borrowing:
+
     -   Always try to use references (&) when you don't need to take ownership of a value.
     -   Be explicit with lifetimes where required, but rely on Rust's lifetime elision rules whenever possible to keep code concise.
 
 -   Immutability:
+
     -   Prefer immutability by default. Use let to create immutable bindings and let mut only when you need to mutate the value.
 
 -   Error Handling:
+
     -   Use the Result type for functions that can fail. Avoid using unwrap() and expect() unless you're absolutely certain the Result is Ok or the Option is Some.
     -   Prefer the ? operator for propagating errors in most situations.
 
 -   Use of Enums:
+
     -   Use enums to represent data that can be one of several variants. This is much more idiomatic in Rust than, for instance, class hierarchies in object-oriented languages.
 
 -   Match Statement:
+
     -   Use match statements for pattern matching. It's exhaustive, ensuring every possible case is handled.
 
 -   Clippy:
+
     -   Use clippy, the Rust linting tool. It provides a lot of suggestions and idiomatic ways to write Rust code. You can use it with cargo clippy.
 
 -   Formatting:
+
     -   Run cargo fmt before committing to ensure your code conforms to the Rust community coding standards.
 
 -   Use of Crates:
+
     -   Don't reinvent the wheel. If there's a well-maintained crate (Rust's term for libraries) that does what you need, consider using it. But also be wary of adding too many dependencies.
 
 -   Documentation:
+
     -   Document public APIs with triple-slash /// comments. Use markdown inside these comments.
 
 -   Concurrency:
@@ -1193,9 +1248,9 @@ You might also want to check out these sites:
 
 This project was inspired by a number of fantastic resources designed to help newcomers make their first contributions to open source. In particular, we would like to acknowledge:
 
-- [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
-- [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
-- [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
+-   [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
+-   [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
+-   [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
 
 I highly recommend checking out these projects if you want to learn more about contributing to open source!
 
