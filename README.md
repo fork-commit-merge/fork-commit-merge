@@ -939,7 +939,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/138)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/238)
+[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/267)
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/51)
 
