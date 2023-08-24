@@ -1,3 +1,12 @@
 /* CSS - Medium */
 
 /* TODO: Implement card-class */
+.card{
+  width: 300px;
+  height : 400px;
+  border : 1px solid #dee2e6;
+  background-color : #f8f9fa;
+  border-radius : 5px;
+  box-shadow : 0px 2px 5px rgba(0,0,0,0.15);
+  padding : 20px;
+}
