@@ -28,7 +28,7 @@ describe("Library", () => {
 
     test("deleteBook", () => {
         library.createBook("Title 1", "Author 1");
-        const remainingBooks = library.deleteBook(2);
+        const remainingBooks = library.deleteBook(1);
         console.log(remainingBooks)
         expect(remainingBooks.length).toBe(0);
     });
