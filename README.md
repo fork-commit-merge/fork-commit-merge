@@ -23,6 +23,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Table of Contents
 
+-   [Quick Start](#quick-start)
 -   [Prerequisites](#prerequisites)
     -   [Installing an IDE](#installing-an-ide)
     -   [Installing Git](#installing-git)
@@ -63,6 +64,12 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   [Contact](#contact)
 -   [License](#license)
 -   [List of Contibutors](#list-of-contributors)
+
+## Quick Start
+
+1. Go to [Setup Instructions](#setup-instructions) and follow the instructions about how to start working with the project.
+1. Go to [Tasks](#tasks) and choose a task you want to work on. You can find instructions for installing the required tools for each task in [Prerequisites](#prerequisites).
+1. Go to [Submitting Your Changes](#submitting-your-changes) and follow the instructions about how to submit your changes.
 
 ## Prerequisites
 
