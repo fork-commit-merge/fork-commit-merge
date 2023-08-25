@@ -847,7 +847,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/236)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/237)
+[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/276)
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/229)
 
