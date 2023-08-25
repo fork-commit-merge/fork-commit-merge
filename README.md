@@ -810,7 +810,7 @@ git clone https://github.com/<your-username>/fork-commit-merge.git
 
 Replace 'your-username' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies. If you are solving other than JavaScript or TypeScript issues, you don't need to run `npm i`.
+3. Navigate to your project folder and install the necessary dependencies. If you are solving other than JavaScript, TypeScript, React, NextJS, Vue or TailwindCSS issues, you don't need to run `npm i`.
 
 ```bash
 cd fork-commit-merge
