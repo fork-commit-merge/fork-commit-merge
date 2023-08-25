@@ -13,148 +13,127 @@
     </head>
     <body>
         <!-- Navigation Bar -->
-        <nav class="">
-            <a class="" href="#">Logo</a>
-            <button
-                class=""
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand font-weight-bold" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="" id="navbarNav">
-                <ul class="">
-                    <li class="">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
-                    <li class="">
+                    <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
                     </li>
-                    <li class="">
+                    <li class="nav-item">
                         <a class="nav-link" href="#pricing">Pricing</a>
                     </li>
-                    <li class="">
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <a class="" href="#">Get Started</a>
+                <a class="btn btn-primary" href="#">Get Started</a>
             </div>
         </nav>
 
         <!-- Header Section -->
-        <header class="" id="home">
-            <h1 class="">Our Amazing Product</h1>
-            <p class="">Learn how our product can enhance your life.</p>
-            <a class="" href="#features">Learn More</a>
+        <header class="bg-gray text-center py-5 px-2 px-md-5" id="home">
+            <h1 class="display-4 font-weight-semi-bold lh-4">Our Amazing Product</h1>
+            <p class="lead bold-text">Learn how our product can enhance your life.</p>
+            <a class="btn btn-success btn-lg" href="#features">Learn More</a>
         </header>
+        
 
         <!-- Features Section -->
-        <section class="" id="features">
-            <div class="row">
-                <div class="">
-                    <i class="fas fa-star"></i>
-                    <h3>Feature One</h3>
-                    <p>Description here</p>
-                </div>
-                <div class="">
-                    <i class="fas fa-cog"></i>
-                    <h3>Feature Two</h3>
-                    <p>Description here</p>
-                </div>
-                <div class="">
-                    <i class="fas fa-rocket"></i>
-                    <h3>Feature Three</h3>
-                    <p>Description here</p>
+        <section class="py-4" id="features">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-star fa-2x mb-3"></i> <!-- Reduced icon size -->
+                        <h3>Feature One</h3>
+                        <p class="bold-text">Description here</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-cog fa-2x mb-3"></i> <!-- Reduced icon size -->
+                        <h3>Feature Two</h3>
+                        <p class="bold-text">Description here</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <i class="fas fa-rocket fa-2x mb-3"></i> <!-- Reduced icon size -->
+                        <h3>Feature Three</h3>
+                        <p class="bold-text">Description here</p>
+                    </div>
                 </div>
             </div>
         </section>
-
+        
         <!-- Pricing Section -->
-        <section class="" id="pricing">
-            <div class="row">
-                <div class="">
-                    <div class="">
-                        <div class="">Basic</div>
-                        <div class="">
-                            <h5 class="">$10 / month</h5>
-                            <p class="">
-                                Basic access to all features.
-                            </p>
-                            <a href="#" class="">Choose Plan</a>
+        <section class="py-4" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header bold-text">Basic</div>
+                            <div class="card-body">
+                                <h5 class="card-title">$10 / month</h5>
+                                <p class="card-text">Basic access to all features.</p>
+                                <a href="#" class="btn btn-primary">Choose Plan</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="">
-                    <div class="">
-                        <div class="">Pro</div>
-                        <div class="">
-                            <h5 class="">$25 / month</h5>
-                            <p class="">
-                                Pro access with additional benefits.
-                            </p>
-                            <a href="#" class="">Choose Plan</a>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header bold-text">Pro</div>
+                            <div class="card-body">
+                                <h5 class="card-title">$25 / month</h5>
+                                <p class="card-text">Pro access with additional benefits.</p>
+                                <a href="#" class="btn btn-primary">Choose Plan</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="">
-                    <div class="">
-                        <div class="">Enterprise</div>
-                        <div class="">
-                            <h5 class="">$50 / month</h5>
-                            <p class="">
-                                Full access to all features.
-                            </p>
-                            <a href="#" class="">Choose Plan</a>
+                    <div class="col-md-4">
+                        <div class="card text-center">
+                            <div class="card-header bold-text">Enterprise</div>
+                            <div class="card-body">
+                                <h5 class="card-title">$50 / month</h5>
+                                <p class="card-text">Full access to all features.</p>
+                                <a href="#" class="btn btn-primary">Choose Plan</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- Contact Form -->
-        <section class="" id="contact">
-            <form>
-                <div class="">
-                    <label for="name">Name</label>
-                    <input
-                        type="text"
-                        class=""
-                        id="name"
-                        placeholder="Enter your name"
-                    />
-                </div>
-                <div class="">
-                    <label for="email">Email address</label>
-                    <input
-                        type="email"
-                        class=""
-                        id="email"
-                        placeholder="Enter your email"
-                    />
-                </div>
-                <div class="">
-                    <label for="message">Message</label>
-                    <textarea
-                        class=""
-                        id="message"
-                        rows="3"
-                        placeholder="Enter your message"
-                    ></textarea>
-                </div>
-                <button type="submit" class="">Submit</button>
-            </form>
+        
+        <!-- Contact Form Section -->
+        <section class="py-5" id="contact">
+            <div class="container">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
         </section>
-
-        <!-- Footer -->
-        <footer class="">
+        
+        <!-- Footer Section -->
+        <footer class="bg-dark text-white text-center py-3">
             <p>&copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
             <div>
-                <a href="#" class="">Terms & Conditions</a> |
-                <a href="#" class="">Privacy Policy</a>
+                <a href="#" class="text-white">Terms & Conditions</a> |
+                <a href="#" class="text-white">Privacy Policy</a>
             </div>
         </footer>
 
@@ -163,4 +142,17 @@
         <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
+    <style>
+        
+        .bg-gray{
+            background-color: #E9ECEF;
+        }
+        .font-weight-semi-bold {
+            font-weight: 600; /* Adjust this value as needed */
+        }
+
+        .bold-text {
+            font-weight: 500; /* Adjust this value as needed */
+        }
+    </style>
 </html>
