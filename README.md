@@ -366,6 +366,7 @@ pip install Flask
 ```
 
 In Arch Linux you can run:
+
 ```bash
 sudo pacman -S python-flask
 ```
@@ -452,9 +453,11 @@ Linux (Ubuntu/Debian):
 ### Installing Laravel
 
 Install PHP:
+
 -   If you haven't already, you need to install [PHP](#installing-php) first to work with Laravel.
 
 Install Laravel:
+
 -   Make sure you have [Composer](https://getcomposer.org/) installed. If not, download and install it from the [Official Composer website](https://getcomposer.org/).
 -   After installing Composer, open your terminal and run `composer global require laravel/installer` to install Laravel.
 -   You might need to add the composer's bin directory to your PATH environment variable. For example, on Windows, you would add `C:\Users\<username>\AppData\Roaming\Composer\vendor\bin` to your PATH and in Linux `export PATH=$PATH:~/.config/composer/vendor/bin` to your `.bashrc` file.
@@ -508,7 +511,6 @@ Additional Resources:
 -   Windows: Download the installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
 -   macOS: Download the macOS installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
 -   Linux: Use the appropriate package manager for your distribution. For example in Arch Linux you would use `sudo pacman -S julia`, or download the binaries from the [Official Julia website](https://julialang.org/downloads/).
-
 
 Install the Julia extension for VS Code:
 
@@ -895,7 +897,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/257)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/239)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
 
 [JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/240)
 
@@ -1199,4 +1201,3 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/ayushsgithub"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120788538?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Rabbok"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/110905099?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Saloni581"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/125601277?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
-<a href="https://github.com/subhajit60"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/92869501?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
