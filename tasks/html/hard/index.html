@@ -2,31 +2,84 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Add navbar -->
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul id="menu">
+        <li><a href="/about/" id="menu">About</a></li>
+        <li><a href="/services/" id="menu">Services</a></li>
+        <li><a href="/contact/" id="menu">Contact</a></li>
+      </ul>
+    </nav>
 
-        <section id="about">
-            <!-- TODO: Add about section -->
-        </section>
+    <section id="about" class="section">
+      <h2>About Us</h2>
+      <div class="content-wrapper">
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <img
+          src="https://loremflickr.com/320/240"
+          alt="Randomly generated image"
+          class="img"
+        />
+      </div>
+    </section>
 
-        <section id="services">
-            <!-- TODO: Add services section -->
-        </section>
+    <section id="services">
+      <h2>Services</h2>
+      <div class="content-wrapper">
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <img
+          src="https://loremflickr.com/320/240"
+          alt="Randomly generated image"
+          class="img"
+        />
+      </div>
+    </section>
 
-        <section id="contact">
-            <!-- TODO: Add contact section -->
-        </section>
+    <section id="contact">
+      <h2>Contact</h2>
 
-        <footer>
-            <!-- TODO: Add footer -->
-        </footer>
-    </body>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+        <button type="button">Send</button>
+      </form>>
+    </section>
+
+    <footer id="footer-links">
+      <a href="/about/">About</a>
+      <a href="/services/">Services</a>
+      <a href="/contact/">Contact</a>
+
+      <p>© 2023 Fork, Commit, Merge. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
