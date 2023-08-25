@@ -871,7 +871,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/233)
 
-[NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/172)
+[NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)
 
 [Vue - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/193)
 
@@ -1157,3 +1157,5 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/ShatilKhan"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/52494840?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/JGill636"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73715905?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Jhonsnowwwwww"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96331818?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dshunter107"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/14898251?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ayushsgithub"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120788538?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
