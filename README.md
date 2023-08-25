@@ -451,6 +451,9 @@ Linux (Ubuntu/Debian):
 
 ### Installing Laravel
 
+Install PHP:
+-   If you haven't already, you need to install [PHP](#installing-php) first to work with Laravel.
+
 Install Laravel:
 -   Make sure you have [Composer](https://getcomposer.org/) installed. If not, download and install it from the [Official Composer website](https://getcomposer.org/).
 -   After installing Composer, open your terminal and run `composer global require laravel/installer` to install Laravel.
