@@ -969,7 +969,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/178)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/244)
+[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/285)
 
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/102)
 
