@@ -37,11 +37,23 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
+       return this.books.filter((book) => {
+        const title = book.title;
+        const author = book.author;
+        return title.includes(query)||author.includes(query);
+       })
+
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
+        return this.books.filter((book) =>
+        Object.entries(criteria).every(([key, value]) =>
+            book[key] === value
+        )
+      );
     }
+
 }
 
 module.exports = Library;
