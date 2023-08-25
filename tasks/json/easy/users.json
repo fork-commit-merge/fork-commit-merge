@@ -3,38 +3,6 @@
     "JSON": "Easy"
   },
   {
-    "id": 1,
-    "name": "Alison Jones",
-    "email": "alisonjones@example.com"
-  },
-  {
-    "id": 2,
-    "name": "Ted Stewart",
-    "email": "tedstewart@example.com"
-  },
-  {
-    "id": 3,
-    "name": "Bobby Brown",
-    "email": "bobbybrown@example.com"
-  },
-  {
-    "id": 4,
-    "name": "Grace Car",
-    "email": "gracecar@example.com"
-  },
-  {
-    "id": 5,
-    "name": "Ava Brown",
-    "email": "avabrown@example.com"
-  },
-  {
-    "id": 6,
-    "name": "Jack Thomas",
-    "email": "jackthomas@example.com"
-  },
-  { 
-    "id": 7,
-    "name": "Jacob Malls",
-    "email": "jacobmalls@example.com"
-  } 
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+  }
 ]
