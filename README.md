@@ -1,5 +1,6 @@
 <div align="center">
 
+
 ![Fork, Commit, Merge](/assets/images/fork-commit-merge-web-banner.png)
 [![Version 1.1.3](https://img.shields.io/badge/Version-1.1.3-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
