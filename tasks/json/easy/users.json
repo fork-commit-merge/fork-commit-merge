@@ -1,8 +1,27 @@
 [
   {
-    "JSON": "Easy"
+    "id": 1,
+    "name": "John Doe",
+    "email": "john@example.com"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane@example.com"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "email": "michael@example.com"
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "email": "emily@example.com"
+  },
+  {
+    "id": 5,
+    "name": "William Davis",
+    "email": "william@example.com"
   }
 ]
