@@ -903,7 +903,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
 
-[JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/240)
+[JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/300)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/54)
 
