@@ -1031,7 +1031,8 @@ Sit back and wait for a response and feedback of the pull request. If everything
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io)!
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
+In the website you can also find more information about the project, as well as your own contribution history for this project, if you login with your Github account.
 
 ---
 
@@ -1067,7 +1068,9 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren) to find more. These projects contain real issues that you can help resolve. Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas, AWS S3 and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
+
+Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
 ## Creating New Tasks
 
