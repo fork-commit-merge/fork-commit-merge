@@ -64,6 +64,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   [Best Practices](#best-practices)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
+-   [Leaderboard](#leaderboard)
 -   [Creating New Tasks](#creating-new-tasks)
 -   [Contact](#contact)
 -   [License](#license)
@@ -1069,6 +1070,11 @@ I highly recommend checking out these projects if you want to learn more about c
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas, AWS S3 and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
+
+## Leaderboard
+
+You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
+You can also find your own contribution history for this project in the website, if you login with your Github account.
 
 ## Creating New Tasks
 
