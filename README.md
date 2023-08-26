@@ -79,8 +79,6 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ### Installing an IDE
 
-#### What is an IDE?
-
 An Integrated Development Environment (IDE) is a software application that consolidates basic tools required for software testing and development. An IDE typically consists of a source code editor, build automation tools, and a debugger. Some IDEs, like Android Studio or Visual Studio, even offer more advanced features such as version control, databases, cloud services, and more. Why use an IDE? Using an IDE can significantly speed up the development process by offering a variety of tools and features under one roof.
 
 Here are a few reasons why developers use IDEs:
