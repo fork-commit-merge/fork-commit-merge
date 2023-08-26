@@ -825,6 +825,8 @@ npm i
 git switch -c fix-issue
 ```
 
+**Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts.**
+
 ## Tasks
 
 We present several tasks for different languages, libraries and frameworks with varying difficulty.
