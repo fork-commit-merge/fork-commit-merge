@@ -894,6 +894,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
 
+[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/307)
+
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/108)
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/154)
