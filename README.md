@@ -13,6 +13,8 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nikohoffren_fork-commit-merge)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
+
 <br>
 Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming in different languages.
 
@@ -23,7 +25,6 @@ More info about this project, contributing and open source resources, are availa
 
 _Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)_
 
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nikohoffren_fork-commit-merge)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 </div>
 
 ## Table of Contents
