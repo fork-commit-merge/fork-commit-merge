@@ -1,8 +1,16 @@
 // NextJS - Easy
 
+interface Product {
+  name: string,
+  price: number
+}
+
 export default function Home() {
-    const sampleProducts = [
+    const sampleProducts: Product[] = [
         // TODO: Create a sample product list with names and prices
+        {name: "book", price: 10},
+        {name: "phone", price: 1000},
+        {name: "laptop", price: 1000}
     ];
 
     return (
