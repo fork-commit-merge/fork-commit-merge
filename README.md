@@ -10,6 +10,7 @@
 [![Contributors Welcome](https://img.shields.io/badge/Contributors-Welcome-violet.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 ![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 
 <br>
@@ -22,6 +23,7 @@ More info about this project, contributing and open source resources, are availa
 
 _Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)_
 
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=nikohoffren_fork-commit-merge)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 </div>
 
 ## Table of Contents
