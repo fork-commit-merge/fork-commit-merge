@@ -22,6 +22,10 @@ body {
     width: 200px;
     height: 400px;
 }
+.card p{
+    font-size: 30px;
+    font-weight: 400;
+}
 .card-front, .card-back{
     display: flex;
     align-items: center;
@@ -44,10 +48,10 @@ body {
     background-color: #4caf50;
 }
 .card-back {
-    transform: rotateY(180deg);
+    transform: rotateY(-180deg);
 }
 .card:hover .card-front {
-    transform: rotateY(-180deg);
+    transform: rotateY(180deg);
 }
 .card:hover .card-back {
     transform: rotateY(0);
