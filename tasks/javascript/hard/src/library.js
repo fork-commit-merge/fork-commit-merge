@@ -36,22 +36,11 @@ class Library {
     }
 
     searchBooks(query) {
-        return this.books.filter(i =>
-            Object.keys(i).some(key => String(i[key]).toLowerCase().includes(query.toLowerCase())));          
+        // TODO: Implement search functionality
     }
 
     filterBooks(criteria) {
-        const filterKeys = Object.keys(criteria);
-        return this.books.filter(obj => {
-          return filterKeys.every(key => {
-            if (!criteria[key].length) {
-              return true;
-            }
-            return criteria[key] === (obj[key]);
-          });
-        });
-      
-      
+        // TODO: Implement filter functionality
     }
 }
 
