@@ -62,3 +62,4 @@ niko.hoffren@gmail.com
 This Code of Conduct is distributed under a Creative Commons Attribution-ShareAlike license.
 
 Portions of text derived from the Django Code of Conduct and the Geek Feminism Anti-Harassment Policy.
+
