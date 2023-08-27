@@ -56,7 +56,7 @@ jobs:
 
           ### What's next?
 
-          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories) to find more. These projects contain real issues that you can help resolve. You can also check out the Influences section in the README to find more projects similar to this one. 
+          If you're looking for more ways to contribute, I invite you to check out my other projects. Just click [here](https://github.com/nikohoffren?tab=repositories) to find more. These projects contain real issues that you can help resolve. You can also check out the Influences section in the README to find more projects similar to this one.
 
           Also please leave a star to this project if you feel it helped you, i would really appreciate it.
 
@@ -110,6 +110,10 @@ jobs:
       run: |
         LAST_CONTRIBUTOR=$(tail -n 1 README.md | awk -F'[@"]' '{print $2}')
         echo "::set-output name=last_contributor::$LAST_CONTRIBUTOR"
+
+    # Debugging step
+    - name: Debug
+      run: echo "Last contributor is ${{ steps.extract_last_contributor.outputs.last_contributor }}"
 
     - name: Get contributor id
       id: get_contributor_id
