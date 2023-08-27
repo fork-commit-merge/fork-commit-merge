@@ -910,6 +910,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/131)
 
+[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/311)
+
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/233)
 
 [NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)

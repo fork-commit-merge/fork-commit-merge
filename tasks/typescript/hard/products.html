@@ -1,0 +1,43 @@
+<!-- TypeScript - Hard -->
+
+<!-- Don't modify this file! -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fork, Commit, Merge - TypeScript - Hard Issue</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Product List</h1>
+
+        <div id="filters">
+            <label for="minPrice">Minimum Price:</label>
+            <input type="number" id="minPrice" placeholder="Min Price" />
+
+            <label for="maxPrice">Maximum Price:</label>
+            <input type="number" id="maxPrice" placeholder="Max Price" />
+
+            <label for="minRating">Minimum Rating:</label>
+            <input type="number" id="minRating" placeholder="Min Rating" />
+
+            <label for="maxRating">Maximum Rating:</label>
+            <input type="number" id="maxRating" placeholder="Max Rating" />
+
+            <button onclick="applyFilters()">Apply Filters</button>
+        </div>
+
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody id="productBody"></tbody>
+        </table>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
