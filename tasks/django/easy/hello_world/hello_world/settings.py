@@ -77,7 +77,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
+SECRET_KEY = 'django-insecure-=i7itqe#e13f=u97*99+@yrj!saeke=ctb2zf(o2e#p^v#n*01'
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
