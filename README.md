@@ -99,6 +99,7 @@ We recommend using VS Code as your IDE for this project. It's free, open-source,
 
 Instructions of how to install an IDE that suits for you can be found in our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
 
+
 ---
 
 Before you start, you'll need to install [Git](#installing-git).
