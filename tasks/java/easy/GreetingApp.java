@@ -1,8 +1,20 @@
-// Java - Easy
+import static java.lang.System.*;
+import java.util.*;
 
 public class GreetingApp {
 
     public static void main(String[] args) {
-        // TODO: Implement a Simple Greeting Application
+
+        out.println("Give your name please:");
+      Scanner s= new Scanner(System.in);
+
+    String a =s.next();
+
+    out.println("Hello "+a+"! Nice meeting you...");
+        
+        
     }
+    
 }
+
+
