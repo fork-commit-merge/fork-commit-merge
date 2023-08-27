@@ -9,3 +9,4 @@
 ## Reporting a Vulnerability
 
 You can report a vulnerability straight to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com) and it will be addressed.
+
