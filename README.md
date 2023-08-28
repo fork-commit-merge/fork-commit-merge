@@ -922,7 +922,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/54)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/131)
+[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/336)
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/311)
 
@@ -1004,7 +1004,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/267)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/51)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/337)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
 
