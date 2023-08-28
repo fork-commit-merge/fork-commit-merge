@@ -8,6 +8,37 @@
   <body>
     <div class="container">
       <!-- TODO: Implement the form -->
+      <form action="" method="post" name="submit">
+        <!-- Name Input -->
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Niko Hoffrén"
+          name="name"
+          required
+        />
+        <!-- Email Input -->
+        <label for="email">Email address</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="niko.hoffren@gmail.com"
+          name="email"
+          required
+        />
+        <!-- Message Input -->
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="This is a message..."
+          rows="8"
+          cols="50"
+        ></textarea>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
