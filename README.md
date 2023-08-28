@@ -912,7 +912,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/108)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/154)
+[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/335)
 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/293)
 
