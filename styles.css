@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #ebf2ff !important;
+}
+.add__new__btn__mobile__only{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 15px 10px;
+    z-index: 3;
+}
+/* 
+@media (min-width: 780px){
+    .add__new__btn__mobile__only{
+        display: none;
+    }
+} */
