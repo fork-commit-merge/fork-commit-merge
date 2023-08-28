@@ -2,5 +2,6 @@
 
 from django.http import HttpResponse
 
+
 def hello_world(request):
-    # TODO: Add return statement
+    return HttpResponse("hello world")
