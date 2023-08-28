@@ -906,7 +906,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/264)
 
-[CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/60)
+[CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/338)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/307)
 
