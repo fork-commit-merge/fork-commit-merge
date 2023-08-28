@@ -2,7 +2,7 @@
 
 export default function Home() {
     const sampleProducts = [
-        // TODO: Create a sample product list with names and prices
+        {name: "IPhone", price: 1200}, {name: "Samsung", price: 900}, {name: "Pixel", price: 600}
     ];
 
     return (
