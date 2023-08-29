@@ -762,7 +762,7 @@ Windows:
 
 macOS:
 
--   You can install R using [Homebrew](https://brew.sh/): `brew install R`
+-   You can install R using [Homebrew](https://brew.sh/): `brew install R`.
 
 Linux:
 -   Use your package manager to install R. For example, on Ubuntu: `sudo apt-get install r-base` and on Arch: `sudo pacman -S r`.
