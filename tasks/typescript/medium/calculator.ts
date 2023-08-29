@@ -1,24 +1,7 @@
 // TypeScript - Medium
 
 namespace Calculator {
-    export const add = (firstNumber: number, secondNumber: number): number => {
-        return firstNumber + secondNumber;
-    };
-
-    export const subtract = (firstNumber: number, secondNumber: number): number => {
-        return firstNumber - secondNumber;
-    };
-
-    export const multiply = (firstNumber: number, secondNumber: number): number => {
-        return firstNumber * secondNumber;
-    };
-
-    export const divide = (firstNumber: number, secondNumber: number): (number | string) => {
-        if (secondNumber === 0) {
-            return 'Warning message & null';
-        }
-        return firstNumber / secondNumber;
-    };
+    // TODO: Implement a Simple TypeScript Calculator
 }
 
 // Test cases
