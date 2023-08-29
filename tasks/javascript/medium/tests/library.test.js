@@ -1,40 +1,5 @@
-// // JavaScript - Medium
+// JavaScript - Medium
 
-// const Library = require("../src/library");
-
-// describe("Library", () => {
-//     let library;
-
-//     beforeEach(() => {
-//         library = new Library();
-//     });
-
-//     test("createBook", () => {
-//         const newBook = library.createBook("Title 1", "Author 1");
-//         expect(newBook.title).toBe("Title 2");
-//     });
-
-//     test("getBook", () => {
-//         library.createBook("Title 1", "Author 1");
-//         const book = library.getBook(1);
-//         expect(book.title).toBe("Title 2");
-//     });
-
-//     test("updateBook", () => {
-//         library.createBook("Title 1", "Author 1");
-//         const updatedBook = library.updateBook(1, "Title 2", "Author 2");
-//         expect(updatedBook.title).toBe("Title 3");
-//     });
-
-//     test("deleteBook", () => {
-//         library.createBook("Title 1", "Author 1");
-//         const remainingBooks = library.deleteBook(2);
-//         expect(remainingBooks.length).toBe(0);
-//     });
-
-// });
-/////////////////////////////////////////////////////////////////////////////////////////////
-//// Here the updated code 
 const Library = require("../src/library");
 
 describe("Library", () => {
@@ -46,25 +11,25 @@ describe("Library", () => {
 
     test("createBook", () => {
         const newBook = library.createBook("Title 1", "Author 1");
-        expect(newBook.title).toBe("Title 1"); // Corrected expected value
+        expect(newBook.title).toBe("Title 2");
     });
 
     test("getBook", () => {
         library.createBook("Title 1", "Author 1");
         const book = library.getBook(1);
-        expect(book.title).toBe("Title 1"); // Corrected expected value
+        expect(book.title).toBe("Title 2");
     });
 
     test("updateBook", () => {
         library.createBook("Title 1", "Author 1");
         const updatedBook = library.updateBook(1, "Title 2", "Author 2");
-        expect(updatedBook.title).toBe("Title 2"); // Corrected expected value
+        expect(updatedBook.title).toBe("Title 3");
     });
 
     test("deleteBook", () => {
         library.createBook("Title 1", "Author 1");
-        const remainingBooks = library.deleteBook(1); // Corrected book index
+        const remainingBooks = library.deleteBook(2);
         expect(remainingBooks.length).toBe(0);
     });
-});
 
+});
