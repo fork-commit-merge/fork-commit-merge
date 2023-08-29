@@ -759,7 +759,9 @@ Windows:
 -   Download R from [CRAN](https://cran.r-project.org/mirrors.html) and install it.
 -   Download [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and install it.
 -   Add R and Rtools to your system PATH.
+
 macOS:
+
 -   You can install R using [Homebrew](https://brew.sh/): `brew install R`
 Linux:
 -   Use your package manager to install R. For example, on Ubuntu: `sudo apt-get install r-base` and on Arch: `sudo pacman -S r`.
