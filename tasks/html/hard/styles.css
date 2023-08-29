@@ -3,8 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 40px;
-    
+    padding-top: 80px;
 }
 
 #navbar {
@@ -14,18 +13,10 @@ body {
     background: #333;
     color: white;
     padding: 15px;
-    text-align: center;
-}
-
-#navbar a{
-    color: white;
-    text-decoration:none;
-    padding-right: 10px;
 }
 
 #navbar a:hover {
-    color: white;
-    text-decoration:none;
+    text-decoration: underline;
 }
 
 #menu {
@@ -57,7 +48,7 @@ section {
 }
 
 .text {
-    flex: 3;
+    flex: 1;
     padding-right: 20px;
 }
 
@@ -67,11 +58,10 @@ img {
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    margin: 20px 0;
     display: block;
-    margin-left: 5px;
-    margin-right: 100px;
-    float:right
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1,
@@ -97,8 +87,6 @@ button {
 }
 
 footer {
-    position: absolute;
-    width:100%;
     background: #333;
     color: white;
     padding: 15px;
@@ -108,23 +96,8 @@ footer {
 #footer-links a {
     color: white;
     text-decoration: none;
-    padding-right: 10px;
 }
 
 #footer-links a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
-
-.content{
-    box-sizing: border-box;
-}
-
-.content h1{
-    padding-top: 70px;
-    padding-left: 250px;
-}
-
-.content p{
-    padding-left: 250px;
-}
-
