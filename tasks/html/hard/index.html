@@ -10,23 +10,55 @@
     </head>
     <body>
         <nav id="navbar">
-            <!-- TODO: Add navbar -->
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
         </nav>
 
         <section id="about">
-            <!-- TODO: Add about section -->
+            <div class="content">
+                    <img src="https://loremflickr.com/320/240">
+                    <h1>About Us</h1>
+                    <p>Welcome to Fork, Commit, Merge, your one-stop destination to embark on an exciting journey into the world of open-source contributions on GitHub! We understand that getting started with open source can be a daunting task, and that's where we come in. Our project is here to guide you, step by step, through the entire contribution workflow, making it easier for you to become a part of the vibrant open-source community.</p>
+                
+            </div>
         </section>
 
         <section id="services">
-            <!-- TODO: Add services section -->
+            <div class="content">
+                <img src="https://loremflickr.com/320/240">
+                <h1>Services</h1>
+                <p>At Fork, Commit, Merge, we offer a comprehensive suite of services to empower you on your open-source journey. Our platform provides guided workflows that take you through every step of the contribution process, ensuring that you understand and master the open-source landscape. You won't be working on simulated projects; instead, you'll dive into real, impactful initiatives, gaining hands-on experience and contributing to real-world solutions.</p>
+            </div>
         </section>
 
         <section id="contact">
-            <!-- TODO: Add contact section -->
+            <h1>Contact Us</h1>
+            <form id="contact_form" action="./index.html" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                  <label class="required" for="name">Name:</label><br />
+                  <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                  
+                </div>
+                <div class="row">
+                  <label class="required" for="email">Email:</label><br />
+                  <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                  
+                </div>
+                <div class="row">
+                  <label class="required" for="message">Message:</label><br />
+                  <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                  
+                </div>
+                  <button id="button" type="submit">Send</button>
+              </form>
         </section>
 
-        <footer>
-            <!-- TODO: Add footer -->
+        <footer id="footer-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+            <p class="text-center">Copyright &copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
         </footer>
     </body>
 </html>
