@@ -1010,6 +1010,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/374)
 
+[Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/381)
+
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/279)
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/324)
