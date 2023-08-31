@@ -892,7 +892,7 @@ git switch -c fix-issue
 
 ## Tasks
 
-We present several tasks for different languages, libraries and frameworks with varying difficulty.
+We present over 60 several tasks for different languages, libraries and frameworks with varying difficulty.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
 -   HTML
@@ -971,6 +971,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/293)
 
 [CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
+
+[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/378)
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
 
