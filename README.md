@@ -952,11 +952,11 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/236)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/368)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/276)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/229)
+[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/369)
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/264)
 
@@ -964,7 +964,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/307)
 
-[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/108)
+[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/370)
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/335)
 
@@ -1006,21 +1006,21 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/164)
 
-[Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/79)
+[Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/374)
 
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/279)
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/324)
 
-[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/66)
+[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/373)
 
 [Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/140)
 
-[PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/81)
+[PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/375)
 
 [Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/284)
 
-[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/95)
+[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/371)
 
 [Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/103)
 
@@ -1058,7 +1058,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/285)
 
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/102)
+[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/376)
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/262)
 
@@ -1068,7 +1068,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/337)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/56)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/372)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
