@@ -6,6 +6,6 @@ import "fmt"
 
 func main() {
 	//TODO: Implement Hello, World!
-	fmt.Print("Hello, World!")
+	fmt.Println("Hello, World!")
 
 }
