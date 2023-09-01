@@ -6,6 +6,3 @@ const sum = (a, b) => {
     return a + b;
 }
 
-const ans = sum(1, 6);
-
-console.log(ans);
