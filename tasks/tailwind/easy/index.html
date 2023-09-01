@@ -8,23 +8,42 @@
     <title>Fork, Commit, Merge - Tailwind CSS - Easy</title>
     <link href="../output.css" rel="stylesheet" />
   </head>
+  <style>
+    body {
+      font-family: "Nunito", sans-serif;
+    }
+  </style>
   <body class="m-5 flex justify-center">
     <!-- TODO: Add Tailwind CSS classes to the card -->
-    <div class="">
-      <div class="">
-        <div class="">
-          <img
-            class="h-48 w-full object-cover md:h-full md:w-48"
-            src="https://source.unsplash.com/random/480x480"
-            alt="Random Image"
-          />
-        </div>
-        <!--  -->
-        <div class="">
-          <div class="">Card Title</div>
-          <a href="#" class="">Card Subtitle</a>
-          <p class="">This is some body text to explain more about the card.</p>
-          <button class="">Call to Action</button>
+
+    <div class="w-full h-full flex justify-center item-center p-4">
+      <div class="max-w-[1240px] w-full md:h-[300px] h-[500px]">
+        <div
+          class="grid md:grid-cols-2 md:w-[670px] w-[300px] md:h-[250px] h-[500px] bg-green-200 rounded-md shadow-md md:ml-[320px]"
+        >
+          <div class="w-[300px] h-[250px]">
+            <img
+              class="md:w-[200px] w-[250px] md:m-6 rounded-md shadow-md m-4"
+              src="https://source.unsplash.com/random/480x480"
+              alt="Random Image"
+            />
+          </div>
+          <div class="w-[400px] h-[280px] md:ml-[-100px] ml-[-30px]">
+            <div
+              class="text-3xl md:mt-2 p-4 font-semibold ml-[-60px] md-ml-[120px]"
+            >
+              Card Title
+            </div>
+            <a href="#" class="md:ml-[-80px] ml-[-80px]"> Card Subtitle </a>
+            <p class="mt-[10px] overflow-hidden ml-[-50px]">
+              Explain text about it .
+            </p>
+            <button
+              class="mt-[30px] bg-black text-white rounded-md p-3 hover:bg-black/80 md:ml-[-60px] ml-[-50px]"
+            >
+              Call to Action
+            </button>
+          </div>
         </div>
       </div>
     </div>
