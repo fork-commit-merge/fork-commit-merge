@@ -2,6 +2,10 @@
 
 package main
 
+import "fmt"
+
 func main() {
-    // TODO: Implement Hello, World!
+	//TODO: Implement Hello, World!
+	fmt.Println("Hello, World!")
+
 }
