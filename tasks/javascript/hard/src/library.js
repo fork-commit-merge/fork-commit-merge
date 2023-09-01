@@ -36,11 +36,25 @@ class Library {
     }
 
     searchBooks(query) {
+        return this.books.filter(book=>{
+            if(book.title.includes(query)|| book.author.includes(query)){
+                return true;
+            }
+        })
         // TODO: Implement search functionality
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        this.books.filter(book=>{
+            let result=[];
+            if(criteria.title===book.title ){
+                result.push(criteria)
+            }
+            if(criteria.author===book.author){
+                result.push(criteria)
+            }
+            return result;
+        })
     }
 }
 
