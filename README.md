@@ -868,21 +868,35 @@ Setting up VS Code for Perl:
 
 1. Fork this repository by clicking on the "Fork" button at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
 2. Clone your forked repository to your local machine with the command:
-
 ```bash
 git clone https://github.com/<your-username>/fork-commit-merge.git
 ```
 
 Replace 'your-username' with your GitHub username.
 
-3. Navigate to your project folder and install the necessary dependencies. If you are solving other than JavaScript, TypeScript, React, NextJS, Vue or TailwindCSS issues, you don't need to run `npm i`.
-
+3. Navigate to your project folder:
 ```bash
 cd fork-commit-merge
-npm i
 ```
 
-4. Create a new branch with the command:
+4. Add a reference to the original repository for future updates:
+```bash
+git remote add upstream https://github.com/nikohoffren/fork-commit-merge.git
+```
+
+5. Check the remotes for this repository:
+```bash
+git remote -v
+```
+
+You should now see the origin and upstream remotes listed.
+
+6. Take a pull from the upstream repository to your main branch to keep it at par with the main project:
+```bash
+git pull upstream main
+```
+
+7. Create a new branch with the command:
 
 ```bash
 git switch -c fix-issue
