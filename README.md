@@ -902,6 +902,9 @@ git pull upstream main
 git switch -c fix-issue
 ```
 
+Now you are ready to start working on the issues!
+Remember every once in a while to pull from the upstream repository to keep your local repository up to date with the main project.
+
 *Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts.*
 
 ## Tasks
