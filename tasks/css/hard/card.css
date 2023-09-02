@@ -1,3 +1,41 @@
 /* CSS - Hard */
 
 /* TODO: Add CSS for the card */
+
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.card-container {
+  perspective: 1000px;
+}
+.card {
+  position: relative;
+  width: 250px;
+  height: 300px;
+  transition: all 0.5s ease;
+  transform-style: preserve-3d;
+}
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-front {
+  background-color: #ff9f00;
+  z-index: 2;
+  backface-visibility: hidden;
+}
+.card-back {
+  background-color: #4caf50;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+.card-container:hover .card {
+  transform: rotateY(180deg);
+}
