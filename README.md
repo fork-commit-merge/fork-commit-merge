@@ -36,6 +36,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
     -   [Installing C# (Dotnet-SDK)](#installing-c)
+    -   [Installing F# (Dotnet-SDK)](#installing-f)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
     -   [Installing Scala](#installing-scala)
@@ -60,7 +61,6 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Erlang](#installing-erlang)
     -   [Installing Zig](#installing-zig)
     -   [Installing R](#installing-r)
-    -   [Installing F# (Dotnet-SDK)](#installing-f)
     -   [Installing sqlite3](#installing-sqlite3)
     -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
@@ -114,6 +114,7 @@ Also:
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c).
+-   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
 -   For Scala related issues, you need to install [Scala](#installing-scala).
@@ -138,7 +139,6 @@ Also:
 -   For Erlang related issues, you need to install [Erlang](#installing-erlang).
 -   For Zig related issues, you need to install [Zig](#installing-zig).
 -   For R related issues, you need to install [R](#installing-r).
--   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f).
 -   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-toolbox).
 -   For Bash related issues, you need to install [Bash](#installing-bash).
@@ -279,6 +279,24 @@ Setting up C# in Visual Studio Code:
 -   Open the Extensions view (Ctrl+Shift+X).
 -   Search for the C# extension provided by Microsoft and install it.
 -   Once the extension is installed, it will prompt you to install the .NET Core SDK if it's not already installed. Please follow the link and instructions to install it.
+
+---
+
+### Installing F# (Dotnet-SDK)
+
+For Windows Users:
+
+-   F# comes bundled with Visual Studio, so installing [Visual Studio](https://visualstudio.microsoft.com/vs/features/net-development/) with .NET support should suffice.
+-   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
+
+For macOS and Linux Users:
+
+-   Install [Mono](https://www.mono-project.com/).
+-   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
+
+Visual Studio Code:
+
+-   Install the Ionide for F# extension for F# support in VS Code.
 
 ---
 
@@ -801,24 +819,6 @@ Linux:
 Setting up VS Code extension:
 -   Open the Extensions view (Ctrl+Shift+X).
 -   Search for `R` and install the R extension provided by "REditorSupport".
-
----
-
-### Installing F#
-
-For Windows Users:
-
--   F# comes bundled with Visual Studio, so installing [Visual Studio](https://visualstudio.microsoft.com/vs/features/net-development/) with .NET support should suffice.
--   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
-
-For macOS and Linux Users:
-
--   Install [Mono](https://www.mono-project.com/).
--   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
-
-Visual Studio Code:
-
--   Install the Ionide for F# extension for F# support in VS Code.
 
 ---
 
