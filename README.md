@@ -1042,7 +1042,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/141)
 
-[Java - Medium](ttps://github.com/nikohoffren/fork-commit-merge/issues/422)
+[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/422)
 
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/162)
 
