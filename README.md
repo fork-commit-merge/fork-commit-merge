@@ -230,7 +230,7 @@ The instructions can vary depending on the Linux distribution. Here's a general 
 -   Under the ".NET SDK" section, choose your preferred version.
 -   Select your specific Linux distribution from the list to get detailed instructions.
 
-For example, for Ubuntu 20.04, the instructions at the time of writing are:
+For example, for Ubuntu, the instructions at the time of writing are:
 
 ```bash
 wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -239,7 +239,7 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo apt-get install -y apt-transport-https
 sudo apt-get update
-sudo apt-get install -y dotnet-sdk-5.0 # Replace "5.0" with your specific desired version
+sudo apt-get install -y dotnet-sdk
 ```
 
 And for Arch Linux, you can just install the dotnet-sdk package from the official repositories:
@@ -1042,6 +1042,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/141)
 
+[Java - Medium](ttps://github.com/nikohoffren/fork-commit-merge/issues/422)
+
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/162)
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/164)
@@ -1394,3 +1396,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/surajTade"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/101720866?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/rameshgkwd05"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/5181529?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/rishikush31"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120701605?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/snehalgadge"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/91423583?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
