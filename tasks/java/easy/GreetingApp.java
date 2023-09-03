@@ -10,6 +10,6 @@ public class GreetingApp {
         System.out.println("Enter your name: ");
         String name = sc.next();
         System.out.println("Hello, " + name + "!" + " Nice to meet you!");
-
+        sc.close();
     }
 }
