@@ -5,30 +5,21 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    - cron: '28 5 * * 4'
 
 permissions:
   contents: read
+  security-events: write
 
 jobs:
   stackhawk:
-    permissions:
-      contents: read
-      security-events: write
-    name: StackHawk
     runs-on: ubuntu-20.04
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Start your service
-        run: ./your-service.sh &
-
       - name: Run HawkScan
         uses: stackhawk/hawkscan-action@4c3258cd62248dac6d9fe91dd8d45928c697dee0
-        continue-on-error: true
         with:
           apiKey: ${{ secrets.HAWK_API_KEY }}
-          codeScanningAlerts: true
           githubToken: ${{ github.token }}
