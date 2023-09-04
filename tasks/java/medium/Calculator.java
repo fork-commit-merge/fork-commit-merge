@@ -4,6 +4,18 @@ package tasks.java.medium;
 
 public class Calculator {
     // TODO: Implement the Calculator class
+    static float add(float a,float b){
+	    return a+b;
+    }
+    static float subtract(float a,float b){
+	    return a-b;
+    }
+    static float multiply(float a,float b){
+	    return a*b;
+    }
+    static float divide(float a,float b){
+	    return a/b;
+    }
 
     public static void main(String[] args) {
         //! Dont't change the tests in the main method!
