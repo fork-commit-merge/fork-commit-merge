@@ -115,7 +115,7 @@ Also:
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c).
--   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f).
+-   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f#-dotnet-sdk).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
 -   For Scala related issues, you need to install [Scala](#installing-scala).
@@ -140,7 +140,7 @@ Also:
 -   For Erlang related issues, you need to install [Erlang](#installing-erlang).
 -   For Zig related issues, you need to install [Zig](#installing-zig).
 -   For R related issues, you need to install [R](#installing-r).
--   For Solidity related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [Solidity (Truffle Ethereum Development Environment)](#installing-solidity).
+-   For Solidity related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity-truffle-ethereum-development-environment).
 -   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-toolbox).
 -   For Bash related issues, you need to install [Bash](#installing-bash).
