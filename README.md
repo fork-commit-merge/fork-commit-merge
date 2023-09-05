@@ -61,7 +61,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Erlang](#installing-erlang)
     -   [Installing Zig](#installing-zig)
     -   [Installing R](#installing-r)
-    -   [Installing Solidity](#installing-solidity)
+    -   [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity)
     -   [Installing sqlite3](#installing-sqlite3)
     -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
