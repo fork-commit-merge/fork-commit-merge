@@ -1,0 +1,33 @@
+name: Check Stale PRs and Issues
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  stale-check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Setup GitHub CLI
+      run: |
+        gh auth login --with-token <<< "${{ secrets.REPO_PAT }}"
+
+    - name: Check Stale PRs
+      run: |
+        # Fetch open PRs with requested changes and no activity for 3 days
+        # (You can adjust the query as needed)
+        PRS=$(gh pr list -S 'is:open review:changes_requested updated:<3d' -R ${{ github.repository }} --json number)
+
+        for pr in $PRS; do
+          gh pr comment "$pr" --body "This pull request will be deleted in 4 days if no further action is taken."
+        done
+
+    - name: Check Stale Issues
+      run: |
+        # Fetch open Issues with no activity for 3 days
+        # (You can adjust the query as needed)
+        ISSUES=$(gh issue list -S 'is:open updated:<3d' -R ${{ github.repository }} --json number)
+
+        for issue in $ISSUES; do
+          gh issue comment "$issue" --body "This issue will be deleted in 4 days if no further action is taken."
+        done
