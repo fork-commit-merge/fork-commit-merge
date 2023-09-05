@@ -115,7 +115,7 @@ Also:
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c).
--   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f#-dotnet-sdk).
+-   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-fsharp-dotnet-sdk).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
 -   For Scala related issues, you need to install [Scala](#installing-scala).
