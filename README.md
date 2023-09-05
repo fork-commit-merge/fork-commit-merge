@@ -1122,6 +1122,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/285)
 
+[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/433)
+
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/376)
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/262)

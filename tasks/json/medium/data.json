@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Product 1",
+        "price": 100,
+        "status": "active"
+    },
+    {
+        "name": "Product 2",
+        "price": 200,
+        "status": "inactive"
+    },
+    {
+        "name": "Product 3",
+        "price": 300,
+        "status": "active"
+    }
+]
