@@ -35,8 +35,8 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing CoffeeScript](#installing-coffeescript)
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
-    -   [Installing C# (Dotnet-SDK)](#installing-c)
-    -   [Installing F# (Dotnet-SDK)](#installing-f)
+    -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
+    -   [Istalling F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
     -   [Installing Scala](#installing-scala)
@@ -114,7 +114,7 @@ Also:
 -   For CoffeeScript related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [CoffeeScript](#installing-coffeescript).
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
--   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c).
+-   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c-dotnet-sdk).
 -   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
