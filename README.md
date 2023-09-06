@@ -86,11 +86,6 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Prerequisites
 
-<details id="details">
-  <summary style="cursor: pointer;">Click to expand</summary>
-
-<div id="section">
-
 ### Installing an IDE
 
 An Integrated Development Environment (IDE) is a software application that consolidates basic tools required for software testing and development. An IDE typically consists of a source code editor, build automation tools, and a debugger. Some IDEs, like Android Studio or Visual Studio, even offer more advanced features such as version control, databases, cloud services, and more. Why use an IDE? Using an IDE can significantly speed up the development process by offering a variety of tools and features under one roof.
@@ -901,26 +896,6 @@ Ensure you have a UNIX-like environment. If you're on Linux or MacOS, you're alr
 Setting up VS Code for Perl:
 
 -   Search for the extension "Perl" in VS Code's extensions marketplace and install it for syntax highlighting and basic debugging support.
-
-</div>
-
-</details>
-
-<script>
-  window.addEventListener("hashchange", function() {
-    const targetId = location.hash.substring(1);
-    const target = document.getElementById(targetId);
-
-    if (target) {
-      const detailsElement = target.closest('details');
-      if (detailsElement) {
-        detailsElement.open = true;
-      }
-      target.scrollIntoView();
-    }
-  });
-</script>
-
 
 ---
 
