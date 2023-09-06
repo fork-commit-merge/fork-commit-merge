@@ -1,0 +1,7 @@
+This is an example text file.
+It contains multiple lines, words, and characters.
+This text file is used for testing purposes.
+
+The quick brown fox jumps over the lazy dog.
+Why do we use that phrase so often in examples?
+Probably because it contains every letter of the alphabet.

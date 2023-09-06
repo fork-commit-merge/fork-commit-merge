@@ -1076,6 +1076,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/373)
 
+[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/441)
+
 [Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/140)
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/375)
