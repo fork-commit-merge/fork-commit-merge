@@ -147,7 +147,7 @@ Also:
 -   For Perl related issues, you need to install [Perl](#installing-perl).
 -   For HTML, CSS, Bootstrap, JSON, YAML, TOML, XML or Markdown related issues, you don't need to install anything else.
 
----
+![line]
 
 ### Installing Git
 
@@ -897,7 +897,7 @@ Setting up VS Code for Perl:
 
 -   Search for the extension "Perl" in VS Code's extensions marketplace and install it for syntax highlighting and basic debugging support.
 
----
+![line]
 
 ## Setup Instructions
 
@@ -1140,7 +1140,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
----
+![line]
 
 ## Submitting Your Changes
 
@@ -1183,7 +1183,7 @@ After the merge, actions-user bot will reset the files for the next contributor.
 All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
 In the website you can also find more information about the project, as well as your own contribution history for this project, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
----
+![line]
 
 ## Best Practices
 
@@ -1203,7 +1203,7 @@ Why Follow Best Practices?
 
 In our [Fork, Commit, Merge website](https://forkcommitmerge.io), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
----
+![line]
 
 ## Influences
 
