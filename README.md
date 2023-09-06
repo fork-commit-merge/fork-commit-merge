@@ -86,8 +86,10 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Prerequisites
 
-<details>
+<details id="details">
   <summary style="cursor: pointer;">Click to expand</summary>
+
+<div id="section">
 
 ### Installing an IDE
 
@@ -900,7 +902,25 @@ Setting up VS Code for Perl:
 
 -   Search for the extension "Perl" in VS Code's extensions marketplace and install it for syntax highlighting and basic debugging support.
 
+</div>
+
 </details>
+
+<script>
+  window.addEventListener("hashchange", function() {
+    const targetId = location.hash.substring(1);
+    const target = document.getElementById(targetId);
+
+    if (target) {
+      const detailsElement = target.closest('details');
+      if (detailsElement) {
+        detailsElement.open = true;
+      }
+      target.scrollIntoView();
+    }
+  });
+</script>
+
 
 ---
 
