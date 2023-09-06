@@ -1,4 +1,8 @@
-// JavaScript - Easy
+function addNumbers(a, b) {
+  return a + b;
+}
 
-// TODO: Write a function that returns the sum of two numbers
+// Example usage:
+const result = addNumbers(5, 3);
+console.log(result); // Output: 8
 
