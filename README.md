@@ -1142,7 +1142,7 @@ _Note: You don't have to ask a permission to start solving the issue or get assi
 
 ## Submitting Your Changes
 
-Once you've made the necessary changes and all the tests are passing, you're ready to submit your changes!
+Once you've made the necessary changes requested in the task, you're ready to submit your changes!
 
 1. Stage your changes with the command:
 
@@ -1168,18 +1168,18 @@ Once you've pushed your changes to GitHub, you're ready to create a pull request
 
 -   Click the "Compare & Pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
 
--   Fill in the title and description boxes to inform what you did to make all of the tests pass successfully.
+-   Fill in the title and description boxes to inform what you did in the task and how you got it to work. You can also add some additional information such as screenshots, if you want or if they are required in the task description.
 
 -   Finally, click "Create pull request" to finish creating the pull request.
 
 Congratulations on making your first open source contribution on GitHub!
 
-Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged.
+Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged. If not, you will be requested to do some changes to your code.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
 All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
-In the website you can also find more information about the project, as well as your own contribution history for this project, if you login with your Github account.
+In the website you can also find more information about the project, as well as your own contribution history for this project, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
 ---
 
@@ -1199,7 +1199,7 @@ Why Follow Best Practices?
 
 -   Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
 
-In the [Best Practices](https://forkcommitmerge.io/best-practices) section of our website, you'll find guides tailored to various languages. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+In our [Fork, Commit, Merge website](https://forkcommitmerge.io), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
 ---
 
@@ -1224,11 +1224,11 @@ Also i would really appreciate if you could leave a star, so more developers can
 ## Leaderboard
 
 You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
-You can also find your own contribution history for this project in the website, if you login with your Github account.
+You can also find your own contribution history for this project in the website, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
 ## Creating New Tasks
 
-Feel free to contribute to this project also by creating new tasks for other contributors to tackle. To do so, please submit a pull request containing detailed information about the task, including relevant code examples. We encourage you to propose tasks across the programming languages already represented in our project, as this helps broaden its versatility and accessibility for developers worldwide.
+Feel free to contribute to this project also by creating new tasks for other contributors to tackle. To do so, please submit a pull request containing detailed information about the task, such as level of difficulty, language/library/framework or other technology, and relevant code examples. We encourage you to propose tasks across the programming languages already represented in our project, as this helps broaden its versatility and accessibility for developers worldwide.
 
 ## Contact
 
