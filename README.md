@@ -1113,7 +1113,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/164)
 
-[Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/374)
+[Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/447)
 
 [Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/445)
 
