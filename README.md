@@ -1063,7 +1063,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/355)
 
-[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/307)
+[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/453)
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/370)
 
