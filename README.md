@@ -1073,7 +1073,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
 
-[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/378)
+[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/446)
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
 
