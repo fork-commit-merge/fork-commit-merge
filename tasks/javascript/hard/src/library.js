@@ -37,11 +37,33 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
+        if(!query) return [];
+        return this.books.filter( book =>
+            book.title.toLowerCase().includes(query.toLowerCase()) ||
+            book.author.toLowerCase().includes(query.toLowerCase()) 
+            );
+
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
+        let filteredBooks = [...this.books];
+        
+        if (criteria.title) {
+            filteredBooks = filteredBooks.filter(book => 
+                book.title.toLowerCase().includes(criteria.title.toLowerCase())
+            );
+        }
+        
+        if (criteria.author) {
+            filteredBooks = filteredBooks.filter(book => 
+                book.author.toLowerCase().includes(criteria.author.toLowerCase())
+            );
+        }
+
+        return filteredBooks;
     }
+  
 }
 
 module.exports = Library;
