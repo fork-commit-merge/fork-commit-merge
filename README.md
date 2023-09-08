@@ -36,7 +36,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
     -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
-    -   [Installing D](#installing-d)
+    -   [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
     -   [Istalling F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
@@ -118,7 +118,7 @@ Also:
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c-dotnet-sdk).
--   For D related issues, you need to install [D (DMD D-Compiler)](#installing-d).
+-   For D related issues, you need to install [D (DMD Compiler)](#installing-d-dmd-compiler).
 -   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
 -   For Java related issues, you need to install [Java](#installing-java).
 -   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
@@ -290,7 +290,7 @@ Setting up C# in Visual Studio Code:
 
 ---
 
-### Installing D (DMD D-Compiler)
+### Installing D (DMD Compiler)
 
 For Windows and macOS, you can download the DMD (D Compiler) from the [official website](https://dlang.org/download.html) and follow the installation instructions.
 For Linux you can use your package manager, for example in Arch Linux you can install DMD with `sudo pacman -S dmd`.
