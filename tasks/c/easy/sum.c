@@ -1,19 +1,7 @@
 // C - Easy
-/*
-In addition to the sum function, write a main function that does the following:
-
-Prompt the user to enter two integers.
-Read these integers using scanf.
-Call the sum function to get the sum.
-Print the result using printf.
-
-Bonus
-(Optional) Implement the sum function without using the + operator. Document how you achieved this in your PR.
-*/
 
 #include <stdio.h>
 
-// TODO: Implement the sum function
 int sum(int a, int b){
     int total  = a + b;
     return total;
