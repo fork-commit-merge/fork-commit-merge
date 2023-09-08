@@ -985,7 +985,7 @@ git switch -c fix-issue
 Now you are ready to start working on the issues!
 Remember every once in a while to pull from the upstream repository to keep your local repository up to date with the main project.
 
-If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.io/resources](https://forkcommitmerge.io/resources)
+If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.io/resources](https://forkcommitmerge.io/resources).
 
 *Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts.*
 
