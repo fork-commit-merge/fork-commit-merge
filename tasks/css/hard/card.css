@@ -1,30 +1,3 @@
 /* CSS - Hard */
 
 /* TODO: Add CSS for the card */
-
-.card {
-    height: 500px;
-    width: 300px;
-    background-color: #ff9f00;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: ease 0.3s all;
-  }
-  
-  .card-back {
-    display: none;
-  }
-  
-  .card:hover {
-    .card-front {
-      display: none;
-    }
-    .card-back {
-      display: block;
-      transform: rotate3d(0, 1, 0, 180deg);
-    }
-    transform: rotate3d(0, 1, 0, 180deg);
-    background-color: #4caf50;
-  }
-  
