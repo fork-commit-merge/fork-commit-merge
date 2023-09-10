@@ -473,6 +473,7 @@ virtualenv vyper-env
 ```
 
 Activate the virtual environment:
+
 *On macOS and Linux:*
 ```bash
 source vyper-env/bin/activate
