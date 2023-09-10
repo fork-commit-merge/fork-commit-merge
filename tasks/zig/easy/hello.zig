@@ -3,5 +3,5 @@
 const std = @import("std");
 
 pub fn main() void {
-    // TODO: Implement the code for printing the string "Hello, world!"
+    std.debug.print("Hello, {s}!\n", .{"World"});
 }
