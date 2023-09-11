@@ -1205,13 +1205,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/335)
 
-[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/454)
+[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/496)
 
 [ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/493)
 
 [CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
 
-[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/446)
+[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
 
