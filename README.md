@@ -32,7 +32,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing an IDE](#installing-an-ide)
     -   [Installing Git](#installing-git)
     -   [Installing NodeJS and NPM](#installing-nodejs-and-npm)
-    -   [Installing Tailwind CSS](#intailling-tailwind-css)
+    -   [Installing Tailwind CSS](#installing-tailwind-css)
     -   [Installing ReScript](#installing-rescript)
     -   [Installing CoffeeScript](#installing-coffeescript)
     -   [Installing JavaScript](#installing-javascript)
