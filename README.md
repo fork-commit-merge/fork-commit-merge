@@ -39,6 +39,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing TypeScript](#installing-typescript)
     -   [Installing React](#installing-react)
     -   [Installing NextJS](#installing-nextjs)
+    -   [Installing ThreeJS](#installing-threejs)
     -   [Installing Vue](#installing-vue)
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
@@ -110,6 +111,7 @@ Also:
 -   For TypeScript related issues, you need to install [Node.js and NPM](#installing-typescript).
 -   For React related issues, you need to install [Node.js and NPM](#installing-react).
 -   For NextJS related issues, you need to install [Node.js and NPM](#installing-nextjs).
+-   For ThreeJS related issues, you need to install [Node.js and NPM](#installing-threejs).
 -   For Vue related issues, you need to install [Node.js and NPM](#installing-vue).
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
@@ -236,6 +238,12 @@ For React related issues, you need to install [Node.js and NPM](#installing-node
 ### Installing NextJS
 
 For NextJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+
+---
+
+### Installing ThreeJS
+
+For ThreeJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
@@ -1217,6 +1225,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/233)
 
 [NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)
+
+[ThreeJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/495)
 
 [Vue - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/193)
 
