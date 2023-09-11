@@ -1133,6 +1133,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   TypeScript
 -   React
 -   NextJS
+-   ThreeJS
 -   Vue
 -   C
 -   C++
