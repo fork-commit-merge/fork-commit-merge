@@ -2,31 +2,117 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Add navbar -->
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <!-- TODO: Add navbar -->
+      <div class="navbar_links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
 
-        <section id="about">
-            <!-- TODO: Add about section -->
-        </section>
+    <section id="about">
+      <!-- TODO: Add about section -->
+      <div class="content-wrapper">
+        <div class="UM_image_with_text">
+          <div class="text">
+            <h1>About</h1>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy. Various versions
+              have evolved over the years, sometimes by accident, sometimes on
+              purpose (injected humour and the like). Many desktop publishing
+              packages and web page editors now use Lorem Ipsum as their default
+              model text, and a search for 'lorem ipsum' will uncover many web
+              sites still in their infancy. Various versions have evolved over
+              the years, sometimes by accident.
+            </p>
+          </div>
+        </div>
+        <img src="https://loremflickr.com/320/240" alt="" />
+      </div>
+    </section>
 
-        <section id="services">
-            <!-- TODO: Add services section -->
-        </section>
+    <section id="services">
+      <!-- TODO: Add services section -->
+      <div class="content-wrapper">
+        <div class="UM_image_with_text">
+          <div class="text">
+            <h1>Services</h1>
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English. Many desktop
+              publishing packages and web page editors now use Lorem Ipsum as
+              their default model text, and a search for 'lorem ipsum' will
+              uncover many web sites still in their infancy. Various versions
+              have evolved over the years, sometimes by accident, sometimes on
+              purpose (injected humour and the like). Many desktop publishing
+              packages and web page editors now use Lorem Ipsum as their default
+              model text, and a search for 'lorem ipsum' will uncover many web
+              sites still in their infancy. Various versions have evolved over
+              the years, sometimes by accident.
+            </p>
+          </div>
+        </div>
+        <img src="https://loremflickr.com/320/240" alt="" />
+      </div>
+    </section>
 
-        <section id="contact">
-            <!-- TODO: Add contact section -->
-        </section>
+    <section id="contact">
+      <!-- TODO: Add contact section -->
+      <div class="content-wrapper">
+        <div class="contact-form">
+          <h1>Contact Us</h1>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-        <footer>
-            <!-- TODO: Add footer -->
-        </footer>
-    </body>
+    <footer>
+      <!-- TODO: Add footer -->
+      <div class="footer_links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer_text">
+        <p>&copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
 </html>
