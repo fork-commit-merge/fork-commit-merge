@@ -1147,7 +1147,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 ## Tasks
 
-We present over 60 several tasks for different languages, libraries and frameworks with varying difficulty.
+We present over 70 several tasks for different languages, libraries and frameworks with varying difficulty.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
 -   HTML
@@ -1391,6 +1391,8 @@ git push origin fix-issue
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
 -   You should see text "fork-commit-merge had recent pushes" and button "Compare & Pull request" next to it.
+
+![Compare & Pull request](/assets/images/compare-and-pull-request.png)
 
 -   Click the "Compare & Pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
 
