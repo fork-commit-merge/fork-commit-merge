@@ -92,11 +92,15 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   [License](#license)
 -   [List of Contibutors](#list-of-contributors)
 
+![line]
+
 ## Quick Start
 
 1. Go to [Setup Instructions](#setup-instructions) and follow the instructions about how to start working with the project.
 1. Go to [Tasks](#tasks) and choose a task you want to work on. You can find instructions for installing the required tools for each task in [Prerequisites](#prerequisites).
 1. Go to [Submitting Your Changes](#submitting-your-changes) and follow the instructions about how to submit your changes.
+
+![line]
 
 ## Prerequisites
 
@@ -153,7 +157,7 @@ Also:
 -   For Bash related issues, you need to install [Bash](#installing-bash).
 -   For Perl related issues, you need to install [Perl](#installing-perl).
 
-![line]
+---
 
 ### Installing an IDE
 
@@ -173,7 +177,7 @@ We recommend using VS Code as your IDE for this project. It's free, open-source,
 
 Instructions of how to install an IDE that suits for you can be found in our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
 
-![line]
+---
 
 ### Installing Git
 
