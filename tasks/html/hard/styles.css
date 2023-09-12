@@ -101,3 +101,17 @@ footer {
 #footer-links a:hover {
     text-decoration: underline;
 }
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+#navbar ul li a,
+#navbar ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
