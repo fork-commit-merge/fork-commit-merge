@@ -6,6 +6,7 @@ body {
     padding-top: 80px;
 }
 
+/* NAVBAR  CSS */
 #navbar {
     position: fixed;
     top: 0;
@@ -18,6 +19,21 @@ body {
 #navbar a:hover {
     text-decoration: underline;
 }
+
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+/* NAVBAR CSS */
 
 #menu {
     list-style: none;
@@ -102,16 +118,12 @@ footer {
     text-decoration: underline;
 }
 
-#navbar ul {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    gap: 25px;
-    list-style: none;
+.paragraph-container {
+    display: grid;
+    grid-template-columns: 75% 1fr;
+    align-self: stretch;
 }
 
-#navbar ul li a,
-#navbar ul li a:hover {
-    color: #fff;
-    text-decoration: none;
+.section-text {
+    margin-left: 25%;
 }
