@@ -1390,11 +1390,11 @@ git push origin fix-issue
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
--   You should see text "fork-commit-merge had recent pushes" and button "Compare & Pull request" next to it.
+-   You should see text "fix-issue had recent pushes" (or whatever your branch name is) and button "Compare & pull request" next to it.
 
 ![Compare & Pull request](/assets/images/compare-and-pull-request.png)
 
--   Click the "Compare & Pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
+-   Click the "Compare & pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
 
 -   Fill in the title and description boxes to inform what you did in the task and how you got it to work. You can also add some additional information such as screenshots, if you want or if they are required in the task description.
 
