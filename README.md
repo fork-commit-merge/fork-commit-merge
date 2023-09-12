@@ -85,6 +85,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   [Best Practices](#best-practices)
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
+-   [Sponsors](#sponsors)
 -   [Leaderboard](#leaderboard)
 -   [Creating New Tasks](#creating-new-tasks)
 -   [Contact](#contact)
@@ -1443,6 +1444,8 @@ This project was inspired by a number of fantastic resources designed to help ne
 
 I highly recommend checking out these projects if you want to learn more about contributing to open source!
 
+![line]
+
 ## What's Next?
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
@@ -1451,22 +1454,44 @@ You can also check out more information about how to make open source contributi
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
+![line]
+
+### Sponsors
+
+You can sponsor this project by clicking the "Sponsor" button at the top of this page.
+
+![Sponsor](/assets/images/sponsor.png)
+
+Your sponsorship will help me to keep this project alive and to continue developing it further. You will also get your name and/or logo listed in our website at [forkcommitmerge.io](https://forkcommitmerge.io) as well as in this repository.
+
+You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](https://www.buymeacoffee.com/nikohoffren) or clicking the "Buy me a coffee" button at the header of our [website](https://forkcommitmerge.io).
+
+![line]
+
 ## Leaderboard
 
 You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
 You can also find your own contribution history for this project in the website, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
+![line]
+
 ## Creating New Tasks
 
-Feel free to contribute to this project also by creating new tasks for other contributors to tackle. To do so, please submit a pull request containing detailed information about the task, such as level of difficulty, language/library/framework or other technology, and relevant code examples. We encourage you to propose tasks across the programming languages already represented in our project, as this helps broaden its versatility and accessibility for developers worldwide.
+Feel free to contribute to this project also by creating new tasks for other contributors to tackle. To do so, please submit a pull request containing detailed information about the task, such as level of difficulty, language/library/framework or other technology, and relevant code examples. We encourage you to propose tasks across all different programming languages, libraries, frameworks and other technologies in the world.
+
+![line]
 
 ## Contact
 
 For any queries, feel free to open an issue or reach out to me at niko.hoffren@gmail.com.
 
+![line]
+
 ## License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
+
+![line]
 
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 
