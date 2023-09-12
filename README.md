@@ -1456,7 +1456,7 @@ Also i would really appreciate if you could leave a star, so more developers can
 
 ![line]
 
-### Sponsors
+## Sponsors
 
 You can sponsor this project by clicking the "Sponsor" button at the top of this page.
 
