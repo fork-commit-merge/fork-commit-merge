@@ -5,6 +5,23 @@ package tasks.java.medium;
 public class Calculator {
     // TODO: Implement the Calculator class
 
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public static int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public static double divide(int a, int b) {
+        if (b == 0) return Double.POSITIVE_INFINITY;
+        return (double) a/b;
+    }
+
     public static void main(String[] args) {
         //! Dont't change the tests in the main method!
         Calculator calc = new Calculator();
