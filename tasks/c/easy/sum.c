@@ -1,14 +1,11 @@
 // C - Easy
 
 #include <stdio.h>
-int sum(int a,int b){
-    return a+b;
-}
+
+// TODO: Implement the sum function
+
 int main() {
-    // Write C code here
-    int a,b;
-    printf("Enter two numbers:");
-    scanf("%d %d",&a,&b);
-    printf("The sum is: %d",sum(a,b));
+    // TODO: Implement the main function
+
     return 0;
 }
