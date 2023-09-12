@@ -1084,9 +1084,16 @@ Setting up VS Code for Perl:
 
 ## Setup Instructions
 
-1. Fork this repository by clicking on the "Fork" button ![Fork](/assets/images/fork-button.png) at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
+1. Fork this repository by clicking on the "Fork" button at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
 
-2. Clone your forked repository by clicking the "Code" button ![Code](/assets/images/code.png), which will open this small window:
+![Fork](/assets/images/fork-button.png)
+
+2. Clone your forked repository by clicking the "Code" button:
+
+![Code](/assets/images/code.png)
+
+That will open this small window:
+
 ![Clone](/assets/images/clone.png)
 
 After that you can copy and paste the URL the to your local machine with the command:
