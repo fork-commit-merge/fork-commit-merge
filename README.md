@@ -211,6 +211,7 @@ CoffeeScript is a programming language that transcompiles to JavaScript. It adds
 First you have to make sure you have [Node.js and NPM](#installing-nodejs-and-npm) installed.
 
 Install CoffeeScript with this command:
+
 ```bash
 npm install --global coffeescript
 ```
@@ -365,6 +366,7 @@ For Windows and macOS, you can download the DMD (D Compiler) from the [official 
 For Linux you can use your package manager, for example in Arch Linux you can install DMD with `sudo pacman -S dmd`.
 
 VS Code Setup:
+
 -   Open VS Code and go to Extensions (or press Ctrl+Shift+X).
 -   Search for "D Programming Language (code-d)" and install it. This will add D language support in VS Code.
 
@@ -541,12 +543,14 @@ virtualenv vyper-env
 
 Activate the virtual environment:
 
-*On macOS and Linux:*
+_On macOS and Linux:_
+
 ```bash
 source vyper-env/bin/activate
 ```
 
-*On Windows:*
+_On Windows:_
+
 ```bash
 .\vyper-env\Scripts\activate
 ```
@@ -720,6 +724,7 @@ Installing Flutter requires also installing Dart, which you can either install s
 However, you can also install Flutter without installing Android Studio or Xcode, but you'll need to install the Android SDK and iOS SDK separately.
 
 Install Flutter and Dart Plugins in VS Code:
+
 -   Open VS Code and go to Extensions (Ctrl+Shift+X).
 -   Search for "Flutter" and install it.
 -   The Dart plugin will be automatically installed along with Flutter.
@@ -952,6 +957,7 @@ sudo apt-get install gnu-smalltalk
 ```
 
 In Arch Linux you can download Smalltalk packages from AUR repositories. For example, you can use Yay:
+
 ```bash
 yay -S smalltalk
 ```
@@ -994,6 +1000,7 @@ Setting up VS Code extension:
 ### Installing R
 
 Windows:
+
 -   Download R from [CRAN](https://cran.r-project.org/mirrors.html) and install it.
 -   Download [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and install it.
 -   Add R and Rtools to your system PATH.
@@ -1003,9 +1010,11 @@ macOS:
 -   You can install R using [Homebrew](https://brew.sh/): `brew install R`.
 
 Linux:
+
 -   Use your package manager to install R. For example, on Ubuntu: `sudo apt-get install r-base` and on Arch: `sudo pacman -S r`.
 
 Setting up VS Code extension:
+
 -   Open the Extensions view (Ctrl+Shift+X).
 -   Search for `R` and install the R extension provided by "REditorSupport".
 
@@ -1076,7 +1085,13 @@ Setting up VS Code for Perl:
 ## Setup Instructions
 
 1. Fork this repository by clicking on the "Fork" button at the top-right corner of this page. This creates a copy of the repository in your GitHub account.
-2. Clone your forked repository to your local machine with the command:
+![Fork](/assets/images/fork-button.png)
+
+2. Clone your forked repository by clicking the "Code" button, which will open this small window:
+![Clone](/assets/images/clone.png)
+
+After that you can copy and paste the URL the to your local machine with the command:
+
 ```bash
 git clone https://github.com/<your-username>/fork-commit-merge.git
 ```
@@ -1084,16 +1099,21 @@ git clone https://github.com/<your-username>/fork-commit-merge.git
 Replace 'your-username' with your GitHub username.
 
 3. Navigate to your project folder:
+
 ```bash
 cd fork-commit-merge
 ```
 
 4. Add a reference to the original repository for future updates:
+
 ```bash
 git remote add upstream https://github.com/nikohoffren/fork-commit-merge.git
 ```
 
+(Remember to keep here the original repository URL, not your forked one, so the username in this needs to be `nikohoffren`.)
+
 5. Check the remotes for this repository:
+
 ```bash
 git remote -v
 ```
@@ -1101,6 +1121,7 @@ git remote -v
 You should now see the origin and upstream remotes listed.
 
 6. Take a pull from the upstream repository to your main branch to keep it at par with the main project:
+
 ```bash
 git pull upstream main
 ```
@@ -1116,7 +1137,7 @@ Remember every once in a while to pull from the upstream repository to keep your
 
 If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.io/resources](https://forkcommitmerge.io/resources).
 
-*Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts.*
+_Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts._
 
 ## Tasks
 
@@ -1374,6 +1395,8 @@ Once you've pushed your changes to GitHub, you're ready to create a pull request
 Congratulations on making your first open source contribution on GitHub!
 
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged. If not, you will be requested to do some changes to your code.
+
+Remember to wait for us to review your pull request, do not close it yourself.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
