@@ -1323,6 +1323,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/250)
 
+[Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/526)
+
 [Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/129)
 
 [Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/150)
