@@ -1221,7 +1221,7 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/368)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/535)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/276)
 
@@ -1237,7 +1237,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/335)
 
-[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/496)
+[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/532)
 
 [ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/493)
 
@@ -1255,7 +1255,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/311)
 
-[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/233)
+[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/533)
 
 [NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)
 
@@ -1349,7 +1349,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/182)
 
-[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/173)
+[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/534)
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/178)
 
