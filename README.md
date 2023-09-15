@@ -1456,7 +1456,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
-You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/howtocontribute) of our website.
+You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/howtocontribute) of our website.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
@@ -1724,3 +1724,5 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/sarafurd"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/67877801?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/anuraggopalakrishna"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96413683?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Rohit-Sharmaa"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/130988755?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/StephCurry07"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76783882?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Shambhavi2302"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99818052?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
