@@ -52,7 +52,17 @@ section {
     padding-right: 20px;
 }
 
+.text-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    grid-column: 1;
+}
+
 img {
+    grid-column: 2;
     flex-shrink: 0;
     max-width: 100%;
     height: auto;
@@ -62,6 +72,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    justify-self: start;
 }
 
 h1,
