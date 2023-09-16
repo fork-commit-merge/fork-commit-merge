@@ -1734,3 +1734,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/JulianToppo"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/51400577?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/NotSooShariff"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93514938?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/tarzann419"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/108550261?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Matrix-Mesh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118289247?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
