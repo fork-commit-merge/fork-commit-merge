@@ -1371,7 +1371,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/337)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/372)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
