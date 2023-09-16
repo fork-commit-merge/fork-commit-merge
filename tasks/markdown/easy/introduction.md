@@ -1,10 +1,10 @@
 <!-- Markdown - Easy -->
 
-Header
+# Header
 
-- this is
-- a list
-- with bad
--formatting
+- This is
+- A List
+- With Good
+- Formatting
 
-Visit our website [here] (https://forkcommitmerge.io)
+Visit our website [here](https://forkcommitmerge.io)
