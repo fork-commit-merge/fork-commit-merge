@@ -1349,7 +1349,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/351)
 
-[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/92)
+[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/551)
 
 [TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/182)
 
