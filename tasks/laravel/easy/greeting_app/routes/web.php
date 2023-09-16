@@ -20,8 +20,5 @@ Route::get('/', function () {
 });
 
 // TODO: Implement the /greet route here
-Route::get('/greet', function(){
-    $name = 'Contributor';
-    return view('greeting', compact('name'));
-});
+
 
