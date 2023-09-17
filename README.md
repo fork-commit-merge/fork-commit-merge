@@ -1336,7 +1336,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/573)
 
-[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/214)
+[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/578)
 
 [Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/218)
 
