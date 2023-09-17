@@ -1338,7 +1338,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/578)
 
-[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/218)
+[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/579)
 
 [Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/444)
 
