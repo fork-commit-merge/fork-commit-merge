@@ -1327,7 +1327,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/526)
 
-[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/129)
+[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/563)
 
 [Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/150)
 
