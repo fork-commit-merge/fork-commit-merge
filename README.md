@@ -1352,7 +1352,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/534)
 
-[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/178)
+[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/571)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/285)
 
