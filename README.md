@@ -1348,7 +1348,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/551)
 
-[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/182)
+[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/572)
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/534)
 
