@@ -1272,7 +1272,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/449)
 
-[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/213)
+[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/577)
 
 [D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/464)
 
