@@ -1333,7 +1333,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/544)
 
-[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/169)
+[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/569)
 
 [Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/176)
 
