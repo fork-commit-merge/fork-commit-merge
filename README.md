@@ -1307,7 +1307,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/443)
 
-[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/140)
+[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/565)
 
 [Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/492)
 
