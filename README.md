@@ -75,6 +75,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Smalltalk](#installing-smalltalk)
     -   [Installing Zig](#installing-zig)
     -   [Installing R](#installing-r)
+    -   [Installing MATLAB](#installing-matlab)
     -   [Installing sqlite3](#installing-sqlite3)
     -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
@@ -149,6 +150,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For Smalltalk related issues, you need to install [Smalltalk](#installing-smalltalk).
 -   For Zig related issues, you need to install [Zig](#installing-zig).
 -   For R related issues, you need to install [R](#installing-r).
+-   For MATLAB related issues, you need to install [MATLAB](#installing-matlab).
 -   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
 -   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-toolbox).
 -   For Bash related issues, you need to install [Bash](#installing-bash).
@@ -1022,6 +1024,23 @@ Setting up VS Code extension:
 
 ---
 
+### Installing MATLAB
+
+Install MATLAB:
+
+-   Ensure you have MATLAB installed on your computer. You can download and install MATLAB from the official MathWorks website: [Download MATLAB](https://www.mathworks.com/login?uri=%2Fdownloads%2Fweb_downloads)
+
+Install the MATLAB Extension for Visual Studio Code:
+
+-   Open Visual Studio Code and go to the Extensions view by clicking on the square icon in the sidebar on the left or using the shortcut Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS).
+-   Search for "MATLAB" in the Extensions view search bar. You should find an extension named "MATLAB" by MathWorks. Click the Install button to install it.
+
+Configure the MATLAB Extension:
+
+-   Once the extension is installed, configure it to work with your MATLAB installation. You may need to specify the MATLAB executable path in the VS Code settings.
+
+---
+
 ### Installing sqlite3
 
 #### macOS and Linux:
@@ -1198,6 +1217,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Smalltalk
 -   Zig
 -   R
+-   MATLAB
 -   SQL
 -   TLA+
 -   Bash
@@ -1345,6 +1365,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/228)
 
 [R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/351)
+
+[MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/580)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/551)
 
