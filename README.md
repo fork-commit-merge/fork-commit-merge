@@ -1318,7 +1318,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
 
-[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/187)
+[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/574)
 
 [Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/250)
 
