@@ -104,10 +104,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Prerequisites
 
-Before you start, you'll need to install [Git](#installing-git).
-
-Also:
-
+-   Before you start, you'll need to install [Git](#installing-git).
 -   For HTML, CSS, Bootstrap, JSON, YAML, TOML, XML or Markdown related issues, you don't need to install anything extra.
 -   For Tailwind CSS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 -   For ReScript related issues, you need to install [Node.js and NPM](#installing-rescript).
