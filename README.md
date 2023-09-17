@@ -1335,7 +1335,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/569)
 
-[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/176)
+[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/570)
 
 [Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/184)
 
