@@ -1287,7 +1287,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/567)
 
-[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/164)
+[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/568)
 
 [Python - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/447)
 
