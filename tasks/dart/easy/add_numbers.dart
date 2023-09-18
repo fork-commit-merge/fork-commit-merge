@@ -6,3 +6,6 @@ void main() {
 }
 
 // TODO: Implement addNumbers function
+int addNumbers(int1, int2) {
+  return int1 + int2;
+}
