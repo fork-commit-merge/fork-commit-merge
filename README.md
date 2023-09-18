@@ -1207,6 +1207,7 @@ If you are not familiar about the contribution process, you can check out some u
 
 _Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts._
 
+
 ## Tasks
 
 We present over 70 several tasks for different languages, libraries and frameworks with varying difficulty.
@@ -1323,6 +1324,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)
 
 [ThreeJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/495)
+
+[Vue - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/587)
 
 [Vue - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
 
