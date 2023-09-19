@@ -1,11 +1,19 @@
 // Scala - Easy
-
+import scala.io.StdIn
 object FactorialCalculator {
   def main(args: Array[String]): Unit = {
-    // TODO: Create a simple Scala program that takes a number from the user and prints the factorial of that number
+    println("Enter a number: ")
+    val input = StdIn.readInt() 
+    val result = factorial(input) 
+    println(s"The factorial of $input is $result")
   }
 
   def factorial(n: Int): BigInt = {
-    // TODO: Create factorial function
+     if (n <= 1) 1 
+    else n * factorial(n - 1) 
   }
 }
+
+
+
+
