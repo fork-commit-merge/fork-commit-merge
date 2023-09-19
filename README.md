@@ -1383,7 +1383,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/371)
 
-[Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/562)
+[Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/601)
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
 
