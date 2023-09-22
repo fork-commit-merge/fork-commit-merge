@@ -1358,6 +1358,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/618)
 
+[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
+
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/339)
 
 [TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/336)
@@ -1379,8 +1381,6 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
 
 [Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/605)
-
-[Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/612)
 
 [C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/448)
 
