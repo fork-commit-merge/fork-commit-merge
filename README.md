@@ -44,6 +44,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Svelte](#installing-svelte)
     -   [Installing Astro](#installing-astro)
     -   [Installing Angular](#installing-angular)
+    -   [Installing Jest](#installing-jest)
     -   [Installing Jasmine](#installing-jasmine)
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
@@ -126,6 +127,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For Svelte related issues, you need to install [Node.js and NPM](#installing-svelte).
 -   For Astro related issues, you need to install [Node.js and NPM](#installing-astro).
 -   For Angular related issues, you need to install [Node.js and NPM](#installing-angular).
+-   For Jest related issues, you need to install [Node.js and NPM](#installing-jest).
 -   For Jasmine related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
@@ -287,6 +289,12 @@ For Astro related issues, you need to install [Node.js and NPM](#installing-node
 ### Installing Angular
 
 For Angular related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+
+---
+
+### Installing Jest
+
+For Jest related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
@@ -1260,6 +1268,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Svelte
 -   Astro
 -   Angular
+-   Jest
 -   Jasmine
 -   C
 -   C++
@@ -1345,9 +1354,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/289)
+[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
 
-[JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/300)
+[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/618)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/339)
 
