@@ -9,25 +9,3 @@ $primary-color: #3498db;
 }
 
 // TODO: Implement the Container class, do not change the code above
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    width: 100%;
-    padding: 20px;
-
-    background-color: $primary-color;
-    color: white;
-
-    p{
-        font-size: 12px;
-        font-weight: normal;
-    }
-
-    h1{
-        font-size: 28px;
-    }
-
-}
