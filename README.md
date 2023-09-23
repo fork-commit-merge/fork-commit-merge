@@ -1266,7 +1266,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 ## Tasks
 
-We present over 70 several tasks for different languages, libraries and frameworks with varying difficulty.
+We present over 90 several tasks for different languages, libraries and frameworks with varying difficulty.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
 -   HTML
@@ -1359,6 +1359,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/453)
 
 [SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/622)
+
+[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/651)
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/549)
 
