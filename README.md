@@ -1390,7 +1390,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [NextJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/274)
 
-[ThreeJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/495)
+[ThreeJS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
 
 [Vue - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/587)
 
