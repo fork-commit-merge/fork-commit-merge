@@ -13,5 +13,9 @@
         "typescript": "^5.2.2"
     },
     "author": "Niko Hoffrén",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "htmx.org": "^1.9.6"
+    }
 }
