@@ -7,7 +7,7 @@ const port = 6969;
 
 // TODO: Implement `get` method for / route
 app.get('/',(req,res)=>{
-    res.send("<p>Hello Express!</p>")
+    res.send("<p>Hello, Express!</p>")
 })
 
 // TODO: Implement `listen` method
