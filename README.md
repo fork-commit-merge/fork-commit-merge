@@ -266,25 +266,25 @@ For TypeScript related issues, you need to install [Node.js and NPM](#installing
 
 ### Installing React.js
 
-For React related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For React.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
 ### Installing Next.js
 
-For NextJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For Next.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
 ### Installing Three.js
 
-For ThreeJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For Three.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
 ### Installing Vue.js
 
-For Vue related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For Vue.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
@@ -308,13 +308,13 @@ For Angular related issues, you need to install [Node.js and NPM](#installing-no
 
 ### Installing Express.js
 
-For ExpressJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For Express.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
 ### Installing Electron.js
 
-For ElectronJS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+For Electron.js related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
 
 ---
 
