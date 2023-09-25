@@ -979,7 +979,7 @@ opam switch create 4.13.1
 eval $(opam env)
 ```
 
-On Linux:
+On Linux (Ubuntu/Debian):
 ```bash
 sudo apt-get install opam
 opam init
