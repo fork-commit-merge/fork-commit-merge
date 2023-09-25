@@ -2025,3 +2025,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/IsaacUlate"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/103294169?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Viswesh934"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/98519767?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Shrivastava-Anurag"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104081187?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/A-Altemara"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107080531?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
