@@ -6,12 +6,10 @@
 
 int main() {
     // TODO: Implement the program that reads and displays the contents of data.csv file
-    char filename="data.csv";
     char filename[]="data.csv";
     FILE *file=fopen(filename,"r");
     if (file == NULL) {
         perror("Error opening file");
-        return;
         return 1;
     }
     char line[1024];
