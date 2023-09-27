@@ -1393,6 +1393,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   CoffeeScript
 -   JavaScript
 -   JavaScript/Jest
+-   JavaScript/Jasmine
 -   TypeScript
 -   TypeScript/Vitest
 -   React
@@ -1406,7 +1407,6 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   GraphQL
 -   Express.js
 -   Electron.js
--   Jasmine
 -   C
 -   C++
 -   C#
