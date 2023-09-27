@@ -1482,7 +1482,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/587)
 
-[Vue - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
+[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
 
 [Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/603)
 
