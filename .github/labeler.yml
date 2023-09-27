@@ -1,5 +1,2 @@
 documentation:
   - '*.md'
-
-"*":
-  - hacktoberfest-accepted
