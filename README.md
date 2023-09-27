@@ -1648,6 +1648,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/705)
 
+[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/706)
+
 [Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/579)
 
 [Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/444)
