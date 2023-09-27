@@ -1751,7 +1751,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
-You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/howtocontribute) of our website.
+You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/how-to-contribute) of our website.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
