@@ -96,7 +96,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
     -   [Installing Perl](#installing-perl)
-    -   [Installing ASM (Assembly)](#installing-asm)
+    -   [Installing ASM (Assembly)](#installing-asm-assembly)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
