@@ -1392,7 +1392,9 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   ReScript
 -   CoffeeScript
 -   JavaScript
+-   JavaScript/Jest
 -   TypeScript
+-   TypeScript/Vitest
 -   React
 -   Next.js
 -   Three.js
@@ -1404,9 +1406,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   GraphQL
 -   Express.js
 -   Electron.js
--   Jest
 -   Jasmine
--   Vitest
 -   C
 -   C++
 -   C#
@@ -1499,6 +1499,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
+
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/703)
 
 [JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
 
