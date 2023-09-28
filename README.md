@@ -1413,7 +1413,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 ## Tasks
 
-We present over 90 several tasks for different languages, libraries and frameworks with varying difficulty.
+We present over 100 several tasks for different languages, libraries and frameworks with varying difficulty.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
 -   HTML
