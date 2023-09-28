@@ -1685,6 +1685,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/534)
 
+[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/716)
+
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/571)
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
