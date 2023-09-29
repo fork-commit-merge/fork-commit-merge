@@ -1543,9 +1543,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/339)
+[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/726)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/336)
+[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/724)
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/649)
 
@@ -1609,7 +1609,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/646)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/324)
+[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/725)
 
 [Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/430)
 
@@ -1703,7 +1703,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/552)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/337)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/727)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
 
