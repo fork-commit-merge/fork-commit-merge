@@ -1,3 +1,25 @@
 <!-- XML - Easy -->
 
 <!-- TODO: Create an XML Representation of a Bookstore -->
+<?xml version="1.0"?>
+
+<bookstore>
+    <book>
+        <title>Book title 1</title>
+        <author>Book author 1</author>
+        <year>2020</year>
+        <price>60</price>
+    </book>
+    <book>
+        <title>Book title 2</title>
+        <author>Book author 2</author>
+        <year>2019</year>
+        <price>20</price>
+    </book>
+     <book>
+        <title>Book title 3</title>
+        <author>Book author 3</author>
+        <year>2021</year>
+        <price>30</price>
+    </book>
+</bookstore>
