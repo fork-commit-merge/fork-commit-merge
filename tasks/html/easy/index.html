@@ -1,14 +1,144 @@
-<!-- HTML - Easy -->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Fork, Commit, Merge - HTML - Easy</title>
-    </head>
-    <body>
-        <h2>Contact Information:</h2>
-        <a href="mailto:john.doe@example.com">Email me!</a>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .contact-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 2px solid mustard;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 10px rgba(103, 227, 252, 0.9);
+
+        }
+
+        h1 {
+            color: mustard;
+        }
+
+        .contact-form {
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            width: 97%;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid mustard;
+            border-radius: 5px;
+            background-color: rgba(103, 227, 252, 0.9);
+            color: white;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: mustard;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgba(103, 227, 252, 0.9));
+        }
+
+        .ab {
+            color: rgba(103, 227, 252, 0.9);
+        }
+
+        .navbar {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-warning border-bottom border-body navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">NewSite</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info my-1" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-info">Login</button>
+                    <button class="btn btn-info">SignUp</button>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <br>
+    <div class="contact-container">
+        <h1 class="ab">Contact Us</h1>
+        <br>
+
+
+        <div class="contact-form">
+            <form action="contact.html/" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Please enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your mail id" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your query." required></textarea>
+                </div>
+                <center>
+                    <div class="form-group">
+                        <input type="submit" value="Submit">
+                    </div>
+                </center>
+            </form>
+        </div>
+    </div>
+</body>
+
 </html>
