@@ -1543,9 +1543,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/339)
+[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/726)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/336)
+[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/724)
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/649)
 
@@ -1609,7 +1609,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/646)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/324)
+[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/725)
 
 [Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/430)
 
@@ -1703,7 +1703,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/552)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/337)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/727)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
 
@@ -2129,3 +2129,8 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/MihirKohli"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/55236890?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/karprabha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/15178905?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/gyanavardhana"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/89439095?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/vidhan63-soe"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/134678855?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Faiznurullah"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/59213454?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shreyansh1410"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109788335?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sunny7712"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85883639?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/crazybee69"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32307323?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
