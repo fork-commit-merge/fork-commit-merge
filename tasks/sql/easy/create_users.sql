@@ -1,6 +1,8 @@
 -- SQL - Easy
 
 CREATE TABLE users (
-    -- TODO: Add all the requested fields
+    id INT PRIMARY KEY,
+    name TEXT,
+    email TEXT
 );
 
