@@ -5,6 +5,10 @@ void main() {
 }
 
 // TODO: Create a function for counting the length of a string
-int countLength(String text){
-  return text.length;
+int countLength(String text) {
+  int count = 0;
+  for (int i = 0; i < text.runes.length; i++) {
+    count++;
+  }
+  return count;
 }
