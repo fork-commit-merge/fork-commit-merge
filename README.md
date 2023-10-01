@@ -1631,7 +1631,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/371)
 
-[Dart - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/601)
+[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/771)
+
+[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/772)
+
+[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/773)
+
+[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/774)
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
 

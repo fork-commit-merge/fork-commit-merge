@@ -1,11 +1,9 @@
-// Make Function to Return Type data from paramters
-// Todo
-
-
 void main() {
-  // print(TypeDataCheck(5));
-  // print(TypeDataCheck(3.14));
-  // print(TypeDataCheck("Hello"));
-  // print(TypeDataCheck(true));
-  // print(TypeDataCheck(null));
+  // print(typeDataCheck(5));
+  // print(typeDataCheck(3.14));
+  // print(typeDataCheck("Hello"));
+  // print(typeDataCheck(true));
+  // print(typeDataCheck(null));
 }
+
+// TODO: Implement a function that accepts a parameter of any type and returns a string describing its data type.
