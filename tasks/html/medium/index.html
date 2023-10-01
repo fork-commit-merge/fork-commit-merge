@@ -6,8 +6,21 @@
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
     <body>
+        <h3>Contact Form</h3>
+
         <div class="container">
-            <!-- TODO: Implement the form -->
+            <form>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="name" placeholder="Your name..">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+                </textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </body>
 </html>
