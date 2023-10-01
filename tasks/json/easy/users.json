@@ -1,35 +1,8 @@
-{
-  "users": [
-    {
-      "id": 1,
-      "name": "Vivek Kumar",
-      "email": "vivekkumar@example.com"
-    },
-    {
-      "id": 2,
-      "name": "Vishal Kumar",
-      "email": "vishalkumar@example.com"
-    },
-    {
-      "id": 3,
-      "name": "Saksham Tyagi",
-      "email": "sakshamtyagi@example.com"
-    },
-    {
-      "id": 4,
-      "name": "Vinayak Vats",
-      "email": "vinayakvats@example.com"
-    },
-    {
-      "id": 5,
-      "name": "Sai Aryan",
-      "email": "saiaryan@example.com"
-    },
-    {
-      "id": 6,
-      "name": "Honey Tyagi",
-      "email": "honeytyagi@example.com"
-    }
-  ]
-}
-
+[
+  {
+    "JSON": "Easy"
+  },
+  {
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+  }
+]
