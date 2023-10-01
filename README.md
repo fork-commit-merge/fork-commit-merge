@@ -2175,3 +2175,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Sam-bhav-20"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120547961?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/ATamblingPoder"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117522662?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/stktyagi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/142912014?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/micielkirsten"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69738817?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
