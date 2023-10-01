@@ -4,10 +4,29 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css" />
+        <style>
+            #contact-form :hover{
+                transform: scale(1.05);
+                transition: all 0.5s ease-out;
+            }
+            #submit-btn{
+                height : 30px;
+                justify-content: center;
+            }
+        </style>
     </head>
     <body>
         <div class="container">
-            <!-- TODO: Implement the form -->
+            <form action="" id="contact-form" method="get" >
+                <input type="text" name="" id="name-input" placeholder="Name" required="required">
+                <br>
+                <input type="email" name="" id="email-input" placeholder="E-mail" required="required">
+                <br>
+                <textarea name="" id="text-area" placeholder="Message"></textarea>
+                <br>
+                <button id="submit-btn" type="submit">SEND MESSAGE</button>
+    
+            </form>
         </div>
     </body>
 </html>
