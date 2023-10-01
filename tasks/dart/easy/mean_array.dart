@@ -1,18 +1,8 @@
-double calculateMean(List<int> numbers) {
-  if (numbers.isEmpty) {
-    throw ArgumentError('The input list cannot be empty.');
-  }
-
-  int sum = 0;
-  for (var number in numbers) {
-    sum += number;
-  }
-
-  return sum / numbers.length.toDouble();
-}
-
 void main() {
-  List<int> numbers = [1, 2, 3, 4, 5];
-  double mean = calculateMean(numbers);
-  print('Mean: $mean');
+  // List<int> data = [5, 10, 15, 20, 25];
+  // double mean = calculateMean(data);
+  // print('Mean: $mean');  // Expected output: Mean: 15.0
 }
+
+// TODO: Implement a function called 'calculateMean' that takes a list of integers as input and returns the mean as a double.
+
