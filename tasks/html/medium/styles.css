@@ -1,44 +1,96 @@
-/* HTML - Medium */
-
-.container {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-form {
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    text-align: center;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input,textarea{
+    background: rgba(255,255,255,0.4);
+ 
+}
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #f476ad, #e07575);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-label {
-    margin-top: 20px;
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
     margin-bottom: 5px;
 }
 
-input[type=text], input[type=email], textarea {
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
     padding: 10px;
-    border-radius: 5px;
     border: 1px solid #ccc;
-    resize: vertical;
+    border-radius: 3px;
+    font-size: 16px;
 }
 
-input[type=submit] {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #4CAF50;
+.form-group textarea {
+    height: 150px;
+}
+
+.form-group button {
+    background: linear-gradient(to bottom, #3494E6, #0056b3);
+    color: #fff;
     border: none;
     border-radius: 5px;
-    color: white;
+    padding: 10px 25px; 
+    font-size: 18px;
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #45a049;
+.form-group button:hover {
+    background: linear-gradient(to bottom, #0056b3, #3494E6);
 }
 
+.form-group button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Responsive styles for smaller screens */
 @media screen and (max-width: 600px) {
     .container {
-        padding: 10px;
+        max-width: 100%;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group textarea {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .form-group button {
+        padding: 12px 24px; /* Adjust button size for smaller screens */
     }
 }
+
