@@ -10,9 +10,7 @@ const typeDefs = gql`
 `;
 
 const resolvers = {
-    Query: {
-        hello: () => 'Hello, GraphQL!'
-    }
+    // TODO: Implement the `hello` query resolver here
 };
 
 const startServer = async () => {
