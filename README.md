@@ -1413,7 +1413,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 ## Tasks
 
-*Note: These task will not count towards Hacktoberfest, since this repository is an educational repository, hence against the hacktoberfest guidelines.*
+*Note: These tasks will not count towards Hacktoberfest, since this repository is an educational repository, hence against the hacktoberfest guidelines.*
 
 We present over 100 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
