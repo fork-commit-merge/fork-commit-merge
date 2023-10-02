@@ -1582,7 +1582,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/363)
 
-[C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/637)
+[C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/839)
 
 [C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/641)
 
