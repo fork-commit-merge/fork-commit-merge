@@ -1556,7 +1556,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/533)
 
-[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/644)
+[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
 
 [Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
 
