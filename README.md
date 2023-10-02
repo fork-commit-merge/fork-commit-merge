@@ -1548,7 +1548,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/836)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/724)
+[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/840)
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/649)
 
