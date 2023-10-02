@@ -1594,7 +1594,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/412)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/451)
+[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/834)
 
 [Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/638)
 
