@@ -1414,6 +1414,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 ## Tasks
 
 We present over 100 several tasks for different languages, libraries and frameworks with varying difficulty.
+**Note: These task will not count towards Hacktoberfest, since this repository is an educational repository, hence against the hacktoberfest guidelines.**
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
 -   HTML
