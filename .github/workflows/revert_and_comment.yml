@@ -63,10 +63,6 @@ jobs:
 
           I look forward to seeing your contributions!"
 
-      - name: Add hacktoberfest-accepted label
-        run: |
-          gh pr edit "${{ github.event.pull_request.number }}" --add-label "hacktoberfest-accepted"
-
   add-contributor-to-readme:
     needs: auto-revert
     runs-on: ubuntu-latest
@@ -116,7 +112,6 @@ jobs:
         LAST_CONTRIBUTOR=$(tail -n 1 README.md | awk -F'[@"]' '{print $2}')
         echo "::set-output name=last_contributor::$LAST_CONTRIBUTOR"
 
-    # Debugging step
     - name: Debug
       run: echo "Last contributor is ${{ steps.extract_last_contributor.outputs.last_contributor }}"
 
