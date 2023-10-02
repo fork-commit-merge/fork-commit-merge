@@ -1508,7 +1508,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/535)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/645)
+[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/452)
 
