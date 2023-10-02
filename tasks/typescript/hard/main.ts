@@ -1,3 +1,5 @@
+// TypeScript - Hard
+
 interface Product {
     id: number;
     title: string;
@@ -8,51 +10,35 @@ interface Product {
 let products: Product[] = [];
 
 async function fetchData() {
-    try {
-        const response = await fetch('https://dummyjson.com/products');
-        const data = await response.json();
-        products = data.products; 
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
-    displayProducts(products); 
+    // TODO: Implement the fetch function
+    displayProducts(products);
 }
 
 function displayProducts(products: Product[]) {
-
-    // Clear previous rows in the table
-    const tableBody = document.getElementById("productBody");
-    if (tableBody) {
-        tableBody.innerHTML = "";
-    }
-
-    // show the data in row
-    products.forEach(product => {
-        const row = `<tr>
-            <td>${product.title}</td>
-            <td>${product.price}</td>
-            <td>${product.rating}</td>
-        </tr>`;
-        if (tableBody) {
-            tableBody.innerHTML += row;
-        }
-    });
+    // TODO: Implement the display function
 }
 
 function applyFilters() {
-    const minPrice = parseFloat((document.getElementById("minPrice") as HTMLInputElement).value) || 0;
-    const maxPrice = parseFloat((document.getElementById("maxPrice") as HTMLInputElement).value) || Number.MAX_VALUE;
-    const minRating = parseFloat((document.getElementById("minRating") as HTMLInputElement).value) || 0;
-    const maxRating = parseFloat((document.getElementById("maxRating") as HTMLInputElement).value) || 5;
-
-    const filteredProducts = products.filter(product =>
-        product.price >= minPrice &&
-        product.price <= maxPrice &&
-        product.rating >= minRating &&
-        product.rating <= maxRating
+    const minPrice = parseFloat(
+        (document.getElementById("minPrice") as HTMLInputElement).value
     );
+    const maxPrice = parseFloat(
+        (document.getElementById("maxPrice") as HTMLInputElement).value
+    );
+    const minRating = parseFloat(
+        (document.getElementById("minRating") as HTMLInputElement).value
+    );
+    const maxRating = parseFloat(
+        (document.getElementById("maxRating") as HTMLInputElement).value
+    );
+
+    const filteredProducts = products.filter(
+        // TODO: Implement the filter function
+    );
+
     displayProducts(filteredProducts);
 }
 
 fetchData();
+
 (window as any).applyFilters = applyFilters;
