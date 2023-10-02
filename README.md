@@ -1538,7 +1538,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/703)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
 
 [JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
 
