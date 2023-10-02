@@ -1528,7 +1528,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/550)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/650)
+[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/837)
 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/532)
 
