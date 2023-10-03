@@ -2,13 +2,13 @@
 
 use std::io;
 
-//function to convert celcius to farenheit
-fn celcius_to_farenheit(c:f32)->f32{
+//function to convert celsius to fahrenheit
+fn celsius_to_fahrenheit(c:f32)->f32{
     c*9.0/5.0 +32.0
 }
 
-//function to convert farenheit to celcius
-fn farenheit_to_celcius(f:f32)->f32{
+//function to convert fahrenheit to celsius
+fn fahrenheit_to_celsius(f:f32)->f32{
     (f-32.0)*5.0/9.0
 }
 
@@ -17,9 +17,9 @@ fn main() {
 
     //loop till the user enters a valid option and gets result
     loop{
-        println!("enter an option");
-        println!("1 convert farenheit to celcius");
-        println!("2 convert celcius to farenheit");
+        println!("Enter one option");
+        println!("1 convert fahrenheit to celsius");
+        println!("2 convert celsius to fahrenheit");
 
         //input from user to get an option
         let mut option=String::new();
@@ -34,7 +34,7 @@ fn main() {
                 }
                 else{
                     println!("enter a correct option");
-                    continue
+                    continue;
                 }
 
             },
@@ -49,7 +49,7 @@ fn main() {
         println!("Enter the temperature to convert");
 
         //input from user to get temperature
-        io::stdin().read_line(&mut temp).expect("invalid input");
+        io::stdin().read_line(&mut temp).expect("invalid temperature");
 
         //makes sure temperature is a proper input
         let temp:f32=match temp.trim().parse(){
@@ -57,16 +57,16 @@ fn main() {
             Err(_)=>continue
         };
 
-        //show the output and break if proper options and values are inputted
+        //show the output and break if proper options and values are input
         if option==1{
             
-            let converted=celcius_to_farenheit(temp);
-            println!("{temp} degree celcius is {converted} degrees farenheit");
+            let converted=celsius_to_fahrenheit(temp);
+            println!("{temp} degrees celsius is {converted} degrees fahrenheit");
             break;
         }
         else{
-            let converted=farenheit_to_celcius(temp);
-            println!("{temp} degree celcius is {converted} degrees farenheit");
+            let converted=fahrenheit_to_celsius(temp);
+            println!("{temp} degrees fahrenheit is {converted} degrees celsius");
             break;
         }
 
