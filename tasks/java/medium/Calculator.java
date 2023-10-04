@@ -4,7 +4,24 @@ package tasks.java.medium;
 
 public class Calculator {
     // TODO: Implement the Calculator class
-
+private int add(int a, int b) {
+		return a+b;
+	}
+	private int subtract(int a, int b) {
+		if(a>b)
+			return a-b;
+		else
+			return b-a;
+	}
+	private int multiply(int a, int b) {
+		return a*b;
+	}
+	private double divide(int a, int b) {
+		if(a>b)
+			return a/b;
+		else
+			return b/a;
+	}
     public static void main(String[] args) {
         //! Dont't change the tests in the main method!
         Calculator calc = new Calculator();
