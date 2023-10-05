@@ -1565,7 +1565,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/836)
+[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/882)
 
 [TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/840)
 
