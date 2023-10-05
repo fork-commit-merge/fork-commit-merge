@@ -2223,3 +2223,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Dis-ease-20"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/59063747?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/alpharosto"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121320004?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Mahendra5495"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/82939327?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/kurayami07734"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/60501848?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
