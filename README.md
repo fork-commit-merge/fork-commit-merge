@@ -1597,7 +1597,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/679)
 
-[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/835)
+[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
 
 [C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/363)
 
