@@ -1,9 +1,9 @@
 # Python - Easy
 
-# TODO: Create a Simple Python Program that returns the sum of two numbers
+# TODO: Create a Simple Python Program that:
+# lists the first 10 natural numbers,
+# prints that list to the console and,
+# prints the sum of the numbers of that list
 
-def sumNum(num1, num2):
-    return (num1 + num2)
-
-
-print(sumNum(5, 8))
+def function(numbers):
+    pass
