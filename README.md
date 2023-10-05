@@ -1525,7 +1525,7 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/535)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/894)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
 
@@ -1545,9 +1545,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/549)
 
-[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/550)
+[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/893)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/837)
+[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/883)
 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/532)
 
@@ -1615,9 +1615,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/861)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/834)
+[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/884)
 
-[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/638)
+[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/890)
 
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/567)
 
@@ -1631,11 +1631,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/445)
 
-[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/698)
+[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
 
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/646)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/725)
+[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
 
 [Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/430)
 
@@ -1663,7 +1663,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/773)
 
-[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/774)
+[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
 
@@ -1673,7 +1673,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/526)
 
-[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/563)
+[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/892)
 
 [Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/566)
 
@@ -1685,7 +1685,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/686)
 
-[LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/690)
+[LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
 
 [Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/573)
 
@@ -1707,7 +1707,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/583)
 
-[MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/580)
+[MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/891)
 
 [Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/581)
 
@@ -1735,7 +1735,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/552)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/727)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
 
