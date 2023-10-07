@@ -2,14 +2,10 @@
 
 #include <stdio.h>
 
-int sum(int a, int b){
-    return a+b;
-}
+// TODO: Implement the sum function
+
 int main() {
-    int a =0, b=0;
-    printf("Enter two Number seperating by space: ");
-    scanf("%d %d", &a, &b);
-    printf("The sum is: %d",sum(a, b));
+    // TODO: Implement the main function
 
     return 0;
 }
