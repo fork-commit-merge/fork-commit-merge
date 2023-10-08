@@ -15,6 +15,7 @@ jobs:
       github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
       github.event.pull_request.user.login != 'dependabot[bot]' &&
+      github.event.pull_request.user.login != 'nikohoffren' &&
       github.event.pull_request.user.login != 'dependabot-preview[bot]'
     steps:
       - name: Checkout code
@@ -111,7 +112,6 @@ jobs:
         LAST_CONTRIBUTOR=$(tail -n 1 README.md | awk -F'[@"]' '{print $2}')
         echo "::set-output name=last_contributor::$LAST_CONTRIBUTOR"
 
-    # Debugging step
     - name: Debug
       run: echo "Last contributor is ${{ steps.extract_last_contributor.outputs.last_contributor }}"
 

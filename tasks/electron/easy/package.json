@@ -1,0 +1,15 @@
+{
+  "name": "easy",
+  "version": "1.0.0",
+  "description": "Fork, Commit, Merge - Electron - Easy Issue",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.4"
+  }
+}

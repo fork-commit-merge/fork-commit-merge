@@ -1,0 +1,14 @@
+/* JavaScript - Medium */
+
+/* Don't modify the HTML or CSS files! */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#timer {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+<!-- HTMX - Easy -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fork, Commit, Merge - HTMX - Easy</title>
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+</head>
+<body>
+    <h1>Fork, Commit, Merge - HTMX - Easy</h1>
+
+    <!-- TODO: Add your HTMX button here -->
+
+    <div id="result"></div>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const button = document.getElementById('click-me');
+        const result = document.getElementById('result');
+
+        button.addEventListener('click', function () {
+            result.innerText = 'Client-side action executed!';
+        });
+    });
+</script>

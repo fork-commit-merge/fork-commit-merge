@@ -1,0 +1,19 @@
+{
+  "name": "fibonacci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rescript",
+    "clean": "rescript clean",
+    "start": "rescript build -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^9.0.2",
+    "rescript": "^10.1.4"
+  }
+}
