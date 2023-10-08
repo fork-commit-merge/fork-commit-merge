@@ -1525,7 +1525,7 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/906)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/927)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
 
