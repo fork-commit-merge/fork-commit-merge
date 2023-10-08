@@ -3,10 +3,25 @@
 package tasks.java.medium;
 
 public class Calculator {
-    // TODO: Implement the Calculator class
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public int subtract(int a, int b) {
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+
+    public int divide(int a, int b) {
+        return a * b;
+    }
 
     public static void main(String[] args) {
-        //! Dont't change the tests in the main method!
+        // ! Dont't change the tests in the main method!
         Calculator calc = new Calculator();
 
         System.out.println("Addition: " + calc.add(5, 3));
@@ -15,4 +30,3 @@ public class Calculator {
         System.out.println("Division: " + calc.divide(5, 3));
     }
 }
-
