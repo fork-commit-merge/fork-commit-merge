@@ -1627,7 +1627,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/582)
 
-[Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/875)
+[Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/928)
 
 [Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/876)
 
