@@ -1653,7 +1653,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/492)
 
-[PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/375)
+[PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/931)
 
 [Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/647)
 
