@@ -1643,7 +1643,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/484)
 
-[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/373)
+[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/930)
 
 [Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/441)
 
