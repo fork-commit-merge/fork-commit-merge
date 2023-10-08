@@ -1,8 +1,9 @@
--- # Which country has a population that is more than Canada but
--- # less than Poland? Show the name and the population.
--- # use select within select 
+-- SQL - Medium
 
--- sample table : 
+-- # Which country has a population that is more than Canada but less than Poland? Show the name and the population.
+-- # use SELECT within SELECT.
+
+-- sample table :
 
 -- World (Name,Continent,Area,Population,GDP);
 

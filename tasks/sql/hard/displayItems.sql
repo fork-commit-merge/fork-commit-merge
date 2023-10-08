@@ -1,10 +1,12 @@
--- Consider the following relational database schema. 
+-- SQL - Hard
+
+-- Consider the following relational database schema:
 
 -- SELLER (S_id, Name, Bank_acc_no, Email, Phone)
 -- STOCKS (S_id, Prod_id, S_Date)
 -- PRODUCT (Prod_id, Prod_name, Description, Price, Expiry_date)
 
--- Create the Following tables 
+-- Create the Following Tables:
 
 CREATE TABLE SELLER (
     -- TODO: Add all the requested fields (S_id, Name, Bank_acc_no, Email, Phone)
@@ -41,31 +43,14 @@ VALUES
     (103, 'Product C', 'Description for Product C', 39.99, '2023-10-15');
 
 
--- Display the following : 
+-- Display the following :
 
--- (a) Display name of the sellers and their bank account number who stocked at least 24 different products with price higher
--- than 1000 rupees in the last one year
+-- (a) Display name of the sellers and their bank account number who stocked at least 24 different products with price higher than 1000 rupees in the last one year
 
+-- (b) Use nested query to display name of the sellers and their email address; who have in stock products with expiry date past today’s date
 
+-- (c) Display the name of the products that are in stock by at least one seller and also those that are not in stock by any of the sellers
 
--- (b) Use nested query to display name of the sellers and their email address; who have in stock products with expiry date
--- past today’s date
+-- (d) Use join query to display name of the sellers and name of the products stocked by them during March 23, 2020 and June 30, 2020.
 
-
-
-
--- (c) Display the name of the products that are in stock by at least one seller and also those that are not in stock by any of the
--- sellers
-
-
-
--- (d) Use join query to display name of the sellers and name of the products stocked by them during March 23, 2020 and June
--- 30, 2020.
-
-
-
--- (e) Display name of sellers who have in stock maximum number of different products and minimum number of different
--- products
-
-
-
+-- (e) Display name of sellers who have in stock maximum number of different products and minimum number of different products

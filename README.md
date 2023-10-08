@@ -1619,6 +1619,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/890)
 
+[Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/924)
+
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/567)
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/568)
@@ -1712,6 +1714,10 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/581)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/551)
+
+[SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/925)
+
+[SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/926)
 
 [TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/572)
 
