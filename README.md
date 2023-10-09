@@ -1553,7 +1553,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/493)
 
-[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
+[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/944)
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
 
@@ -1599,7 +1599,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
 
-[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/363)
+[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
 
@@ -1611,7 +1611,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/464)
 
-[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/412)
+[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/941)
 
 [Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/861)
 
@@ -1639,15 +1639,15 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
 
-[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/430)
+[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/940)
 
 [Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/484)
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/930)
 
-[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/441)
+[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/936)
 
-[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/443)
+[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/938)
 
 [Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/565)
 
@@ -1657,7 +1657,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/647)
 
-[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/371)
+[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
 
 [Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/771)
 
@@ -1667,7 +1667,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
 
-[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
+[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
 
 [Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/574)
 
@@ -1705,7 +1705,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/639)
 
-[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/351)
+[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/937)
 
 [Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/583)
 
@@ -1731,9 +1731,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/648)
 
-[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/433)
+[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
 
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/376)
+[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/642)
 
