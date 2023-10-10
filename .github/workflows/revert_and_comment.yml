@@ -9,28 +9,28 @@ on:
       - 'README.md'
 
 jobs:
-  auto-revert:
-    runs-on: ubuntu-latest
-    if: |
-      github.event_name == 'pull_request_target' &&
-      github.event.pull_request.merged == true &&
-      github.event.pull_request.user.login != 'dependabot[bot]' &&
-      github.event.pull_request.user.login != 'nikohoffren' &&
-      github.event.pull_request.user.login != 'dependabot-preview[bot]'
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-        with:
-          ref: main
-          token: ${{ secrets.REPO_PAT }}
-          fetch-depth: 0
+  # auto-revert:
+  #   runs-on: ubuntu-latest
+  #   if: |
+  #     github.event_name == 'pull_request_target' &&
+  #     github.event.pull_request.merged == true &&
+  #     github.event.pull_request.user.login != 'dependabot[bot]' &&
+  #     github.event.pull_request.user.login != 'nikohoffren' &&
+  #     github.event.pull_request.user.login != 'dependabot-preview[bot]'
+  #   steps:
+  #     - name: Checkout code
+  #       uses: actions/checkout@v2
+  #       with:
+  #         ref: main
+  #         token: ${{ secrets.REPO_PAT }}
+  #         fetch-depth: 0
 
-      - name: Revert merge commit
-        run: |
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git revert -m 1 HEAD
-          git push origin main
+  #     - name: Revert merge commit
+  #       run: |
+  #         git config --global user.email "action@github.com"
+  #         git config --global user.name "GitHub Action"
+  #         git revert -m 1 HEAD
+  #         git push origin main
 
   comment:
     runs-on: ubuntu-latest
@@ -64,7 +64,7 @@ jobs:
           I look forward to seeing your contributions!"
 
   add-contributor-to-readme:
-    needs: auto-revert
+    # needs: auto-revert
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'pull_request_target' &&
