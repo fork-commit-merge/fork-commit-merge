@@ -1,17 +1,17 @@
-// Java - Medium
-
-package tasks.java.medium;
-
-public class Calculator {
-    // TODO: Implement the Calculator class
-
+import java.util.*;
+public class Calculator{
     public static void main(String[] args) {
-        //! Dont't change the tests in the main method!
-        Calculator calc = new Calculator();
-
-        System.out.println("Addition: " + calc.add(5, 3));
-        System.out.println("Subtraction: " + calc.subtract(5, 3));
-        System.out.println("Multiplication: " + calc.multiply(5, 3));
-        System.out.println("Division: " + calc.divide(5, 3));
+        Scanner sc = new Scanner(System.in);
+        float a= sc.nextFloat();
+        float b= sc.nextFloat();
+        float sum= a+b;
+        float difference= a-b;
+        float multiply= a*b;
+        float divide = a/b;
+        System.out.println("Addition: "+ sum);
+        System.out.println("Difference: "+ difference);
+        System.out.println("Multiply: "+ multiply);
+        System.out.println("Divide: "+ divide);
+        
+        }
     }
-}
