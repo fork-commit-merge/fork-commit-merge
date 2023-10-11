@@ -1433,7 +1433,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 *Note: These tasks will not count towards Hacktoberfest, since this repository is an educational repository, hence against the hacktoberfest guidelines.*
 
-We present over 100 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
+We present over 110 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
 
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
@@ -1621,9 +1621,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/924)
 
-[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/567)
+[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/980)
 
-[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/568)
+[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
 
 [Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/582)
 
@@ -1649,7 +1649,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/938)
 
-[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/565)
+[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/978)
 
 [Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/950)
 
@@ -1677,13 +1677,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/892)
 
-[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/566)
+[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/979)
 
 [Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/960)
 
-[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/569)
+[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/982)
 
-[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/570)
+[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
 
 [OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/686)
 
@@ -1737,13 +1737,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/642)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/564)
+[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/552)
+[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
