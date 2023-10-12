@@ -1555,6 +1555,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/944)
 
+[CoffeeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/996)
+
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
