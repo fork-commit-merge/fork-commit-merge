@@ -1581,7 +1581,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
 
-[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/587)
+[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
 
 [Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
 
