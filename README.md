@@ -1589,7 +1589,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
 
-[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/605)
+[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
 
 [Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/681)
 
