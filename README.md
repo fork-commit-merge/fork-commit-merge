@@ -1585,7 +1585,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
 
-[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/603)
+[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
 
 [Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
 
