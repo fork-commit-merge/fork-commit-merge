@@ -1525,7 +1525,7 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/927)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1004)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
 
@@ -1617,9 +1617,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/861)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/884)
+[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1006)
 
-[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/890)
+[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1005)
 
 [Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/924)
 
@@ -1727,7 +1727,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/716)
 
-[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/571)
+[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
 
