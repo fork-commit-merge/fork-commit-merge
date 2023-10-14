@@ -1,0 +1,17 @@
+{
+  "name": "easy",
+  "version": "1.0.0",
+  "description": "Fork, Commit, Merge - GraphQL - Easy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1"
+  }
+}
