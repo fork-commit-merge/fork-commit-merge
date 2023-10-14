@@ -1,5 +1,4 @@
 // React/Vite - Easy
-import CardComponent from "./CardComponent";
 import "./index.css";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
         <>
             <div className="center">
                 {/* TODO: Implement the card component */}
-                <CardComponent/>
             </div>
         </>
     );
