@@ -1433,7 +1433,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 *Note: These tasks will not count towards Hacktoberfest, since this repository is an educational repository, hence against the hacktoberfest guidelines.*
 
-We present over 100 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
+We present over 110 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
 
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
@@ -1525,11 +1525,11 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/927)
+[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1004)
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/452)
+[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/653)
 
@@ -1537,25 +1537,27 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/929)
 
-[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/453)
+[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
 [SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/622)
 
 [SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/651)
 
-[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/549)
+[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
 
 [Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/893)
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/883)
 
-[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/532)
+[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/963)
 
-[ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/493)
+[ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/949)
 
-[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/366)
+[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/944)
 
-[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/497)
+[CoffeeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/996)
+
+[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
 
@@ -1573,21 +1575,21 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/652)
 
-[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/533)
+[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
 
 [Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
 
 [Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
 
-[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/587)
+[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
 
 [Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
 
-[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/603)
+[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
 
 [Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
 
-[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/605)
+[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
 
 [Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/681)
 
@@ -1599,31 +1601,31 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
 
-[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/363)
+[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
 
 [C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/641)
 
-[C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/449)
+[C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
 
 [C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/577)
 
-[D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/464)
+[D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
 
-[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/412)
+[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/941)
 
 [Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/861)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/884)
+[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1006)
 
-[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/890)
+[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1005)
 
 [Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/924)
 
-[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/567)
+[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/980)
 
-[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/568)
+[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
 
 [Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/582)
 
@@ -1631,7 +1633,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/876)
 
-[Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/445)
+[Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/956)
 
 [Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
 
@@ -1639,25 +1641,25 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
 
-[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/430)
+[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/940)
 
-[Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/484)
+[Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/951)
 
 [Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/930)
 
-[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/441)
+[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/936)
 
-[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/443)
+[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/938)
 
-[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/565)
+[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/978)
 
-[Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/492)
+[Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/950)
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/931)
 
 [Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/647)
 
-[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/371)
+[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
 
 [Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/771)
 
@@ -1667,23 +1669,23 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
 
-[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/356)
+[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
 
 [Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/574)
 
 [Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/640)
 
-[Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/526)
+[Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/957)
 
 [Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/892)
 
-[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/566)
+[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/979)
 
-[Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/544)
+[Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/960)
 
-[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/569)
+[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/982)
 
-[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/570)
+[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
 
 [OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/686)
 
@@ -1701,11 +1703,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/579)
 
-[Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/444)
+[Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
 
 [Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/639)
 
-[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/351)
+[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/937)
 
 [Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/583)
 
@@ -1713,7 +1715,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/581)
 
-[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/551)
+[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
 
 [SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/925)
 
@@ -1721,29 +1723,29 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/572)
 
-[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/534)
+[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
 
 [Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/716)
 
-[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/571)
+[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/648)
 
-[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/433)
+[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
 
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/376)
+[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/642)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/564)
+[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/552)
+[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/553)
+[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
@@ -2247,3 +2249,21 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/krish-0510"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/115562197?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Shaun2h"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/32790402?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Shree-77"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/109030986?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/vaibhav211002"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120389581?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ARCHITABHATTAD"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/87604491?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Udosaint"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/28763685?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ModEraNoah"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96735923?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/VAIBHAVPANT07"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/140806599?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/hoalasama"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122216450?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/hardik96"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/29126231?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/pick-cee"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/80953110?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ausmtomar"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/146628257?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tkmunir"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/146029313?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/thezeeshanhassan"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111036501?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/swaroop-2021"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83859431?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/nik-6174"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78644716?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/niushay"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/48344449?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/aarunvignesh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/11308342?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Milagre10"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/124932410?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SAndStorm002"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121305448?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/mademoiselle-chantal"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120084609?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>

@@ -7,6 +7,9 @@ on:
   push:
     paths:
       - 'README.md'
+  issues:
+    types:
+      - opened
 
 jobs:
   auto-revert:
@@ -128,18 +131,34 @@ jobs:
         token: ${{ secrets.REPO_PAT }}
         path: 'fork-commit-merge-web'
 
-    - name: Add contributors to components/contributorData.ts
+    - name: Add contributors to components/data/contributorData.ts
       run: |
         CONTRIBUTOR_LOGIN="${{ steps.extract_last_contributor.outputs.last_contributor }}"
         CONTRIBUTOR_ID="${{ steps.get_contributor_id.outputs.contributor_id }}"
         echo "Adding contributor: $CONTRIBUTOR_LOGIN with ID: $CONTRIBUTOR_ID"
-        echo "<a href=\"https://github.com/$CONTRIBUTOR_LOGIN\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> fork-commit-merge-web/components/contributorData.ts
+        echo "<a href=\"https://github.com/$CONTRIBUTOR_LOGIN\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> fork-commit-merge-web/components/data/contributorData.ts
 
     - name: Commit and push to fork-commit-merge-web
       run: |
         cd fork-commit-merge-web
         git config user.name "nikohoffren"
         git config user.email "niko.hoffren@gmail.com"
-        git add components/contributorData.ts
+        git add components/data/contributorData.ts
         git commit -m "Sync contributors from fork-commit-merge"
         git push
+
+  label-new-issue:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'issues' && github.event.action == 'opened'
+    steps:
+      - name: Add labels to new issue
+        run: |
+          issue_number=${{ github.event.issue.number }}
+          labels='["first-contributor","first-contributors","good first issue","help wanted","up-for-grabs"]'
+
+          curl \
+            -X POST \
+            -H "Authorization: token ${{ secrets.REPO_PAT }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/${{ github.repository }}/issues/$issue_number/labels" \
+            -d "{ \"labels\": $labels }"
