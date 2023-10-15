@@ -1,5 +1,5 @@
-;; Lisp - Easy
-
 (defun factorial (n)
-  ;; TODO: Implement the factorial function
-)
+  (if (= n 0)
+      1
+      (* n (factorial (- n 1)))))
+
