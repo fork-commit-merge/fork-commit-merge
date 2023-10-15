@@ -1533,7 +1533,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/653)
 
-[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/643)
+[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/929)
 
@@ -1561,7 +1561,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
+[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1041)
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
@@ -1571,7 +1571,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/840)
 
-[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/649)
+[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
 
 [TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/652)
 
@@ -1605,7 +1605,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
 
-[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/641)
+[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
 
@@ -1659,7 +1659,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/931)
 
-[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/647)
+[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1036)
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
 
@@ -1733,7 +1733,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/648)
+[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
 
 [JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
 
