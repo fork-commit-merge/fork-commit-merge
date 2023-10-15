@@ -1563,7 +1563,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
 
-[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/618)
+[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
 [JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
 
@@ -1583,11 +1583,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
 
-[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
+[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1031)
 
 [Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
 
-[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
+[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1024)
 
 [Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
 
@@ -1609,7 +1609,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
 
-[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/577)
+[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1030)
 
 [D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
 
@@ -1627,7 +1627,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
 
-[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/582)
+[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1026)
 
 [Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/928)
 
@@ -1673,7 +1673,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
 
-[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/574)
+[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
 
 [Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/640)
 
@@ -1693,9 +1693,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
 
-[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/573)
+[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1033)
 
-[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/578)
+[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1029)
 
 [Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/705)
 
@@ -1703,7 +1703,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/710)
 
-[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/579)
+[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1028)
 
 [Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
 
@@ -1711,11 +1711,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/937)
 
-[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/583)
+[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1025)
 
 [MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/891)
 
-[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/581)
+[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1027)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
 
@@ -1723,7 +1723,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/926)
 
-[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/572)
+[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1022)
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
 
