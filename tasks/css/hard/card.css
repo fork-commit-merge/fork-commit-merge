@@ -1,3 +1,58 @@
 /* CSS - Hard */
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 1 1 20px rgba(0,0,0,0.1);
+    transform-style: preserve-3d;
+    animation: rotate-reverse 1s forwards;
+}
+.card:hover {
+    animation: rotate 1s  forwards;
+}
+.card-front{
+    background-color: #ff9f00;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+}
+.card-back{
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 400px;
+    font-size: 40px;
+}
 
-/* TODO: Add CSS for the card */
+.card-front, .card-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.card-back{
+    transform: rotateY(180deg);
+}
+@keyframes rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(180deg);
+    }
+}
+@keyframes rotate-reverse{
+    0%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
