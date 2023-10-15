@@ -2273,3 +2273,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/WhiteNight110"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/133510177?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/div02-afk"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113417008?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/arunlorenz"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/103523051?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/atilagulers"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128936466?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
