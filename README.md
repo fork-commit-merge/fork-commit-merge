@@ -1633,6 +1633,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/876)
 
+[Python - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1021)
+
 [Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/956)
 
 [Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
