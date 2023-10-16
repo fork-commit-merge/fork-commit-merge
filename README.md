@@ -1527,7 +1527,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1004)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
+[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
@@ -1559,7 +1559,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1059)
 
 [JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1041)
 
@@ -1591,7 +1591,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
 
-[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/681)
+[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1069)
 
 [GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1057)
 
@@ -1663,11 +1663,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
 
-[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/771)
+[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1062)
 
-[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/772)
+[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1061)
 
-[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/773)
+[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1060)
 
 [Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
 
@@ -1689,7 +1689,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
 
-[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/686)
+[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1068)
 
 [LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
 
@@ -1697,11 +1697,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1029)
 
-[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/705)
+[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1065)
 
-[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/706)
+[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1066)
 
-[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/710)
+[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1064)
 
 [Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1028)
 
@@ -1727,11 +1727,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
 
-[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/716)
+[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1063)
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
+[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1067)
 
 [JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
 
