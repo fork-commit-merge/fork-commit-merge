@@ -1531,7 +1531,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
-[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/653)
+[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
 
@@ -1539,9 +1539,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
-[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/622)
+[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1055)
 
-[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/651)
+[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1049)
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
 
@@ -1565,7 +1565,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
-[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
+[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1045)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/882)
 
@@ -1573,13 +1573,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
 
-[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/652)
+[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
 
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
 
 [Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
 
-[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
+[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
 
 [Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
 
@@ -1593,11 +1593,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/681)
 
-[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/680)
+[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1057)
 
-[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/621)
+[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1056)
 
-[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/679)
+[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1046)
 
 [C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
 
@@ -1639,7 +1639,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
 
-[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/646)
+[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1050)
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
 
@@ -1675,7 +1675,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
 
-[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/640)
+[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1052)
 
 [Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/957)
 
@@ -1707,7 +1707,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
 
-[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/639)
+[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1053)
 
 [R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/937)
 
@@ -1739,7 +1739,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
-[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/642)
+[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
 
 [XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
 
