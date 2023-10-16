@@ -4,25 +4,6 @@ package tasks.java.medium;
 
 public class Calculator {
     // TODO: Implement the Calculator class
-    public int add(int a, int b) {
-        return a + b;
-    }
-
-    public int subtract(int a, int b) {
-        return a - b;
-    }
-
-    public int multiply(int a, int b) {
-        return a * b;
-    }
-
-    public double divide(int a, int b) {
-        if (b == 0) {
-            System.err.println("Error: Division by zero");
-            return Double.NaN;
-        } else {
-            return (double) a / b;
-        }
 
     public static void main(String[] args) {
         //! Dont't change the tests in the main method!
