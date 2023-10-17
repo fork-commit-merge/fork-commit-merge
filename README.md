@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner.png)
-[![Version 1.1.3](https://img.shields.io/badge/Version-1.1.3-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
 [![Stars](https://img.shields.io/github/stars/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/stars)
