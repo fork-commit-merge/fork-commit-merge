@@ -1714,7 +1714,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/951)
 
-[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/930)
+[Ruby - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1086)
+
+[Ruby - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1085)
 
 [Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/936)
 
