@@ -6,7 +6,7 @@
 [![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
 [![Stars](https://img.shields.io/github/stars/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/stars)
 [![Forks](https://img.shields.io/github/forks/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/forks)
-[![Contributors](https://img.shields.io/github/forks/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/contributors)
+[![Contributors](https://img.shields.io/github/contributors/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/contributors)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![Contributors Welcome](https://img.shields.io/badge/contributors-welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
