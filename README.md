@@ -1,7 +1,7 @@
 <div align="center">
 
 ![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner.png)
-[![Version 1.1.3](https://img.shields.io/badge/Version-1.1.3-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
 [![Stars](https://img.shields.io/github/stars/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/stars)
@@ -19,7 +19,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white)
 
 _Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)_
 
@@ -100,6 +100,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Bash](#installing-bash)
     -   [Installing Perl](#installing-perl)
     -   [Installing ASM (Assembly)](#installing-asm-assembly)
+    -   [Installing Docker](#installing-docker)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
@@ -195,6 +196,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For Bash related issues, you need to install [Bash](#installing-bash).
 -   For Perl related issues, you need to install [Perl](#installing-perl).
 -   For ASM (Assembly) related issues, you need to install [ASM](#installing-asm).
+-   For Docker related issues, you need to install [Docker](#installing-docker).
 
 ---
 
@@ -1362,6 +1364,70 @@ Install NASM using Homebrew:
 brew install nasm
 ```
 
+---
+
+### Installing Docker
+
+#### Windows
+
+-   Docker Desktop for Windows: You must have Hyper-V and Containers Windows features enabled.
+    -   Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/windows-install/).
+    -   Run the installer and follow the instructions.
+    -   After installation, the Docker daemon should start automatically. You can manage it through the system tray.
+
+-   Docker Toolbox: For older systems that do not meet the Docker Desktop for Windows requirements.
+    -   Download the installer from [Docker Toolbox GitHub releases](https://github.com/docker-archive/toolbox/releases).
+    -   Run the installer and follow the instructions.
+
+#### macOS
+
+-   Docker Desktop for Mac:
+    -   Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/mac-install/).
+    -   Drag and drop the Docker app into the Applications folder.
+    -   Run the Docker app. Docker will prompt you for permissions to install its components. Allow it.
+
+#### Linux (Ubuntu/Debian)
+
+Update package index and install prerequisites:
+
+```bash
+sudo apt-get update
+sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
+```
+
+Add Docker’s official GPG key:
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+
+Add Docker APT repository:
+
+```bash
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+```
+
+Update package index and install Docker:
+
+```bash
+sudo apt-get update
+sudo apt-get install docker-ce
+```
+
+Start and enable Docker service:
+
+```bash
+sudo systemctl enable docker
+sudo systemctl start docker
+```
+
+After installation on any of these platforms, you can verify the installation by running `docker --version` in a terminal to see the installed Docker version.
+
+Remember to consult the official documentation for the most up-to-date and detailed instructions:
+
+-   [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/) installation guide
+-   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/) installation guide
+-   [Docker for Linux (Ubuntu/Debian)](https://docs.docker.com/engine/install/ubuntu/) installation guide
 
 ![line]
 
@@ -1514,6 +1580,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   TOML
 -   XML
 -   Markdown
+-   Docker
 
 Then you can open one of these directories to choose between three difficulties:
 
@@ -1527,21 +1594,21 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1004)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/833)
+[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
-[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/653)
+[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
-[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/643)
+[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
 
 [CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/929)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
-[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/622)
+[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1055)
 
-[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/651)
+[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1049)
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
 
@@ -1559,45 +1626,45 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/832)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1059)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/619)
+[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1041)
 
-[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/618)
+[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
-[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/620)
+[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1045)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/882)
 
 [TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/840)
 
-[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/649)
+[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
 
-[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/652)
+[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
 
 [React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
 
 [Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
 
-[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/636)
+[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
 
 [Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
 
-[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/575)
+[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1031)
 
 [Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
 
-[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/606)
+[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1024)
 
 [Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
 
-[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/681)
+[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1069)
 
-[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/680)
+[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1057)
 
-[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/621)
+[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1056)
 
-[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/679)
+[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1046)
 
 [C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
 
@@ -1605,11 +1672,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
 
-[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/641)
+[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
 
-[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/577)
+[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1030)
 
 [D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
 
@@ -1627,17 +1694,19 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
 
-[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/582)
+[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1026)
 
 [Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/928)
 
 [Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/876)
 
+[Python - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1021)
+
 [Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/956)
 
 [Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
 
-[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/646)
+[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1050)
 
 [Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
 
@@ -1645,7 +1714,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/951)
 
-[Ruby - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/930)
+[Ruby - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1086)
+
+[Ruby - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1085)
 
 [Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/936)
 
@@ -1657,23 +1728,23 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [PHP - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/931)
 
-[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/647)
+[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1036)
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
 
-[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/771)
+[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1062)
 
-[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/772)
+[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1061)
 
-[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/773)
+[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1060)
 
 [Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
 
-[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/574)
+[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
 
-[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/640)
+[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1052)
 
 [Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/957)
 
@@ -1687,33 +1758,33 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
 
-[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/686)
+[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1068)
 
 [LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
 
-[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/573)
+[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1033)
 
-[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/578)
+[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1029)
 
-[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/705)
+[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1065)
 
-[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/706)
+[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1066)
 
-[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/710)
+[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1064)
 
-[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/579)
+[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1028)
 
 [Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
 
-[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/639)
+[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1053)
 
 [R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/937)
 
-[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/583)
+[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1025)
 
 [MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/891)
 
-[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/581)
+[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1027)
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
 
@@ -1721,23 +1792,23 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/926)
 
-[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/572)
+[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1022)
 
 [Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
 
-[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/716)
+[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1063)
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/702)
+[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1067)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/648)
+[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
 
 [JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
 
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
-[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/642)
+[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
 
 [XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
 
@@ -1746,6 +1817,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
+
+[Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
@@ -2265,3 +2338,19 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/niushay"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/48344449?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/aarunvignesh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/11308342?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Milagre10"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/124932410?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SAndStorm002"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121305448?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/mademoiselle-chantal"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/120084609?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/BiswaPrakash237"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/144167611?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/WhiteNight110"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/133510177?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/div02-afk"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113417008?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/arunlorenz"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/103523051?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/atilagulers"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128936466?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/1Alisha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/101705527?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Ashdixit382"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111693933?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ngminhthanh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/94471046?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/chloepei867"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99795182?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ayushbayek"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/60961107?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Ferdinand-Ogama"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111184823?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/umutonuryasar"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/65094855?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Spooky0ps"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/134627612?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/naotarian"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/59650885?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
