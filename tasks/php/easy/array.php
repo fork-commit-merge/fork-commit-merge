@@ -1,6 +1,7 @@
+<?php
 
-<?php 
- 
-  $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
+// PHP - Easy 3
 
-  // Todo How I Can Display data Beef from array
+$data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
+
+// TODO: Display data "Beef" from the array
