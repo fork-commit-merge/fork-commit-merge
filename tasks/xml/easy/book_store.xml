@@ -1,3 +1,47 @@
-<!-- XML - Easy -->
+ <!-- XML - Easy -->
 
 <!-- TODO: Create an XML Representation of a Bookstore -->
+<bookstore>
+    <book>
+        <title>Book 1: The Adventure Begins</title>
+        <author>John Authorson</author>
+        <year>2018</year>
+        <price>12.99</price>
+    </book>
+    <book>
+        <title>Book 2: Secrets of the Universe</title>
+        <author>Alice Wonders</author>
+        <year>2020</year>
+        <price>15.99</price>
+    </book>
+    <book>
+        <title>Book 3: The Mysterious Island</title>
+        <author>Jules Verne</author>
+        <year>1874</year>
+        <price>9.99</price>
+    </book>
+    <book>
+        <title>Book 4: Science Fiction Chronicles</title>
+        <author>Rob Sci-Fi</author>
+        <year>2015</year>
+        <price>14.99</price>
+    </book>
+    <book>
+        <title>Book 5: The Art of Painting</title>
+        <author>Lisa Artist</author>
+        <year>2008</year>
+        <price>24.99</price>
+    </book>
+    <book>
+        <title>Book 6: Coding Adventures</title>
+        <author>Code Master</author>
+        <year>2022</year>
+        <price>19.99</price>
+    </book>
+    <book>
+        <title>Book 7: Culinary Delights</title>
+        <author>Chef Cookington</author>
+        <year>2019</year>
+        <price>17.99</price>
+    </book>
+</bookstore>
