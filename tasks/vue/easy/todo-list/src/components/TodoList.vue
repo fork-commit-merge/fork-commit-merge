@@ -1,6 +1,4 @@
 <template>
-  <!-- TODO: Implement the Vue component code here -->
-
   <main class="container">
     <div class="card content">
       <div class="app-heading">
@@ -45,7 +43,16 @@
               </svg>
             </button>
 
-            <button class="hidden" id="save-edit-btn">Save Edit</button>
+            <button
+              @click.prevent="saveEditHandler"
+              :class="{
+                hidden: !isSaveEditBtnShown,
+                save: !isSaveEditBtnShown,
+              }"
+              id="save-edit-btn"
+            >
+              Save Edit
+            </button>
           </div>
         </form>
       </div>
@@ -60,14 +67,23 @@
         <ul class="todo-list">
           <li class="todo-item" v-for="(todo, idx) in todoList" :key="idx">
             <label class="checkbox-container">
-              <input class="check-todo" type="checkbox" />
+              <input
+                @change="($event) => toggleCheckTodo($event, idx)"
+                class="check-todo"
+                type="checkbox"
+                :id="idx"
+                ref="checkbox"
+              />
               <span class="checkmark"></span>
             </label>
 
             <span class="entered-todo"> {{ todo }} </span>
 
             <span class="btn-icons">
-              <button type="button" class="btn edit-todo-btn">
+              <button
+                @click="($event) => editTodo($event, idx)"
+                class="btn edit-todo-btn"
+              >
                 <svg
                   id="edit-icon"
                   width="24"
@@ -90,7 +106,11 @@
                 </svg>
               </button>
 
-              <button type="button" class="btn delete-todo-btn">
+              <button
+                @click.prevent="deleteTodo(idx)"
+                type="button"
+                class="btn delete-todo-btn"
+              >
                 <svg
                   id="delete-icon"
                   width="24"
@@ -159,6 +179,10 @@ export default {
       isErrorShown: false,
       editIcon: ``,
       deleteIcon: ``,
+      selectedTodoId: null,
+      selectedTodoIdx: null,
+      isSaveEditBtnShown: false,
+      selectedTodo: null,
     };
   },
 
@@ -174,22 +198,51 @@ export default {
     renderError() {
       this.isErrorShown = true;
 
-      // setTimeout(() => {
-      //   this.isErrorShown = false;
-      // }, 10000);
+      setTimeout(() => {
+        this.isErrorShown = false;
+      }, 700);
+    },
+
+    toggleCheckTodo(e, idx) {
+      this.selectedTodoId = idx;
+      let checkbox = this.$refs.checkbox[idx];
+      const todoItem = e.target.closest(".todo-item");
+      console.log("toggle ", this.selectedTodoId === idx, checkbox);
+      this.selectedTodoId === idx && checkbox?.["checked"]
+        ? todoItem.classList.add("todo-done")
+        : todoItem.classList.remove("todo-done");
+    },
+
+    editTodo(e, idx) {
+      this.selectedTodo = this.todoList[idx];
+      this.selectedTodoIdx = idx;
+      this.enteredTodo = this.selectedTodo;
+      this.isAddBtnShown = false;
+      this.isSaveEditBtnShown = true;
+    },
+
+    saveEditHandler() {
+      this.todoList[this.selectedTodoIdx] = this.enteredTodo;
+
+      setTimeout(() => {
+        this.enteredTodo = "";
+        this.isAddBtnShown = true;
+        this.isSaveEditBtnShown = false;
+      }, 1000);
+    },
+
+    deleteTodo(idx) {
+      this.todoList.splice(idx);
     },
   },
 };
 </script>
 
 <style scoped>
-/* TODO: Implement the CSS code here */
-
 /* COMMONALITIES */
 .container {
   background-color: #3f72af;
   height: 100vh;
-  /* width: 100vw; */
   margin: 0px;
   padding: 5vw;
 }
@@ -262,6 +315,11 @@ export default {
 
 #save-edit-btn {
   width: 30%;
+}
+
+.delete-todo-btn,
+.edit-todo-btn {
+  cursor: pointer;
 }
 
 /* DIVIDER */
@@ -411,6 +469,7 @@ input[type="checkbox"] {
   #add-todo-btn,
   #save-edit-btn {
     height: 44px;
+    cursor: pointer;
   }
 }
 </style>
