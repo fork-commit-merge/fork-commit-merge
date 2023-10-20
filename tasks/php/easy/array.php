@@ -13,3 +13,5 @@ foreach ($data as $item) {
         break; // Stop the loop once "Beef" is found
     }
 }
+
+?>
