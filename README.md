@@ -1805,21 +1805,23 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1067)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
-
-[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
-
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
-
-[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
-
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
-
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
+
+[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
+
+[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/939)
+
+[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
+
+[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
+
+[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
+
+[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1107)
 
 [Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
 
