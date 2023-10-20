@@ -36,7 +36,7 @@ input[type=submit] {
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    
+    font-style: inherit;
 }
 
 input[type=submit]:hover {
