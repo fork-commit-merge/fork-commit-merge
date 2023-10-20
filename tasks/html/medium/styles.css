@@ -15,12 +15,7 @@ label {
     margin-top: 20px;
     margin-bottom: 5px;
 }
-.contact-form {
-    border: 1px solid black;
-    padding: 10px;
-  }
-  
-  
+
 input[type=text], input[type=email], textarea {
     padding: 10px;
     border-radius: 5px;
@@ -36,7 +31,6 @@ input[type=submit] {
     border-radius: 5px;
     color: white;
     cursor: pointer;
-    font-style: inherit;
 }
 
 input[type=submit]:hover {
