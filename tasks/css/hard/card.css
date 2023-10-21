@@ -2,6 +2,8 @@
 
 /* TODO: Add CSS for the card */
 
+/* card.css */
+
 /* Style the card container */
 .card-container {
     display: flex;
@@ -16,8 +18,6 @@
     width: 200px;
     height: 300px;
     perspective: 1000px;
-    transition: transform 0.5s;
-    transform-style: preserve-3d; /* Added this property */
 }
 
 /* Style the card sides (front and back) */
@@ -32,7 +32,8 @@
     background-color: #fff;
     border: 1px solid #ccc;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transition: transform 2s;
 }
 
 /* Style the back of the card */
