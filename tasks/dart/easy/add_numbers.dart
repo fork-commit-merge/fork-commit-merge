@@ -1,6 +1,11 @@
+// add_numbers.dart
+
 void main() {
-  // int sum = addNumbers(5, 10);
-  // print('The sum is: $sum');
+  // Function call and print statement
+  print(addNumbers(5, 10)); // Uncomment this line to check the function with 5 and 10.
 }
 
-// TODO: Implement addNumbers function that returns the sum of two numbers
+int addNumbers(int a, int b) {
+  // Function to add two numbers
+  return a + b;
+}
