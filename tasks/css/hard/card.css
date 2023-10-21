@@ -1,3 +1,56 @@
 /* CSS - Hard */
 
 /* TODO: Add CSS for the card */
+
+/* card.css */
+
+/* Style the card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Style the card */
+.card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+/* Style the card sides (front and back) */
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+
+/* Style the back of the card */
+.card-back {
+    transform: rotateY(180deg);
+}
+
+/* Style the text inside the card */
+.card p {
+    font-size: 24px;
+}
+
+/* Flip animation on hover */
+.card:hover .card-front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0deg);
+}
