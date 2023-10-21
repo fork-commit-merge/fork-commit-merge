@@ -15,6 +15,4 @@ public class GreetingApp {
 
         System.out.println("Hi there, " + name);
     }
-
-    }
 }
