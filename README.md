@@ -215,7 +215,7 @@ Here are a few reasons why developers use IDEs:
 
 We recommend using VS Code as your IDE for this project. It's free, open-source, and supports a wide range of languages and extensions. You can download it from the [VS Code - Official website](https://code.visualstudio.com/). However, if you prefer to use another IDE, that's fine too!
 
-Instructions of how to install an IDE that suits for you can be found in our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
+Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
 
 ---
 
