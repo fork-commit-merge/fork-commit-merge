@@ -1,0 +1,28 @@
+// this code : A0.x^0+A1.x^1+....+A(N-2).x^(N-2)+A(N-1).x^(N-1) find the polynomial degree of this equation
+
+ Find the degree of the polynomial.
+#include <stdio.h>
+
+int main(void) 
+{
+	int i,t,n,arr[1000],max,j;
+	scanf("%d",&t);
+	for(i=0;i<t;i++)
+	{
+	    max=0;
+	    scanf("%d",&n);
+	    for(j=0;j<n;j++)
+	    {
+	        scanf("%d",&arr[j]);
+	    }
+	    for(j=0;j<n;j++)
+	    {
+	        if(arr[j]!=0)
+	        max=j;
+	    }
+	    printf("%d\n",max);
+	    
+	}
+	return 0;
+}
+
