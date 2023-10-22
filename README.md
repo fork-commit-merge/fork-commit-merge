@@ -101,6 +101,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Perl](#installing-perl)
     -   [Installing ASM (Assembly)](#installing-asm-assembly)
     -   [Installing Docker](#installing-docker)
+    -   [Installing Mojo](#installing-mojo)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
@@ -1455,6 +1456,31 @@ Remember to consult the official documentation for the most up-to-date and detai
 -   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/) installation guide
 -   [Docker for Linux (Ubuntu/Debian)](https://docs.docker.com/engine/install/ubuntu/) installation guide
 
+---
+
+### Installing Mojo
+
+#### macOS
+
+- Install Brew by following this [guide](https://docs.brew.sh/Installation).
+- Open a terminal and run the following commands:
+
+```bash
+brew update
+brew upgrade modular
+modular install mojo
+```
+
+#### Linux (Ubuntu/Debian)
+
+To install Mojo on Linux (Ubuntu/Debian), you need to install Modular first. Follow these steps:
+
+```bash
+sudo apt update
+sudo apt install modular
+modular install mojo
+```
+
 ![line]
 
 ## Setup Instructions
@@ -2408,3 +2434,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Aayushchauhan05"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/140552699?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/dhruv16bagora"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116708603?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Vishalk91-4"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116670999?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shashankx86"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/64682801?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
