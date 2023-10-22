@@ -10,7 +10,9 @@ This document outlines our guidelines for participating in this project. These a
 
 This project, along with everyone involved, adheres to the [Code of Conduct](CODE_OF_CONDUCT.md). When participating, you are expected to uphold this code. If you encounter inappropriate behavior, please report it to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com). 🚫
 
+
 ## How Can I Contribute? 🤔
+
 
 ### Reporting Bugs 🐞
 
@@ -18,6 +20,7 @@ In this section, we'll walk you through submitting a bug report for this project
 
 - Choose a clear and descriptive title for your issue to pinpoint the problem. 📢
 - Provide a detailed account of the exact steps that reproduce the issue. 📋
+  
 
 ### Suggesting Enhancements 💡
 
