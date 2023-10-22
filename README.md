@@ -1456,18 +1456,20 @@ Remember to consult the official documentation for the most up-to-date and detai
 -   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/) installation guide
 -   [Docker for Linux (Ubuntu/Debian)](https://docs.docker.com/engine/install/ubuntu/) installation guide
 
+---
+
 ### Installing Mojo
 
 #### macOS
 
-  - Install Brew by following this [guide](https://docs.brew.sh/Installation).
-  - Open a terminal and run the following commands:
+- Install Brew by following this [guide](https://docs.brew.sh/Installation).
+- Open a terminal and run the following commands:
 
-    ```bash
-    brew update
-    brew upgrade modular
-    modular install mojo
-    ```
+```bash
+brew update
+brew upgrade modular
+modular install mojo
+```
 
 #### Linux (Ubuntu/Debian)
 
