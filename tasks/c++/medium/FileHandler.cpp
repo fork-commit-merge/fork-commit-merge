@@ -4,11 +4,33 @@
 #include <fstream>
 #include <sstream>
 
-// TODO: Implement the FileHandler::ReadFile method
+int main() {
+    std::string filePath = "text-file.txt";
 
-// TODO: Implement the FileHandler::WriteFile method
+    // Test Write
+    if (FileHandler::WriteFile(filePath, "Hello, World!")) {
+        std::cout << "Write successful.\n";
+    } else {
+        std::cout << "Write failed.\n";
+    }
 
-// TODO: Implement the FileHandler::AppendFile method
+    // Test Append
+    if (FileHandler::AppendFile(filePath, "\nAppended text.")) {
+        std::cout << "Append successful.\n";
+    } else {
+        std::cout << "Append failed.\n";
+    }
 
-// TODO: Implement the FileHandler::FileExists method
+    // Test Read
+    std::string content = FileHandler::ReadFile(filePath);
+    std::cout << "File content:\n" << content << '\n';
 
+    // Test File Exists
+    if (FileHandler::FileExists(filePath)) {
+        std::cout << "File exists.\n";
+    } else {
+        std::cout << "File does not exist.\n";
+    }
+
+    return 0;
+}
