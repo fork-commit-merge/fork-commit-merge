@@ -1649,7 +1649,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
+[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
+
+[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1164)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
