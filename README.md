@@ -1926,6 +1926,7 @@ Congratulations on making your first open source contribution on GitHub!
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged. If not, you will be requested to do some changes to your code.
 
 Remember to wait for us to review your pull request, do not close it yourself.
+If you are asked to make changes, you can do so by committing them to the same branch, there is no need to close the current Pull Request and open a new one.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
