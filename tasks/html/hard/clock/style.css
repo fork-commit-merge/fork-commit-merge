@@ -5,7 +5,6 @@
 
 /* Body Styles */
 body {
-  /* TODO: Set the background properties for the body */
   background: linear-gradient(to right, red, yellow);
   display: flex;
   justify-content: center;
