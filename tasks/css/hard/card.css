@@ -3,23 +3,28 @@
 /* TODO: Add CSS for the card */
 
 
+
 .card-container {
+    perspective: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
-}
-
-
-.card {
+  }
+  
+  .card {
     width: 200px;
     height: 300px;
-    perspective: 1000px;
-}
-
-
-.card-front, .card-back {
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .card:hover {
+    transform: rotateY(180deg); 
+  }
+  
+  .card-front,
+  .card-back {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -28,23 +33,20 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
-    border: 1px solid #333;
-    background-color: #ffffff; 
-    color: #333; 
-}
-
-
-.card-front {
-    transform: rotateY(0deg);
-    background-color: #559de4; 
-    color: #fff; 
-}
-
-
-.card-back {
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+  }
+  
+  .card-front {
+    background-color: #f2f2f2;
+    color: #333;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-back {
+    background-color: #3498db;
+    color: #fff;
     transform: rotateY(180deg);
-    background-color: #337fff; 
-    color: #fff; 
-}
-
-
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  }
