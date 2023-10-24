@@ -1,6 +1,12 @@
 // Implement the setClock function to update the positions of the hour, minute, and second hands on the clock based on the current time.
 setInterval(() => {
   // TODO: Calculate the current time and update the clock hands' positions here.
+function updateClock() {
+    const now = new Date();
+    const hour = now.getHours();
+    const minute = now.getMinutes();
+    const second = now.getSeconds();
+
   // You need to calculate the rotation ratios and update the hand rotations.
 }, 1000);
 
