@@ -1649,7 +1649,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/945)
+[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
+
+[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1164)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
@@ -1926,6 +1928,7 @@ Congratulations on making your first open source contribution on GitHub!
 Sit back and wait for a response and feedback of the pull request. If everything is working fine, you should get the pull request merged. If not, you will be requested to do some changes to your code.
 
 Remember to wait for us to review your pull request, do not close it yourself.
+If you are asked to make changes, you can do so by committing them to the same branch, there is no need to close the current Pull Request and open a new one.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
@@ -2436,3 +2439,8 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Vishalk91-4"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116670999?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/shashankx86"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/64682801?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/romitp4l"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85341342?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tmsagarofficial"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/110724849?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Daoist-Ye"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/82318525?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/krishvsoni"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/67964054?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ShamimShahraeini"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/50511017?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Parth4git"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99666524?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
