@@ -1,8 +1,9 @@
 <?php
+// Concatenate two strings
+$string1 = "Hello, ";
+$string2 = "World!";
+$concatenatedString = $string1 . $string2;
 
-// PHP - Easy 1
-
-$hello = "Hello";
-$world = "World!";
-
-// TODO: Implement rest of the string concatenation program
+// Print the concatenated string
+echo $concatenatedString;
+?>
