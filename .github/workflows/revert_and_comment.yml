@@ -102,12 +102,15 @@ jobs:
           GH_REPO: ${{ github.repository }}
 
   sync-contributors:
+    needs: add-contributor-to-readme
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
-    needs: add-contributor-to-readme
     steps:
-    - name: Checkout fork-commit-merge
+    - name: Checkout code
       uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.REPO_PAT }}
+        fetch-depth: 0
 
     - name: Extract last contributor
       id: extract_last_contributor
@@ -124,7 +127,7 @@ jobs:
         ID=$(curl -s -H "Authorization: token ${{ secrets.REPO_PAT }}" "https://api.github.com/users/${{ steps.extract_last_contributor.outputs.last_contributor }}" | grep '"id":' | sed 's/[^0-9]//g')
         echo "::set-output name=contributor_id::$ID"
 
-    - name: Checkout fork-commit-merge-web
+    - name: Checkout code
       uses: actions/checkout@v2
       with:
         repository: 'nikohoffren/fork-commit-merge-web'
