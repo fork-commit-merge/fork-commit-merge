@@ -106,7 +106,7 @@ jobs:
     if: github.event_name == 'push'
     needs: add-contributor-to-readme
     steps:
-    - name: Checkout repo1
+    - name: Checkout fork-commit-merge
       uses: actions/checkout@v2
 
     - name: Extract last contributor
@@ -121,8 +121,8 @@ jobs:
     - name: Get contributor id
       id: get_contributor_id
       run: |
-        CONTRIBUTOR_ID=$(curl -s -H "Authorization: token ${{ secrets.REPO_PAT }}" "https://api.github.com/users/${{ steps.extract_last_contributor.outputs.last_contributor }}" | jq '.id')
-        echo "::set-output name=contributor_id::$CONTRIBUTOR_ID"
+        ID=$(curl -s -H "Authorization: token ${{ secrets.REPO_PAT }}" "https://api.github.com/users/${{ steps.extract_last_contributor.outputs.last_contributor }}" | grep '"id":' | sed 's/[^0-9]//g')
+        echo "::set-output name=contributor_id::$ID"
 
     - name: Checkout fork-commit-merge-web
       uses: actions/checkout@v2
