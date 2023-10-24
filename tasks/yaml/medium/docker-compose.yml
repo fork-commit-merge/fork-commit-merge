@@ -3,24 +3,7 @@
 version: '3'
 
 services:
-  web:
-    image: nginx
-    container_name: nginx-cont
-    ports:
-      - "8080:80"
-    networks:
-      - my_network
-  db:
-    image: postgress
-    container_name: postgress-cont
-    environment:
-      - POSTGRES_DB: mydatabase
-      - POSTGRES_USER: myuser
-      - POSTGRES_PASSWORD: mypassword
-    networks:
-      - my_network
-    expose:
-      - "5432"
-    
+  # TODO: Define your services here
+
 networks:
-  my_network
+  # TODO: Define your networks here
