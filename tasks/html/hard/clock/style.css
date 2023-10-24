@@ -34,7 +34,27 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+  /* Added: rotations for numbers (1 to 12) */
+ .number {
+            position: absolute;
+            font-size: 18px;
+            font-weight: bold;
+            transform-origin: 50% 100%;
+        }
+
+        .number1 { left: 90px; top: 10px; }
+        .number2 { left: 160px; top: 50px; }
+        .number3 { left: 180px; top: 120px; }
+        .number4 { left: 160px; top: 190px; }
+        .number5 { left: 90px; top: 220px; }
+        .number6 { left: 20px; top: 190px; }
+        .number7 { left: 0; top: 120px; }
+        .number8 { left: 20px; top: 50px; }
+        .number9 { left: 60px; top: 30px; }
+        .number10 { left: 120px; top: 30px; }
+        .number11 { left: 160px; top: 50px; }
+        .number12 { left: 120px; top: 120px; }
+
 }
 
 /* Clock Hands */
@@ -61,7 +81,17 @@ body {
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+  /* Added: styles for minute and hour hands */
+.hour {
+            width: 50px;
+            left: 75px;
+        }
+
+        .minute {
+            width: 75px;
+            left: 62.5px;
+        }
+
 }
 
 /* Clock Center */
