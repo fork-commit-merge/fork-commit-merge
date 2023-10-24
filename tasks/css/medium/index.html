@@ -10,6 +10,14 @@
     <div class="card">
         <h2>My Card</h2>
         <p>This is a simple card that you need to style using CSS.</p>
+        <button id="changeTextButton">Click Me</button>
     </div>
+    <script>
+        document.getElementById("changeTextButton").addEventListener("click", function() {
+            var cardText = document.querySelector(".card p");
+            cardText.textContent = "Hello!";
+        });
+    </script>
+
 </body>
 </html>
