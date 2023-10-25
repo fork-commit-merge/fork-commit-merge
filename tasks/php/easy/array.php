@@ -1,12 +1,7 @@
 <?php
 
+// PHP - Easy 3
+
 $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
 
-foreach ($data as $item) {
-    if ($item === 'Beef') {
-        echo "Found Beef!" . PHP_EOL;
-        break; // Stop searching once "Beef" is found
-    }
-}
-
-?>
+// TODO: Display data "Beef" from the array
