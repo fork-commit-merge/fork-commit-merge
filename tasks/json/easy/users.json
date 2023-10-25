@@ -1,8 +1,54 @@
-[
-  {
-    "JSON": "Easy"
-  },
-  {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
-  }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "email": "alice.brown@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Wilson",
+      "email": "charlie.wilson@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Eva Davis",
+      "email": "eva.davis@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Frank Green",
+      "email": "frank.green@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Grace Adams",
+      "email": "grace.adams@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Henry White",
+      "email": "henry.white@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Ivy Taylor",
+      "email": "ivy.taylor@example.com"
+    }
+  ]
+}
