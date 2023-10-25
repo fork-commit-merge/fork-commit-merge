@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Simple Clock</title>
-  </head>
-  <body>
-    <!-- Create a clock container with clock hands and numbers. -->
-    <div class="clock">
-      <!-- TODO: Add code for clock hands using div elements with appropriate class names and data attributes. -->
-
-      <!-- TODO: Add code for clock numbers (1 to 12) using div elements with appropriate class names. -->
+</head>
+<body>
+    <div id="clock" class="clock">
+        <div class="clock-face">
+            <!-- Clock Numbers -->
+            <div class="number" style="--rotation: 30deg;">1</div>
+            <div class="number" style="--rotation: 60deg;">2</div>
+            <div class="number" style="--rotation: 90deg;">3</div>
+            <div class="number" style="--rotation: 120deg;">4</div>
+            <div class="number" style="--rotation: 150deg;">5</div>
+            <div class="number" style="--rotation: 180deg;">6</div>
+            <div class="number" style="--rotation: 210deg;">7</div>
+            <div class="number" style="--rotation: 240deg;">8</div>
+            <div class="number" style="--rotation: 270deg;">9</div>
+            <div class="number" style="--rotation: 300deg;">10</div>
+            <div class="number" style="--rotation: 330deg;">11</div>
+            <div class="number" style="--rotation: 0deg;">12</div>
+        </div>
+        <!-- Clock Hands -->
+        <div id="hour"></div>
+        <div id="minute"></div>
+        <div id="second"></div>
     </div>
-
     <script src="index.js"></script>
-  </body>
+</body>
 </html>
