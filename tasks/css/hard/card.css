@@ -1,6 +1,32 @@
 /* CSS - Hard */
 
 /* TODO: Add CSS for the card */
+/* card.css */
+
+/* Styles for the card */
 .card {
     width: 200px;
-    height
+    height: 300px;
+    perspective: 1000px; /* Perspective value for 3D effect */
+    position: relative;
+}
+
+/* Styles for the front of the card */
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #f0f0f0; /* Background color for the card front and back */
+    border: 1px solid #ccc; /* Border for the card */
+    backface-visibility: hidden; /* Hide the backface of the card for 3D effect */
+    transition: transform 0.5s ease; /* Smooth transition for card flip */
+}
+
+/* Styles for the back of the card (initially hidden) */
+.card-back {
+    transform: rotateY(180deg); /* Rotate the back of the card by 180 degrees */
+}
