@@ -1,8 +1,4 @@
-let number1=1000;
-let number2=4;
+// JavaScript - Easy
 
-function sum(num1,num2){
-   return num1+num2;
-}
+// TODO: Write a function that returns the sum of two numbers
 
-console.log(`The Sum of ${number1} and ${number2} is : `+sum(number1,number2));
