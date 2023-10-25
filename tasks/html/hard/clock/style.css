@@ -36,18 +36,6 @@ body {
   font-size: 1.5rem;
   /* TODO: Define rotations for numbers (1 to 12) */
 }
-.clock span{
-  position: absolute;
-  transform: rotate(calc(30deg * var(--i))); 
-  inset: 12px;
-  text-align: center;
-}
-
-.clock span b{
-  transform: rotate(calc(-30deg * var(--i)));
-  display: inline-block;
-  font-size: 20px;
-}
 
 /* Clock Hands */
 .clock .hand {
@@ -74,10 +62,6 @@ body {
 .clock .hand.minute,
 .clock .hand.hour {
   /* TODO: Define styles for minute and hour hands */
-  width: 3px;
-  height: 35%;
-  background-color: #333;
-  transform-origin: bottom;
 }
 
 /* Clock Center */
@@ -135,26 +119,4 @@ body {
 .side-link-icon {
   color: white;
   font-size: 30px;
-}
-
-/* Clock Hands */
-.clock .hand.second {
-  width: 3px;
-  height: 45%;
-  background-color: red;
-  transform-origin: bottom center;
-}
-
-.clock .hand.minute {
-  width: 5px;
-  height: 45%;
-  background-color: #333;
-  transform-origin: bottom center;
-}
-
-.clock .hand.hour {
-  width: 5px;
-  height: 30%;
-  background-color: #333;
-  transform-origin: bottom center;
 }
