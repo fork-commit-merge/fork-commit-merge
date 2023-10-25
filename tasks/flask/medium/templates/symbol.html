@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>{{ the_title }}</h1>
+
+<img alt="Photo: Flag of Naam Tamilar" src="{{ url_for('static', filename='images/naam_tamilar_flag.jpg') }}">
+<p class="credit">Flag of the <a href="http://www.naamtamilar.org/" target="_blank">Naam Tamilar</a> political party, India (2010)</p>
+
+<ul>
+  <li><a href="{{ url_for('myth') }}">In myth and legend</a></li>
+  <li><a href="{{ url_for('index') }}">Home page</a></li>
+</ul>
+
+<p>The tiger is one of the animals displayed on the Pashupati seal of the Indus Valley Civilisation. The tiger was the emblem of the Chola Dynasty and was depicted on coins, seals and banners. The seals of several Chola copper coins show the tiger, the Pandyan emblem fish and the Chera emblem bow, indicating that the Cholas had achieved political supremacy over the latter two dynasties. Gold coins found in Kavilayadavalli in the Nellore district of Andhra Pradesh have motifs of the tiger, bow and some indistinct marks. The tiger symbol of Chola Empire was later adopted by the Liberation Tigers of Tamil Eelam and the tiger became a symbol of the unrecognised state of Tamil Eelam and Tamil independence movement.</p>
+
+<p>The Bengal tiger is the national animal of India and Bangladesh. The Malaysian tiger is the national animal of Malaysia. The Siberian tiger is the national animal of South Korea. Since the successful economies of South Korea, Taiwan, Hong Kong and Singapore were described as the Four Asian Tigers, a tiger economy is a metaphor for a nation in rapid development. Tiger are also mascots for various sports teams around the world. Tony the Tiger is a famous mascot for Kellogg's breakfast cereal Frosted Flakes. The Esso (Exxon) brand of petrol was advertised from 1969 onwards with the slogan 'put a tiger in your tank', and a tiger mascot; more than 2.5 million synthetic tiger tails were sold to motorists, who tied them to their petrol tank caps.</p>
+
+<p>The tiger appears in heraldry but is distinct from the heraldic beast tyger, a wolflike, snouted creature which has its roots in European Medieval bestiaries.</p>
+
+<p>(Text from <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Wikipedia</a>)</p>
+
+
+{% endblock %}

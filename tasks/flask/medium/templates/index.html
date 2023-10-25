@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<!-- to be filled by the Python script -->
+<h1>{{ the_title }}</h1>
+
+<!-- note how items from the "static" folder are linked -->
+<img alt="Photo: Bengal Tiger" src="{{ url_for('static', filename='images/tiger.jpg') }}">
+<p class="credit">Photo by John and Karen Hollingsworth, retouched by Zwoenitzer (Fish &amp; Wildlife Service, ID WO0409-33F) [Public domain] <a href="https://commons.wikimedia.org/wiki/File%3APanthera_tigris_tigris.jpg" target="_blank">via Wikimedia Commons</a></p>
+
+<p>This is the index page for my example Flask app.</p>
+
+<ul>
+  <!-- note how items from routes in the the Python script are linked -->
+  <li><a href="{{ url_for('myth') }}">In myth and legend</a></li>
+  <li><a href="{{ url_for('symbol') }}">As a symbol</a></li>
+</ul>
+
+<p>The tiger (<em>Panthera tigris</em>) is the largest cat species, most recognisable for their pattern of dark vertical stripes on reddish-orange fur with a lighter underside. The species is classified in the genus <em>Panthera</em> with the lion, leopard, jaguar and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat that support their prey requirements. This, coupled with the fact that they are indigenous to some of the more densely populated places on Earth, has caused significant conflicts with humans.</p>
+
+<p>Tigers once ranged widely across eastern Eurasia, from the Black Sea in the west, to the Indian Ocean in the south, and from Kolyma to Sumatra in the east. Over the past 100 years, they have lost 93% of their historic range, and have been extirpated from Western and Central Asia, from the islands of Java and Bali, and from large areas of Southeast, Southern and Eastern Asia. Today, they range from the Siberian taiga to open grasslands and tropical mangrove swamps. The remaining six tiger subspecies have been classified as endangered by the International Union for Conservation of Nature (IUCN). The global population in the wild is estimated to number between 3,062 and 3,948 individuals, down from around 100,000 at the start of the 20th century, with most remaining populations occurring in small pockets isolated from each other, of which about 2,000 exist on the Indian subcontinent. A 2016 global census estimated the population of wild tigers at approximately 3,890 individuals.</p>
+
+<p>(Text from <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Wikipedia</a>)</p>
+
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h1>{{ the_title }}</h1>
+
+<img alt="Painting: Goddess Durga on a tiger's back" src="{{ url_for('static', filename='images/durga.jpg') }}">
+<p class="credit">Early 18th century picture of the Guler School [Public domain] <a href="https://commons.wikimedia.org/wiki/File%3ADurga_Mahisasuramardini.JPG" target="_blank">via Wikimedia Commons</a></p>
+
+<ul>
+  <li><a href="{{ url_for('symbol') }}">As a symbol</a></li>
+  <li><a href="{{ url_for('index') }}">Home page</a></li>
+</ul>
+
+<p>In Chinese myth and culture, the tiger is one of the 12 animals of the Chinese zodiac. In Chinese art, the tiger is depicted as an earth symbol and equal rival of the Chinese dragon – the two representing matter and spirit respectively. The Southern Chinese martial art Hung Ga is based on the movements of the tiger and the crane. In Imperial China, a tiger was the personification of war and often represented the highest army general (or present day defense secretary), while the emperor and empress were represented by a dragon and phoenix, respectively. The White Tiger (Chinese: 白虎; pinyin: Bái Hǔ) is one of the Four Symbols of the Chinese constellations. It is sometimes called the White Tiger of the West (西方白虎), and it represents the west and the autumn season.</p>
+
+<p>The tiger's tail appears in stories from countries including China and Korea, it being generally inadvisable to grasp a tiger by the tail.</p>
+
+<p>In Buddhism, the tiger is one of the Three Senseless Creatures, symbolising anger, with the monkey representing greed and the deer lovesickness. The Tungusic peoples considered the Siberian tiger a near-deity and often referred to it as "Grandfather" or "Old man". The Udege and Nanai called it "Amba". The Manchu considered the Siberian tiger as Hu Lin, the king.[69] In Hinduism, the god Shiva wears and sits on tiger skin.[197] The ten-armed warrior goddess Durga rides the tigress (or lioness) Damon into battle. In southern India the god Ayyappan was associated with a tiger.</p>
+
+<p>The weretiger replaces the werewolf in shapeshifting folklore in Asia; in India they were evil sorcerers, while in Indonesia and Malaysia they were somewhat more benign. As per Hindu epic Mahabharata, tiger is more fiercer and ruthless than lion.</p>
+
+<p>(Text from <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank">Wikipedia</a>)</p>
+
+
+{% endblock %}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{ the_title }}</title>
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<body>
+
+<div id="container">
+
+  <!-- Jinja2 directives: page contents will go between them -->
+  {% block body %}
+  {% endblock %}
+
+</div>
+
+</body>
+</html>
