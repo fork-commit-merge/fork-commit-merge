@@ -1,4 +1,4 @@
-funcition sum(a, b){
-return a+b;
-}
+// JavaScript - Easy
+
+// TODO: Write a function that returns the sum of two numbers
 
