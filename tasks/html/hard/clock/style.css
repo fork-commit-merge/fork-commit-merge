@@ -1,122 +1,98 @@
-/* Reset box model for all elements */
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-/* Body Styles */
 body {
-  background: linear-gradient(to right, red, yellow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
 }
 
-/* Clock Styles */
 .clock {
-  width: 300px;
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  border: 6px solid black;
-  position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    position: relative;
 }
 
-/* Clock Numbers */
-.clock .number {
-  --rotation: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transform: rotate(var(--rotation));
-  font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+.clock-face {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
 }
 
-/* Clock Hands */
-.clock .hand {
-  --rotation: 0;
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  border: 1px solid white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transform-origin: bottom;
-  z-index: 10;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+.hour-hand, .minute-hand, .second-hand {
+    position: absolute;
+    transform-origin: 50%;
+    background-color: #333;
 }
 
-/* Clock Second Hand */
-.clock .hand.second {
-  width: 3px;
-  height: 45%;
-  background-color: red;
+.hour-hand {
+    width: 6px;
+    height: 40px;
+    top: 80px;
+    left: 97px;
 }
 
-/* Clock Minute and Hour Hands */
-.clock .hand.minute,
-.clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+.minute-hand {
+    width: 4px;
+    height: 60px;
+    top: 70px;
+    left: 98px;
 }
 
-/* Clock Center */
-.clock::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  z-index: 11;
-  width: 15px;
-  height: 15px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
+.second-hand {
+    width: 2px;
+    height: 70px;
+    top: 65px;
+    left: 99px;
+    background-color: red;
 }
 
-/* Background Styles Only (No changes needed) */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-.side-links {
-  position: absolute;
-  top: 15px;
-  left: 15px;
+.clock-center {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    position: absolute;
+    top: 95px;
+    left: 95px;
 }
 
-.side-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
+.clock-numbers {
+    position: absolute;
+    top: 3px;
+    left: -5px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.side-link-youtube {
-  background-color: indigo;
+.number {
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #333;
+    position: absolute;
 }
 
-.side-link-twitter {
-  background-color: navy;
-}
-
-.side-link-github {
-  background-color: #6e5494;
-}
-
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-.side-link-icon {
-  color: white;
-  font-size: 30px;
-}
+[data-number="1"] { top: 25px; left: 155px; }
+[data-number="2"] { top: 45px; left: 180px; }
+[data-number="3"] { top: 85px; left: 195px; }
+[data-number="4"] { top: 125px; left: 180px; }
+[data-number="5"] { top: 145px; left: 155px; }
+[data-number="6"] { bottom: 15px; left: 105px; }
+[data-number="7"] { bottom: 25px; left: 45px; }
+[data-number="8"] { top: 125px; left: 25px; }
+[data-number="9"] { top: 85px; left: 10px; }
+[data-number="10"] { top: 45px; left: 25px; }
+[data-number="11"] { top: 15px; left: 60px; }
+[data-number="12"] { top: 10px; left: 105px; }
