@@ -181,18 +181,8 @@
     }
   }
   
-  .fire-bottom .main-fire {
-    position: absolute;
-    top: 30%;
-    left: 20%;
-    width: 75%;
-    height: 75%;
-    background-color: #ff7800;
-    transform: scaleX(0.8) rotate(45deg);
-    border-radius: 0 40% 100% 40%;
-    filter: blur(10px);
-    animation: glow 2s ease-out 0;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-  }
+/* Add CSS for fire-bottom and main-fire  */
+/* here */
+
+
   
