@@ -58,6 +58,12 @@ body {
   background-color: red;
 }
 
+/* Clock Minute and Hour Hands */
+.clock .hand.minute,
+.clock .hand.hour {
+  /* TODO: Define styles for minute and hour hands */
+}
+
 /* Clock Center */
 .clock::after {
   content: "";
@@ -72,36 +78,45 @@ body {
   border-radius: 50%;
 }
 
-/* Main Heading from Code 2 */
-#hour,
-#minute,
-#second {
+/* Background Styles Only (No changes needed) */
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+.side-links {
   position: absolute;
-  background: black;
+  top: 15px;
+  left: 15px;
+}
+
+.side-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: white;
+  width: 180px;
+  padding: 10px 0;
   border-radius: 10px;
-  transform-origin: bottom;
 }
 
-#hour {
-  width: 1.8%;
-  height: 25%;
-  top: 25%;
-  left: 48.85%;
-  opacity: 0.8;
+.side-link-youtube {
+  background-color: indigo;
 }
 
-#minute {
-  width: 1.6%;
-  height: 30%;
-  top: 19%;
-  left: 48.9%;
-  opacity: 0.8;
+.side-link-twitter {
+  background-color: navy;
 }
 
-#second {
-  width: 1%;
-  height: 40%;
-  top: 9%;
-  left: 49.25%;
-  opacity: 0.8;
+.side-link-github {
+  background-color: #6e5494;
+}
+
+.side-link-text {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.side-link-icon {
+  color: white;
+  font-size: 30px;
 }
