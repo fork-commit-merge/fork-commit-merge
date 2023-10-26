@@ -1657,7 +1657,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
 
-[CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/929)
+[CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
