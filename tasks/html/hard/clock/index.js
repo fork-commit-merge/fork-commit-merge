@@ -1,14 +1,29 @@
-// Implement the setClock function to update the positions of the hour, minute, and second hands on the clock based on the current time.
-setInterval(() => {
-  // TODO: Calculate the current time and update the clock hands' positions here.
-  // You need to calculate the rotation ratios and update the hand rotations.
-}, 1000);
+// Function to update the rotation of a DOM element based on the provided rotationRatio.
+function setRotation(element, rotationRatio) {
+  const degrees = rotationRatio * 360; // Convert the ratio to degrees
+  element.style.transform = `rotate(${degrees}deg)`; // Apply the rotation to the element
+}
 
-const hourHand = document.querySelector('[data-hour-hand]')
-const minuteHand = document.querySelector('[data-minute-hand]')
-const secondHand = document.querySelector('[data-second-hand]')
+// Function to update the clock hands' positions based on the current time.
+function setClock() {
+  const now = new Date();
+  const hours = now.getHours();
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
 
-// Create setRotation function to rotate a DOM element around its center point. This function will be used to rotate the hour, minute, and second hands on the clock.
-// TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
+  // Calculate rotation ratios for each hand
+  const hourRotation = (hours % 12 + minutes / 60) / 12; // 12-hour clock
+  const minuteRotation = (minutes + seconds / 60) / 60;
+  const secondRotation = seconds / 60;
 
-// TODO: You can call the setClock function here to initialize the clock's position when the page loads.
+  // Update the clock hands' positions using setRotation function
+  setRotation(hourHand, hourRotation);
+  setRotation(minuteHand, minuteRotation);
+  setRotation(secondHand, secondRotation);
+}
+
+// Call setClock to initialize the clock's position when the page loads.
+setClock();
+
+// Set an interval to continuously update the clock hands every second.
+setInterval(setClock, 1000);

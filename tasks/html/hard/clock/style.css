@@ -1,30 +1,3 @@
-/* Reset box model for all elements */
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-/* Body Styles */
-body {
-  background: linear-gradient(to right, red, yellow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
-}
-
-/* Clock Styles */
-.clock {
-  width: 300px;
-  height: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 50%;
-  border: 6px solid black;
-  position: relative;
-}
-
 /* Clock Numbers */
 .clock .number {
   --rotation: 0;
@@ -32,10 +5,22 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  transform: rotate(var(--rotation));
+  transform: translateX(-50%) translateY(-50%) rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+  color: black; /* Color of the numbers */
 }
+
+/* Define rotations for numbers (1 to 12) */
+.clock .number:nth-child(1) {
+  --rotation: 30deg;
+}
+.clock .number:nth-child(2) {
+  --rotation: 60deg;
+}
+.clock .number:nth-child(3) {
+  --rotation: 90deg;
+}
+/* Repeat the pattern for the other numbers */
 
 /* Clock Hands */
 .clock .hand {
@@ -58,65 +43,16 @@ body {
   background-color: red;
 }
 
-/* Clock Minute and Hour Hands */
-.clock .hand.minute,
+/* Clock Minute Hand */
+.clock .hand.minute {
+  width: 5px;
+  height: 40%;
+  background-color: black; /* Color of the minute hand */
+}
+
+/* Clock Hour Hand */
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
-}
-
-/* Clock Center */
-.clock::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  z-index: 11;
-  width: 15px;
-  height: 15px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-
-/* Background Styles Only (No changes needed) */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-.side-links {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
-
-.side-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
-}
-
-.side-link-youtube {
-  background-color: indigo;
-}
-
-.side-link-twitter {
-  background-color: navy;
-}
-
-.side-link-github {
-  background-color: #6e5494;
-}
-
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-.side-link-icon {
-  color: white;
-  font-size: 30px;
+  width: 6px;
+  height: 30%;
+  background-color: black; /* Color of the hour hand */
 }
