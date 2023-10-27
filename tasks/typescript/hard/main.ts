@@ -8,36 +8,14 @@ interface Product {
 }
 
 let products: Product[] = [];
-const productBody = document.getElementById('productBody') as HTMLElement
-
 
 async function fetchData() {
-
-    fetch('https://dummyjson.com/products')
-    .then(res => res.json())
-    .then(productsList => { 
-        products = productsList.products
-        displayProducts(products);
-    });
-
+    // TODO: Implement the fetch function
+    displayProducts(products);
 }
 
 function displayProducts(products: Product[]) {
-    
-    // Reset current value first
-    productBody.innerHTML = ''
-
-    // Fill HTML Element
-    products.forEach(product => {
-        productBody.innerHTML += `
-        <thead>
-            <tr>
-                <th>${product.title}</th>
-                <th>${product.price}</th>
-                <th>${product.rating}</th>
-            </tr>
-        </thead>`
-    })
+    // TODO: Implement the display function
 }
 
 function applyFilters() {
@@ -53,24 +31,12 @@ function applyFilters() {
     const maxRating = parseFloat(
         (document.getElementById("maxRating") as HTMLInputElement).value
     );
-    
-fetch('https://dummyjson.com/products')
-.then(res => res.json())
-.then(productsList => {
-    products = productsList.products
 
-    const filteredProducts = products.filter(product => {
-        if ((minPrice && product.price < minPrice) ||
-            (maxPrice && product.price > maxPrice) ||
-            (minRating && product.rating < minRating) ||
-            (maxRating && product.rating > maxRating)
-            ) return false
-        else return true
+    const filteredProducts = products.filter(
+        // TODO: Implement the filter function
+    );
 
-    });
     displayProducts(filteredProducts);
-});
-
 }
 
 fetchData();
