@@ -1793,6 +1793,8 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [PHP - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1096)
 
+[PHP - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1279)
+
 [Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1036)
 
 [Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
