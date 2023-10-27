@@ -1,7 +1,11 @@
 // TypeScript - Medium
 
 namespace Calculator {
-    // TODO: Implement a Simple TypeScript Calculator
+    
+    export function add(a: number, b: number): number { return a + b }
+    export function subtract(a: number, b: number): number { return a - b }
+    export function multiply(a: number, b: number): number { return a * b }
+    export function divide(a: number, b: number): number | null { return b == 0 ? null : a / b }
 }
 
 // Test cases
