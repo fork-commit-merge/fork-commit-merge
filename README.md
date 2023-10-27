@@ -1,6 +1,6 @@
 <div align="center">
 
-![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner.png)
+![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner2.png)
 [![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
@@ -1657,7 +1657,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
 
-[CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/929)
+[CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
+
+[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1272)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
@@ -2472,3 +2474,5 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/sudhanshu-77"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/97780892?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/JatinPhogat"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113964811?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/shivam200446"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/127589548?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Avtech04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/97428742?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AloisiMatteo"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112644543?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>

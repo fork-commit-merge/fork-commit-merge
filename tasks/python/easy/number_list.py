@@ -1,9 +1,9 @@
-# Create a list of the first 10 natural numbers
-natural_numbers = list(range(1, 11))
+# Python - Easy
 
-# Print the list
-print("List of the first 10 natural numbers:", natural_numbers)
+# TODO: Create a Simple Python Program that:
+# lists the first 10 natural numbers,
+# prints that list to the console and,
+# prints the sum of the numbers of that list
 
-# Calculate and print the sum of the numbers in the list
-sum_of_numbers = sum(natural_numbers)
-print("Sum of the numbers in the list:", sum_of_numbers)
+def function(numbers):
+    pass
