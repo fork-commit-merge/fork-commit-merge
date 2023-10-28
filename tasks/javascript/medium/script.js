@@ -1,17 +1,22 @@
 // JavaScript - Medium
 
 // TODO: Create functionality for a countdown timer that counts down from 10 seconds to zero
-const timer = document.getElementById('timer');
+// 设置初始时间为10秒
 let timeLeft = 10;
-function updateTimer() {
-    const minutes = Math.floor(timeLeft / 60);
-    const seconds = timeLeft % 60;
-    timer.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-    if (timeLeft === 0) {
-        timer.textContent = "Time's up!";
-        clearInterval(interval);
-    } else {
+
+// 获取显示时间的元素
+const countdownTimer = document.getElementById("timer");
+
+// 创建定时器
+const timer = setInterval(function() {
+    // 如果时间还没到0，就继续倒数
+    if (timeLeft > 0) {
         timeLeft--;
+        countdownTimer.innerHTML = timeLeft;
+    } else {
+        // 时间到了，清除定时器并输出提示信息
+        clearInterval(timer);
+        countdownTimer.innerHTML = "time's up！";
     }
-}
-const interval = setInterval(updateTimer, 1000);
+}, 1000);
+
