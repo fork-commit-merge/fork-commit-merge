@@ -1,3 +1,9 @@
 // C++ - Easy 3
 
-// TODO: Create a Basic C++ Program that Prints "Hello World"
+#include <iostream>
+
+int main() {
+    // TODO: Create a Basic C++ Program that Prints "Hello World"
+    return 0;
+}
+
