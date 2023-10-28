@@ -10,31 +10,3 @@ $primary-color: #0b0049;
 $secondary-color: #412eee;
 
 // TODO: Add classes for the navbar
-nav {
-    background-color: $primary-color;
-    transition: .3s ease 0s;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    padding: 1rem;
-
-    .nav-links {
-        color: white;
-        display: flex;
-        gap: 1rem;
-
-        li {
-            list-style-type: none;
-
-            a {
-                color: white;
-                text-decoration: none;
-            }
-        }
-    }
-
-    &:hover {
-        background-color: $secondary-color;
-    }
-}
