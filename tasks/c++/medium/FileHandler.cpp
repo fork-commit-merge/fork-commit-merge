@@ -1,36 +1,14 @@
+// C++ - Medium
+
 #include "FileHandler.h"
 #include <fstream>
 #include <sstream>
 
-int FileHandler::WriteFile(const std::string& filePath, const std::string& text) {
-	std::ofstream file;
-	file.open(filePath, std::ofstream::out);
-	if(!file) return 0;
-	file << text;
-	file.close();
-	return 1;
-}
+// TODO: Implement the FileHandler::ReadFile method
 
-int FileHandler::AppendFile(const std::string& filePath, const std::string& text) {
-	std::ofstream file;
-	file.open(filePath, std::ofstream::app);
-	if(!file) return 0;
-	file << text;
-	file.close();
-	return 1;
-}
+// TODO: Implement the FileHandler::WriteFile method
 
-std::string FileHandler::ReadFile(const std::string& filePath) {
-	std::ifstream file(filePath);
-	std::string text;
-	text.assign(std::istreambuf_iterator<char>(file), std::istreambuf_iterator<char>());
-	file.close();
-	return text;
-}
+// TODO: Implement the FileHandler::AppendFile method
 
-bool FileHandler::FileExists(const std::string& filePath) {
-	std::ifstream file(filePath);
-	if(!file.good()) return 0;
-	file.close();
-	return 1;
-}
+// TODO: Implement the FileHandler::FileExists method
+
