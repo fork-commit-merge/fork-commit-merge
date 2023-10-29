@@ -1731,7 +1731,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
-[C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
+[C++ - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1305)
+
+[C++ - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1306)
+
+[C++ - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1307)
+
+[C++ - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1309)
 
 [C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
 
@@ -2484,3 +2490,9 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/DhanushNehru"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/22955675?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Yachika9925"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/147185379?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/CrypticRevenger"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128175097?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/rexmitis"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/149018508?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Acacia55"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/135031075?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dolyanhthu"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122217592?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/DawmosTomie"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/88043739?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/oceanSimple"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128461911?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/R4Rohit23"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/80148306?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
