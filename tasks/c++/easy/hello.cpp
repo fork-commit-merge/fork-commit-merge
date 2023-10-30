@@ -1,7 +1,9 @@
+// C++ - Easy 3
+
 #include <iostream>
 
 int main() {
-    // Print "Hello World"
-    std::cout << "Hello World" << std::endl;
+    // TODO: Create a Basic C++ Program that Prints "Hello World"
     return 0;
 }
+
