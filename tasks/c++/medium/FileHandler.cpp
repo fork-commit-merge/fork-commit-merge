@@ -33,7 +33,7 @@ std::string FileHandler::ReadFile(const std::string& filename) {
 
 bool FileHandler::WriteFile(const std::string& filename, const std::string& content) {
     std::ofstream file(filename);
-    if (file.is_open()) {
+    if (file.is_open()) {   
         file << content;
         file.close();
         std::cout << "Write successful." << std::endl;
