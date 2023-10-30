@@ -1,13 +1,7 @@
 void main() {
-  String text = "Example text";
-  int lengthData = countLength(text);
-  print('Length: $lengthData');
+  // String text = "Example text";
+  // int lengthData = countLength(text);
+  // print('Length: $lengthData');
 }
 
-int countLength(String text) {
-  int length = 0;
-  for (int i = 0; i < text.length; i++) {
-    length++;
-  }
-  return length;
-}
+// TODO: Create a function for counting the length of a string
