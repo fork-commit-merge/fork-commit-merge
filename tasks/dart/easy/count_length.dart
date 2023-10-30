@@ -5,5 +5,9 @@ void main() {
 }
 
 int countLength(String text) {
-  return text.length;
+  int length = 0;
+  for (int i = 0; i < text.length; i++) {
+    length++;
+  }
+  return length;
 }
