@@ -1,11 +1,21 @@
-// C - Easy
-
 #include <stdio.h>
 
-// TODO: Implement the sum function
+int sum(int a, int b) {
+    return a + b;
+}
 
 int main() {
-    // TODO: Implement the main function
+    int num1, num2, result;
+
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    result = sum(num1, num2);
+
+    printf("Sum: %d\n", result);
 
     return 0;
 }
