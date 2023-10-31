@@ -1651,7 +1651,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
 
-[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1164)
+[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1373)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
@@ -1659,7 +1659,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
 
-[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1272)
+[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1371)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
@@ -1669,7 +1669,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
 
-[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/893)
+[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1380)
 
 [Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/883)
 
@@ -1683,9 +1683,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1059)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1377)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1041)
+[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1378)
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
@@ -1699,11 +1699,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
 
-[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
+[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
 
-[React - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1109)
+[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1374)
 
-[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
+[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1372)
 
 [Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
 
@@ -1873,7 +1873,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1067)
+[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1376)
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
 
@@ -1887,11 +1887,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
+[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1379)
 
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
-[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1107)
+[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1375)
 
 [Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
 
