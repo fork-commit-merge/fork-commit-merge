@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/react": "18.2.27",
     "@types/node": "20.8.3",
-    "@types/react-dom": "18.2.11",
+    "@types/react-dom": "18.2.12",
     "autoprefixer": "10.4.16",
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.4",
