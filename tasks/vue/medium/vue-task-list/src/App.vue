@@ -12,4 +12,4 @@ export default {
     TaskList,
   },
 };
-</script>
+</script> 
