@@ -1,0 +1,6 @@
+# Kubernetes/YAML - Easy
+
+# TODO: Create a YAML configuration file for a Kubernetes Deployment that meets the following criteria:
+# Deploys 3 replicas of the nginx container.
+# Sets the label app to web.
+# Maps port 80 in the container to port 8080 on the host.
