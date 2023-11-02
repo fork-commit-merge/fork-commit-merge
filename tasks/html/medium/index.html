@@ -1,13 +1,42 @@
 <!-- HTML - Medium -->
-
 <!DOCTYPE html>
+<html lang="en">
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
     <body>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div class="container">
-            <!-- TODO: Implement the form -->
-        </div>
+            <h1> Fork, Commit, Merge - Medium Issue (HTML) </h1> 
+                <h2> Create a simple Contact form </h2>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Enter your name"><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" placeholder="Enter your mail"><br>
+
+                <label for="message">Message:</label><br>
+
+            <textarea id="message" placeholder="Enter message"></textarea><br>
+                <button id="btn">
+                    <label id="btnText">Submit</label>
+                        <div class="check-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                                <path fill="transparent" d="M14.1 27.2l7.1 7.2 16.7-16.8" />
+                            </svg>
+                        </div>
+                </button>
+            </div>
+                <script type="text/javascript">
+                    const btn = document.querySelector("#btn");
+                    const btnText = document.querySelector("#btnText");
+
+                    btn.onclick = () => {
+                    btnText.innerHTML = "Thanks";
+                    btn.classList.add("active");
+                };
+                </script>
+            </div>
     </body>
 </html>
