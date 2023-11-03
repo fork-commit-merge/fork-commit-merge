@@ -2,3 +2,13 @@
 
 # TODO: Create a Basic YAML Configuration File
 
+application:
+  name: My Application
+  version: 1.0.0
+  host: localhost
+  port: 8080
+
+database:
+  name: my_database
+  username: root
+  password: password
