@@ -1,3 +1,36 @@
 <!-- XML - Easy -->
 
 <!-- TODO: Create an XML Representation of a Bookstore -->
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore>
+  <book>
+    <title>Kuma Kuma Kuma Bear (Light Novel) Vol. 16</title>
+    <author>Kumanano</author>
+    <year>2023</year>
+    <price>14.99</price>
+  </book>
+  <book>
+    <title>Arifureta: From Commonplace to World's Strongest (Light Novel) Vol. 13</title>
+    <author>Ryo Shirakome</author>
+    <year>2023</year>
+    <price>14.99</price>
+  </book>
+  <book>
+    <title>Reincarnated as a Sword (Light Novel) Vol. 13</title>
+    <author>Yuu Tanaka</author>
+    <year>2023</year>
+    <price>13.99</price>
+  </book>
+  <book>
+    <title>So I'm a Spider, So What?, Vol. 16 (light novel)</title>
+    <author>Okina Baba</author>
+    <year>2023</year>
+    <price>10.99</price>
+  </book>
+  <book>
+    <title>The Angel Next Door Spoils Me Rotten, Vol. 5.5 (light novel)</title>
+    <author>Saekisan</author>
+    <year>2023</year>
+    <price>15.00</price>
+  </book>
+</bookstore>
