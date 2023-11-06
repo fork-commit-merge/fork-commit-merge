@@ -13,6 +13,7 @@ setInterval(() => {
   const hourHand = (hour / 12) * 360;
   hourHand.style.transform = "rotate(${hourHand}deg)";
 }, 1000);
+
 // function setDate() {
 //   const today = new Date();
 //   const second = today.getSecond();

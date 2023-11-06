@@ -85,7 +85,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
 .secondHand {
   width: 2px;
   height: 150px;
