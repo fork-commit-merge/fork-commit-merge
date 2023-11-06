@@ -1,31 +1,14 @@
-const minuteHand = document.querySelector(".hourHand");
-const secondHand = document.querySelector(".secondHand");
-const hourHand = document.querySelector(".hourHand");
+// Implement the setClock function to update the positions of the hour, minute, and second hands on the clock based on the current time.
 setInterval(() => {
-  const today = new Date();
-  const second = today.getSecond();
-  const secondHand = (second / 60) * 360 + 360;
-  secondHand.style.transform = "rotate(${secondHand}deg)";
-  const minute = today.getMinute();
-  const minuteHand = (minute / 60) * 360;
-  minuteHand.style.transform = "rotate(${minuteHand}deg)";
-  const hour = today.getSecond();
-  const hourHand = (hour / 12) * 360;
-  hourHand.style.transform = "rotate(${hourHand}deg)";
+  // TODO: Calculate the current time and update the clock hands' positions here.
+  // You need to calculate the rotation ratios and update the hand rotations.
 }, 1000);
 
-// function setDate() {
-//   const today = new Date();
-//   const second = today.getSecond();
-//   const secondDeg = (second / 60) * 360 + 360;
-//   secondHand.style.transform = "rotate(${secondDeg}deg)";
+const hourHand = document.querySelector('[data-hour-hand]')
+const minuteHand = document.querySelector('[data-minute-hand]')
+const secondHand = document.querySelector('[data-second-hand]')
 
-//   const minute = today.getMinute();
-//   const minuteDeg = (minute / 60) * 360;
-//   secondHand.style.transform = "rotate(${secondDeg}deg)";
+// Create setRotation function to rotate a DOM element around its center point. This function will be used to rotate the hour, minute, and second hands on the clock.
+// TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
 
-//   const hour = today.getSecond();
-//   const hourDeg = (hour / 12) * 360;
-//   secondHand.style.transform = "rotate(${secondDeg}deg)";
-// }
-// setInterval(setDate, 1000);
+// TODO: You can call the setClock function here to initialize the clock's position when the page loads.
