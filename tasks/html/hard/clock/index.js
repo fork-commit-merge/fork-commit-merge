@@ -15,7 +15,6 @@ setInterval(() => {
 }, 1000);
 // function setDate() {
 //   const today = new Date();
-
 //   const second = today.getSecond();
 //   const secondDeg = (second / 60) * 360 + 360;
 //   secondHand.style.transform = "rotate(${secondDeg}deg)";
