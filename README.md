@@ -18,7 +18,7 @@ Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
 
-![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white)
+![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![Mojo](https://img.shields.io/badge/Mojo-FF7139?style=for-the-badge&logo=Mojo&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white)
 
 _Find awesome badges for your project in this repository: [markdown-badges](https://github.com/Ileriayo/markdown-badges)_
 
@@ -55,6 +55,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing C](#installing-c)
     -   [Installing C++](#installing-c)
     -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
+    -   [Installing Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk)
     -   [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
     -   [Istalling F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
     -   [Installing Ada](#installing-ada)
@@ -77,6 +78,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing Dart](#installing-dart)
     -   [Installing Flutter](#installing-flutter)
     -   [Installing Swift](#installing-swift)
+    -   [Installing React Native](#installing-react-native)
     -   [Installing Julia](#installing-julia)
     -   [Installing Rust](#installing-rust)
     -   [Installing Haskell](#installing-haskell)
@@ -99,9 +101,10 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing TLA+](#installing-tla-toolbox)
     -   [Installing Bash](#installing-bash)
     -   [Installing Perl](#installing-perl)
+    -   [Installing Mojo](#installing-mojo)
     -   [Installing ASM (Assembly)](#installing-asm-assembly)
     -   [Installing Docker](#installing-docker)
-    -   [Installing Mojo](#installing-mojo)
+    -   [Installing Kubernetes](#installing-kubernetes)
 -   [Setup Instructions](#setup-instructions)
 -   [Tasks](#tasks)
 -   [Submitting Your Changes](#submitting-your-changes)
@@ -153,6 +156,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For C related issues, you need to install [C](#installing-c).
 -   For C++ related issues, you need to install [C++](#installing-c).
 -   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c-dotnet-sdk).
+-   For Blazor related issues, you need to install [Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk).
 -   For D related issues, you need to install [D (DMD Compiler)](#installing-d-dmd-compiler).
 -   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
 -   For Ada related issues, you need to install [Ada](#installing-ada).
@@ -175,6 +179,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For Dart related issues, you need to install [Dart](#installing-dart).
 -   For Flutter related issues, you need to install [Dart](#installing-dart) and [Flutter](#installing-flutter).
 -   For Swift related issues, you need to install [Swift](#installing-swift).
+-   For React Native related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [React Native](#installing-react-native).
 -   For Julia related issues, you need to install [Julia](#installing-julia).
 -   For Rust related issues, you need to install [Rust](#installing-rust).
 -   For Haskell related issues, you need to install [Haskell](#installing-haskell).
@@ -199,6 +204,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   For Perl related issues, you need to install [Perl](#installing-perl).
 -   For ASM (Assembly) related issues, you need to install [ASM](#installing-asm).
 -   For Docker related issues, you need to install [Docker](#installing-docker).
+-   For Kubernetes related issues, you need to install [Kubernetes](#installing-kubernetes).
 
 ---
 
@@ -497,6 +503,12 @@ Setting up C# in Visual Studio Code:
 -   Open the Extensions view (Ctrl+Shift+X).
 -   Search for the C# extension provided by Microsoft and install it.
 -   Once the extension is installed, it will prompt you to install the .NET Core SDK if it's not already installed. Please follow the link and instructions to install it.
+
+---
+
+### Installing Blazor (Dotnet-SDK)
+
+Look the instructions for [C# (Dotnet-SDK)](#installing-c-dotnet-sdk) to install the .NET SDK.
 
 ---
 
@@ -913,6 +925,18 @@ VS Code Setup:
 Additional Resources:
 
 [Swift.org - Getting Started](https://swift.org/getting-started/)
+
+---
+
+### Installing React Native
+
+Install React Native CLI:
+
+```bash
+npm install -g react-native-cli
+```
+
+Set up the Android development environment by following the [React Native Environment Setup](https://reactnative.dev/docs/environment-setup?guide=native).
 
 ---
 
@@ -1357,6 +1381,31 @@ Setting up VS Code for Perl:
 
 ---
 
+### Installing Mojo
+
+#### macOS
+
+- Install Brew by following this [guide](https://docs.brew.sh/Installation).
+- Open a terminal and run the following commands:
+
+```bash
+brew update
+brew upgrade modular
+modular install mojo
+```
+
+#### Linux (Ubuntu/Debian)
+
+To install Mojo on Linux (Ubuntu/Debian), you need to install Modular first. Follow these steps:
+
+```bash
+sudo apt update
+sudo apt install modular
+modular install mojo
+```
+
+---
+
 ### Installing ASM (Assembly)
 
 #### Windows
@@ -1458,28 +1507,11 @@ Remember to consult the official documentation for the most up-to-date and detai
 
 ---
 
-### Installing Mojo
+### Installing Kubernetes
 
-#### macOS
-
-- Install Brew by following this [guide](https://docs.brew.sh/Installation).
-- Open a terminal and run the following commands:
-
-```bash
-brew update
-brew upgrade modular
-modular install mojo
-```
-
-#### Linux (Ubuntu/Debian)
-
-To install Mojo on Linux (Ubuntu/Debian), you need to install Modular first. Follow these steps:
-
-```bash
-sudo apt update
-sudo apt install modular
-modular install mojo
-```
+-   Install [Docker](https://docs.docker.com/get-docker/) if you haven't already.
+-   Install [kubectl](https://kubernetes.io/docs/tasks/tools/), the Kubernetes CLI tool.
+-   Install [Minikube](https://minikube.sigs.k8s.io/docs/start/) for local Kubernetes deployment.
 
 ![line]
 
@@ -1583,6 +1615,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   C
 -   C++
 -   C#
+-   Blazor
 -   D
 -   F#
 -   Ada
@@ -1605,6 +1638,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   Dart
 -   Flutter
 -   Swift
+-   React Native
 -   Julia
 -   Rust
 -   Haskell
@@ -1627,6 +1661,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   TLA+
 -   Bash
 -   Perl
+-   Mojo
 -   ASM (Assembly)
 -   JSON
 -   YAML
@@ -1634,6 +1669,7 @@ Firstly, open the `tasks` directory and select which language you want to work w
 -   XML
 -   Markdown
 -   Docker
+-   Kubernetes
 
 Then you can open one of these directories to choose between three difficulties:
 
@@ -1651,7 +1687,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
 
-[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1164)
+[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1373)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
@@ -1659,7 +1695,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
 
-[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1272)
+[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1371)
 
 [CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
 
@@ -1669,9 +1705,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
 
-[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/893)
+[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1380)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/883)
+[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1416)
 
 [Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/963)
 
@@ -1683,27 +1719,27 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1059)
+[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1377)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1041)
+[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1378)
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
 [JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1045)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/882)
+[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1415)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/840)
+[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1411)
 
 [TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
 
 [TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
 
-[React - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
+[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
 
-[React - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1109)
+[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1374)
 
-[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/838)
+[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1372)
 
 [Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
 
@@ -1727,11 +1763,17 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1046)
 
-[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/881)
+[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1414)
 
 [C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/945)
 
-[C++ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/880)
+[C++ - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1305)
+
+[C++ - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1306)
+
+[C++ - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1307)
+
+[C++ - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1309)
 
 [C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
 
@@ -1739,11 +1781,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1030)
 
+[Blazor - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1428)
+
 [D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
 
 [F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/941)
 
-[Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/861)
+[Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1412)
 
 [Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1006)
 
@@ -1759,7 +1803,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/928)
 
-[Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/876)
+[Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1413)
 
 [Python - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1021)
 
@@ -1805,11 +1849,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1060)
 
-[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/885)
+[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1417)
 
 [Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
 
 [Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
+
+[React Native - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1421)
 
 [Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1052)
 
@@ -1867,11 +1913,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1067)
+[Mojo - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1402)
+
+[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1376)
 
 [Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/886)
+[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1418)
 
 [Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
 
@@ -1881,13 +1929,15 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/977)
+[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1379)
 
 [YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
 
-[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1107)
+[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1375)
 
 [Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
+
+[Kubernetes/YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1389)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
@@ -2486,3 +2536,43 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/CrypticRevenger"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128175097?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/rexmitis"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/149018508?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Acacia55"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/135031075?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dolyanhthu"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122217592?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/DawmosTomie"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/88043739?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/oceanSimple"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128461911?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/R4Rohit23"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/80148306?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/DevanshKyada27"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/143169520?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/locdeptraihehe"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/108383726?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Gauravtb2253"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/114927759?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/auth-02"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/146264364?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/psqaure11"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/108622923?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/wwwsyi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/143729394?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/piyushw0203"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111994172?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AlexHoop140"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30748832?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ihgazi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/44411308?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Ceekay1607"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/88470967?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/PL031"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116476229?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/abc-345"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136461577?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/luv2027"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96781102?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shu-qian"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/147619734?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Fzfzzf"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/149391361?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/lehuuphuocct123"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141890843?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/otaku1912"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/134664151?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/rasel9t6"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116421413?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LeMinhMan2809"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116534466?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Maedamori22"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116497713?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/trungtinblpl"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141981128?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/nothung983"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/124388314?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/B2111933"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145697417?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/williebonavente"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76456752?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/toanb2005897"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/144480508?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/KatoAkikaze"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/134664311?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/GauravSamanta"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83856198?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sourabh-pisal"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/26631581?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/prakharagrawal10"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/90237784?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sushant0709"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/40301987?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/vuthanhviet"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/131344050?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/nhatttrug"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/131173811?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/VinhFunny"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141793604?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/KhaiHuynhB2005718"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141910060?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sneha-4-22"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112711068?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Omkar-23"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/144553703?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>

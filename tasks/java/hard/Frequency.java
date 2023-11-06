@@ -1,4 +1,5 @@
 // Java - Hard
+
 package tasks.java.hard;
 
 import java.util.HashMap;
