@@ -1,122 +1,196 @@
-/* Reset box model for all elements */
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-/* Body Styles */
 body {
   background: linear-gradient(to right, red, yellow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 
-/* Clock Styles */
 .clock {
   width: 300px;
   height: 300px;
-  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  border: 6px solid black;
+  background-color: whitesmoke;
+  margin: 100px auto 0px auto;
   position: relative;
-}
-
-/* Clock Numbers */
-.clock .number {
-  --rotation: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transform: rotate(var(--rotation));
-  font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
-}
-
-/* Clock Hands */
-.clock .hand {
-  --rotation: 0;
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
-  border: 1px solid white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  transform-origin: bottom;
-  z-index: 10;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
-}
-
-/* Clock Second Hand */
-.clock .hand.second {
-  width: 3px;
-  height: 45%;
-  background-color: red;
-}
-
-/* Clock Minute and Hour Hands */
-.clock .hand.minute,
-.clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
-}
-
-/* Clock Center */
-.clock::after {
-  content: "";
-  position: absolute;
-  background-color: black;
-  z-index: 11;
-  width: 15px;
-  height: 15px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-
-/* Background Styles Only (No changes needed) */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-.side-links {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
-
-.side-link {
+  border: 5px solid #1a0000;
   display: flex;
-  align-items: center;
   justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
+  align-items: center;
 }
 
-.side-link-youtube {
-  background-color: indigo;
+.center {
+  background-color: #000;
+  position: absolute;
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 20;
 }
 
-.side-link-twitter {
-  background-color: navy;
+.red-center {
+  width: 8px;
+  height: 8px;
+  z-index: 30;
+  background-color: red;
+  left: calc(50% - 4px);
+  top: calc(50% - 4px);
 }
 
-.side-link-github {
-  background-color: #6e5494;
+.hourHand {
+  width: 10px;
+  height: 75px;
+  background-color: #000;
+  transform-origin: bottom center;
+  border-radius: 4px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  z-index: 10;
+  transform: rotate(150deg);
+  animation: hourMove 43200s linear infinite;
+  outline: 100px solid transparent;
 }
 
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
+@keyframes hourMove {
+  0% {
+    transform: rotate(150deg);
+  }
+
+  100% {
+    transform: rotate(510deg);
+  }
 }
 
-.side-link-icon {
-  color: white;
-  font-size: 30px;
+.minuteHand {
+  width: 5px;
+  height: 120px;
+  background-color: #000;
+  transform-origin: bottom center;
+  border-radius: 4px;
+  position: absolute;
+  top: 30px;
+  left: 147px;
+  z-index: 9;
+  transform: rotate(0);
+  animation: minMove 3600s linear infinite;
+  outline: 100px solid transparent;
+}
+
+@keyframes minMove {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.secondHand {
+  width: 2px;
+  height: 150px;
+  background-color: red;
+  transform-origin: bottom center;
+  border-radius: 4px;
+  position: absolute;
+  top: -120px;
+  left: -1px;
+  transition: all 0.06s;
+  z-index: 8;
+  transform: rotate(0);
+  outline: 100px solid transparent;
+}
+
+.sec {
+  position: relative;
+  z-index: 10;
+  animation: secMove 60s normal infinite steps(60, end);
+}
+
+@keyframes secMove {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.clock ul {
+  list-style: none;
+  padding: 0;
+
+}
+
+.clock ul li {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  columns: #000;
+  font-family: "Droid Serif", serif;
+}
+
+.clock ul li:nth-child(1) {
+  right: 22%;
+  top: 6.5%;
+}
+
+.clock ul li:nth-child(2) {
+  right: 6%;
+  top: 25%;
+}
+
+.clock ul li:nth-child(3) {
+  right: 1%;
+  top: calc(50% - 10px);
+}
+
+.clock ul li:nth-child(4) {
+  right: 6%;
+  top: 69%;
+}
+
+.clock ul li:nth-child(5) {
+  right: 22%;
+  top: 84%;
+}
+
+.clock ul li:nth-child(6) {
+  right: calc(50% - 10px);
+  top: calc(99% - 20px);
+}
+
+.clock ul li:nth-child(7) {
+  left: 22%;
+  top: 84%;
+}
+
+.clock ul li:nth-child(8) {
+  left: 6%;
+  top: 69%;
+}
+
+.clock ul li:nth-child(9) {
+  left: 1%;
+  top: calc(50% - 10px);
+}
+
+.clock ul li:nth-child(10) {
+  left: 6%;
+  top: 25%;
+}
+
+.clock ul li:nth-child(11) {
+  left: 22%;
+  top: 6.5%;
+}
+
+.clock ul li:nth-child(12) {
+  right: calc(50% - 10px);
+  top: 1%;
 }
