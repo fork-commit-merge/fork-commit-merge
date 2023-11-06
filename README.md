@@ -1687,7 +1687,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
 
-[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1373)
+[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1451)
 
 [HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
 
@@ -1725,7 +1725,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
 
-[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1045)
+[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1452)
 
 [TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1415)
 
@@ -1735,9 +1735,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
 
-[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/962)
+[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1454)
 
-[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1374)
+[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1455)
 
 [Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1372)
 
