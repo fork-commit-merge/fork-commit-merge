@@ -6,7 +6,7 @@ public class Calculator {
     // TODO: Implement the Calculator class
 
     public static void main(String[] args) {
-        //! Dont't change the tests in the main method!
+        //! Don't change the tests in the main method!
         Calculator calc = new Calculator();
 
         System.out.println("Addition: " + calc.add(5, 3));
