@@ -1793,7 +1793,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1005)
 
-[Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/924)
+[Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1442)
 
 [Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/980)
 
@@ -1809,11 +1809,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/956)
 
-[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/888)
+[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1439)
 
 [Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1050)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/887)
+[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1440)
 
 [Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/940)
 
@@ -1861,7 +1861,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/957)
 
-[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/892)
+[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1441)
 
 [Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/979)
 
@@ -1901,9 +1901,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
 
-[SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/925)
+[SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1443)
 
-[SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/926)
+[SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1444)
 
 [TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1022)
 
