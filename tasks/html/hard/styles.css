@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 80px;
+    padding-top: 40px;
 }
 
 #navbar {
@@ -43,8 +43,8 @@ section {
 .content-wrapper {
     display: flex;
     align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .text {
