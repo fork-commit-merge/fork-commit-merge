@@ -18,6 +18,6 @@
     "license": "MIT",
     "dependencies": {
         "express": "^4.18.2",
-        "htmx.org": "^1.9.6"
+        "htmx.org": "^1.9.7"
     }
 }
