@@ -113,30 +113,10 @@ body {
 
 .fire-right .main-fire {
   /* TODO: Add the necessary styles here */
-  position: absolute;
-  width: 85%;
-  height: 85%;
-  right: -15px;
-  bottom: 0;
-  background:  #ef5a00;
-  transform: scaleX(0.8) rotate(45deg);
-  border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #d43322);
 }
 
 .fire-right .particle-fire {
   /* TODO: Add the necessary styles here */
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  width: 15px;
-  height: 15px;
-  background-color: #ef5a00;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 10px #d43322);
-  animation: particleUp 2.02s ease-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
 }
 
 .fire-left {
@@ -150,30 +130,10 @@ body {
 
 .fire-left .main-fire {
   /* TODO: Add the necessary styles here */
-  position: absolute;
-  width: 85%;
-  height: 85%;
-  left: -20px;
-  bottom: 0;
-  background:  #ef5a00;
-  transform: scaleX(0.8) rotate(45deg);
-  border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #d43322);
 }
 
 .fire-left .particle-fire {
   /* TODO: Add the necessary styles here */
-  position: absolute;
-  top: 60%;
-  left: 25%;
-  width: 15px;
-  height: 15px;
-  background-color: #ef5a00;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 10px #d43322);
-  animation: particleUp 4s ease-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
 }
 
 .fire-bottom .main-fire {
