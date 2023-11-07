@@ -56,20 +56,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-.todo {
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-}
-.tool {
-  padding: 10px;
-}
-.delete {
-  color: red;
-}
-.edit {
-  color: royalblue; 
-}
 
 @media (prefers-color-scheme: light) {
   :root {
