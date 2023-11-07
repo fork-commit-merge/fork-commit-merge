@@ -4,14 +4,11 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #2589f7;
-    align-items: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 label {
