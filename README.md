@@ -1775,7 +1775,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1309)
 
-[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
+[C++ - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1482)
+
+[C++ - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1484)
 
 [C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
 
