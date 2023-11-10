@@ -1989,7 +1989,6 @@ If you are asked to make changes, you can do so by committing them to the same b
 After the merge, actions-user bot will reset the files for the next contributor.
 
 All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
-In the website you can also find more information about the project, as well as your own contribution history for this project, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
 ![line]
 
@@ -2050,7 +2049,6 @@ You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](
 ## Leaderboard
 
 You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
-You can also find your own contribution history for this project in the website, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
 ![line]
 
