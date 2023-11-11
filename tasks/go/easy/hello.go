@@ -3,5 +3,5 @@
 package main
 
 func main() {
-    // TODO: Implement Hello, World!
+    // TODO: Implement Hello, Go!
 }
