@@ -2,6 +2,9 @@
 
 use std::io;
 
+//This code is a simple temperature converter that reads the user’s input, parses it into a temperature and a scale (Celsius or Fahrenheit), and then converts the temperature to the other scale. 
+//It continues to do this in an infinite loop until the user quits the program. If the user enters an invalid input, it prints an error message and asks for the input again. It’s a nice example 
+//of a simple interactive program in Rust!
 fn main() {
     println!("Hello!");
     println!("Please enter the temperature and scale (C or F).");
