@@ -1919,7 +1919,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1376)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
+[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1524)
 
 [Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1504)
 
