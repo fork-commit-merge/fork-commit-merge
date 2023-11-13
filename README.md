@@ -1683,7 +1683,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1518)
 
-[HTML - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1058)
+[HTML - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1534)
 
 [HTML - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/954)
 
@@ -1733,7 +1733,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1040)
 
-[TypeScript/Vitest - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1048)
+[TypeScript/Vitest - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1537)
 
 [React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1502)
 
@@ -1783,7 +1783,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [C++ - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/955)
 
-[C# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1030)
+[C# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1535)
 
 [Blazor - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1428)
 
@@ -1847,7 +1847,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Go - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1509)
 
-[Dart - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1062)
+[Dart - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1536)
 
 [Dart - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1061)
 
@@ -1911,7 +1911,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TLA+ - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1022)
 
-[Bash - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/961)
+[Bash - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1533)
 
 [Bash - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1063)
 
