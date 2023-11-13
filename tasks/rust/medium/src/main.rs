@@ -11,6 +11,7 @@ use std::io;
 fn main() {
     // Print a welcome message
     println!("Hello!");
+    println!("Hello, I am your intelligent decision tree classifier, delighted to be at your service.");
     // Ask the user to enter the temperature and scale
     println!("Please enter the temperature and scale (C or F).");
     println!("For example, 32F or 100C.");
