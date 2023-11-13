@@ -2019,6 +2019,7 @@ This project was inspired by a number of fantastic resources designed to help ne
 -   [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
 -   [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
 -   [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
+-   [Hello Open Source](https://github.com/mazipan/hello-open-source): A repository to learn about open source code contributions flow (for beginners only).
 
 I highly recommend checking out these projects if you want to learn more about contributing to open source!
 
@@ -2026,7 +2027,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React.js, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Clerk. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
 You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/how-to-contribute) of our website.
 
@@ -2048,7 +2049,8 @@ You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](
 
 ## Leaderboard
 
-You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
+You can find the leaderboard of the Top 20 contributors in our website at [https://forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
+You can also find all of your own contributions to this project in the [Dashboard](https://forkcommitmerge.io/dashboard) of our website when you log in.
 
 ![line]
 
