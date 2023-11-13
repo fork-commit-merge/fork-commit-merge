@@ -1,14 +1,14 @@
 <div align="center">
 
 ![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner2.png)
-[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
-[![Stars](https://img.shields.io/github/stars/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/stars)
-[![Forks](https://img.shields.io/github/forks/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/forks)
-[![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
-[![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
-![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
+[![Issues](https://img.shields.io/github/issues/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/issues)
+[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stars)
+[![Forks](https://img.shields.io/github/forks/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/forks)
+[![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
+[![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
+![GitHub repo size](https://img.shields.io/github/repo-size/fork-commit-merge/fork-commit-merge)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 
@@ -1546,10 +1546,10 @@ cd fork-commit-merge
 4. Add a reference to the original repository for future updates:
 
 ```bash
-git remote add upstream https://github.com/nikohoffren/fork-commit-merge.git
+git remote add upstream https://github.com/fork-commit-merge/fork-commit-merge.git
 ```
 
-(Remember to keep here the original repository URL, not your forked one, so the username in this needs to be `nikohoffren`.)
+(Remember to keep here the original repository URL, not your forked one, so the username in this needs to be `fork-commit-merge`, not your own username.)
 
 5. Check the remotes for this repository:
 
@@ -1681,265 +1681,265 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1518)
+[HTML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1518)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
+[HTML - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1058)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
+[HTML - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/954)
 
-[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1451)
+[HTML/CSS/JavaScript - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1451)
 
-[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
+[HTMX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1047)
 
-[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
+[CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1038)
 
-[CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
+[CSS - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1271)
 
-[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1371)
+[CSS - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1371)
 
-[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
+[CSS - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/953)
 
-[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1055)
+[SASS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1055)
 
-[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1049)
+[SASS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1049)
 
-[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1519)
+[Tailwind CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1519)
 
-[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1506)
+[Tailwind CSS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1506)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1416)
+[Bootstrap CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1416)
 
-[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/963)
+[Bootstrap CSS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/963)
 
-[ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1515)
+[ReScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1515)
 
-[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1512)
+[CoffeeScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1512)
 
-[CoffeeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/996)
+[CoffeeScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/996)
 
-[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1514)
+[JavaScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1514)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1507)
+[JavaScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1507)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1378)
+[JavaScript/Jest - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1378)
 
-[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1522)
+[JavaScript/Jest - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1522)
 
-[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1452)
+[JavaScript/Jasmine - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1452)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1415)
+[TypeScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1415)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1411)
+[TypeScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1411)
 
-[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
+[TypeScript - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1040)
 
-[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
+[TypeScript/Vitest - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1048)
 
-[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1502)
+[React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1502)
 
-[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1455)
+[React.js - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1455)
 
-[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1372)
+[Next.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1372)
 
-[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
+[Three.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1054)
 
-[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
+[Vue.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1007)
 
-[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1031)
+[Vue.js - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1031)
 
-[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
+[Svelte - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1008)
 
-[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1024)
+[Astro - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1024)
 
-[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
+[Angular - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1009)
 
-[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1069)
+[Ember.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1069)
 
-[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1057)
+[GraphQL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1057)
 
-[NGINX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1133)
+[NGINX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1133)
 
-[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1056)
+[Express.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1056)
 
-[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1046)
+[Electron.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1046)
 
-[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1414)
+[C - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1414)
 
-[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1511)
+[C - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1511)
 
-[C++ - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1305)
+[C++ - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1305)
 
-[C++ - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1306)
+[C++ - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1306)
 
-[C++ - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1307)
+[C++ - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1307)
 
-[C++ - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1309)
+[C++ - Easy 4](https://github.com/fork-commit-merge/fork-commit-merge/issues/1309)
 
-[C++ - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1482)
+[C++ - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1482)
 
-[C++ - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1484)
+[C++ - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1484)
 
-[C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
+[C++ - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/955)
 
-[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1030)
+[C# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1030)
 
-[Blazor - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1428)
+[Blazor - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1428)
 
-[D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
+[D - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/952)
 
-[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1510)
+[F# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1510)
 
-[Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1412)
+[Ada - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1412)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1516)
+[Java - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1516)
 
-[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1517)
+[Java - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1517)
 
-[Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1442)
+[Java - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1442)
 
-[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/980)
+[Kotlin - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/980)
 
-[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
+[Scala - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/981)
 
-[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1026)
+[Groovy - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1026)
 
-[Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1503)
+[Python - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1503)
 
-[Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1505)
+[Python - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1505)
 
-[Python - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1520)
+[Python - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1520)
 
-[Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1523)
+[Python - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1523)
 
-[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1439)
+[Python - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1439)
 
-[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1050)
+[Flask - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1050)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1440)
+[Django - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1440)
 
-[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1450)
+[Solidity - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1450)
 
-[Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/951)
+[Vyper - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/951)
 
-[Ruby - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1086)
+[Ruby - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1086)
 
-[Ruby - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1085)
+[Ruby - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1085)
 
-[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1446)
+[Ruby - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1446)
 
-[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1448)
+[Rails - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1448)
 
-[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/978)
+[Elixir - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/978)
 
-[Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/950)
+[Crystal - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/950)
 
-[PHP - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1094)
+[PHP - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1094)
 
-[PHP - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1095)
+[PHP - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1095)
 
-[PHP - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1096)
+[PHP - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1096)
 
-[PHP - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1279)
+[PHP - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1279)
 
-[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1036)
+[Laravel - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1036)
 
-[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1509)
+[Go - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1509)
 
-[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1062)
+[Dart - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1062)
 
-[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1061)
+[Dart - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1061)
 
-[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1060)
+[Dart - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1060)
 
-[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1417)
+[Dart - Easy 4](https://github.com/fork-commit-merge/fork-commit-merge/issues/1417)
 
-[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1513)
+[Flutter - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1513)
 
-[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
+[Swift - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1032)
 
-[React Native - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1421)
+[React Native - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1421)
 
-[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1052)
+[Julia - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1052)
 
-[Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1521)
+[Rust - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1521)
 
-[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1441)
+[Rust - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1441)
 
-[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/979)
+[Haskell - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/979)
 
-[Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/960)
+[Haskell - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/960)
 
-[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/982)
+[Lua - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/982)
 
-[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
+[Clojure - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/983)
 
-[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1068)
+[OCaml - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1068)
 
-[LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
+[LaTeX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/889)
 
-[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1033)
+[Lisp - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1033)
 
-[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1029)
+[Fortran - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1029)
 
-[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1065)
+[Pascal - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1065)
 
-[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1066)
+[Pascal - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1066)
 
-[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1064)
+[COBOL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1064)
 
-[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1028)
+[Erlang - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1028)
 
-[Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
+[Smalltalk - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/947)
 
-[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1053)
+[Zig - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1053)
 
-[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1447)
+[R - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1447)
 
-[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1025)
+[Nim - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1025)
 
-[MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/891)
+[MATLAB - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/891)
 
-[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1027)
+[Octave - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1027)
 
-[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
+[SQL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/958)
 
-[SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1443)
+[SQL - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1443)
 
-[SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1444)
+[SQL - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1444)
 
-[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1022)
+[TLA+ - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1022)
 
-[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
+[Bash - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/961)
 
-[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1063)
+[Bash - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1063)
 
-[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
+[Perl - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1003)
 
-[Mojo - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1402)
+[Mojo - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1402)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1376)
+[ASM (Assembly) - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1376)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1524)
+[Markdown - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1524)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1504)
+[Markdown - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1504)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
+[Markdown - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/976)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
+[JSON - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1037)
 
-[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1449)
+[JSON - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1449)
 
-[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
+[TOML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1051)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1379)
+[XML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1379)
 
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1508)
+[YAML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1508)
 
-[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1375)
+[YAML/Docker - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1375)
 
-[Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
+[Docker - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1084)
 
-[Kubernetes/YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1389)
+[Kubernetes/YAML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1389)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
@@ -2026,7 +2026,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
 You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/how-to-contribute) of our website.
 
