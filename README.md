@@ -1737,7 +1737,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1502)
 
-[React.js - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1455)
+[React.js - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1531)
+
+[React.js - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1532)
 
 [Next.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1372)
 
