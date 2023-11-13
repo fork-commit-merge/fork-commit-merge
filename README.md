@@ -1527,7 +1527,7 @@ Remember to consult the official documentation for the most up-to-date and detai
 
 That will open this small window:
 
-![Clone](/assets/images/clone.png)
+![Clone](/assets/images/git-clone.png)
 
 After that you can copy and paste the URL the to your local machine with the command:
 
