@@ -2611,3 +2611,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/tusharkc"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83814197?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/VinayakWaghmode7"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122003889?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/noah-delacruz"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/43018893?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/naturalneuralnet"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145875606?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
