@@ -57,7 +57,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
     -   [Installing Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk)
     -   [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
-    -   [Istalling F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
+    -   [Installing F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
     -   [Installing Ada](#installing-ada)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
