@@ -91,13 +91,17 @@ MyString& MyString::operator=(const MyString& other) {
 
 MyString MyString::operator+(const MyString& other) const {
     // TODO: Implement this
+    int length = strlen(str) + strlen(other.str);
     MyString temp;
-    temp.len = (len + other.len)+1;
-    temp.str = new char[temp.len];
+    temp.str = new char[length + 1];
+
     strcpy(temp.str, str);
     strcat(temp.str, other.str);
-    temp.str[len] = '\0';
+    temp.str[length] = '\0';
+    temp.len = strlen(temp.str);
+
     return temp;
+
 
 }
 
