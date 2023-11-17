@@ -8,61 +8,37 @@ interface Product {
 }
 
 let products: Product[] = [];
-let filteredProducts: Product[] = [];
 
 async function fetchData() {
-    const response = await fetch('https://dummyjson.com/products', {
-        method: 'GET',
-    });
-
-    await response.json().then((data) => {
-        products = data.products;
-    });
+    // TODO: Implement the fetch function
     displayProducts(products);
 }
 
-function displayProducts(productArray: Product[]) {
-    const productBody = document.getElementById('productBody') as HTMLElement;
-    productBody.innerHTML = '';
-    productArray.forEach((product) => {
-        productBody.innerHTML += `
-    <tr>
-        <td>${product.title}</td>
-        <td>${product.price}</td>
-        <td>${product.rating}</td>
-    </tr>
-    `;
-    });
+function displayProducts(products: Product[]) {
+    // TODO: Implement the display function
 }
 
-async function applyFilters() {
-    await fetchData();
-
+function applyFilters() {
     const minPrice = parseFloat(
-        (document.getElementById('minPrice') as HTMLInputElement).value,
+        (document.getElementById("minPrice") as HTMLInputElement).value
     );
     const maxPrice = parseFloat(
-        (document.getElementById('maxPrice') as HTMLInputElement).value,
+        (document.getElementById("maxPrice") as HTMLInputElement).value
     );
     const minRating = parseFloat(
-        (document.getElementById('minRating') as HTMLInputElement).value,
+        (document.getElementById("minRating") as HTMLInputElement).value
     );
     const maxRating = parseFloat(
-        (document.getElementById('maxRating') as HTMLInputElement).value,
+        (document.getElementById("maxRating") as HTMLInputElement).value
     );
 
-    filteredProducts = products.filter((product) => {
-        return !(
-            (minPrice && product.price < minPrice) ||
-            (maxPrice && product.price > maxPrice) ||
-            (minRating && product.rating < minRating) ||
-            (maxRating && product.rating > maxRating)
-        );
-    });
+    const filteredProducts = products.filter(
+        // TODO: Implement the filter function
+    );
 
     displayProducts(filteredProducts);
 }
 
 fetchData();
 
-(window as Window & typeof globalThis).applyFilters = applyFilters;
+(window as any).applyFilters = applyFilters;
