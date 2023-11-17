@@ -1685,7 +1685,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTML - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1541)
 
-[HTML - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1542)
+[HTML - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1576)
 
 [HTML - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1534)
 
