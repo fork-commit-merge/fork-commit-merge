@@ -1695,7 +1695,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [HTMX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1047)
 
-[CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1038)
+[CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1595)
 
 [CSS - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1271)
 
@@ -1739,13 +1739,13 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [TypeScript/Vitest - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1537)
 
-[React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1502)
+[React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1590)
 
 [React.js - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1531)
 
 [React.js - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1532)
 
-[Next.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1372)
+[Next.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1591)
 
 [Three.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1054)
 
@@ -1839,11 +1839,11 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Crystal - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/950)
 
-[PHP - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1094)
+[PHP - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1593)
 
-[PHP - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1095)
+[PHP - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1592)
 
-[PHP - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1096)
+[PHP - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1594)
 
 [PHP - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1279)
 
@@ -1853,9 +1853,9 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Dart - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1536)
 
-[Dart - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1061)
+[Dart - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1588)
 
-[Dart - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1060)
+[Dart - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1589)
 
 [Dart - Easy 4](https://github.com/fork-commit-merge/fork-commit-merge/issues/1417)
 
@@ -1931,7 +1931,7 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Markdown - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/976)
 
-[JSON - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1037)
+[JSON - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1596)
 
 [JSON - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1449)
 
