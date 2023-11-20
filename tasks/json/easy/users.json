@@ -1,27 +1,8 @@
 [
-    {
-      "_id": "5c8a201e2f8fb814b56fa186",
-      "name": "Kate Morrison",
-      "email": "kate@example.com"
-    },
-    {
-      "_id": "5c8a20d32f8fb814b56fa187",
-      "name": "Elina Stout",
-      "email": "elina@example.com"
-    },
-    {
-      "_id": "5c8a211f2f8fb814b56fa188",
-      "name": "Cristian Vega",
-      "email": "chris@example.com"
-    },
-    {
-      "_id": "5c8a21d02f8fb814b56fa189",
-      "name": "John T. Scaife",
-      "email": "john@example.com"
-    },
-    {
-      "_id": "5c8a21f22f8fb814b56fa18a",
-      "name": "Aarya Lynn",
-      "email": "aarya@example.com"
-    }
+  {
+    "JSON": "Easy"
+  },
+  {
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+  }
 ]
