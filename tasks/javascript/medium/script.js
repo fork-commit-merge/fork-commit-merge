@@ -14,6 +14,7 @@ function countdown() {
         timerElement.textContent = "Time's up!";
     } else {
         countdownTime--;
+        
         setTimeout(countdown, 1000);
     }
 }
