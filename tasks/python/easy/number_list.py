@@ -6,9 +6,4 @@
 # prints the sum of the numbers of that list
 
 def function(numbers):
-    return sum(numbers)
-
-li= [i for i in range(1, 11)]
-print(li)
-print(function(li))
-    
+    pass
