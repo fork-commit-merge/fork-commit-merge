@@ -1,5 +1,3 @@
-
-```markdown
 # Disk Space Monitoring Script
 
 This Bash script monitors the disk space usage on a Linux machine and sends an email alert if the available space falls below a specified threshold.
@@ -63,6 +61,4 @@ To automate the monitoring process, set up a cron job:
 
 ## Author
 
-- **Manish Soni** - *Initial Work* - [mani1soni](https://github.com/mani1soni)
-
-```
+- **[Manish Soni](https://github.com/mani1soni)**
