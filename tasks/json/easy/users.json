@@ -1,8 +1,27 @@
 [
   {
-    "JSON": "Easy"
+    "id": 11,
+    "name": "Harika Banda",
+    "email": "harika.banda@google.com"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 22,
+    "name": "Harshini Gaddam",
+    "email": "harshini.gaddam@gmail.com"
+  },
+  {
+    "id": 33,
+    "name": "Pranitha Y",
+    "email": "pranitha.y@gmail.com"
+  },
+  {
+    "id": 44,
+    "name": "Apple",
+    "email": "Apple@gmail.com"
+  },
+  {
+    "id": 55,
+    "name": "Sam Altman",
+    "email": "sam.altman@gmail.com"
   }
 ]
