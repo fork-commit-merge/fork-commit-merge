@@ -3,6 +3,10 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
+    {name:"Phone 15",price:'74,900'},
+    {name:"Phone 15 Plus",price:'84,900'},
+    {name:"Phone 15 Pro",price:'1,30,900'},
+    {name:"Phone 15 Pro Max",price:'1,55,900'},
   ];
 
   return (
