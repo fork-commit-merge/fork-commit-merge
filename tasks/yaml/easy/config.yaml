@@ -1,4 +1,16 @@
 # YAML - Easy
 
-# TODO: Create a Basic YAML Configuration File
+# Application Configuration
 
+application:
+  name: YourAppName
+  version: 1.0
+
+server:
+  host: localhost
+  port: 8080
+
+database:
+  name: your_database_name
+  username: your_database_username
+  password: your_database_password
