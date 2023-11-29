@@ -2650,3 +2650,10 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/mani1soni"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30206849?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/kogura1995"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/151586180?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Govinda04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/50038172?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/mac-Git1"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78551358?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HarikaB11"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/115938888?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Fshahnaj"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/147937685?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HemanthVasireddy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/137654272?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LakshmiGayathri19"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/55054579?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/BuzzCrafted"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/114644299?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/pravintargaryen"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96950453?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
