@@ -55,7 +55,7 @@ int main() {
 
     // Displaying the results
     for (std::vector<std::pair<std::string, int> >::const_iterator it = sortedWords.begin(); it != sortedWords.end(); ++it) {
-        std::cout << it->first << ": " << it->second << std::endl;
+        std::cout << it->first << " - " << it->second << std::endl;
     }
 
     return 0;
