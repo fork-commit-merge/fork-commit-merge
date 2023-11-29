@@ -120,3 +120,73 @@ body {
   color: white;
   font-size: 30px;
 }
+#clocks {
+  position: relative;
+  background: url(https://www.tutorialspoint.com/assets/questions/tmp/clock.png) no-repeat;
+  background-size: 100%;
+  margin-top: 2%;
+  margin: auto;
+  height: 90vh;
+  width: 90vh;
+}
+
+#hour_clock, #minute_clock, #second_clock {
+  position: absolute;
+  background: black;
+  border-radius: 10px;
+  transform-origin: bottom;
+  opacity: 0.8;
+}
+
+#hour_clock {
+  height: 25%;
+  top: 25%;
+  left: 48.85%;
+  width: 2%;
+}
+
+#minute_clock {
+  left: 48.9%;
+  width: 1.6%;
+  height: 30%;
+  top: 20%;
+}
+
+#second_clock {
+  width: 1%;
+  height: 30%;
+  top: 20%;
+  left: 50%;
+}
+
+#clock_circle {
+  position: absolute;
+  width: 70%; /* Adjusted width */
+  height: 70%; /* Adjusted height */
+  top: 15%;
+  left: 15%;
+  border: 10px solid #141414;
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.number {
+ position: absolute;
+ font-size: 20px;
+ transform-origin: 50% 50%;
+}
+
+.number[data-number="1"] { transform: rotate(30deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="2"] { transform: rotate(60deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="3"] { transform: rotate(90deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="4"] { transform: rotate(120deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="5"] { transform: rotate(150deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="6"] { transform: rotate(180deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="7"] { transform: rotate(210deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="8"] { transform: rotate(240deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="9"] { transform: rotate(270deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="10"] { transform: rotate(300deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="11"] { transform: rotate(330deg) translateY(-30vh) translateX(-4px); }
+.number[data-number="12"] { transform: translateY(-30vh) translateX(-4px); }
