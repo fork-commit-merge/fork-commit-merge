@@ -2,11 +2,11 @@
 
 package tasks.java.medium;
 
-public class Calculator {
+public class Calculator { {
     // TODO: Implement the Calculator class
 
     // Addition
-    public int add(int a, int b) {
+    public int add(int a, int b) 
         return a + b;
     }
 
