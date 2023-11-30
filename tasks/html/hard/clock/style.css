@@ -34,7 +34,8 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+  .clock .number[data-number="1"] { --rotation: 30deg; }
+  .clock .number[data-number="2"] { --rotation: 60deg; }
 }
 
 /* Clock Hands */
@@ -53,15 +54,22 @@ body {
 
 /* Clock Second Hand */
 .clock .hand.second {
+ 
   width: 3px;
   height: 45%;
   background-color: red;
+ 
 }
 
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+  width: 2px; /* Adjust the width for the minute hand */
+  height: 50%; /* Adjust the height for the minute hand */
+  background-color: #333; /* Color for the minute hand */
+  width: 4px; /* Adjust the width for the hour hand */
+  height: 30%; /* Adjust the height for the hour hand */
+  background-color: #666; /* Color for the hour hand */
 }
 
 /* Clock Center */

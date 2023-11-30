@@ -1,14 +1,33 @@
-// Implement the setClock function to update the positions of the hour, minute, and second hands on the clock based on the current time.
-setInterval(() => {
-  // TODO: Calculate the current time and update the clock hands' positions here.
-  // You need to calculate the rotation ratios and update the hand rotations.
-}, 1000);
+const hourHand = document.querySelector('[data-hour-hand]');
+const minuteHand = document.querySelector('[data-minute-hand]');
+const secondHand = document.querySelector('[data-second-hand]');
 
-const hourHand = document.querySelector('[data-hour-hand]')
-const minuteHand = document.querySelector('[data-minute-hand]')
-const secondHand = document.querySelector('[data-second-hand]')
+// Function to set the rotation of a DOM element based on rotationRatio
+function setRotation(element, rotationRatio) {
+  const rotation = rotationRatio * 360; // Calculate the rotation in degrees
+  element.style.transform = `translateX(-50%) translateY(-0%) rotate(${rotation}deg)`;
+}
 
-// Create setRotation function to rotate a DOM element around its center point. This function will be used to rotate the hour, minute, and second hands on the clock.
-// TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
+// Function to update the clock hands' positions based on the current time
+function setClock() {
+  const now = new Date();
+  const hours = now.getHours() % 12; // Get hours in 12-hour format
+  const minutes = now.getMinutes();
+  const seconds = now.getSeconds();
 
-// TODO: You can call the setClock function here to initialize the clock's position when the page loads.
+  // Calculate rotation ratios for each clock hand
+  const hourRotation = (hours + minutes / 60) / 12;
+  const minuteRotation = (minutes + seconds / 60) / 60;
+  const secondRotation = seconds / 60;
+
+  // Update the clock hands' positions
+  setRotation(hourHand, hourRotation);
+  setRotation(minuteHand, minuteRotation);
+  setRotation(secondHand, secondRotation);
+}
+
+// Call the setClock function initially to set the clock's initial position
+setClock();
+
+// Set up an interval to update the clock every second
+setInterval(setClock, 1000);
