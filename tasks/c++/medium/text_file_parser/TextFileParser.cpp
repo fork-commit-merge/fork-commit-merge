@@ -7,7 +7,7 @@
 #include <cctype>
 #include <set>
 
-// Function to convert string to lower case
+// Function to convert 
 std::string toLowerCase(const std::string& str) {
     std::string lowerStr = str;
     std::transform(lowerStr.begin(), lowerStr.end(), lowerStr.begin(),
