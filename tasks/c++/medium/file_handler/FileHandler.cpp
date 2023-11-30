@@ -12,3 +12,6 @@
 
 // TODO: Implement the FileHandler::FileExists method
 
+bool FileHandler::FileExists(const std::string& filePath) {
+    std::ifstream fileStream(filePath);
+    return fileStream.good();
