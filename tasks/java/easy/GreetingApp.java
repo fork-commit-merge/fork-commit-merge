@@ -21,7 +21,6 @@ public class GreetingApp {
         // Close the scanner to avoid resource leaks
         scanner.close();
     }
-
     // Function to generate a personalized greeting
     private static String generateGreeting(String name) {
         return "Hello, " + name + "! Welcome to the Greeting App.";
