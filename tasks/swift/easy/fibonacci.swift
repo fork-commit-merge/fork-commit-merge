@@ -2,16 +2,8 @@
 
 import Foundation
 
-var fibonacciCache = [Int:Int]()
-
 func fibonacci(n: Int) -> Int {
-    if let value = fibonacciCache[n] {
-        return value
-    }
-    
-    let newValue = n < 2 ? n : fibonacci(n: n-1) + fibonacci(n: n-2)
-    fibonacciCache[n] = newValue
-    return newValue
+    // TODO: Implement the fibonacci sequence function
 }
 
 // Test cases (Don't touch!)
