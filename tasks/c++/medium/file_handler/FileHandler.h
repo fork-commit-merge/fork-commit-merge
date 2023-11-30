@@ -7,4 +7,3 @@ class FileHandler {
 public:
     // TODO: Implement the FileHandler class
 };
-
