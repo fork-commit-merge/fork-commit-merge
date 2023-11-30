@@ -15,3 +15,4 @@
 bool FileHandler::FileExists(const std::string& filePath) {
     std::ifstream fileStream(filePath);
     return fileStream.good();
+}
