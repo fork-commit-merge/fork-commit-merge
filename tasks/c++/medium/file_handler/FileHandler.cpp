@@ -48,4 +48,3 @@ bool FileHandler::AppendFile(const std::string& filePath, const std::string& con
 bool FileHandler::FileExists(const std::string& filePath) {
     std::ifstream fileStream(filePath);
     return fileStream.good();
-}

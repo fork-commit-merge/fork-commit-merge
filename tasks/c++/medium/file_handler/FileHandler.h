@@ -15,3 +15,4 @@ public:
     // Check if a file exists at a given path.
     static bool FileExists(const std::string& filePath);
 };
+
