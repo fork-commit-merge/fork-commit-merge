@@ -1,11 +1,9 @@
 // Java - Easy
 
-import java.util.Scanner;
-
 public class GreetingApp {
 
     public static void main(String[] args) {
-        // TODO: Implement a Simple Greeting Application
+ 
 
         // Create a Scanner object to read user input
         Scanner scanner = new Scanner(System.in);
