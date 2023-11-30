@@ -1,14 +1,51 @@
-// C++ - Medium
-
 #include "FileHandler.h"
 #include <fstream>
 #include <sstream>
+#include <iostream>
 
-// TODO: Implement the FileHandler::ReadFile method
+std::string FileHandler::ReadFile(const std::string& filePath) {
+    std::ifstream fileStream(filePath);
+    std::string fileContent;
 
-// TODO: Implement the FileHandler::WriteFile method
+    if (fileStream.is_open()) {
+        std::stringstream buffer;
+        buffer << fileStream.rdbuf();
+        fileContent = buffer.str();
+        fileStream.close();
+    } else {
+        std::cerr << "Error: Unable to open file for reading: " << filePath << std::endl;
+    }
 
-// TODO: Implement the FileHandler::AppendFile method
+    return fileContent;
+}
 
-// TODO: Implement the FileHandler::FileExists method
+bool FileHandler::WriteFile(const std::string& filePath, const std::string& content) {
+    std::ofstream fileStream(filePath);
 
+    if (fileStream.is_open()) {
+        fileStream << content;
+        fileStream.close();
+        return true;
+    } else {
+        std::cerr << "Error: Unable to open file for writing: " << filePath << std::endl;
+        return false;
+    }
+}
+
+bool FileHandler::AppendFile(const std::string& filePath, const std::string& content) {
+    std::ofstream fileStream(filePath, std::ios::app);
+
+    if (fileStream.is_open()) {
+        fileStream << content;
+        fileStream.close();
+        return true;
+    } else {
+        std::cerr << "Error: Unable to open file for appending: " << filePath << std::endl;
+        return false;
+    }
+}
+
+bool FileHandler::FileExists(const std::string& filePath) {
+    std::ifstream fileStream(filePath);
+    return fileStream.good();
+}
