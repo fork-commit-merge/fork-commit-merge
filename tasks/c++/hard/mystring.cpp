@@ -1,98 +1,55 @@
+// C++ - Hard
+
 #include "mystring.h"
 #include <cstring>
 #include <iostream>
 
-MyString::MyString() : data(nullptr) {
+// Default constructor
+MyString::MyString() : str(nullptr), len(0) {}
+
+// Parameterized constructor
+MyString::MyString(const char* s) {
+    // TODO: Implement this
 }
 
-MyString::MyString(const char* str) {
-    if (str) {
-        data = new char[strlen(str) + 1];
-        strcpy(data, str);
-    } else {
-        data = nullptr;
-    }
-}
-
+// Copy constructor
 MyString::MyString(const MyString& other) {
-    if (other.data) {
-        data = new char[strlen(other.data) + 1];
-        strcpy(data, other.data);
-    } else {
-        data = nullptr;
-    }
+    // TODO: Implement this
 }
 
+// Destructor
 MyString::~MyString() {
-    delete[] data;
+    delete[] str;
 }
 
 int MyString::length() const {
-    return data ? strlen(data) : 0;
+    // TODO: Implement this
 }
 
 const char* MyString::c_str() const {
-    return data;
+    // TODO: Implement this
 }
 
-MyString& MyString::append(const MyString& other) {
-    if (!other.data) return *this;
-    if (!data) {
-        data = new char[strlen(other.data) + 1];
-        strcpy(data, other.data);
-    } else {
-        char* temp = new char[length() + strlen(other.data) + 1];
-        strcpy(temp, data);
-        strcat(temp, other.data);
-        delete[] data;
-        data = temp;
-    }
-    return *this;
+void MyString::append(const MyString& other) {
+    // TODO: Implement this
 }
 
 int MyString::compare(const MyString& other) const {
-    if (!data) return other.data ? -1 : 0;
-    if (!other.data) return 1;
-    return strcmp(data, other.data);
+    // TODO: Implement this
 }
 
 MyString& MyString::operator=(const MyString& other) {
-    if (this != &other) {
-        delete[] data;
-        if (other.data) {
-            data = new char[strlen(other.data) + 1];
-            strcpy(data, other.data);
-        } else {
-            data = nullptr;
-        }
-    }
-    return *this;
+    // TODO: Implement this
 }
 
 MyString MyString::operator+(const MyString& other) const {
-    MyString result;
-    result.append(*this);
-    result.append(other);
-    return result;
+    // TODO: Implement this
 }
 
 bool MyString::operator==(const MyString& other) const {
-    return compare(other) == 0;
+    // TODO: Implement this
 }
 
-std::ostream& operator<<(std::ostream& os, const MyString& obj) {
-    os << obj.c_str();
-    return os;
-}
-
-MyString MyString::substring(int start, int end) const {
-    if (!data || start < 0 || start >= length() || end < start || end > length()) {
-        return MyString();
-    }
-    char* subStr = new char[end - start + 2];
-    strncpy(subStr, data + start, end - start + 1);
-    subStr[end - start + 1] = '\0';
-    MyString result(subStr);
-    delete[] subStr;
-    return result;
+std::ostream& operator<<(std::ostream& os, const MyString& s) {
+    // TODO: Implement this
 }
