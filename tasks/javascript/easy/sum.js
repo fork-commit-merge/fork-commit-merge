@@ -1,9 +1,4 @@
+// JavaScript - Easy
 
-function sum(x, y) {
-    return x + y;
-}
+// TODO: Write a function that returns the sum of two numbers
 
-const x = 1;
-const y = 2;
-
-const result = sum(x,y);
