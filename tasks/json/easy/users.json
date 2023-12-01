@@ -1,34 +1,8 @@
+[
   {
-    "Users": [
-      {
-        "id": "1",
-        "firstName": "Ben",
-        "lastname": "Johnson",
-        "email": "benjohnson@gmail.com"
-      },
-      {
-        "id": "2",
-        "firstName": "Dan",
-        "lastname": "Anderson",
-        "email": "andersondan@gmail.com"
-      },
-      {
-        "id": "3",
-        "firstName": "TJ",
-        "lastname": "Smith",
-        "email": "TJ.smith@jgmail.com"
-      },
-      {
-        "id": "4",
-        "firstName": "Hank",
-        "lastname": "Williams",
-        "email": "hankwil@gmail.com"
-      },
-      {
-        "id": "5",
-        "firstName": "Johnny",
-        "lastname": "Cash",
-        "email": "cashmoney@gmail.com"
-      }
-    ]
+    "JSON": "Easy"
+  },
+  {
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
+]
