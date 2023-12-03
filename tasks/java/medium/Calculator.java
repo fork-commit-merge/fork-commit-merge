@@ -3,6 +3,7 @@
 package tasks.java.medium;
 
 public class Calculator {
+    // TODO: Implement the Calculator class
 
     public static void main(String[] args) {
         //! Don't change the tests in the main method!
@@ -12,21 +13,5 @@ public class Calculator {
         System.out.println("Subtraction: " + calc.subtract(5, 3));
         System.out.println("Multiplication: " + calc.multiply(5, 3));
         System.out.println("Division: " + calc.divide(5, 3));
-    }
-
-    public int add(int x, int y) {
-        return x + y;
-    }
-
-    public int subtract(int x, int y){
-        return x - y;
-    }
-
-    public int divide(int x, int y){
-        return x / y;
-    }
-
-    public int multiply(int x, int y){
-        return x * y;
     }
 }
