@@ -641,7 +641,7 @@ Install Groovy:
 
 #### Windows:
 
--   Visit the official Python website's download page.
+-   Visit the official Python website's [download page](https://www.python.org/downloads/).
 -   Click on the latest Python release.
 -   Scroll down to the Files section and download the Windows x86-64 executable installer for 64-bit version of Windows.
 -   Run the installer file and follow the instructions, making sure to tick the box that says "Add Python to PATH" before clicking Install Now.
@@ -650,7 +650,7 @@ Install Groovy:
 
 Mac OS X should come pre-installed with Python, but in case it's not installed, here's how to install it:
 
--   Visit the official Python website's download page.
+-   Visit the official Python website's [download page](https://www.python.org/downloads/).
 -   Click on the latest Python release.
 -   Download the macOS 64-bit installer.
 -   Open the downloaded .pkg file and follow the instructions to install Python.
