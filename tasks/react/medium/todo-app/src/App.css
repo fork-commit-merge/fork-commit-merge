@@ -42,3 +42,8 @@
 .read-the-docs {
   color: #888;
 }
+.todo-list > li {
+  display:flex;
+  gap:30px;
+  align-items: center;
+}
