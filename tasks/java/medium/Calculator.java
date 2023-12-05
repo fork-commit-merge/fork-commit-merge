@@ -14,25 +14,4 @@ public class Calculator {
         System.out.println("Multiplication: " + calc.multiply(5, 3));
         System.out.println("Division: " + calc.divide(5, 3));
     }
-
-    public double add(double a, double b){
-        double c = a +b;
-
-        return c;
-    }
-
-    public double subtract(double a, double b){
-        double c = a - b;
-        return c;
-    }
-    
-    public double multiply(double a, double b){
-        double c = a * b;
-        return c;
-    }
-    
-    public double divide(double a, double b){
-        double c = a / b;
-        return c;
-    }
 }
