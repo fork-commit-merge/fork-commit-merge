@@ -1991,6 +1991,7 @@ Sit back and wait for a response and feedback of the pull request. If everything
 
 Remember to wait for us to review your pull request, do not close it yourself.
 If you are asked to make changes, you can do so by committing them to the same branch, there is no need to close the current Pull Request and open a new one.
+If you don't respond to the review and make the necessary changes within 4 days, the Pull Request will be closed automatically.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
