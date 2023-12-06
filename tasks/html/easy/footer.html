@@ -12,7 +12,7 @@
         padding: 0;
       }
       footer {
-        background-color: #c21717;
+        background-color: #333;
         color: white;
         text-align: center;
         padding: 10px 0px;
@@ -21,21 +21,11 @@
         width: 100%;
       }
     </style>
-
-   
   </head>
   <body>
     <!-- TODO:
       Add a <footer> element to footer.html.
       Inside the <footer>, include a paragraph <p> with the text "Copyright © 2023 Fork, Commit, Merge".
     -->
-    <footer>
-      <p>Copyright &copy <span id="c"></span> Fork, Commit, Merge</p>
-
-      <script>
-        let d = new Date().getFullYear();
-        document.getElementById("c").innerHTML = d;
-      </script>
-    </footer>
   </body>
 </html>

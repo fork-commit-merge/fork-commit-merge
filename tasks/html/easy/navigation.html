@@ -8,36 +8,27 @@
     <title>Fork, Commit, Merge - HTML - Easy 2</title>
     <style>
       nav ul {
-        width: 20%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         list-style-type: none;
-        border-radius: 5px;
+        margin: 0;
+        padding: 0;
         overflow: hidden;
         background-color: #333;
       }
 
       nav ul li {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-right: 40px;
+        float: left;
       }
 
       nav ul li a {
         display: block;
         color: white;
         text-align: center;
-        padding: 14px 20px;
+        padding: 14px 16px;
         text-decoration: none;
       }
 
       nav ul li a:hover {
         background-color: #111;
-        width: 100%;
       }
     </style>
   </head>
@@ -47,15 +38,5 @@
       - Inside the <nav> element, use an unordered list <ul> with list items <li> for each navigation link.
       - Each list item should contain an anchor <a> element pointing to #, as we don't have actual pages to link to (e.g., <a href="#">Home</a>).
     -->
-
-    <nav>
-      <ul>
-        <li>
-          <a href="">Fork</a>
-          <a href=""> Commit</a>
-          <a href="">Merge</a>
-        </li>
-      </ul>
-    </nav>
   </body>
 </html>
