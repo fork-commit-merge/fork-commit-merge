@@ -9,9 +9,11 @@ function App() {
   const [editTodo,setEditTodo]=useState("")
   const [ editedId, setEditedId ] = useState()
 
+  
    useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
    }, [ todos ] );
+  
 
     function handleFormSubmit(e) {
     e.preventDefault();
@@ -79,3 +81,4 @@ function App() {
 }
 
 export default App;
+
