@@ -1,3 +1,7 @@
-# Python - Easy
+def sum_of_two_numbers(num1, num2):
+    return num1 + num2
 
-# TODO: Write a function that returns the sum of two numbers
+
+# Example usage
+result = sum_of_two_numbers(5, 3)
+print("The sum is:", result)
