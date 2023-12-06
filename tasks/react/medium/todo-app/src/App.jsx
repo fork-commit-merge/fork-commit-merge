@@ -1,4 +1,4 @@
- 
+
 import  { useState, useEffect } from 'react'
 import './App.css';
 function App() {
@@ -8,11 +8,13 @@ function App() {
   const [ isEditing, setIsEditing ] = useState( false )
   const [editTodo,setEditTodo]=useState("")
   const [ editedId, setEditedId ] = useState()
+
   
    useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));
    }, [ todos ] );
   
+
     function handleFormSubmit(e) {
     e.preventDefault();
     if (item !== "") {
@@ -32,7 +34,7 @@ function App() {
     const itemToEdit=todos.find((item)=>item.id===id)
     setEditTodo(itemToEdit.text)
   }
-  
+
   function handleSave ( id ) {
      const editedItem = todos.map( item  => item.id === id ? {...item , text:editTodo} :item  )
     // console.log(editedItem)
