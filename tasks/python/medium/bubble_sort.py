@@ -1,5 +1,3 @@
-# Python - Medium
-
 def bubble_sort(arr):
     # TODO: Implement the bubble sort algorithm
 
