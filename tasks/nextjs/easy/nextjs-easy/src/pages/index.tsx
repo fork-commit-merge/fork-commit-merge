@@ -1,10 +1,8 @@
+// NextJS - Easy
 
 export default function Home() {
   const sampleProducts = [
-    { name: 'Product 1', price: '$100' },
-    { name: 'Product 2', price: '$200' },
-    { name: 'Product 3', price: '$300' },
-    // Add more products as needed
+    // TODO: Create a sample product list with names and prices
   ];
 
   return (
