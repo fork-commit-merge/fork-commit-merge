@@ -1,27 +1,8 @@
 [
   {
-    "id": "1",
-    "name": "Utkarsh Hadgekar",
-    "email": "utkarshuh16@gmail.com"
+    "JSON": "Easy"
   },
   {
-    "id": "2",
-    "name": "Radhesham",
-    "email": "radhe@gmail.com"
-  },
-  {
-    "id": "3",
-    "name": "Iqlipse Nova",
-    "email": "inova@gmail.com"
-  },
-  {
-    "id": "4",
-    "name": "John cena",
-    "email": "nevergiveup@gmail.com"
-  },
-  {
-    "id": "5",
-    "name": "Tony stark",
-    "email": "iamironman@gmail.com"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
