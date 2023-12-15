@@ -42,35 +42,3 @@
 .read-the-docs {
   color: #888;
 }
-
-
-.input{
-  height: 30px;
-}
-
-.inputbtn{
-  height: 30px;
-  border: 1px solid white;
-  padding :6px
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th, td {
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
-th {
-  background-color: #333; 
-  color: white; 
-}
-
-.editbtn{
-  height: 20px;
-  border: 1px solid white;
-  padding :6px
-}
