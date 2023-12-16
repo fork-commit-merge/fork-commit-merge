@@ -19,13 +19,6 @@ setInterval(() => {
   document.getElementById("hour-hand").style.transform = "rotate(" + h + "deg)";
 }, 1000);
 
-function checkTime(i) {
-  if (i < 10) {
-    i = "0" + i;
-  } // add zero in front of numbers < 10
-  return i;
-}
-
 const hourHand = document.querySelector("[data-hour-hand]");
 const minuteHand = document.querySelector("[data-minute-hand]");
 const secondHand = document.querySelector("[data-second-hand]");
