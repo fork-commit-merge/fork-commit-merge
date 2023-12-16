@@ -1,3 +1,13 @@
 #include <stdio.h>
 
-// TODO: Implement the sum and main functions
+void main() {
+  
+    int a,b,sum;
+    printf("A:");
+    scanf("%d",&a);
+    printf("B:");
+    scanf("%d",&b);
+    sum = a + b;
+    printf("Sum: %d",sum);
+    
+}
