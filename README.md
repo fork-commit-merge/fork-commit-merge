@@ -1,19 +1,19 @@
 <div align="center">
 
 ![Fork, Commit, Merge](/assets/images/fork-commit-merge-banner2.png)
-[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
+[![Version 1.2.0](https://img.shields.io/badge/Version-1.2.0-orange.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/issues)
-[![Stars](https://img.shields.io/github/stars/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/stars)
-[![Forks](https://img.shields.io/github/forks/nikohoffren/fork-commit-merge.svg?style=flat)](https://github.com/nikohoffren/fork-commit-merge/forks)
-[![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
-[![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/nikohoffren/fork-commit-merge/pulls)
-![GitHub repo size](https://img.shields.io/github/repo-size/nikohoffren/fork-commit-merge)
+[![Issues](https://img.shields.io/github/issues/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/issues)
+[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stars)
+[![Forks](https://img.shields.io/github/forks/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/forks)
+[![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
+[![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
+![GitHub repo size](https://img.shields.io/github/repo-size/fork-commit-merge/fork-commit-merge)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=nikohoffren_fork-commit-merge&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=nikohoffren_fork-commit-merge)
 
 <br>
-Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming in different languages.
+Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming with different languages, libraries and frameworks.
 
 More info about this project, contributing and open source resources, are available on our website at
 <br>[forkcommitmerge.io](https://forkcommitmerge.io)
@@ -57,7 +57,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
     -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
     -   [Installing Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk)
     -   [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
-    -   [Istalling F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
+    -   [Installing F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
     -   [Installing Ada](#installing-ada)
     -   [Installing Java](#installing-java)
     -   [Installing Kotlin](#installing-kotlin)
@@ -641,7 +641,7 @@ Install Groovy:
 
 #### Windows:
 
--   Visit the official Python website's download page.
+-   Visit the official Python website's [download page](https://www.python.org/downloads/).
 -   Click on the latest Python release.
 -   Scroll down to the Files section and download the Windows x86-64 executable installer for 64-bit version of Windows.
 -   Run the installer file and follow the instructions, making sure to tick the box that says "Add Python to PATH" before clicking Install Now.
@@ -650,7 +650,7 @@ Install Groovy:
 
 Mac OS X should come pre-installed with Python, but in case it's not installed, here's how to install it:
 
--   Visit the official Python website's download page.
+-   Visit the official Python website's [download page](https://www.python.org/downloads/).
 -   Click on the latest Python release.
 -   Download the macOS 64-bit installer.
 -   Open the downloaded .pkg file and follow the instructions to install Python.
@@ -1527,7 +1527,7 @@ Remember to consult the official documentation for the most up-to-date and detai
 
 That will open this small window:
 
-![Clone](/assets/images/clone.png)
+![Clone](/assets/images/git-clone.png)
 
 After that you can copy and paste the URL the to your local machine with the command:
 
@@ -1546,10 +1546,10 @@ cd fork-commit-merge
 4. Add a reference to the original repository for future updates:
 
 ```bash
-git remote add upstream https://github.com/nikohoffren/fork-commit-merge.git
+git remote add upstream https://github.com/fork-commit-merge/fork-commit-merge.git
 ```
 
-(Remember to keep here the original repository URL, not your forked one, so the username in this needs to be `nikohoffren`.)
+(Remember to keep here the original repository URL, not your forked one, so the username in this needs to be `fork-commit-merge`, not your own username.)
 
 5. Check the remotes for this repository:
 
@@ -1681,263 +1681,271 @@ After that you are ready to get solving!
 
 Go to the task you selected to get more info about the issue by clicking one of the following:
 
-[HTML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1004)
+[HTML - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1540)
 
-[HTML - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1058)
+[HTML - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1541)
 
-[HTML - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/954)
+[HTML - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1576)
 
-[HTML/CSS/JavaScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1451)
+[HTML - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1534)
 
-[HTMX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1047)
+[HTML - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/954)
 
-[CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1038)
+[HTML/CSS/JavaScript - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1451)
 
-[CSS - Medium 1](https://github.com/nikohoffren/fork-commit-merge/issues/1271)
+[HTMX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1047)
 
-[CSS - Medium 2](https://github.com/nikohoffren/fork-commit-merge/issues/1371)
+[CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1595)
 
-[CSS - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/953)
+[CSS - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1271)
 
-[SASS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1055)
+[CSS - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1371)
 
-[SASS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1049)
+[CSS - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/953)
 
-[Tailwind CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/959)
+[SASS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1055)
 
-[Tailwind CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1380)
+[SASS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1049)
 
-[Bootstrap CSS - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1416)
+[Tailwind CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1519)
 
-[Bootstrap CSS - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/963)
+[Tailwind CSS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1506)
 
-[ReScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/949)
+[Bootstrap CSS - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1416)
 
-[CoffeeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/944)
+[Bootstrap CSS - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/963)
 
-[CoffeeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/996)
+[ReScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1515)
 
-[JavaScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/948)
+[CoffeeScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1512)
 
-[JavaScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1377)
+[CoffeeScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/996)
 
-[JavaScript/Jest - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1378)
+[JavaScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1514)
 
-[JavaScript/Jest - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1023)
+[JavaScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1507)
 
-[JavaScript/Jasmine - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1452)
+[JavaScript/Jest - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1378)
 
-[TypeScript - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1415)
+[JavaScript/Jest - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1522)
 
-[TypeScript - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1411)
+[JavaScript/Jasmine - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1452)
 
-[TypeScript - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1040)
+[TypeScript - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1415)
 
-[TypeScript/Vitest - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1048)
+[TypeScript - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1411)
 
-[React.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1454)
+[TypeScript - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1040)
 
-[React.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1455)
+[TypeScript/Vitest - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1537)
 
-[Next.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1372)
+[React.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1590)
 
-[Three.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1054)
+[React.js - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1531)
 
-[Vue.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1007)
+[React.js - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1532)
 
-[Vue.js - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1031)
+[Next.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1591)
 
-[Svelte - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1008)
+[Three.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1054)
 
-[Astro - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1024)
+[Vue.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1007)
 
-[Angular - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1009)
+[Vue.js - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1031)
 
-[Ember.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1069)
+[Svelte - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1008)
 
-[GraphQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1057)
+[Astro - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1024)
 
-[NGINX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1133)
+[Angular - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1009)
 
-[Express.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1056)
+[Ember.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1069)
 
-[Electron.js - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1046)
+[GraphQL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1057)
 
-[C - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1414)
+[NGINX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1133)
 
-[C - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/945)
+[Express.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1056)
 
-[C++ - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1305)
+[Electron.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1046)
 
-[C++ - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1306)
+[C - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1414)
 
-[C++ - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1307)
+[C - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1511)
 
-[C++ - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1309)
+[C++ - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1305)
 
-[C++ - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1039)
+[C++ - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1306)
 
-[C++ - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/955)
+[C++ - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1307)
 
-[C# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1030)
+[C++ - Easy 4](https://github.com/fork-commit-merge/fork-commit-merge/issues/1309)
 
-[Blazor - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1428)
+[C++ - Medium 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1482)
 
-[D - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/952)
+[C++ - Medium 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1484)
 
-[F# - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/941)
+[C++ - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/955)
 
-[Ada - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1412)
+[C# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1535)
 
-[Java - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1006)
+[Blazor - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1428)
 
-[Java - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1005)
+[D - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/952)
 
-[Java - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1442)
+[F# - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1510)
 
-[Kotlin - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/980)
+[Ada - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1412)
 
-[Scala - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/981)
+[Java - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1516)
 
-[Groovy - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1026)
+[Java - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1517)
 
-[Python - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1445)
+[Java - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1442)
 
-[Python - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1413)
+[Kotlin - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/980)
 
-[Python - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1021)
+[Scala - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/981)
 
-[Python - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/956)
+[Groovy - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1026)
 
-[Python - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1439)
+[Python - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1503)
 
-[Flask - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1050)
+[Python - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1505)
 
-[Django - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1440)
+[Python - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1520)
 
-[Solidity - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1450)
+[Python - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1523)
 
-[Vyper - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/951)
+[Python - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1439)
 
-[Ruby - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1086)
+[Flask - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1050)
 
-[Ruby - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1085)
+[Django - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1440)
 
-[Ruby - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1446)
+[Solidity - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1450)
 
-[Rails - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1448)
+[Vyper - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/951)
 
-[Elixir - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/978)
+[Ruby - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1086)
 
-[Crystal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/950)
+[Ruby - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1085)
 
-[PHP - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1094)
+[Ruby - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1446)
 
-[PHP - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1095)
+[Rails - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1448)
 
-[PHP - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1096)
+[Elixir - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/978)
 
-[PHP - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1279)
+[Crystal - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/950)
 
-[Laravel - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1036)
+[PHP - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1593)
 
-[Go - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/943)
+[PHP - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1592)
 
-[Dart - Easy 1](https://github.com/nikohoffren/fork-commit-merge/issues/1062)
+[PHP - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1594)
 
-[Dart - Easy 2](https://github.com/nikohoffren/fork-commit-merge/issues/1061)
+[PHP - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1279)
 
-[Dart - Easy 3](https://github.com/nikohoffren/fork-commit-merge/issues/1060)
+[Laravel - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1036)
 
-[Dart - Easy 4](https://github.com/nikohoffren/fork-commit-merge/issues/1417)
+[Go - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1509)
 
-[Flutter - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/946)
+[Dart - Easy 1](https://github.com/fork-commit-merge/fork-commit-merge/issues/1536)
 
-[Swift - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1032)
+[Dart - Easy 2](https://github.com/fork-commit-merge/fork-commit-merge/issues/1588)
 
-[React Native - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1421)
+[Dart - Easy 3](https://github.com/fork-commit-merge/fork-commit-merge/issues/1589)
 
-[Julia - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1052)
+[Dart - Easy 4](https://github.com/fork-commit-merge/fork-commit-merge/issues/1417)
 
-[Rust - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/957)
+[Flutter - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1513)
 
-[Rust - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1441)
+[Swift - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1032)
 
-[Haskell - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/979)
+[React Native - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1421)
 
-[Haskell - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/960)
+[Julia - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1052)
 
-[Lua - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/982)
+[Rust - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1521)
 
-[Clojure - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/983)
+[Rust - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1441)
 
-[OCaml - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1068)
+[Haskell - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/979)
 
-[LaTeX - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/889)
+[Haskell - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/960)
 
-[Lisp - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1033)
+[Lua - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/982)
 
-[Fortran - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1029)
+[Clojure - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/983)
 
-[Pascal - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1065)
+[OCaml - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1068)
 
-[Pascal - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1066)
+[LaTeX - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/889)
 
-[COBOL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1064)
+[Lisp - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1033)
 
-[Erlang - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1028)
+[Fortran - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1029)
 
-[Smalltalk - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/947)
+[Pascal - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1065)
 
-[Zig - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1053)
+[Pascal - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1066)
 
-[R - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1447)
+[COBOL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1064)
 
-[Nim - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1025)
+[Erlang - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1028)
 
-[MATLAB - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/891)
+[Smalltalk - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/947)
 
-[Octave - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1027)
+[Zig - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1053)
 
-[SQL - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/958)
+[R - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1447)
 
-[SQL - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1443)
+[Nim - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1025)
 
-[SQL - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/1444)
+[MATLAB - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/891)
 
-[TLA+ - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1022)
+[Octave - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1027)
 
-[Bash - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/961)
+[SQL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/958)
 
-[Bash - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1063)
+[SQL - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1443)
 
-[Perl - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1003)
+[SQL - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/1444)
 
-[Mojo - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1402)
+[TLA+ - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1022)
 
-[ASM (Assembly) - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1376)
+[Bash - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1533)
 
-[Markdown - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/975)
+[Bash - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1063)
 
-[Markdown - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1418)
+[Perl - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1003)
 
-[Markdown - Hard](https://github.com/nikohoffren/fork-commit-merge/issues/976)
+[Mojo - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1402)
 
-[JSON - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1037)
+[ASM (Assembly) - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1376)
 
-[JSON - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1449)
+[Markdown - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1524)
 
-[TOML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1051)
+[Markdown - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1504)
 
-[XML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1379)
+[Markdown - Hard](https://github.com/fork-commit-merge/fork-commit-merge/issues/976)
 
-[YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/942)
+[JSON - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1596)
 
-[YAML/Docker - Medium](https://github.com/nikohoffren/fork-commit-merge/issues/1375)
+[JSON - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1449)
 
-[Docker - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1084)
+[TOML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1051)
 
-[Kubernetes/YAML - Easy](https://github.com/nikohoffren/fork-commit-merge/issues/1389)
+[XML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1379)
+
+[YAML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1508)
+
+[YAML/Docker - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/1375)
+
+[Docker - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1084)
+
+[Kubernetes/YAML - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1389)
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
@@ -1983,11 +1991,11 @@ Sit back and wait for a response and feedback of the pull request. If everything
 
 Remember to wait for us to review your pull request, do not close it yourself.
 If you are asked to make changes, you can do so by committing them to the same branch, there is no need to close the current Pull Request and open a new one.
+If you don't respond to the review and make the necessary changes within 4 days, the Pull Request will be closed automatically.
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
 All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
-In the website you can also find more information about the project, as well as your own contribution history for this project, if you [login](https://forkcommitmerge.io/login) with your Github account.
 
 ![line]
 
@@ -2018,6 +2026,7 @@ This project was inspired by a number of fantastic resources designed to help ne
 -   [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
 -   [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
 -   [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
+-   [Hello Open Source](https://github.com/mazipan/hello-open-source): A repository to learn about open source code contributions flow (for beginners only).
 
 I highly recommend checking out these projects if you want to learn more about contributing to open source!
 
@@ -2025,7 +2034,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 ## What's Next?
 
-Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/nikohoffren/fork-commit-merge-web). The website is built with React, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Github OAuth/API. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
+Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React.js, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Clerk. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
 You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/how-to-contribute) of our website.
 
@@ -2047,8 +2056,8 @@ You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](
 
 ## Leaderboard
 
-You can find the leaderboard of the Top 20 contributors in our website at [forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
-You can also find your own contribution history for this project in the website, if you [login](https://forkcommitmerge.io/login) with your Github account.
+You can find the leaderboard of the Top 20 contributors in our website at [https://forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
+You can also find all of your own contributions to this project in the [Dashboard](https://forkcommitmerge.io/dashboard) of our website when you log in.
 
 ![line]
 
@@ -2589,3 +2598,109 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/M-n0ur"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/111565221?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/TheHolyRoller"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/79761726?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/KamH333"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128550647?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Tashuuuu"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85075827?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Hantaro171902"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/97072454?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/maxirios"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54092835?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Andre118"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/101457336?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HHongVu"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/89300841?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/satyam-mishra-07"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112871870?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HoanB2014976"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141981735?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Bishalsingh153"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/139632789?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Phuc-B2015003"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/141889452?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/3lle4"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/136592134?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Sakura125809"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/95874936?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tusharkc"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/83814197?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/VinayakWaghmode7"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122003889?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/noah-delacruz"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/43018893?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/naturalneuralnet"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145875606?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/qmohitsingh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30595867?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shauryagupta3"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/119103602?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/PavanCheruvupally"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/147687126?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/navmeetsekhon"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/64701624?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/alejandraa0208"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/137726638?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/adnanm123"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/95673007?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/0xQuasark"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99223896?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/cleecoloma"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104961833?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/alfabeat"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/86717951?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sfpagalan"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/137751888?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ctojot"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/130953480?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/juanfrank77"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/12146882?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/GajendraR"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/76901180?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Subhi-c"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/99975184?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/MysteryAchievement"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/24849526?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Tomkndn"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/105445488?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Shubhangam333"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/51338715?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/NayLin99"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/24827948?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/joshivignesh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/10427100?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/rakib00-dev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/146561956?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/PratikMore55"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/138502602?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AtharvaKitkaru"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/54904845?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/DilushaHesaranga"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/132726753?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/avinashpathy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/52415177?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/JiginJayaprakash"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145117767?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/PRASUN-SITAULA"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/89672957?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LaxRaj"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93178290?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/pat8901"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/95184328?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/NasifAhmed"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/33228097?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ElDeepFull"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/85937379?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Dark-LYNN"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/65414822?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dhruvjindal555"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/124202030?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HrithikHarsha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/71823175?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/rubalsxngh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107802163?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Harshini-Gaddam"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/123286604?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/mani1soni"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/30206849?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/kogura1995"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/151586180?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Govinda04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/50038172?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/mac-Git1"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/78551358?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HarikaB11"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/115938888?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Fshahnaj"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/147937685?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HemanthVasireddy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/137654272?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LakshmiGayathri19"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/55054579?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/BuzzCrafted"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/114644299?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/pravintargaryen"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96950453?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Varshitha0"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/87432071?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/VishalD51"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/20000382?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sandalinemmaniwar"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/60994679?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tarun212001"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/75559211?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SamHastings1066"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/35917603?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/cristianps1988"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/51727531?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/gayatri-t"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/62879897?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Jayanthtalasila"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118774238?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/narashimha05"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/139961244?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/surajsolanki724"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/36067876?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/StrizzyAllen"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/113122370?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sreerampaladugu10"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/70190696?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/sejal-bansal"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/13705025?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/solvman"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/4379350?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/hsmanik"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/103379363?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/manoj633"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/42727681?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HIT0638"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93414071?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Shubham-2110"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117958847?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/OliverChen12"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/92090510?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/jsjtsty"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/19505462?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/qq905575048"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/26545215?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/MounikaVemparala"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/73685601?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LRKROSHAN"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/82709418?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AdityaT-19"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/121053747?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ARPIT2128"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93235104?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/22tushar"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/86909566?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/abelrula"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/149838087?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Amank04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122851034?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/harishankarr7"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/31157448?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Skandesh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/42321593?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ruchikamuddinagiri"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/52284361?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Rupa-Rd"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/102663541?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/cclypeatus"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/106562793?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Pavs1605"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/18229871?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Deepkha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96628370?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Ruhifarhath"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/112181464?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/nithamitabh"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96220322?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/lchauha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/126190602?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tash04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/119289726?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/ritiksharma04"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/57989820?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Yatharth31"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118633431?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/utkarsh-1602"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/79980596?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/manikanta799"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/56464362?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Manideep-Maddileti"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107171168?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/kedarshenoy"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/75718122?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SadanandMiskin"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/119523972?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>

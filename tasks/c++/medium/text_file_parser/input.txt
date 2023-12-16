@@ -1,0 +1,3 @@
+Hello world!
+The world is a beautiful place.
+The weather is wonderful.
