@@ -1,29 +1,31 @@
-<!-- Tailwind CSS - Easy -->
+<!-- Tailwind CSS - Enhanced Design -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fork, Commit, Merge - Tailwind CSS - Easy</title>
+    <title>Fork, Commit, Merge - Tailwind CSS - Enhanced Design</title>
     <link href="../output.css" rel="stylesheet" />
   </head>
-  <body class="m-5 flex justify-center">
-    <!-- TODO: Add Tailwind CSS classes to the card -->
-    <div class="">
-      <div class="">
-        <div class="">
-          <img
-            class="h-48 w-full object-cover md:h-full md:w-48"
-            src="https://source.unsplash.com/random/480x480"
-            alt="Random Image"
-          />
+  <body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="bg-white rounded-lg overflow-hidden shadow-md md:flex">
+      <div class="md:flex-shrink-0">
+        <img
+          class="h-48 w-full object-cover md:h-full md:w-48"
+          src="https://source.unsplash.com/random/480x480"
+          alt="Random Image"
+        />
+      </div>
+      <div class="p-6">
+        <div class="flex items-center justify-between">
+          <div class="font-bold text-xl mb-2">Card Title</div>
+          <span class="text-gray-500 text-sm">2 hours ago</span>
         </div>
-        <div class="">
-          <div class="">Card Title</div>
-          <a href="#" class="">Card Subtitle</a>
-          <p class="">This is some body text to explain more about the card.</p>
-          <button class="">Call to Action</button>
+        <a href="#" class="text-blue-500 mb-2 block">Card Subtitle</a>
+        <p class="text-gray-700 text-base">This is some body text to explain more about the card. It can contain additional information and details.</p>
+        <div class="mt-4">
+          <button class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">Call to Action</button>
         </div>
       </div>
     </div>
