@@ -37,13 +37,25 @@ body {
   /* TODO: Define rotations for numbers (1 to 12) */
 }
 
+.number span {
+  position: absolute;
+  transform: rotate(calc(30deg * var(--i)));
+  inset: 12px;
+  text-align: center;
+}
+
+.number span b {
+  transform: rotate(calc(-30deg * var(--i)));
+  display: inline-block;
+}
+
 /* Clock Hands */
 .clock .hand {
   --rotation: 0;
   position: absolute;
   bottom: 50%;
   left: 50%;
-  border: 1px solid white;
+  border: 1px solid rgb(0, 0, 0);
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transform-origin: bottom;
@@ -52,15 +64,39 @@ body {
 }
 
 /* Clock Second Hand */
-.clock .hand.second {
+.clock .hand .second {
+  bottom: 50%;
+  left: 50%;
+  position: absolute;
   width: 3px;
-  height: 45%;
+  height: 100px;
   background-color: red;
+  transform-origin: bottom center;
+  transform: translateX(-50%) translateY(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
 /* Clock Minute and Hour Hands */
-.clock .hand.minute,
-.clock .hand.hour {
+.clock .hand .minute {
+  bottom: 50%;
+  left: 50%;
+  position: absolute;
+  width: 3px;
+  height: 80px;
+  background-color: green;
+  transform-origin: bottom center;
+  transform: translateX(-50%) translateY(-50%) rotate(calc(var(--rotation) * 1deg));
+  /* TODO: Define styles for minute and hour hands */
+}
+
+.clock .hand .hour {
+  bottom: 50%;
+  left: 50%;
+  width: 3px;
+  height: 70px;
+  background-color: blue;
+  position: absolute;
+  transform-origin: bottom center;
+  transform: translateX(-50%) translateY(-50%) rotate(calc(var(--rotation) * 1deg));
   /* TODO: Define styles for minute and hour hands */
 }
 
