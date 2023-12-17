@@ -1,37 +1,8 @@
 [
   {
-    "id": 1,
-    "name": "Alex",
-    "email": "alex@email.com"
+    "JSON": "Easy"
   },
   {
-    "id": 2,
-    "name": "Bob",
-    "email": "bob@email.com"
-  },
-  {
-    "id": 3,
-    "name": "Abigale",
-    "email": "abigale@mx.com"
-  },
-  {
-    "id": 4,
-    "name": "Aimee",
-    "email": "aimee@mail.ru"
-  },
-  {
-    "id": 5,
-    "name": "Irma",
-    "email": "irma@topmail.com"
-  },
-  {
-    "id": 6,
-    "name": "Jarred",
-    "email": "jarred@gmail.com"
-  },
-  {
-    "id": 7,
-    "name": "Lydia",
-    "email": "lydia@ymail.com"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
