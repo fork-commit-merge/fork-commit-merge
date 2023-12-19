@@ -1,32 +1,8 @@
 [
   {
-    "ID":1,
-    "NAME":"Siddharth",
-    "EMAIL":"siddhashokan@gmail.com"
+    "JSON": "Easy"
   },
   {
-    "ID":2,
-    "NAME":"Micheal",
-    "EMAIL":"micheal12@gmail.com"
-  },
-  {
-    "ID":3,
-    "NAME":"Franklin",
-    "EMAIL":"franklinls@gmail.com"
-  },
-  {
-    "ID":4,
-    "NAME":"Trevor",
-    "EMAIL":"trevorT@gmail.com"
-  },
-  {
-    "ID":5,
-    "NAME":"Benjamin",
-    "EMAIL":"benjaminworks@gmail.com"
-  },
-  {
-    "ID":6,
-    "NAME":"Mike",
-    "EMAIL":"mikebm16@gmail.com"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
