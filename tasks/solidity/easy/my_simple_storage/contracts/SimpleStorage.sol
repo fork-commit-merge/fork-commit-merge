@@ -12,5 +12,6 @@ contract SimpleStorage {
     //TODO: Implement function to get the number
     function getNumber() public view returns(uint256) {
         return num ;
-    }
+    } 
 }
+
