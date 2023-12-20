@@ -56,8 +56,8 @@ body {
 */
 
 hr {
-  height: 0; /* 1 */
-  color: inherit; /* 2 */
+  height: 1px; /* 1 */
+  color: var(--border-color, inherit); /* 2 */
   border-top-width: 1px; /* 3 */
 }
 
@@ -151,7 +151,7 @@ sup {
 
 table {
   text-indent: 0; /* 1 */
-  border-color: inherit; /* 2 */
+  border-color: black; /* 2 */
   border-collapse: collapse; /* 3 */
 }
 
