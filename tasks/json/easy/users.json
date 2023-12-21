@@ -3,31 +3,6 @@
     "JSON": "Easy"
   },
   {
-    "TODO": [{
-      "id":1,
-      "name": "vrushik",
-      "email":"vrushik@gmail.com"
-    },
-    {
-      "id":2,
-      "name": "quine",
-      "email":"quine@gmail.com"
-    },
-    {
-
-      "id":3,
-      "name": "abcde",
-      "email":"abcdek@gmail.com"
-    },
-    {
-      "id":4,
-      "name": "xyzw",
-      "email":"xyzw@gmail.com"
-    },
-    {"id":5,
-    "name": "temp",
-    "email":"temp@gmail.com"
-  }
-  ]
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
