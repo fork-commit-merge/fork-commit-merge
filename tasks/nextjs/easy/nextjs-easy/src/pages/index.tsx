@@ -3,6 +3,13 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
+    {name:"Jaguar",price:'52,44,000'},
+    {name:"MG Hector",price:'65,99,000'},
+    {name:"Nissan",price:'22,30,000'},
+    {name:"Ferrari",price:'80,55,900'},
+    {name:"Ford",price:'34,55,900'},
+    {name:"Audi",price:'52,99,100'},
+    {name:"Swift",price:'31,55,500'},
   ];
 
   return (
