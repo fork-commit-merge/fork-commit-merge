@@ -3,27 +3,7 @@
 version: '3'
 
 services:
-  web-server:
-    image: nginx
-    ports:
-      - "8080:80"
-    depends_on:
-      - database-server
-    networks:
-      - my-network
-
-database-server:
-    image: postgres
-    environment:
-      POSTGRES_DB: mydatabase
-      POSTGRES_USER: myuser
-      POSTGRES_PASSWORD: mypassword
-    networks:
-      - my-network
-
+  # TODO: Define your services here
 
 networks:
-   my-network:
-    driver: bridge
-
-
+  # TODO: Define your networks here
