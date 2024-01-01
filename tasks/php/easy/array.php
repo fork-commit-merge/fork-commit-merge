@@ -4,4 +4,7 @@
 
 $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
 
-// TODO: Display data "Beef" from the array
+// Display data "Beef" from the array
+echo $data[2];
+
+?>
