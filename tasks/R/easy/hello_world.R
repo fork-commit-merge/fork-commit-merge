@@ -1,4 +1,3 @@
-# Hello World program in R
+# R - Easy
 
-# Print "Hello, World!" to the console
-cat("Hello, World!\n")
+# TODO: Write a program that prints the string "Hello, World!" to the console.
