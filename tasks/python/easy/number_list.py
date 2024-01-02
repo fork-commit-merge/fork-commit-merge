@@ -10,5 +10,5 @@ def sum_list(l):
     for i in l:
         sum+=int(i)
     return sum
-l=[1,2,3,4,5,6,7,8,9,10]
-print(sum_list(l))
+list1=[1,2,3,4,5,6,7,8,9,10]
+print(sum_list(list1))
