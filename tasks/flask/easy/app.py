@@ -1,12 +1,8 @@
 from flask import Flask
 
-app = Flask(__name__)
+app = Flask(__name)
 
 # TODO: Implement the task requested in the issue description
-@app.route('/')
-def say_hello():
-    return "Hello, Flask!"
-
 
 if __name__ == "__main__":
     app.run(debug=True)
