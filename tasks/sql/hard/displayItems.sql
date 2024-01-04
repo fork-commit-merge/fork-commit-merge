@@ -24,13 +24,24 @@ CREATE TABLE IF NOT EXISTS PRODUCT (
 );
 
 -- Insert values into the SELLER table
-INSERT INTO SELLER (S_id, Name, Bank_acc_no, Email, Phone) VALUES (1, 'John Doe', '1234567890', 'johndoe@example.com', '1234567890');
+INSERT INTO SELLER (S_id, Name, Bank_acc_no, Email, Phone)
+VALUES
+    (1, 'John Doe', '1234567890', 'johndoe@email.com', '555-123-4567'),
+    (2, 'Jane Smith', '9876543210', 'janesmith@email.com', '555-987-6543');
 
 -- Insert values into the STOCKS table
-INSERT INTO STOCKS (S_id, Prod_id, S_Date) VALUES (1, 1, '2024-01-01');
+INSERT INTO STOCKS (S_id, Prod_id, S_Date)
+VALUES
+    (1, 101, '2023-01-15'),
+    (1, 102, '2023-02-20'),
+    (2, 103, '2023-03-10');
 
 -- Insert values into the PRODUCT table
-INSERT INTO PRODUCT (Prod_id, Prod_name, Description, Price, Expiry_date) VALUES (1, 'Product 1', 'This is product 1', 1000.00, '2024-01-01');
+INSERT INTO PRODUCT (Prod_id, Prod_name, Description, Price, Expiry_date)
+VALUES
+    (101, 'Product A', 'Description for Product A', 25.99, '2023-12-31'),
+    (102, 'Product B', 'Description for Product B', 19.99, '2023-11-30'),
+    (103, 'Product C', 'Description for Product C', 39.99, '2023-10-15');
 
 
 -- (a) Display name of the sellers and their bank account number who stocked at least 24 different products with a price higher than 1000 rupees in the last one year
