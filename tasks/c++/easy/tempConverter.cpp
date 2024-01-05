@@ -1,14 +1,3 @@
-#include <iostream>
+// C++ - Easy 1
 
-int main() {
-    float celsius, fahrenheit;
-
-    std::cout << "Enter temperature in Celsius: ";
-    std::cin >> celsius;
-
-    fahrenheit = (celsius * 9.0) / 5.0 + 32;
-
-    std::cout << "The temperature in Fahrenheit is: " << fahrenheit;
-
-    return 0;
-}
+// TODO:  Create a Basic C++ Program to Convert Temperature from Celsius to Fahrenheit
