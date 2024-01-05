@@ -24,6 +24,3 @@ int main() {
 
     // Close the file
     fclose(file);
-
-    return 0;
-}
