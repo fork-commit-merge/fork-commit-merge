@@ -4,11 +4,25 @@
 #include <fstream>
 #include <sstream>
 
-// TODO: Implement the FileHandler::ReadFile method
+std::string FileHandler::ReadFile(const std::string &filename) {
+    std::ifstream file(filename);
+    std::stringstream buffer;
+    buffer << file.rdbuf();
+    return buffer.str();
+}
 
-// TODO: Implement the FileHandler::WriteFile method
+void FileHandler::WriteFile(const std::string &filename, const std::string &content) {
+    std::ofstream file(filename);
+    file << content;
+}
 
-// TODO: Implement the FileHandler::AppendFile method
+void FileHandler::AppendFile(const std::string &filename, const std::string &content) {
+    std::ofstream file(filename, std::ios_base::app);
+    file << content;
+}
 
-// TODO: Implement the FileHandler::FileExists method
+bool FileHandler::FileExists(const std::string &filename) {
+    std::ifstream file(filename);
+    return file.good();
+}
 
