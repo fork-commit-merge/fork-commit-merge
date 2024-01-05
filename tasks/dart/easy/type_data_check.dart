@@ -1,11 +1,9 @@
 void main() {
-  print(typeDataCheck(5));         // Expected output: int
-  print(typeDataCheck(3.14));      // Expected output: double
-  print(typeDataCheck("Hello"));   // Expected output: String
-  print(typeDataCheck(true));      // Expected output: bool
-  print(typeDataCheck(null));      // Expected output: Null
+  // print(typeDataCheck(5));
+  // print(typeDataCheck(3.14));
+  // print(typeDataCheck("Hello"));
+  // print(typeDataCheck(true));
+  // print(typeDataCheck(null));
 }
 
-String typeDataCheck(var data) {
-  return data.runtimeType.toString();
-}
+// TODO: Implement a function that accepts a parameter of any type and returns a string describing its data type.
