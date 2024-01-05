@@ -1,18 +1,14 @@
 #include <iostream>
 
 int main() {
-    // Declare variable to store temperature in Celsius
-    double celsius;
+    float celsius, fahrenheit;
 
-    // Get input from the user
     std::cout << "Enter temperature in Celsius: ";
     std::cin >> celsius;
 
-    // Convert Celsius to Fahrenheit
-    double fahrenheit = (celsius * 9 / 5) + 32;
+    fahrenheit = (celsius * 9.0) / 5.0 + 32;
 
-    // Display the result
-    std::cout << "Temperature in Fahrenheit: " << fahrenheit << std::endl;
+    std::cout << "The temperature in Fahrenheit is: " << fahrenheit;
 
     return 0;
 }
