@@ -1,9 +1,9 @@
 # Python - Easy
 
-# TODO: Create a Simple Python Program that:
-# lists the first 10 natural numbers,
-# prints that list to the console and,
-# prints the sum of the numbers of that list
 
 def function(numbers):
-    pass
+    num_list= [i for i in range(1,numbers+1)]
+    print("Numbers list :",num_list)
+    print("Sum of the numbers in num_list is",sum(num_list))
+
+function(10)
