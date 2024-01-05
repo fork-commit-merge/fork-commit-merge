@@ -2,17 +2,9 @@
 
 export default function Home() {
   const sampleProducts = [
-    { name: "Milk", price: 2.99 },
-    { name: "Bread", price: 1.99 },
-    { name: "Eggs", price: 3.49 },
-    { name: "Toothpaste", price: 2.49 },
-    { name: "Soap", price: 1.79 },
-    { name: "Coffee", price: 4.99 },
-    { name: "Toilet Paper", price: 5.99 },
-    { name: "Shampoo", price: 3.99 },
-    { name: "Chicken Breast", price: 7.99 },
-    { name: "Bananas", price: 0.99 },
+    // TODO: Create a sample product list with names and prices
   ];
+
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl font-bold mb-4">Welcome to XYZ Store!</h1>
