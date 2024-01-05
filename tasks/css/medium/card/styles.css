@@ -1,3 +1,13 @@
 /* CSS - Medium */
 
 /* TODO: Implement card-class */
+.card-class {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+}
