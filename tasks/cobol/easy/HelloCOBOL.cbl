@@ -1,13 +1,8 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HelloCOBOL.
-       AUTHOR. Fork, Commit, Merge.
+       AUTHOR. Fork, Commit, Merge
 
-       * This is a simple program to print "Hello, COBOL!" to the console.
-
-       DATA DIVISION.
-       WORKING-STORAGE SECTION.
-       01 WS-MESSAGE PIC X(20) VALUE 'Hello, COBOL!'.
+      * This is a simple program to print "Hello, COBOL!" to the console.
 
        PROCEDURE DIVISION.
-           DISPLAY WS-MESSAGE.
-           STOP RUN.
+      * TODO: Implement the program logic here
