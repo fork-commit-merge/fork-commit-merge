@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <algorithm>
 
 std::string reverseString(const std::string &str) {
     std::string reversedStr = str;
