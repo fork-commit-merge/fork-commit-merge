@@ -112,11 +112,13 @@ body {
 }
 
 .fire-right .main-fire {
-  /* TODO: Add the necessary styles here */
+  background: orange;
+    animation: flame 1s infinite;
 }
 
 .fire-right .particle-fire {
-  /* TODO: Add the necessary styles here */
+  background: yellow;
+    animation: particle 1s infinite;
 }
 
 .fire-left {
@@ -129,11 +131,13 @@ body {
 }
 
 .fire-left .main-fire {
-  /* TODO: Add the necessary styles here */
+  background: orange;
+  animation: flame 1s infinite;
 }
 
 .fire-left .particle-fire {
-  /* TODO: Add the necessary styles here */
+  background: yellow;
+  animation: particle 1s infinite;
 }
 
 .fire-bottom .main-fire {
