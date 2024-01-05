@@ -1,8 +1,252 @@
 [
   {
-    "JSON": "Easy"
+    "name": "Hilbert Volkman",
+    "email": "Teagan0@yahoo.com",
+    "id": "(325) 678-4549"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "name": "Murphy Dare",
+    "email": "Cristian.Reinger88@gmail.com",
+    "id": "1-413-009-9494"
+  },
+  {
+    "name": "Jeffry Lockman",
+    "email": "Kenyatta_Harber@gmail.com",
+    "id": "895.795.1572 x174"
+  },
+  {
+    "name": "Jaeden Wyman",
+    "email": "Ayden_Homenick@yahoo.com",
+    "id": "(637) 416-6634 x7747"
+  },
+  {
+    "name": "Laverna Brown",
+    "email": "Crystel1@yahoo.com",
+    "id": "1-738-154-3699"
+  },
+  {
+    "name": "Jaleel Crooks",
+    "email": "Eusebio_McKenzie64@hotmail.com",
+    "id": "(050) 507-6888 x77091"
+  },
+  {
+    "name": "Bernita Pollich",
+    "email": "Quentin_Cronin@gmail.com",
+    "id": "488.205.2944 x690"
+  },
+  {
+    "name": "Jayne Christiansen",
+    "email": "Jerad_Fay@hotmail.com",
+    "id": "1-232-657-0926"
+  },
+  {
+    "name": "Dante Grimes",
+    "email": "Lucinda17@gmail.com",
+    "id": "1-884-173-5490"
+  },
+  {
+    "name": "Georgiana Howe",
+    "email": "Bessie_Berge40@yahoo.com",
+    "id": "226-383-9272 x81642"
+  },
+  {
+    "name": "Ebba Stark",
+    "email": "Janick57@hotmail.com",
+    "id": "284.337.2611 x04917"
+  },
+  {
+    "name": "Winfield Will",
+    "email": "Rosalee_Emard51@yahoo.com",
+    "id": "(112) 389-4543"
+  },
+  {
+    "name": "Robert Green",
+    "email": "Lambert.Gutkowski27@yahoo.com",
+    "id": "565-851-1134 x2821"
+  },
+  {
+    "name": "Waylon Hoeger Jr.",
+    "email": "Nathen.Farrell30@yahoo.com",
+    "id": "1-785-812-4665 x83289"
+  },
+  {
+    "name": "Maverick Wolff",
+    "email": "Oceane.Rutherford88@hotmail.com",
+    "id": "1-949-254-7593"
+  },
+  {
+    "name": "Shania Wilkinson",
+    "email": "Arielle_Nienow@gmail.com",
+    "id": "147.682.7266 x0223"
+  },
+  {
+    "name": "Ms. Kane Dach",
+    "email": "Mallie42@hotmail.com",
+    "id": "397-257-7208 x31646"
+  },
+  {
+    "name": "Dr. Barrett Toy",
+    "email": "Claudie.Stanton@hotmail.com",
+    "id": "981.673.3143 x843"
+  },
+  {
+    "name": "Wade Donnelly I",
+    "email": "Elza_Quitzon81@yahoo.com",
+    "id": "559-567-0184"
+  },
+  {
+    "name": "Bartholome Cremin",
+    "email": "Sage.Shanahan@hotmail.com",
+    "id": "1-294-164-1547 x65398"
+  },
+  {
+    "name": "Paul Toy II",
+    "email": "Quentin.Heidenreich@gmail.com",
+    "id": "(404) 586-9523"
+  },
+  {
+    "name": "Clair Hammes",
+    "email": "Thea.Hudson@gmail.com",
+    "id": "098.646.8879"
+  },
+  {
+    "name": "Ms. Mona Davis",
+    "email": "Donna.Wilderman@yahoo.com",
+    "id": "(649) 149-4945 x6078"
+  },
+  {
+    "name": "Dee Bode",
+    "email": "Chadd9@hotmail.com",
+    "id": "1-358-925-0440 x7843"
+  },
+  {
+    "name": "Remington Nikolaus",
+    "email": "Tyshawn.OHara@hotmail.com",
+    "id": "1-349-084-7110 x86471"
+  },
+  {
+    "name": "Mrs. Zander Boehm",
+    "email": "Everette.Hackett@hotmail.com",
+    "id": "627.202.8805 x324"
+  },
+  {
+    "name": "Clemens Botsford",
+    "email": "Tre_Klein88@hotmail.com",
+    "id": "(592) 113-4598 x88639"
+  },
+  {
+    "name": "Rhianna Franecki",
+    "email": "Dewitt_Johnston93@gmail.com",
+    "id": "(263) 433-8968 x54150"
+  },
+  {
+    "name": "Armani Rutherford",
+    "email": "Damien73@gmail.com",
+    "id": "1-345-222-3065 x143"
+  },
+  {
+    "name": "Danny Mraz",
+    "email": "Kale_Frami@hotmail.com",
+    "id": "1-902-020-4089"
+  },
+  {
+    "name": "Shayne Miller",
+    "email": "Isabelle_Breitenberg@gmail.com",
+    "id": "891-622-0507 x09949"
+  },
+  {
+    "name": "Dariana Bosco IV",
+    "email": "Cruz.Cronin@hotmail.com",
+    "id": "724-881-4564 x9103"
+  },
+  {
+    "name": "Lia Schinner",
+    "email": "Leopold.Bradtke@yahoo.com",
+    "id": "1-568-399-7991 x913"
+  },
+  {
+    "name": "Krista O'Connell",
+    "email": "Carlie_Schuster@hotmail.com",
+    "id": "(053) 565-4461"
+  },
+  {
+    "name": "Bettie Ruecker IV",
+    "email": "Fanny.Parisian31@yahoo.com",
+    "id": "195.453.2492 x991"
+  },
+  {
+    "name": "Clarissa Gusikowski",
+    "email": "Madge_Kautzer@gmail.com",
+    "id": "177-334-7842 x081"
+  },
+  {
+    "name": "Ciara Yundt",
+    "email": "Richmond_Johnson@gmail.com",
+    "id": "381.920.2431 x13692"
+  },
+  {
+    "name": "Crystel Osinski",
+    "email": "Vernice_Cronin59@hotmail.com",
+    "id": "1-203-966-7059 x31878"
+  },
+  {
+    "name": "Columbus Farrell",
+    "email": "Leopold_Corkery@gmail.com",
+    "id": "995.706.5166"
+  },
+  {
+    "name": "Ed Langworth",
+    "email": "Emile67@yahoo.com",
+    "id": "(477) 344-1010 x7131"
+  },
+  {
+    "name": "Phoebe Ryan",
+    "email": "Ivah_Swift@hotmail.com",
+    "id": "876.464.3223"
+  },
+  {
+    "name": "Toby Schoen",
+    "email": "Jorge_Donnelly@hotmail.com",
+    "id": "622-109-6727 x7612"
+  },
+  {
+    "name": "Miss Jaylen Gusikowski",
+    "email": "Nya.Littel@gmail.com",
+    "id": "718-412-9903 x56142"
+  },
+  {
+    "name": "Isaac Metz",
+    "email": "Linda_Hodkiewicz30@yahoo.com",
+    "id": "764-535-8574 x89484"
+  },
+  {
+    "name": "Mrs. Darryl Ruecker",
+    "email": "Berniece.Anderson@hotmail.com",
+    "id": "280-569-4138 x10329"
+  },
+  {
+    "name": "Ms. Nina Hartmann",
+    "email": "Glenda24@gmail.com",
+    "id": "(763) 206-3692"
+  },
+  {
+    "name": "Lavon Moen",
+    "email": "Myles61@yahoo.com",
+    "id": "778.123.1075 x177"
+  },
+  {
+    "name": "Bill Kovacek",
+    "email": "Bethel.Dach89@gmail.com",
+    "id": "1-209-755-8597 x3274"
+  },
+  {
+    "name": "Dr. Antonetta Ondricka",
+    "email": "Connie_Reichert41@yahoo.com",
+    "id": "663-301-8658 x30646"
+  },
+  {
+    "name": "Dario Jast",
+    "email": "Rosemary_Jacobson@hotmail.com",
+    "id": "1-941-379-8462"
   }
 ]
