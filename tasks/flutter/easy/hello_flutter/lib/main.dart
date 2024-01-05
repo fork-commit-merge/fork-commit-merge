@@ -7,18 +7,13 @@ void main() {
 }
 
 class ForkCommitMerge extends StatelessWidget {
-  const ForkCommitMerge({Key? key}) : super(key: key);
+  const ForkCommitMerge({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('Fork, Commit, Merge'),
-        ),
-        body: Center(
-          child: Text('Welcome to Fork, Commit, Merge!'),
-        ),
+          // TODO: Implement the appbar and body properties
       ),
     );
   }
