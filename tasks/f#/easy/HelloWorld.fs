@@ -1,6 +1,12 @@
-// F# - Easy
-
 open System
 
 [<EntryPoint>]
-// TODO: Implement the main function that prints "Hello World!" to the console
+let main argv =
+    Console.WriteLine("Hello World!")
+    0 // Return an integer exit code
+
+// Run the program
+[<EntryPoint>]
+do
+    System.Console.ReadKey() |> ignore
+    0 // Return an integer exit code
