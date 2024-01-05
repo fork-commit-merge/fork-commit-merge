@@ -2,10 +2,19 @@
 #include <string>
 
 std::string reverseString(const std::string &str) {
-    // TODO: Implement the reverseString function
+    // Use the reverse iterator to construct a reversed string
+    return std::string(str.rbegin(), str.rend());
 }
 
 int main() {
-    // TODO: Implement the main method
-}
+    // Get input from the user
+    std::cout << "Enter a string: ";
+    std::string input;
+    std::getline(std::cin, input);
 
+    // Call the reverseString function and display the result
+    std::string reversed = reverseString(input);
+    std::cout << "Reversed String: " << reversed << std::endl;
+
+    return 0;
+}
