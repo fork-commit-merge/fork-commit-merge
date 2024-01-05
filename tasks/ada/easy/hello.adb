@@ -1,7 +1,8 @@
+--  Ada - Easy
+
 with Ada.Text_IO; use Ada.Text_IO;
 
 procedure Hello is
 begin
-  -- Print "Hello, World!" to the console
-  Put_Line("Hello, World!");
+  --   TODO: Print "Hello, World!" to the console
 end Hello;
