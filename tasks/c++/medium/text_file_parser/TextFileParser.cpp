@@ -1,8 +1,18 @@
 #include <iostream>
 
-// TODO: Create the necessary functions for the program to work
+#include <iostream>
+#include <fstream>
+#include <string>
+
+void ReadFile(const std::string &filename) {
+    std::ifstream file(filename);
+    std::string line;
+    while (std::getline(file, line)) {
+        std::cout << line << '\n';
+    }
+}
 
 int main() {
-    // TODO: Implement the main method
+    ReadFile("text-file.txt");
     return 0;
 }
