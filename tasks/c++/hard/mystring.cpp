@@ -9,16 +9,12 @@ MyString::MyString() : str(nullptr), len(0) {}
 
 // Parameterized constructor
 MyString::MyString(const char* s) {
-    len = std::strlen(s);
-    str = new char[len + 1];
-    std::strcpy(str, s);
+    // TODO: Implement this
 }
 
 // Copy constructor
 MyString::MyString(const MyString& other) {
-    len = other.len;
-    str = new char[len + 1];
-    std::strcpy(str, other.str);
+    // TODO: Implement this
 }
 
 // Destructor
@@ -26,56 +22,34 @@ MyString::~MyString() {
     delete[] str;
 }
 
-// Length method
 int MyString::length() const {
-    return len;
+    // TODO: Implement this
 }
 
-// C_str method
 const char* MyString::c_str() const {
-    return str;
+    // TODO: Implement this
 }
 
 void MyString::append(const MyString& other) {
-    char* newStr = new char[len + other.len + 1];
-    std::strcpy(newStr, str);
-    std::strcat(newStr, other.str);
-    delete[] str;
-    str = newStr;
-    len += other.len;
+    // TODO: Implement this
 }
 
 int MyString::compare(const MyString& other) const {
-    return std::strcmp(str, other.str);
+    // TODO: Implement this
 }
 
-// Assignment operator
 MyString& MyString::operator=(const MyString& other) {
-    if (this != &other) {
-        delete[] str;
-        len = other.len;
-        str = new char[len + 1];
-        std::strcpy(str, other.str);
-    }
-    return *this;
+    // TODO: Implement this
 }
 
-// Addition operator
 MyString MyString::operator+(const MyString& other) const {
-    MyString result;
-    result.len = len + other.len;
-    result.str = new char[result.len + 1];
-    std::strcpy(result.str, str);
-    std::strcat(result.str, other.str);
-    return result;
+    // TODO: Implement this
 }
 
-// Equality operator
 bool MyString::operator==(const MyString& other) const {
-    return std::strcmp(str, other.str) == 0;
+    // TODO: Implement this
 }
 
 std::ostream& operator<<(std::ostream& os, const MyString& s) {
-    os << s.str;
-    return os;
+    // TODO: Implement this
 }
