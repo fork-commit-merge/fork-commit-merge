@@ -37,10 +37,15 @@ class Library {
 
     searchBooks(query) {
         // TODO: Implement search functionality
+        return this.books.filter(book => 
+            book.title.toLowerCase().includes(query.toLowerCase()) || 
+            book.author.toLowerCase().includes(query.toLowerCase())
+        );
     }
 
     filterBooks(criteria) {
         // TODO: Implement filter functionality
+        return this.books.filter(criteria);
     }
 }
 
