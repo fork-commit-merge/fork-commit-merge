@@ -1,3 +1,11 @@
 /* CSS - Easy */
 
 /* TODO: Implement red-class */
+.red {
+    color: red;
+    border: dotted red;
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(241, 155, 155);
+    
+}
