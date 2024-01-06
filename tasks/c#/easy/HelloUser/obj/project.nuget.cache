@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gxctJhbs3WdrZK5QqcHHf+wGPuV4K+ioDeXaL8klVB94KR0zrXSHaA1ImDnk188t1y2LT9rlQ+0GSlXZdCHEnw==",
+  "dgSpecHash": "Qb0Ta/OiCwDqeSoNHYvG2fm4fG5IQWF/aeUgEWyuVcEZl0lFfzV9qes9kEcaJdjsM39Oqh1tWDsQt467VZfynw==",
   "success": true,
-  "projectFilePath": "D:\\Jitesh\\openrepos\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+  "expectedPackageFiles": [
+    "/home/nikohoffren/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.10/microsoft.aspnetcore.app.ref.7.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
