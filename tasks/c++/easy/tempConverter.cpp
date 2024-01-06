@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-float convertToFarenheit(float temp){
+float convertToFahrenheit(float temp){
   float newTemp = temp*(9.0/5) + 32.0;
   return newTemp;
 }
@@ -11,7 +11,7 @@ int main() {
   float temp_celcius;
   cout<<"Enter the temperature in celcius: ";
   cin>>temp_celcius;
-  float farenheit_temp = convertToFarenheit(temp_celcius);
-  cout<<"The temperature in farenheit is: "<<farenheit_temp<<endl;
+  float fahrenheit_temp = convertToFahrenheit(temp_celcius);
+  cout<<"The temperature in farenheit is: "<<fahrenheit_temp<<endl;
   return 0;
 }
