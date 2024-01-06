@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+
 use Mojolicious::Lite -signatures;
 
 # Route leading to a "Hello, Mojo!" text
