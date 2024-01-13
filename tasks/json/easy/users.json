@@ -1,8 +1,27 @@
 [
-  {
-    "JSON": "Easy"
-  },
-  {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
-  }
+   {
+      "id":1,
+      "name":"Sumit Dwivedi",
+      "email":"sumitdwivedi1100@gmail.com"
+   },
+   {
+      "id":2,
+      "name":"Random Person",
+      "email":"randomperson@email.com"
+   },
+   {
+      "id":3,
+      "name":"Zayn",
+      "email":"zayn@example.com"
+   },
+   {
+      "id":4,
+      "name":"Tarun Singh",
+      "email":"tarunsingh@example.com"
+   },
+   {
+      "id":5,
+      "name":"Adeeb Ahmed",
+      "email":"adeebahmed@example.com"
+   }
 ]
