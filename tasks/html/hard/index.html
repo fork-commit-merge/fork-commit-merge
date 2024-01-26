@@ -2,31 +2,80 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
-        </nav>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+</head>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
+<body>
+    <nav id="navbar">
+        <!-- Navigation bar content goes here -->
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
+    <section id="about">
+        <!-- About section content goes here -->
+        <h2>About Us</h2>
+        <div class="content-wrapper">
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum quod ipsam quia cumque velit aliquid quae
+                optio distinctio veniam, eos fuga voluptate maiores quaerat molestiae praesentium similique! Odit id quod
+                eaque dolore nulla est tenetur quidem. Error accusantium reiciendis ducimus consequatur, commodi, quasi
+                dignissimos excepturi asperiores, eum neque eaque debitis corporis dicta ullam. Consectetur esse eius
+                eligendi animi fugit, eaque molestias! Numquam dolore, veniam dolores, quasi nisi perspiciatis suscipit
+                placeat ea ad sapiente beatae tempore? Ea, sequi exercitationem tempora impedit eos omnis delectus totam
+                facilis maxime vero corrupti suscipit quo, voluptas, nisi nihil in enim provident iure voluptatem? Nobis,
+                dolores.
+            </p>
+            <img src="./catImage.jpg" alt="">
+        </div>
+    </section>
 
-        <footer>
-            <!-- TODO: Implement the footer -->
-        </footer>
-    </body>
+    <section id="services">
+        <!-- Services section content goes here -->
+        <h2>Our Services</h2>
+        <div class="content-wrapper">
+            <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem quam vero, ut magnam temporibus unde
+                soluta ad minus! Aperiam accusantium, modi neque dolore, veniam odit reprehenderit optio culpa minima qui,
+                voluptas mollitia. Impedit incidunt assumenda ipsum! Nobis perferendis sint, facilis vitae suscipit
+                blanditiis! Ut quis provident nulla omnis repudiandae recusandae sunt quod quam sint itaque molestias
+                obcaecati, saepe voluptas impedit minus? Eaque enim distinctio necessitatibus iste nesciunt quo sit dolores
+                maxime! Minima molestiae aperiam vero inventore itaque maiores facilis, unde vitae voluptate magni commodi
+                alias. Veniam quam magnam suscipit reiciendis expedita ex consectetur, qui voluptatibus soluta natus quia?
+                Quo, magnam!
+            </p>
+            <img src="./catImage.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Footer content goes here -->
+        <p>&copy; 2024 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+
 </html>
