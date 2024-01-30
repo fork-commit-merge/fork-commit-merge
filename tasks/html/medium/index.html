@@ -2,13 +2,22 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
-        <div class="container">
-            <h1>Contact Form</h1>
-            <!-- TODO: Implement the contact form here -->
-        </div>
-    </body>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Form</h1>
+      <!-- TODO: Implement the contact form here -->
+      <form>
+        <label for="name">Name</label>
+        <input type="text" name="name" />
+        <label for="email">Email</label>
+        <input type="email" name="email" />
+        <label for="message">Message</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
 </html>
