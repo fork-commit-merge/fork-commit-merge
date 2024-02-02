@@ -1,48 +1,46 @@
-# Contributing to Fork, Commit, Merge -repository
+# Contributing to the "Fork, Commit, Merge" Repository 🚀
 
-First off, thanks for taking the time to contribute!
+First and foremost, we appreciate your interest in contributing! 🙌
 
-The following is a set of guidelines for contributing to this project. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
+This document outlines our guidelines for participating in this project. These are more like friendly suggestions than strict rules. Feel free to propose changes to this document through a pull request. 📝
 
-*Note: You don't have ask permission to start solving the issue or get assigned, since these issues are supposed to be always open for new contributors. The actions-user bot will reset the file back to previous state for the next contributor after your commit is merged. So you can just simply start working with the issue right away!*
+*Note: You don't need to seek permission to tackle an issue or get assigned. These issues are open to new contributors. The actions-user bot will reset the file to its previous state for the next contributor after your commit is merged. So, you can dive right into the issue without delay! 🏊‍♂️*
 
-## Code of Conduct
+## Code of Conduct 🤝
 
-This project and everyone participating in it are governed by the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
+This project, along with everyone involved, adheres to the [Code of Conduct](CODE_OF_CONDUCT.md). When participating, you are expected to uphold this code. If you encounter inappropriate behavior, please report it to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com). 🚫
 
-## How Can I Contribute?
+## How Can I Contribute? 🤔
 
-### Reporting Bugs
+### Reporting Bugs 🐞
 
-This section guides you through submitting a bug report for this project. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+In this section, we'll walk you through submitting a bug report for this project. Following these guidelines helps maintainers and the community understand your report, reproduce the issue, and identify related reports. 🕵️‍♀️
 
-Explain the problem and include additional details to help maintainers reproduce the problem:
+- Choose a clear and descriptive title for your issue to pinpoint the problem. 📢
+- Provide a detailed account of the exact steps that reproduce the issue. 📋
 
-* Use a clear and descriptive title for the issue to identify the problem.
-* Describe the exact steps which reproduce the problem in as many details as possible.
+### Suggesting Enhancements 💡
 
-### Suggesting Enhancements
+This section guides you through submitting an enhancement suggestion for this project, which can range from entirely new features to minor improvements in existing functionality. These guidelines help maintainers and the community grasp your suggestion and make decisions regarding its implementation. 🛠️
 
-This section guides you through submitting an enhancement suggestion for this project, including completely new features and minor improvements to existing functionality. Following these guidelines helps maintainers and the community understand your suggestion and make the decision on the implementation.
+- Use a clear and descriptive title for the issue to identify the suggestion. 🚀
+- Furnish a step-by-step description of the suggested enhancement, including as many details as possible. 📈
 
-* Use a clear and descriptive title for the issue to identify the suggestion.
-* Provide a step-by-step description of the suggested enhancement in as many details as possible.
+### Your First Code Contribution 👩‍💻
 
-### Your First Code Contribution
+Not sure where to start with your contribution to this project? You can begin by exploring the `good-first-issue` and `help-wanted` issues: 🚧
 
-Unsure where to begin contributing to this project? You can start by looking through these `good-first-issue` and `help-wanted` issues:
+- `good-first-issue` - These issues typically require just a few lines of code and perhaps a test or two. 🛠️
+- `help-wanted` - These are slightly more involved than `good-first-issue` tasks. 💪
 
-* `good-first-issue` - issues which should only require a few lines of code, and a test or two.
-* `help-wanted` - issues which should be a bit more involved than `good-first-issue` issues.
+## Pull Request Process 🚢
 
-## Pull Request Process
+1. Start by forking the repository and creating your branch from the `main` branch. 🍴
+2. If you've added code that needs testing, include tests. 🧪
+3. If necessary, update the documentation or README. 📖
+4. Ensure that the test suite runs without issues. ✅
+5. Finally, submit your pull request! 🎉
 
-1. Fork the repository and create your branch from `main`.
-2. If you've added code that should be tested, add tests.
-3. If necessary, update the documentation/readme.
-4. Ensure the test suite passes.
-5. Issue that pull request!
+You can ⭐ the repo as well! 🔥
 
-## Styleguides
-
-* Commit messages should clearly communicate the purpose of the change.
+Now you're all set to contribute effectively and make a positive impact on our project! 🙏👏

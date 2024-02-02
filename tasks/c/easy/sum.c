@@ -1,11 +1,3 @@
-// C - Easy
-
 #include <stdio.h>
 
-// TODO: Implement the sum function
-
-int main() {
-    // TODO: Implement the main function
-
-    return 0;
-}
+// TODO: Implement the sum and main functions

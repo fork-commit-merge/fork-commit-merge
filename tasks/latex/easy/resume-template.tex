@@ -1,0 +1,319 @@
+%-------------------------
+% Resume in Latex
+% Author : <yourname>
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{left}
+
+    \textbf{\Huge \scshape <your-name} \\ \vspace{3pt}
+    \resumeSubheading {
+    \color{<color>}
+    \Large
+    {<Your Institute>}
+    }
+    \small
+    \hspace{.}
+    
+    { \color{<color>} \faAt} \hspace{.5pt} \href{mailto:<your-mailID>@gmail.com}{<your-mailID>}
+    \hspace{.5pt}
+    { \color{<color>} \faAt} \hspace{.5pt} \href{other-socials}{<your-username>}
+    \hspace{.5pt}
+\end{left}
+
+
+%----------- EDUCATION -----------
+
+\section{ \color{<color>} \Large Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    {
+    \resumeSubheading
+      {Institute Name
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Location}
+          {Undergraduate | Major, <Major-SubjeCoursect>   \textbf{CPI: 8.20/10.00}}{<startdate> \textbf{--} <enddate>}
+          
+        $--------------------------------------------------------------$
+         
+       \resumeSubheading
+      {High School
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Location}
+      {Grade  \textbf{Percentage: 95.08}}{ Date}
+
+       $--------------------------------------------------------------$
+
+  \resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+
+\section{ \color{<color>} \Large Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{        
+        % \textbf{Frameworks}{: X, X, X} \\
+        % \textbf{Developer Tools}{: X, X, X} \\
+        % \textbf{Libraries}{: X, X, X} \\
+        % \textbf{Applications}{: X, X, X}
+    }}
+  \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+
+%----------- WORK EXPERIENCE -----------
+
+\section{ \color{<color>} \Large Work Experience}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      { \color{<color>} <name-workplace>}{<location>}
+      {<position>}{<timeline>}
+        \resumeItemListStart
+            \resumeItem{<work done there>}
+        \resumeItemListEnd
+        $--------------------------------------------------------------$
+
+    
+  \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+
+    
+%----------- PROJECTS -----------
+
+\section{ \color{<color>} \Large Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      \resumeProjectHeading
+        {\textbf{ \color{<color>} \small <projectName*} $|$ \emph{\href{github link/ platform posted}{\color{<color>}GitHub/platform-posted}}}{}
+          \resumeItemListStart
+            \resumeItem{project desc}
+          \resumeItemListEnd
+      $--------------------------------------------------------------$
+
+      
+    \resumeSubHeadingListEnd
+
+    \vspace{5pt}
+    
+%----------- RESEARCH EXPERIENCE -----------
+
+%\section{ \color{<color>} \Large Research Experience}
+  %\vspace{3pt}
+  %\resumeSubHeadingListStart
+  
+    %\resumeSubheading
+      %{ }
+      %{ }
+        %\resumeItemListStart
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+            %\resumeItem{ .}
+        %\resumeItemListEnd
+
+    
+  %\resumeSubHeadingListEnd
+
+
+%----------- CERTIFICATES -----------
+
+% \section{Certificates}
+  % \resumeSubHeadingListStart
+    
+    % \resumeOrganizationHeading
+      % {Certificate Program}{Feb 2022}{Business Skills, Data and Digital Skills, Project Management and Personal Productivity}
+    
+  % \resumeSubHeadingListEnd
+
+
+%----------- Position of Responsibility -----------
+
+ \section{\color{<color>} Position of Responsibility}
+  \resumeSubHeadingListStart
+    
+     \resumeOrganizationHeading
+       {<society-name>}{<timeline>.}{<role>}
+       \vspace{{}}
+   \resumeSubHeadingListEnd
+\vspace{5pt}
+
+
+%----------- RELEVANT COURSEWORK -----------
+
+ \section{ \color{<color>} \Large Coursework {\color{<color>}}}
+   \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{        
+        \textbf{Major coursework:}{ Linear Alegebra, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Probability and Statistics}
+     }}
+   \resumeSubHeadingListEnd
+
+\vspace{9pt}
+
+
+%----------- AWARDS & ACHIEVEMENTS -----------
+
+\section{ \color{<color>} \Large Awards \& Achievements}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+
+        \textbf{<achievement>:}{ <desc> \\ \vspace{3pt}
+        \vspace{3pt}
+    }}
+  \resumeSubHeadingListEnd
+
+    \vspace{3pt}
+
+    
+%----------- HOBBIES -----------
+
+% \section{Hobbies}
+  % \resumeSubHeadingListStart
+    % \small{\item{Swimming, Fitness, Eight-ball}}
+  % \resumeSubHeadingListEnd
+
+
+
+%----------- REFERENCES -----------
+
+% \section{References}
+  % \resumeSubHeadingListStart
+    
+  % \resumeSubHeadingListEnd
+
+
+
+%-------------------------------------------
+\end{document}
