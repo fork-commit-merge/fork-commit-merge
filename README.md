@@ -2772,3 +2772,9 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/sujanMidatani7"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/105052933?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/DEVANSHUKEJRIWAL"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/92500223?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/RealRajnish"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/61611447?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/NikolaM4"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/128964319?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/tanisha-7001"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/127115018?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Amitesh007z"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145351157?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/andref12"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/67108020?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/YTheLynch"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/69767140?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/JASIM0021"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/94641150?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
