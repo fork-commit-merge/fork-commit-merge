@@ -3,6 +3,10 @@
 // TODO: Write a function that returns the sum of two numbers
 
 
-a =6
-b=7
-console.log(a+b)
+function sumNumbers(a, b) {
+  return a + b;
+}
+
+
+const result = sumNumbers(6, 7);
+console.log(result);
