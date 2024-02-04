@@ -4,47 +4,6 @@ version: '3'
 
 services:
   # TODO: Define your services here
-  proxy:
-    build: ./proxy
-    networks:
-      - frontend
-  nginxapp:
-    container_name: nginx
-    image: nginx
-    networks:
-      - frontend
-      - backend
-    build: .
-    ports:
-      - "8080:8080"
-    environment:
-      - PG_USER=postgres
-      - PG_PASSWORD=postgres
-      - PG_DB=postgres
-      - PG_PORT=5432
-      - PG_HOST=db
-    depends_on:
-      - db
-  db:
-    container_name: db
-    image: postgres:12
-    networks:
-      - backend
-    environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-    ports:
-      - "5432:5432"
-    volumes:
-      - pg data:/var/lib/postgresql/data
 
 networks:
   # TODO: Define your networks here
-  frontend:
-    driver: custom-driver-1
-  backend:
-      driver: custom-driver-2
-
-
-
