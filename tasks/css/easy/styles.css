@@ -1,3 +1,9 @@
 /* CSS - Easy */
 
 /* TODO: Implement red-class */
+
+.red-class{
+    color: red;
+
+    background-color: red;
+}
