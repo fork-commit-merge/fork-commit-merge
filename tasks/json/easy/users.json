@@ -1,27 +1,8 @@
 [
   {
-    "id": 1,
-    "name": "Bill Clinton",
-    "email": "bill.clinton@gmail.com"
+    "JSON": "Easy"
   },
   {
-    "id": 2,
-    "name": "George W Bush",
-    "email": "george.w.bush@gmail.com"
-  },
-  {
-    "id": 3,
-    "name": "Barack Obama",
-    "email": "barack.obama@gmail.com"
-  },
-  {
-    "id": 4,
-    "name": "Donald Trump",
-    "email": "donald.trump@gmail.com"
-  },
-  {
-    "id": 5,
-    "name": "Joe Biden",
-    "email": "joe.biden@gmail.com"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
