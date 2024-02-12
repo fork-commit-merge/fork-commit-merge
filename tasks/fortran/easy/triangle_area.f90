@@ -1,5 +1,4 @@
-! Fortran - Easy
-
 program triangle_area
-    ! TODO: Implement the program here
+! TODO: Implement the triangle_area program
+
 end program triangle_area

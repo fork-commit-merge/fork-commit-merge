@@ -1,6 +1,6 @@
 // React - Medium
 
-import './App.css';
+import "./App.css";
 
 function App() {
   // TODO: Add the necessary functionality such as hooks here
