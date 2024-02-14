@@ -35,6 +35,7 @@ The following behaviors are considered harassment and are unacceptable within ou
 - Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
 - Inappropriate photography or recording.
 - Deliberate intimidation, stalking or following (online or in person).
+- Harassing or threatening email, phone calls, or other contact.
 - Advocating for, or encouraging, any of the above behavior.
 
 ## 5. Consequences of Unacceptable Behavior
