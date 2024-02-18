@@ -2,17 +2,7 @@
 
 export default function Home() {
   const sampleProducts = [
-    { 
-      name: "BookShelf",
-      price: "$80"},
-    {
-      name: "TV Stand",
-      price: "$100"
-    },
-    {
-      name: "Mirror",
-      price: "$55"
-    }
+    // TODO: Create a sample product list with names and prices
   ];
 
   return (
