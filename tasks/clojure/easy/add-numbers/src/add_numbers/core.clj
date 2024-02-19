@@ -1,5 +1,6 @@
 (ns add-numbers.core)
 
 (defn add-numbers
-  ;; TODO: Implement the Number addition function here
-)
+  "Adds any number of numeric arguments together."
+  [& nums]
+  (reduce + 0 nums))
