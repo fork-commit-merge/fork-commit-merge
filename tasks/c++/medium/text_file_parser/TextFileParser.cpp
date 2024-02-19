@@ -1,21 +1,8 @@
 #include <iostream>
-#include <fstream>
-#include <string>
 
-class TextFileParser {
-public:
-    static std::string ReadFile(const std::string& filePath) {
-        std::ifstream file(filePath);
-        std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
-        return content;
-    }
-
-    // Additional parsing functions can be added here
-};
+// TODO: Create the necessary functions for the program to work
 
 int main() {
-    std::string filePath = "input.txt";
-    std::string fileContent = TextFileParser::ReadFile(filePath);
-    std::cout << "File content:\n" << fileContent << std::endl;
+    // TODO: Implement the main method
     return 0;
 }
