@@ -1,21 +1,3 @@
+/* CSS - Medium */
 
-.card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.card h2 {
-    margin: 0;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
-}
-
-.card p {
-    font-size: 14px;
-    color: #333;
-}
+/* TODO: Implement card-class */
