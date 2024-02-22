@@ -1,27 +1,8 @@
 [
   {
-    "User_id": "1",
-    "User_name": "Name 1",
-    "User_email": "test@email.com"
+    "JSON": "Easy"
   },
   {
-    "User_id": "2",
-    "User_name": "Name 2",
-    "User_email": "test2@email.com"
-  },
-  {
-    "User_id": "3",
-    "User_name": "Name 3",
-    "User_email": "test3@email.com"
-  },
-  {
-    "User_id": "4",
-    "User_name": "Name 4",
-    "User_email": "test4@email.com"
-  },
-  {
-    "User_id": "5",
-    "User_name": "Name 5",
-    "User_email": "test5@email.com"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
