@@ -1,6 +1,9 @@
-// F# - Easy
-
 open System
 
 [<EntryPoint>]
-// TODO: Implement the main function that prints "Hello World!" to the console
+let main argv =
+    // Print "Hello World!" to the console
+    printfn "Hello World!"
+
+    // Return an exit code of 0 to indicate successful execution
+    0
