@@ -1,9 +1,3 @@
-// hello/main.go
+module hello
 
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
+go 1.20
