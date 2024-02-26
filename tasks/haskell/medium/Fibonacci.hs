@@ -1,3 +1,3 @@
-fibonacci :: Int -> [Int]
-fibonacci n = take n fibs
-  where fibs = 0 : 1 : zipWith (+) fibs (tail fibs)
+-- Haskell - Medium
+
+-- TODO: Implement a Haskell program that calculates the Fibonacci sequence up to a given number
