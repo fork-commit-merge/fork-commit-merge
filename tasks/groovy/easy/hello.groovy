@@ -1,4 +1,3 @@
 // Groovy - Easy
 
-// Print "Hello, Groovy!" to the console
-println("Hello, Groovy!")
+// TODO: Write a simple Groovy script that prints "Hello, Groovy!" to the console
