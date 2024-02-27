@@ -1,7 +1,25 @@
 // TypeScript - Medium
 
 namespace Calculator {
-    // TODO: Implement a Simple TypeScript Calculator
+    export const add = (a: number, b: number): number => {
+        return  a + b
+    }
+
+    export const subtract = (a: number, b: number): number => {
+        return a - b
+    }
+
+    export const multiply = (a: number, b: number): number => {
+        return a * b
+    }
+
+    export const divide = (a: number, b: number): number | null => {
+        if (!a || !b) {
+            console.warn('Warning: Dividing by 0 will always equal to 0.')
+            return null
+        }
+        return a / b
+    }
 }
 
 // Test cases
