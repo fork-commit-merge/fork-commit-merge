@@ -1,5 +1,3 @@
-<!-- HTML - Hard -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,23 +8,39 @@
     </head>
     <body>
         <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
 
         <section id="about">
-            <!-- TODO: Implement the about section -->
+            <h2>About Us</h2>
+            <p>We are a team committed to providing quality software development services.</p>
         </section>
 
         <section id="services">
-            <!-- TODO: Implement the services section -->
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile Applications</li>
+                <li>Cloud Solutions</li>
+            </ul>
         </section>
 
         <section id="contact">
-            <!-- TODO: Implement the contact section  -->
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
 
         <footer>
-            <!-- TODO: Implement the footer -->
+            <p>&copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
         </footer>
     </body>
 </html>
