@@ -2,17 +2,3 @@
 
 # TODO: Create a Basic YAML Configuration File
 
-# Basic YAML Configuration File
-
-application:
-  name: MyHypotheticalApp
-  version: 1.0.0
-
-server:
-  host: localhost
-  port: 8080
-
-database:
-  name: my_database
-  username: db_user
-  password: secret_password
