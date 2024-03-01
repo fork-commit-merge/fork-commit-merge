@@ -4,36 +4,3 @@
 # Deploys 3 replicas of the nginx container.
 # Sets the label app to web.
 # Maps port 80 in the container to port 8080 on the host.
-# deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: nginx-deployment
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: web
-  template:
-    metadata:
-      labels:
-        app: web
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:latest
-        ports:
-        - containerPort: 80
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: nginx-service
-spec:
-  selector:
-    app: web
-  ports:
-    - protocol: TCP
-      port: 8080
-      targetPort: 80
-  type: NodePort
