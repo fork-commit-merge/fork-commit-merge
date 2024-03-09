@@ -1,27 +1,12 @@
+// SASS - Medium
 
-.navbar {
-    background-color: $primary-color;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.navbar-link {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: inline-block;
-}
+$primary-color: #0b0049;
+$secondary-color: #412eee;
 
-.navbar-link:hover {
-    background-color: $secondary-color;
-    border-radius: 3px;
-}
-
-.active {
-    background-color: $secondary-color;
-}
-
-.logo {
-    width: 150px;
-    float: left;
-}
+// TODO: Add classes for the navbar
