@@ -6,12 +6,16 @@ VARIABLES count
 
 MaxCount == 100
 
-Init == count := 0
+Init == \* TODO: Implement the Init operator
 
-Increment == count := count + 1
+Increment ==
+  \* TODO: Implement the Increment operator
 
-Decrement == count := count - 1
+Decrement ==
+  \* TODO: Implement the Decrement operator
 
-Next == IF count < 0 THEN count := 0 ELSE count := count
+Next == \* TODO: Implement the Next operator
 
-Spec ==  count >= 0 /\ count <= MaxCount
+Spec == \* TODO: Implement the Spec operator
+
+=============================================================================
