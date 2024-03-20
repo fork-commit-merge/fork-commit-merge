@@ -1,5 +1,3 @@
+# TOML - Easy
 
-# Configuration of the "TOML - Easy" task
-[easy]
-# No configuration is needed in this task
-
+# TODO: Create the TOML configuration file requested in the issue
