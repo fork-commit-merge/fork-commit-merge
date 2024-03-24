@@ -1,15 +1,9 @@
+# YAML/Docker - Medium
+
 version: '3'
 
 services:
-  # Example: A service named "app"
-  app:
-    image: python:3
-    command: bash -c "python app.py"
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./app:/app
+  # TODO: Define your services here
 
 networks:
-  default:
-    driver: bridge
+  # TODO: Define your networks here

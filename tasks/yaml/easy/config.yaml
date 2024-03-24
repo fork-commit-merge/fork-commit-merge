@@ -1,12 +1,4 @@
+# YAML - Easy
 
-# Basic YAML Configuration File
+# TODO: Create a Basic YAML Configuration File
 
-# TODO: Define a basic YAML configuration
-
-key1: value1
-key2:
-  subkey: subvalue
-key3:
-  - item1
-  - item2
-  - item3
