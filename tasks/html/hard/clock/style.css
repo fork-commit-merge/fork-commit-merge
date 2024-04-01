@@ -35,6 +35,42 @@ body {
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
   /* TODO: Define rotations for numbers (1 to 12) */
+  .number-1{
+    transform: rotate(var(--rotation)) translateY(4vh) translateX(70px);
+  }
+  .number-2 {
+    transform: rotate(var(--rotation)) translateY(7vh) translateX(110px) ;
+  }
+  .number-3 {
+    transform: rotate(var(--rotation)) translateY(12vh) translateX(130px);
+  }
+  .number-4 {
+    transform: rotate(var(--rotation)) translateY(17vh) translateX(110px);
+  }
+  .number-5 {
+    transform: rotate(var(--rotation)) translateY(20vh) translateX(75px);
+  }
+  .number-6 {
+    transform: rotate(var(--rotation)) translateY(19vh) translateX(0px);
+  }
+  .number-7 {
+    transform: rotate(var(--rotation)) translateY(12vh) translateX(-70px);
+  }
+  .number-8 {
+    transform: rotate(var(--rotation)) translateY(1vh) translateX(-110px);
+  }
+  .number-9 {
+    transform: rotate(var(--rotation)) translateY(-13vh) translateX(-130px);
+  }
+  .number-10 {
+    transform: rotate(var(--rotation)) translateY(-25vh) translateX(-110px);
+  }
+  .number-11 {
+    transform: rotate(var(--rotation)) translateY(-36vh) translateX(-65px);
+  }
+  .number-12 {
+    transform: rotate(var(--rotation)) translateY(-44vh) translateX(10px);
+  }
 }
 
 /* Clock Hands */
@@ -59,9 +95,17 @@ body {
 }
 
 /* Clock Minute and Hour Hands */
-.clock .hand.minute,
-.clock .hand.hour {
+.clock  .hand.minute {
   /* TODO: Define styles for minute and hour hands */
+  width: 8px; ;
+  height: 40%;
+  background-color: black
+}
+
+.clock .hand.hour {
+  width:8px ;
+  height: 35%;
+  background-color: black
 }
 
 /* Clock Center */
