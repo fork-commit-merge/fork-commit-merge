@@ -8,7 +8,7 @@ with open('data.json', 'r') as file:
 updated_data = []
 for obj in data:
     if obj['status'] == 'active':
-        obj['price'] *= 1.1  # Applying tax
+        obj['price'] = int(obj['price'] *1.1)  # Applying tax
         updated_data.append(obj)
 
 # Save updated data to updated_data.json
