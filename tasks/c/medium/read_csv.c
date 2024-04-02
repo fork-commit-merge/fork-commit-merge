@@ -9,7 +9,7 @@ int main() {
 //    TODO: Implement the program requested in the task description
     FILE *file = fopen("data.csv", "r");
     if (file == NULL) {
-        printf("Failed to open the file.\n");
+        printf("Fail to open file.\n");
         return 1;
     }
 
@@ -19,7 +19,7 @@ int main() {
     if (fgets(line, sizeof(line), file)) {
         printf("Header: %s", line);
     } else {
-        printf("Failed to read header.\n");
+        printf("Fail to read the header.\n");
         fclose(file);
         return 1;
     }
