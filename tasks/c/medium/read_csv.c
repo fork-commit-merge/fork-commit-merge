@@ -14,8 +14,6 @@ int main() {
     }
 
     char line[1000];
-
-    // Read the header
     if (fgets(line, sizeof(line), file)) {
         printf("Header: %s", line);
     } else {
@@ -24,7 +22,6 @@ int main() {
         return 1;
     }
 
-    // Tokenize and print each line
     while (fgets(line, sizeof(line), file)) {
         char *token;
         token = strtok(line, ",");
