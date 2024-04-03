@@ -4,21 +4,6 @@ package tasks.java.medium;
 
 public class Calculator {
     // TODO: Implement the Calculator class
-    public double add(double n1, double n2) {
-        return n1 + n2;
-    }
-
-    public double subtract(double n1, double n2) {
-        return n1 - n2;
-    }
-
-    public double multiply(double n1, double n2) {
-        return n1 * n2;
-    }
-
-    public double divide(double n1, double n2) {
-        return n1 / n2;
-    }
 
     public static void main(String[] args) {
         //! Don't change the tests in the main method!
