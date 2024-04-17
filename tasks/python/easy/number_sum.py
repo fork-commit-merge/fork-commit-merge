@@ -1,3 +1,3 @@
-# Python - Easy
-
-# TODO: Write a function that returns the sum of two numbers
+number1 = input("Enter number 1: ")
+number2 = input("Enter number 2: ")
+print(int(number1)+int(number2))
