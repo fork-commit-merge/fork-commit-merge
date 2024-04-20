@@ -1,4 +1,4 @@
-// styles.scss
+// SASS - Medium
 
 * {
     margin: 0;
@@ -9,60 +9,4 @@
 $primary-color: #0b0049;
 $secondary-color: #412eee;
 
-nav {
-    background-color: $primary-color;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .logo {
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .nav-links {
-        list-style: none;
-        display: flex;
-
-        li {
-            margin-left: 20px;
-
-            a {
-                text-decoration: none;
-                color: white;
-                transition: color 0.3s;
-
-                &:hover {
-                    color: $secondary-color;
-                }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    nav {
-        flex-direction: column;
-
-        .nav-links {
-            margin-top: 20px;
-            flex-direction: column;
-
-            li {
-                margin-left: 0;
-
-                a {
-                    display: block;
-                    padding: 10px 0;
-                    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
-                    &:last-child {
-                        border-bottom: none;
-                    }
-                }
-            }
-        }
-    }
-}
+// TODO: Add classes for the navbar
