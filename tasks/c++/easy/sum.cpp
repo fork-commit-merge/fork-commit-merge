@@ -1,11 +1,8 @@
-#include <iostream>
-using namespace std;
+// C++ - Easy 2
 
-int main() {
-  int a,b;
-  cout<<"Provide numbers\n";
-  cin>>a>>b;
-  cout<<(a+b);
-  return 0;
+// TODO: Create a Basic C++ Program to Add Two Numbers
+
+int main()
+{
   
 }
