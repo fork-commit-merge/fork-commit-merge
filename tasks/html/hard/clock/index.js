@@ -12,23 +12,3 @@ const secondHand = document.querySelector("[data-second-hand]");
 // TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
 
 // TODO: You can call the setClock function here to initialize the clock's position when the page loads.
-// Set rotation function
-function setRotation(element, rotationRatio) {
-  element.style.setProperty('--rotation', rotationRatio * 360);
-}
-
-// Set clock function
-function setClock() {
-  const currentDate = new Date();
-  const secondsRatio = currentDate.getSeconds() / 60;
-  const minutesRatio = (secondsRatio + currentDate.getMinutes()) / 60;
-  const hoursRatio = (minutesRatio + currentDate.getHours()) / 12;
-
-  setRotation(secondHand, secondsRatio);
-  setRotation(minuteHand, minutesRatio);
-  setRotation(hourHand, hoursRatio);
-}
-
-// Call the setClock function when the page loads and every second
-setClock();
-setInterval(setClock, 1000);

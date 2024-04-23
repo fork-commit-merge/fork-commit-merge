@@ -61,33 +61,8 @@ body {
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-
-
   /* TODO: Define styles for minute and hour hands */
 }
-/* Clock Minute and Hour Hands */
-.clock .hand.minute {
-  width: 7px;
-  height: 40%;
-  background-color: black;
-}
-
-.clock .hand.hour {
-  width: 7px;
-  height: 30%;
-  background-color: black;
-}
-
-/* Apply rotations to numbers */
-.number {
-  --rotation: 0;
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translateX(-50%) rotate(var(--rotation)) translateY(-30px) rotate(calc(-1 * var(--rotation)));
-}
-
-
 
 /* Clock Center */
 .clock::after {
