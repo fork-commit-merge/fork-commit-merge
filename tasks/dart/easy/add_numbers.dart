@@ -1,6 +1,12 @@
-void main() {
-  // int sum = addNumbers(5, 10);
-  // print('The sum is: $sum');
+
+int addNumbers(int a, int b) {
+  return a + b;
 }
 
-// TODO: Implement addNumbers function that returns the sum of two numbers
+void main() {
+ 
+  int sum = addNumbers(5, 10);
+  print('The sum is: $sum');
+}
+
+
