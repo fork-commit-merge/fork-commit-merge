@@ -1,27 +1,8 @@
 [
-    {
-        "id": 1,
-        "name": "Sourabh Singh Rajput",
-        "email": "sourabhr684@gmail.com"
-    },
-    {
-        "id": 2,
-        "name": "Swayam Dhamunia",
-        "email": "swayam2004@gmail.com"
-    },
-    {
-        "id": 3,
-        "name": "Kunal Koshta",
-        "email": "kunalk2004@gmail.com"
-    },
-    {
-        "id": 4,
-        "name": "Yash Gupta",
-        "email": "yashgupta07@gmail.com"
-    },
-    {
-        "id": 5,
-        "name": "Amit Sharma",
-        "email": "ashrmaji@gmail.com"
-    }
+  {
+    "JSON": "Easy"
+  },
+  {
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+  }
 ]
