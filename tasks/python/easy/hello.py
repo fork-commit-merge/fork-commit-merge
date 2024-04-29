@@ -1,5 +1,3 @@
-def print_hello():
-    print("Hello, Python!")
+# Python - Easy
 
-# Call the function to print the message
-print_hello()
+# TODO: Write a function that prints "Hello, Python!" to the console
