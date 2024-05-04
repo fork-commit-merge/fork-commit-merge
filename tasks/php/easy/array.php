@@ -4,4 +4,5 @@
 
 $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
 
-// TODO: Display data "Beef" from the array
+// Display data "Beef" from the array
+echo $data[2]; // "Beef" is at index 2 in the array
