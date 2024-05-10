@@ -4,9 +4,9 @@ setInterval(() => {
   // You need to calculate the rotation ratios and update the hand rotations.
 }, 1000);
 
-const hourHand = document.querySelector('[data-hour-hand]')
-const minuteHand = document.querySelector('[data-minute-hand]')
-const secondHand = document.querySelector('[data-second-hand]')
+const hourHand = document.querySelector("[data-hour-hand]");
+const minuteHand = document.querySelector("[data-minute-hand]");
+const secondHand = document.querySelector("[data-second-hand]");
 
 // Create setRotation function to rotate a DOM element around its center point. This function will be used to rotate the hour, minute, and second hands on the clock.
 // TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
