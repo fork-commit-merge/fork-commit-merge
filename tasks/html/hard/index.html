@@ -9,28 +9,64 @@
         <title>Fork, Commit, Merge - Hard Issue</title>
     </head>
     <body>
-        <nav id="navbar">
-            <ul id="menu">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav id="navbar">
+                <ul id="menu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <!-- TODO: Implement the about section -->
+                <h2>About Us</h2>
+                <div class="content-wrapper">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis porro sapiente illum, ipsam consequatur 
+                    enim expedita quam sed ut sint eligendi quisquam illo blanditiis commodi eos delectus rem reprehenderit tenetur.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero corrupti veritatis odio aliquam! Velit labore odio, 
+                    qui quam ducimus, culpa animi, cum reiciendis excepturi eveniet non molestiae iste dolor nesciunt. Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Aperiam, repudiandae quidem porro inventore error in ullam totam ad quo? Iste fuga soluta repellat placeat animi eligendi voluptas voluptatum eveniet iure!</p>
+                    <img src="image.jpg" alt="image of cat">
+                </div>
+            </section>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+            <section id="services">
+                <!-- TODO: Implement the services section -->
+                <h2>Services</h2>
+                <div class="content-wrapper">
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis porro sapiente illum, ipsam consequatur 
+                    enim expedita quam sed ut sint eligendi quisquam illo blanditiis commodi eos delectus rem reprehenderit tenetur.
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero corrupti veritatis odio aliquam! Velit labore odio, 
+                    qui quam ducimus, culpa animi, cum reiciendis excepturi eveniet non molestiae iste dolor nesciunt. Lorem ipsum 
+                    dolor sit amet consectetur adipisicing elit. Aperiam, repudiandae quidem porro inventore error in ullam totam ad quo? Iste fuga soluta repellat placeat animi eligendi voluptas voluptatum eveniet iure!</p>
+                    <img src="image.jpg" alt="image of cat">
+                </div>
+            </section>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
-
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
-
+            <section id="contact">
+                <!-- TODO: Implement the contact section  -->
+                <h1>Contact Us</h1>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="msg" rows="4" cols="20"></textarea>
+                    <button>Send</button>
+                </form>
+            </section>
+        </main>
         <footer>
             <!-- TODO: Implement the footer -->
+             <div id="footer-links">
+             <a href="#about">About</a>
+             <a href="#services">Services</a>
+             <a href="#contact">Contact</a>
+            </div>
+             <p>&copy 2023 Fork, Commit, Merge, All rights reserved.</p>
         </footer>
     </body>
 </html>
