@@ -43,13 +43,14 @@ section {
 .content-wrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left: 400px;
     padding-right: 400px;
 }
 
 .text {
     flex: 1;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 img {
@@ -68,6 +69,10 @@ h1,
 h2,
 p {
     margin: 0 0 10px;
+}
+
+section h2{
+    padding-right: 570px;
 }
 
 label,
