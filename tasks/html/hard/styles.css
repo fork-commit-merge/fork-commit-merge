@@ -12,7 +12,7 @@ body {
     width: 100%;
     background: #333;
     color: white;
-    padding: 15px;
+    padding: 32px;
 }
 
 #navbar a:hover {
@@ -45,6 +45,10 @@ section {
     align-items: center;
     padding-left: 400px;
     padding-right: 400px;
+}
+
+.flex-direction-row {
+    flex-direction: column;
 }
 
 .text {
