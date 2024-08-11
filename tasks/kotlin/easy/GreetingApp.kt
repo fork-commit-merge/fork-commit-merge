@@ -1,5 +1,7 @@
 // Kotlin - Easy
 
 fun main() {
-    // TODO: Create a Simple Kotlin Program to Print User's Input
+    // output that which was input
+    println("input?")
+    println(readln())
 }
