@@ -7,33 +7,6 @@
   text-align: center;
 }
 
-.App {
-  text-align: center;
-  max-width: 600px;
-  margin: auto;
-}
-
-input[type="text"] {
-  padding: 8px;
-  margin: 4px;
-}
-
-button {
-  padding: 8px;
-  margin: 4px;
-  cursor: pointer;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  margin: 8px 0;
-}
-
-
 .logo {
   height: 6em;
   padding: 1.5em;
