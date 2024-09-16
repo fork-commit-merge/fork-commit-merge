@@ -1,25 +1,7 @@
 // TypeScript - Medium
 
 namespace Calculator {
-	export function add(n1: number, n2: number): number {
-		return n1 + n2;
-	}
-
-	export function subtract(n1: number, n2: number): number {
-		return n1 - n2;
-	}
-
-	export function multiply(n1: number, n2: number): number {
-		return n1 * n2;
-	}
-
-	export function divide(n1: number, n2: number): number | null {
-		if (n2 === 0) {
-			console.warn("n2 parameter cannot be 0");
-			return null;
-		}
-		return n1 / n2;
-	}
+    // TODO: Implement a Simple TypeScript Calculator
 }
 
 // Test cases
