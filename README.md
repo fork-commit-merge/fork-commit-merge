@@ -2830,3 +2830,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/JSamuelAP"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/67252845?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/personal-trainer-github"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/118694665?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/vojtechlevi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/91605543?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/masahiro0000"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/104749225?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
