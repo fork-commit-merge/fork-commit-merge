@@ -1,81 +1,124 @@
+@@ -1,5 +1,122 @@
+# Python - Hard
+
 import numpy as np
+from collections import Counter
 
+class Node:
+  def __init__(self, feature=None, threshold=None, data_left=None, data_right=None, gain=None, value=None):
+        self.feature = feature
+        self.threshold = threshold
+        self.data_left = data_left
+        self.data_right = data_right
+        self.gain = gain
+        self.value = value
 
-# TODO: Implement the Decision Tree Classifier using NumPy
-class DecisionTreeClassifier:
-    def __init__(self, max_depth=None):
+class DecisionTree:
+    def __init__(self, min_samples_split=2, max_depth=5):
+        self.min_samples_split = min_samples_split
         self.max_depth = max_depth
+        self.root = None
+
+    @staticmethod
+    def _entropy(s):
+        counts = np.bincount(np.array(s, dtype=np.int64))
+        percentages = counts / len(s)
+        entropy = 0
+        for pct in percentages:
+            if pct > 0:
+                entropy += pct * np.log2(pct)
+        return -entropy
+
+    def _information_gain(self, parent, left_child, right_child):
+        num_left = len(left_child) / len(parent)
+        num_right = len(right_child) / len(parent)
+        return self._entropy(parent) - (num_left * self._entropy(left_child) + num_right * self._entropy(right_child))
+
+    def _best_split(self, X, y):
+        best_split = {}
+        best_info_gain = -1
+        n_rows, n_cols = X.shape
+        for f_idx in range(n_cols):
+            X_curr = X[:, f_idx]
+            for threshold in np.unique(X_curr):
+                df = np.concatenate((X, y.reshape(1, -1).T), axis=1)
+                df_left = np.array([row for row in df if row[f_idx] <= threshold])
+                df_right = np.array([row for row in df if row[f_idx] > threshold])
+                if len(df_left) > 0 and len(df_right) > 0:
+
+                    y = df[:, -1]
+                    y_left = df_left[:, -1]
+                    y_right = df_right[:, -1]
+                    gain = self._information_gain(y, y_left, y_right)
+                    if gain > best_info_gain:
+                        best_split = {
+                            'feature_index': f_idx,
+                            'threshold': threshold,
+                            'df_left': df_left,
+                            'df_right': df_right,
+                            'gain': gain
+                        }
+                        best_info_gain = gain
+        return best_split
+
+    def _build(self, X, y, depth=0):
+        n_rows, n_cols = X.shape
+        if n_rows >= self.min_samples_split and depth <= self.max_depth:
+            best = self._best_split(X, y)
+            if best['gain'] > 0:
+                left = self._build(
+                    X=best['df_left'][:, :-1],
+                    y=best['df_left'][:, -1],
+                    depth=depth + 1
+                )
+                right = self._build(
+                    X=best['df_right'][:, :-1],
+                    y=best['df_right'][:, -1],
+                    depth=depth + 1
+                )
+                return Node(
+                    feature=best['feature_index'],
+                    threshold=best['threshold'],
+                    data_left=left,
+                    data_right=right,
+                    gain=best['gain']
+                )
+
+        return Node(
+            value=Counter(y).most_common(1)[0][0]
+        )
 
     def fit(self, X, y):
-        self.tree = self._grow_tree(X, y)
+        self.root = self._build(X, y)
 
-    def _grow_tree(self, X, y, depth=0):
-        num_samples, num_features = X.shape
-        num_classes = len(np.unique(y))
+    def _predict(self, x, tree):
 
-        # Stopping criteria
-        if (self.max_depth is not None and depth >= self.max_depth) or num_classes == 1:
-            return {'class': np.bincount(y).argmax(), 'depth': depth}
+        if tree.value != None:
+            return tree.value
+        feature_value = x[tree.feature]
 
-        # Find the best split
-        best_gini = np.inf
-        best_criteria = None  # Feature index and threshold
-        best_sets = None  # Subsets of the data
 
-        for feature_idx in range(num_features):
-            thresholds = np.unique(X[:, feature_idx])
-            for threshold in thresholds:
-                left_indices = np.where(X[:, feature_idx] <= threshold)
-                right_indices = np.where(X[:, feature_idx] > threshold)
-                gini = (len(left_indices[0]) / num_samples) * self._gini_impurity(y[left_indices]) + \
-                       (len(right_indices[0]) / num_samples) * self._gini_impurity(y[right_indices])
+        if feature_value <= tree.threshold:
+            return self._predict(x=x, tree=tree.data_left)
 
-                if gini < best_gini:
-                    best_gini = gini
-                    best_criteria = (feature_idx, threshold)
-                    best_sets = (left_indices, right_indices)
 
-        # Create sub-trees
-        left_tree = self._grow_tree(X[best_sets[0]], y[best_sets[0]], depth + 1)
-        right_tree = self._grow_tree(X[best_sets[1]], y[best_sets[1]], depth + 1)
-
-        return {'feature_idx': best_criteria[0],
-                'threshold': best_criteria[1],
-                'left': left_tree,
-                'right': right_tree,
-                'depth': depth}
-
-    def _gini_impurity(self, y):
-        num_samples = len(y)
-        if num_samples == 0:
-            return 0
-
-        _, counts = np.unique(y, return_counts=True)
-        probabilities = counts / num_samples
-        gini = 1 - np.sum(probabilities ** 2)
-
-        return gini
+        if feature_value > tree.threshold:
+            return self._predict(x=x, tree=tree.data_right)
 
     def predict(self, X):
-        return np.array([self._predict_tree(x, self.tree) for x in X])
+        return [self._predict(x, self.root) for x in X]
 
-    def _predict_tree(self, x, tree):
-        if 'class' in tree:
-            return tree['class']
-        else:
-            feature_idx = tree['feature_idx']
-            threshold = tree['threshold']
-            if x[feature_idx] <= threshold:
-                return self._predict_tree(x, tree['left'])
-            else:
-                return self._predict_tree(x, tree['right'])
 
-# Example usage:
-X_train = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-y_train = np.array([0, 1, 1, 0])
 
-clf = DecisionTreeClassifier()
-clf.fit(X_train, y_train)
+from sklearn.model_selection import train_test_split
 
-X_test = np.array([[0, 0], [0, 1], [1, 0], [1, 1]])
-print(clf.predict(X_test))  # Output: [0 1 1 0]
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+model = DecisionTree()
+model.fit(X_train, y_train)
+preds = model.predict(X_test)
+print(preds)
+
+from sklearn.metrics import accuracy_score
+
+accuracy_score(y_test, preds)
