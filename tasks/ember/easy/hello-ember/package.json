@@ -76,5 +76,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "hello-ember": "file:"
   }
 }

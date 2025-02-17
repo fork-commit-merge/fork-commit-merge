@@ -16,7 +16,7 @@
 Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming with different languages, libraries and frameworks.
 
 More info about this project, contributing and open source resources, are available on our website at
-<br>[forkcommitmerge.io](https://forkcommitmerge.io)
+<br>[forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app)
 
 ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![Mojo](https://img.shields.io/badge/Mojo-FF7139?style=for-the-badge&logo=Mojo&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white)
 
@@ -112,7 +112,6 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 -   [Influences](#influences)
 -   [What's Next?](#whats-next)
 -   [Sponsors](#sponsors)
--   [Leaderboard](#leaderboard)
 -   [Creating New Tasks](#creating-new-tasks)
 -   [Contact](#contact)
 -   [License](#license)
@@ -224,7 +223,7 @@ Here are a few reasons why developers use IDEs:
 
 We recommend using VS Code as your IDE for this project. It's free, open-source, and supports a wide range of languages and extensions. You can download it from the [VS Code - Official website](https://code.visualstudio.com/). However, if you prefer to use another IDE, that's fine too!
 
-Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.io/ide](https://forkcommitmerge.io/ide)!
+Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.vercel.app/ide](https://forkcommitmerge.vercel.app/ide)!
 
 ---
 
@@ -1574,7 +1573,7 @@ git switch -c fix-issue
 Now you are ready to start working on the issues!
 Remember every once in a while to pull from the upstream repository to keep your local repository up to date with the main project.
 
-If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.io/resources](https://forkcommitmerge.io/resources).
+If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.vercel.app/resources](https://forkcommitmerge.vercel.app/resources).
 
 _Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts._
 
@@ -1995,7 +1994,7 @@ If you don't respond to the review and make the necessary changes within 4 days,
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.io).
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app).
 
 ![line]
 
@@ -2015,7 +2014,7 @@ Why Follow Best Practices?
 
 -   Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
 
-In our [Fork, Commit, Merge website](https://forkcommitmerge.io), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+In our [Fork, Commit, Merge website](https://forkcommitmerge.vercel.app), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
 ![line]
 
@@ -2036,7 +2035,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React.js, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Clerk. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
-You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.io/roadmaps/how-to-contribute) of our website.
+You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.vercel.app/roadmaps/how-to-contribute) of our website.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
@@ -2048,16 +2047,9 @@ You can sponsor this project by clicking the "Sponsor" button at the top of this
 
 ![Sponsor](/assets/images/sponsor.png)
 
-Your sponsorship will help me to keep this project alive and to continue developing it further. You will also get your name and/or logo listed in our website at [forkcommitmerge.io](https://forkcommitmerge.io) as well as in this repository.
+Your sponsorship will help me to keep this project alive and to continue developing it further. You will also get your name and/or logo listed in our website at [forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app) as well as in this repository.
 
-You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](https://www.buymeacoffee.com/nikohoffren) or clicking the "Buy me a coffee" button at the header of our [website](https://forkcommitmerge.io).
-
-![line]
-
-## Leaderboard
-
-You can find the leaderboard of the Top 20 contributors in our website at [https://forkcommitmerge.io/leaderboard](https://forkcommitmerge.io/leaderboard).
-You can also find all of your own contributions to this project in the [Dashboard](https://forkcommitmerge.io/dashboard) of our website when you log in.
+You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](https://www.buymeacoffee.com/nikohoffren) or clicking the "Buy me a coffee" button at the header of our [website](https://forkcommitmerge.vercel.app).
 
 ![line]
 

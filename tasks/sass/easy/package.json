@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "easy": "file:"
   }
 }

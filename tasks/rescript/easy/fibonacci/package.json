@@ -15,5 +15,8 @@
   "devDependencies": {
     "bs-platform": "^9.0.2",
     "rescript": "^10.1.4"
+  },
+  "dependencies": {
+    "fibonacci": "file:"
   }
 }
