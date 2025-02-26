@@ -42,3 +42,19 @@
 .read-the-docs {
   color: #888;
 }
+
+input {
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
