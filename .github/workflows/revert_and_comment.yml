@@ -67,7 +67,7 @@ jobs:
           I look forward to seeing your contributions!"
 
   add-contributor-to-readme:
-    needs: auto-revert
+    # needs: auto-revert
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'pull_request_target' &&
