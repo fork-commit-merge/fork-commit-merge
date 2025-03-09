@@ -1536,10 +1536,8 @@ That will open this small window:
 After that you can copy and paste the URL the to your local machine with the command:
 
 ```bash
-git clone https://github.com/<your-username>/fork-commit-merge.git
+git clone https://github.com/fork-commit-merge/fork-commit-merge.git
 ```
-
-Replace 'your-username' with your GitHub username.
 
 3. Navigate to your project folder:
 
