@@ -1762,6 +1762,10 @@ Go to the task you selected to get more info about the issue by clicking one of 
 
 [Angular - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1009)
 
+[Solid.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/2449)
+
+[Solid.js - Medium](https://github.com/fork-commit-merge/fork-commit-merge/issues/2450)
+
 [Ember.js - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1069)
 
 [GraphQL - Easy](https://github.com/fork-commit-merge/fork-commit-merge/issues/1057)
