@@ -1,4 +1,13 @@
 def bubble_sort(arr):
+    """
+    Sorts array using bubble sort algorithm and returns the result.
+    
+    Args:
+        arr (list): List of numbers to be sorted.
+        
+    Returns:
+        list: Sorted list in ascending order.
+    """
     n = len(arr)
     for i in range(n - 1, 0, -1):
         swap = False
