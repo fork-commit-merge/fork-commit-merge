@@ -1,0 +1,38 @@
+.quoteContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.quote,
+.loadingText,
+.errorText {
+  padding: 2rem;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.errorText {
+  color: rgb(197, 0, 0);
+}
+
+.newQuoteButton {
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  transition: all 0.3s ease;
+}
+
+.newQuoteButton:hover {
+  color: white;
+  background-color: rgb(34, 165, 209);
+}

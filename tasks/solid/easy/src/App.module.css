@@ -1,0 +1,35 @@
+.counterContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.countNumber {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.countButtonsContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.countButtons {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  transition: all 0.3s ease;
+}
+
+.countButtons:hover {
+  color: white;
+  background-color: rgb(34, 165, 209);
+}
