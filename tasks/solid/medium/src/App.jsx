@@ -1,46 +1,35 @@
-import { createResource, createSignal } from "solid-js";
 import styles from "./App.module.css";
 
 function App() {
   // API URL to send the request to
   const API_URL = "https://api.adviceslip.com/advice";
-  const [error, setError] = createSignal(null);
-  const [loading, setLoading] = createSignal(false);
 
+  // TIP: The structure of the advice object returned from the API is:
+  // { slip: { id: 123, advice: "This is an example advice." } }
   const fetchQuote = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-      
-      const response = await fetch(API_URL);
-      if (!response.ok) {
-        throw new Error(`Failed to fetch quote: ${response.status} ${response.statusText}`);
-      }
-      
-      const data = await response.json();
-      return data.slip.advice;
-    } catch (err) {
-      setError(err.message || "Failed to fetch quote from the API");
-      return null;
-    } finally {
-      setLoading(false);
-    }
+    // TODO: Implement the fetchQuote function to retrieve an advice quote.
   };
 
-  const [quote, { refetch }] = createResource(fetchQuote);
-
-  const handleNewQuote = () => {
-    refetch();
-  };
+  // TODO: Implement a signal function to manage the fetchQuote data.
+  // TIP: You can use Solid.js's createResource utility function.
+  // Documentation: https://docs.solidjs.com/guides/fetching-data
 
   return (
     <main class={styles.quoteContainer}>
-      {loading() && <p class={styles.loadingText}>Fetching quote...</p>}
-      {error() && <p class={styles.errorText}>{error()}</p>}
-      {quote() && <p class={styles.quotes}>{quote()}</p>}
+      {/* TODO: Implement an element that renders while the data is being fetched.
+      TIP: Here are the elements to display for the three states of data fetching:
 
-      <button onClick={handleNewQuote} class={styles.newQuoteButton}>
-        New Quote
+      - Loading: <p class={styles.loadingText}>Fetching quote...</p>
+      - Error: <p class={styles.errorText}>Failed to fetch the quote.</p>
+      - Success: <p class={styles.quotes}>Quote appears here.</p> */}
+
+      <button
+        onClick={() => {
+          // Implement the refetch function here to fetch new quotes.
+        }}
+        class={styles.newQuoteButton}
+      >
+        new quote
       </button>
     </main>
   );
