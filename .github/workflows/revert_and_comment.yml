@@ -119,8 +119,8 @@ jobs:
       run: |
         CONTRIBUTOR_LOGIN="${{ github.event.pull_request.user.login }}"
         CONTRIBUTOR_ID="${{ github.event.pull_request.user.id }}"
-        echo "::set-output name=login::$CONTRIBUTOR_LOGIN"
-        echo "::set-output name=id::$CONTRIBUTOR_ID"
+        echo "login=$CONTRIBUTOR_LOGIN" >> $GITHUB_OUTPUT
+        echo "id=$CONTRIBUTOR_ID" >> $GITHUB_OUTPUT
 
     - name: Checkout web repository
       uses: actions/checkout@v2
