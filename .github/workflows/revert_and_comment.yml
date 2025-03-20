@@ -141,15 +141,18 @@ jobs:
         if ! grep -q "id: '$CONTRIBUTOR_LOGIN'" fork-commit-merge-web/components/data/contributorData.ts; then
           echo "Adding new contributor to contributorData.ts"
 
-          NEW_CONTRIBUTOR=$(cat << EOF
+          # Create the new contributor entry using a properly escaped heredoc
+          NEW_CONTRIBUTOR=$(cat << 'EOL'
   {
-    id: "$CONTRIBUTOR_LOGIN",
-    url: "https://github.com/$CONTRIBUTOR_LOGIN",
-    avatar: "https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d",
-    name: "$CONTRIBUTOR_LOGIN"
+    id: "%s",
+    url: "https://github.com/%s",
+    avatar: "https://avatars.githubusercontent.com/u/%s?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d",
+    name: "%s"
   },
-EOF
+EOL
 )
+          # Format the template with the actual values
+          NEW_CONTRIBUTOR=$(printf "$NEW_CONTRIBUTOR" "$CONTRIBUTOR_LOGIN" "$CONTRIBUTOR_LOGIN" "$CONTRIBUTOR_ID" "$CONTRIBUTOR_LOGIN")
 
           # Insert the new contributor before the closing bracket
           sed -i "s/]/$NEW_CONTRIBUTOR\n]/" fork-commit-merge-web/components/data/contributorData.ts
