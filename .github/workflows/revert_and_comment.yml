@@ -130,7 +130,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       with:
-        repository: 'nikohoffren/fork-commit-merge-web'
+        repository: 'fork-commit-merge/fork-commit-merge-web'
         token: ${{ secrets.REPO_PAT }}
         path: 'fork-commit-merge-web'
 
