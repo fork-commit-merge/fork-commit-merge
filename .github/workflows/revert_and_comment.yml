@@ -106,9 +106,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'pull_request_target' &&
-      github.event.pull_request.merged == true &&
-      success() &&
-      contains(github.event.pull_request.labels.*.name, 'readme-updated')
+      github.event.pull_request.merged == true
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
