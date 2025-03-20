@@ -141,10 +141,11 @@ jobs:
         if ! grep -q "id: '$CONTRIBUTOR_LOGIN'" fork-commit-merge-web/components/data/contributorData.ts; then
           echo "Adding new contributor to contributorData.ts"
 
+          # Create the new contributor entry as a single line
           NEW_CONTRIBUTOR="  {\n    id: \"$CONTRIBUTOR_LOGIN\",\n    url: \"https://github.com/$CONTRIBUTOR_LOGIN\",\n    avatar: \"https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\",\n    name: \"$CONTRIBUTOR_LOGIN\"\n  },"
 
-          # Insert the new contributor before the closing bracket
-          sed -i "s/]/$NEW_CONTRIBUTOR\n]/" fork-commit-merge-web/components/data/contributorData.ts
+          # Insert the new contributor before the closing bracket using @ as delimiter
+          sed -i "s@]@$NEW_CONTRIBUTOR\n]@" fork-commit-merge-web/components/data/contributorData.ts
 
           cd fork-commit-merge-web
           git config user.name "GitHub Action"
