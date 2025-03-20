@@ -23,10 +23,14 @@ jobs:
         run: |
           cat > refresh.mjs << 'EOL'
           import { Octokit } from '@octokit/rest';
+          import fetch from 'node-fetch';
 
           async function run() {
             const octokit = new Octokit({
-              auth: process.env.GITHUB_TOKEN
+              auth: process.env.GITHUB_TOKEN,
+              request: {
+                fetch: fetch
+              }
             });
 
             const owner = process.env.GITHUB_REPOSITORY.split('/')[0];
@@ -76,10 +80,11 @@ jobs:
           EOL
 
       - name: Install dependencies
-        run: npm install @octokit/rest
+        run: npm install @octokit/rest node-fetch
 
       - name: Run refresh script
         run: node refresh.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_PAT }}
+
 
