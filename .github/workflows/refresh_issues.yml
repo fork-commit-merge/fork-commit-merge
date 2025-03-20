@@ -21,12 +21,11 @@ jobs:
 
       - name: Create refresh script
         run: |
-          cat > refresh.js << 'EOL'
-          const fs = require('fs');
-          const path = require('path');
+          cat > refresh.mjs << 'EOL'
+          import { Octokit } from '@octokit/rest';
 
           async function run() {
-            const octokit = new (require('@octokit/rest').Octokit)({
+            const octokit = new Octokit({
               auth: process.env.GITHUB_TOKEN
             });
 
@@ -80,6 +79,7 @@ jobs:
         run: npm install @octokit/rest
 
       - name: Run refresh script
-        run: node refresh.js
+        run: node refresh.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.REPO_PAT }}
+
