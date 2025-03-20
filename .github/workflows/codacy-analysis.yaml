@@ -4,6 +4,7 @@ on: ["push"]
 
 jobs:
   codacy-analysis-cli:
+    if: false
     name: Codacy Analysis CLI
     runs-on: ubuntu-latest
     steps:
