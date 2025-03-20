@@ -1,0 +1,85 @@
+name: Refresh Issues
+
+on:
+  workflow_dispatch:  # Manual trigger
+  schedule:
+    - cron: '0 0 1 * *'  # Runs monthly on the 1st at 00:00 UTC
+
+jobs:
+  refresh-issues:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Create refresh script
+        run: |
+          cat > refresh.js << 'EOL'
+          const fs = require('fs');
+          const path = require('path');
+
+          async function run() {
+            const octokit = new (require('@octokit/rest').Octokit)({
+              auth: process.env.GITHUB_TOKEN
+            });
+
+            const owner = process.env.GITHUB_REPOSITORY.split('/')[0];
+            const repo = process.env.GITHUB_REPOSITORY.split('/')[1];
+
+            const issues = await octokit.paginate('GET /repos/{owner}/{repo}/issues', {
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100
+            });
+
+            const issueData = issues.map(issue => ({
+              title: issue.title,
+              body: issue.body,
+              labels: issue.labels.map(label => label.name)
+            }));
+
+            for (const issue of issues) {
+              await octokit.issues.update({
+                owner,
+                repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+              console.log(`Closed issue #${issue.number}`);
+            }
+
+            for (const data of issueData) {
+              await octokit.issues.create({
+                owner,
+                repo,
+                title: data.title,
+                body: data.body,
+                labels: data.labels
+              });
+              console.log(`Created new issue: ${data.title}`);
+
+              await new Promise(resolve => setTimeout(resolve, 1000));
+            }
+          }
+
+          run().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
+          EOL
+
+      - name: Install dependencies
+        run: npm install @octokit/rest
+
+      - name: Run refresh script
+        run: node refresh.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.REPO_PAT }}
