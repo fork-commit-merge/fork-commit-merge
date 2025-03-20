@@ -104,7 +104,9 @@ jobs:
   sync-contributors:
     needs: add-contributor-to-readme
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
+    if: |
+      github.event_name == 'pull_request_target' &&
+      github.event.pull_request.merged == true
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -112,56 +114,46 @@ jobs:
         token: ${{ secrets.REPO_PAT }}
         fetch-depth: 0
 
-    - name: Extract last contributor
-      id: extract_last_contributor
+    - name: Extract contributor info
+      id: extract_contributor
       run: |
-        LAST_CONTRIBUTOR=$(tail -n 1 README.md | awk -F'[@"]' '{print $2}')
-        echo "::set-output name=last_contributor::$LAST_CONTRIBUTOR"
+        CONTRIBUTOR_LOGIN="${{ github.event.pull_request.user.login }}"
+        CONTRIBUTOR_ID="${{ github.event.pull_request.user.id }}"
+        echo "::set-output name=login::$CONTRIBUTOR_LOGIN"
+        echo "::set-output name=id::$CONTRIBUTOR_ID"
 
-    - name: Debug
-      run: echo "Last contributor is ${{ steps.extract_last_contributor.outputs.last_contributor }}"
-
-    - name: Get contributor id
-      id: get_contributor_id
-      run: |
-        ID=$(curl -s -H "Authorization: token ${{ secrets.REPO_PAT }}" "https://api.github.com/users/${{ steps.extract_last_contributor.outputs.last_contributor }}" | grep '"id":' | sed 's/[^0-9]//g')
-        echo "::set-output name=contributor_id::$ID"
-
-    - name: Checkout code
+    - name: Checkout web repository
       uses: actions/checkout@v2
       with:
         repository: 'fork-commit-merge/fork-commit-merge-web'
         token: ${{ secrets.REPO_PAT }}
         path: 'fork-commit-merge-web'
 
-    - name: Add contributors to components/data/contributorData.ts
+    - name: Add contributor to web repository
       run: |
-        CONTRIBUTOR_LOGIN="${{ steps.extract_last_contributor.outputs.last_contributor }}"
-        CONTRIBUTOR_ID="${{ steps.get_contributor_id.outputs.contributor_id }}"
-        echo "Adding contributor: $CONTRIBUTOR_LOGIN with ID: $CONTRIBUTOR_ID"
-        echo "<a href=\"https://github.com/$CONTRIBUTOR_LOGIN\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> fork-commit-merge-web/components/data/contributorData.ts
+        set -e  # Exit on any error
 
-    - name: Commit and push to fork-commit-merge-web
-      run: |
-        cd fork-commit-merge-web
-        git config user.name "nikohoffren"
-        git config user.email "niko.hoffren@gmail.com"
-        git add components/data/contributorData.ts
-        git commit -m "Sync contributors from fork-commit-merge"
-        git push
+        CONTRIBUTOR_LOGIN="${{ steps.extract_contributor.outputs.login }}"
+        CONTRIBUTOR_ID="${{ steps.extract_contributor.outputs.id }}"
 
-  label-new-issue:
-    runs-on: ubuntu-latest
-    if: github.event_name == 'issues' && github.event.action == 'opened'
-    steps:
-      - name: Add labels to new issue
-        run: |
-          issue_number=${{ github.event.issue.number }}
-          labels='["first-contributor","first-contributors","good first issue","help wanted","up-for-grabs"]'
+        echo "Processing contributor: $CONTRIBUTOR_LOGIN (ID: $CONTRIBUTOR_ID)"
 
-          curl \
-            -X POST \
-            -H "Authorization: token ${{ secrets.REPO_PAT }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/issues/$issue_number/labels" \
-            -d "{ \"labels\": $labels }"
+        if ! grep -q "$CONTRIBUTOR_LOGIN" fork-commit-merge-web/components/data/contributorData.ts; then
+          echo "Adding new contributor to contributorData.ts"
+          echo "<a href=\"https://github.com/$CONTRIBUTOR_LOGIN\"><img src=\"https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\" width=\"80px\"/></a>" >> fork-commit-merge-web/components/data/contributorData.ts
+
+          cd fork-commit-merge-web
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add components/data/contributorData.ts
+          git commit -m "Add $CONTRIBUTOR_LOGIN to contributors list"
+          git push || {
+            echo "Failed to push changes. Error: $?"
+            exit 1
+          }
+          echo "Successfully added contributor to web repository"
+        else
+          echo "Contributor already exists in contributorData.ts"
+        fi
+      env:
+        GH_TOKEN: ${{ secrets.REPO_PAT }}
