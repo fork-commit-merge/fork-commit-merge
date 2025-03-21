@@ -69,6 +69,8 @@ jobs:
   add-contributor-to-readme:
     needs: auto-revert
     runs-on: ubuntu-latest
+    outputs:
+      contributor_added: ${{ steps.add_contributor.outputs.added }}
     if: |
       github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
@@ -87,6 +89,7 @@ jobs:
           git reset --hard origin/main
 
       - name: Add contributor to README
+        id: add_contributor
         run: |
           if ! grep -q "${{ github.event.pull_request.user.login }}" README.md
           then
@@ -96,6 +99,9 @@ jobs:
             git add README.md
             git commit -m "Add ${{ github.event.pull_request.user.login }} to contributors list"
             git push
+            echo "added=true" >> $GITHUB_OUTPUT
+          else
+            echo "added=false" >> $GITHUB_OUTPUT
           fi
         env:
           GH_TOKEN: ${{ secrets.REPO_PAT }}
@@ -108,6 +114,7 @@ jobs:
       github.event_name == 'pull_request_target' &&
       github.event.pull_request.merged == true &&
       needs.add-contributor-to-readme.result == 'success' &&
+      needs.add-contributor-to-readme.outputs.contributor_added == 'true' &&
       !contains(github.event.pull_request.user.login, 'dependabot')
     steps:
     - name: Checkout code
