@@ -10,23 +10,63 @@
     </head>
     <body>
         <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
+            <ul id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
 
         <section id="about">
-            <!-- TODO: Implement the about section -->
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>About Us</h2>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
+                </div>
+                <img src="https://loremflickr.com/320/240" alt="About Us Image" />
+            </div>
         </section>
 
         <section id="services">
-            <!-- TODO: Implement the services section -->
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>Our Services</h2>
+                    <p>
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, 
+                        similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </p>
+                </div>
+                <img src="https://loremflickr.com/320/240" alt="Services Image" />
+            </div>
         </section>
 
         <section id="contact">
-            <!-- TODO: Implement the contact section  -->
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" />
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
 
         <footer>
-            <!-- TODO: Implement the footer -->
+            <div id="footer-links">
+                <a href="#about">About</a>    
+                <a href="#services">Services</a>   
+                <a href="#contact">Contact</a> 
+            </div>
+            <p>© 2023 Fork, Commit, Merge. All rights reserved.</p>
         </footer>
     </body>
 </html>
