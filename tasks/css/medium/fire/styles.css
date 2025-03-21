@@ -9,33 +9,24 @@ body {
 }
 
 @keyframes scaleUpDown {
-
-  0%,
-  100% {
+  0%, 100% {
     transform: scaleY(1) scaleX(1);
   }
-
-  50%,
-  90% {
+  50%, 90% {
     transform: scaleY(1.1);
   }
-
   75% {
     transform: scaleY(0.95);
   }
-
   80% {
     transform: scaleX(0.95);
   }
 }
 
 @keyframes shake {
-
-  0%,
-  100% {
+  0%, 100% {
     transform: skewX(0) scale(1);
   }
-
   50% {
     transform: skewX(5deg) scale(0.9);
   }
@@ -45,15 +36,12 @@ body {
   0% {
     opacity: 0;
   }
-
   20% {
     opacity: 1;
   }
-
   80% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
     top: -100%;
@@ -61,15 +49,10 @@ body {
   }
 }
 
-
-
 @keyframes glow {
-
-  0%,
-  100% {
+  0%, 100% {
     background-color: #ef5a00;
   }
-
   50% {
     background-color: #ff7800;
   }
@@ -123,69 +106,34 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  left: 40px;
   animation: shake 2s ease-out;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
 
 .fire-right .main-fire {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
-  transform: scaleX(0.8) rotate(45deg);
-  border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #d43322);
+  /* TODO: Add the necessary styles here */
 }
 
 .fire-right .particle-fire {
-  position: absolute;
-  top: 60%;
-  left: 0%;
-  width: 10px;
-  height: 10px;
-  background-color: #ef5a00;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 10px #d43322);
-  animation: particleUp 2s ease-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
+  /* TODO: Add the necessary styles here */
 }
 
 .fire-left {
   position: absolute;
-  left: -20px;
-  bottom: 10px;
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
   animation: shake 3s ease-out;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
 }
 
 .fire-left .main-fire {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
-  transform: scaleX(0.8) rotate(45deg);
-  border-radius: 0 40% 60% 40%;
-  filter: drop-shadow(0 0 10px #d43322);
+  /* TODO: Add the necessary styles here */
 }
 
 .fire-left .particle-fire {
-  position: absolute;
-  top: 60%;
-  left: 45%;
-  width: 10px;
-  height: 10px;
-  background-color: #ef5a00;
-  border-radius: 50%;
-  filter: drop-shadow(0 0 10px #d43322);
-  animation: particleUp 2s ease-out;
-  animation-iteration-count: infinite;
-  animation-fill-mode: both;
+  /* TODO: Add the necessary styles here */
 }
 
 .fire-bottom .main-fire {
