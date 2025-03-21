@@ -106,7 +106,9 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event_name == 'pull_request_target' &&
-      github.event.pull_request.merged == true
+      github.event.pull_request.merged == true &&
+      needs.add-contributor-to-readme.result == 'success' &&
+      !contains(github.event.pull_request.user.login, 'dependabot')
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
