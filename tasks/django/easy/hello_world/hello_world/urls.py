@@ -5,5 +5,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('hello/', include('hello_world_app.urls'))
     # TODO: Add /hello path
 ]
