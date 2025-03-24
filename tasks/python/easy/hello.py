@@ -1,3 +1,9 @@
-# Python - Easy
+def hi():
+    print("Hello World")
 
-# TODO: Write a function that prints "Hello, Python!" to the console
+
+
+if __name__ == '__main__':
+    hi()
+
+
