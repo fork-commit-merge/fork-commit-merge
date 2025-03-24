@@ -6,4 +6,11 @@
 # prints the sum of the numbers of that list
 
 def function(numbers):
-    pass
+    count = 0
+    for i in range(numbers):
+        count += i
+        print(i)
+    print("Sum of the numbers: ", count)
+
+if __name__ == '__main__':
+    function(11)
