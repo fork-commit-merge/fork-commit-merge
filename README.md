@@ -2002,7 +2002,7 @@ If you don't respond to the review and make the necessary changes within 4 days,
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app).
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app/contributors).
 
 ![line]
 
