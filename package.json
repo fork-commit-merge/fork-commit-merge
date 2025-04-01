@@ -17,7 +17,7 @@
   "author": "Niko Hoffrén",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.21.2",
+    "express": "^5.1.0",
     "fork-commit-merge": "file:",
     "htmx.org": "^2.0.4",
     "react-sound": "^1.2.0"
