@@ -14,7 +14,7 @@
 Welcome to "Fork, Commit, Merge"!<br>A project designed to help you familiarize yourself with the open source contribution workflow on GitHub, as well as to help you learn the basics of programming with different languages, libraries and frameworks.
 
 More info about this project, contributing and open source resources, are available on our website at
-<br>[forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app)
+<br>[forkcommitmerge.dev](https://forkcommitmerge.dev)
 
 ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![HTMX](https://img.shields.io/badge/htmx-%2302569B.svg?style=for-the-badge&logo=htmx&logoColor=white) ![CSS](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/tailwind-%231572B6.svg?style=for-the-badge&logo=tailwindcss&logoColor=%23F7DF1E) ![Bootstrap](https://img.shields.io/badge/bootstrap-%239B30FF.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![ReScript](https://img.shields.io/badge/rescript-%2314162c?style=for-the-badge&logo=rescript&logoColor=e34c4c) ![CoffeeScript](https://img.shields.io/badge/CoffeeScript-2F2625?style=for-the-badge&logo=CoffeeScript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white) ![Three.js](https://img.shields.io/badge/three.js-black?style=for-the-badge&logo=three.js&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%239B30FF.svg?style=for-the-badge&logo=vite&logoColor=yellow) ![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white) ![Astro](https://img.shields.io/badge/Astro-%2302569B.svg?style=for-the-badge&logo=Astro&logoColor=white) ![Solid.js](https://img.shields.io/badge/Solid%20JS-2C4F7C?style=for-the-badge&logo=solid&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Ember.js](https://img.shields.io/badge/ember.js-1C1E24?style=for-the-badge&logo=ember.js&logoColor=#D04A37) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white) ![Yarn](https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Apollo](https://img.shields.io/badge/-apollo-311C87?style=for-the-badge&logo=apollo-graphql) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![Electron.js](https://img.shields.io/badge/electron.js-191970?style=for-the-badge&logo=Electron&logoColor=white) ![Jest](https://img.shields.io/badge/jest-%23E34F26.svg?style=for-the-badge&logo=jest&logoColor=white) ![Jasmine](https://img.shields.io/badge/jasmine-%238A4182.svg?style=for-the-badge&logo=jasmine&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-%23646CFF.svg?style=for-the-badge&logo=Vitest&logoColor=white) ![C](https://img.shields.io/badge/c-%231572B6.svg?style=for-the-badge&logo=c&logoColor=%23F7DF1E) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Blazor](https://img.shields.io/badge/blazor-%235C2D91.svg?style=for-the-badge&logo=blazor&logoColor=white) ![D](https://img.shields.io/badge/D-CC342D?style=for-the-badge&logo=d&logoColor=white) ![F#](https://img.shields.io/badge/F%23-378BBA.svg?style=for-the-badge&logo=fsharp&logoColor=fff) ![Ada](https://img.shields.io/badge/Ada-%23Clojure.svg?style=for-the-badge&logo=Ada&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white) ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Scala](https://img.shields.io/badge/scala-%23E32F26.svg?style=for-the-badge&logo=scala&logoColor=white) ![Groovy](https://img.shields.io/badge/Groovy-4298B8.svg?style=for-the-badge&logo=Apache+Groovy&logoColor=white) ![Python](https://img.shields.io/badge/python-%23007ACC.svg?style=for-the-badge&logo=python&logoColor=yellow) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Vyper](https://img.shields.io/badge/vyper-%23323330.svg?style=for-the-badge&logo=vyper&logoColor=%23F7DF1E) ![Ruby](https://img.shields.io/badge/ruby-%23E32F26.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) ![Elixir](https://img.shields.io/badge/elixir-%239B30FF.svg?style=for-the-badge&logo=elixir&logoColor=white) ![Crystal](https://img.shields.io/badge/crystal-%23000000.svg?style=for-the-badge&logo=crystal&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23007BCC.svg?style=for-the-badge&logo=php&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Dart](https://img.shields.io/badge/dart-%23323330.svg?style=for-the-badge&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![Swift](https://img.shields.io/badge/swift-%23E32F26.svg?style=for-the-badge&logo=swift&logoColor=white) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Julia](https://img.shields.io/badge/-Julia-9558B2?style=for-the-badge&logo=julia&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23E32F26.svg?style=for-the-badge&logo=rust&logoColor=white) ![Haskell](https://img.shields.io/badge/haskell-%239B30FF.svg?style=for-the-badge&logo=haskell&logoColor=white) ![Lua](https://img.shields.io/badge/lua-%232C2D72.svg?style=for-the-badge&logo=lua&logoColor=white) ![Clojure](https://img.shields.io/badge/Clojure-%23Clojure.svg?style=for-the-badge&logo=Clojure&logoColor=Clojure) ![OCaml](https://img.shields.io/badge/ocaml-%23ED8B00.svg?style=for-the-badge&logo=ocaml&logoColor=white) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white) ![Lisp](https://img.shields.io/badge/lisp-%23000000.svg?style=for-the-badge&logo=lisp&logoColor=red) ![Fortran](https://img.shields.io/badge/Fortran-%23734F96.svg?style=for-the-badge&logo=fortran&logoColor=white) ![Pascal](https://img.shields.io/badge/pascal-%23007ACC.svg?style=for-the-badge&logo=pascal&logoColor=yellow) ![COBOL](https://img.shields.io/badge/COBOL-%232C2D72.svg?style=for-the-badge&logo=COBOL&logoColor=white) ![Erlang](https://img.shields.io/badge/Erlang-white.svg?style=for-the-badge&logo=erlang&logoColor=a90533) ![Smalltalk](https://img.shields.io/badge/smalltalk-%231572B6.svg?style=for-the-badge&logo=smalltalk&logoColor=%23F7DF1E) ![Zig](https://img.shields.io/badge/Zig-%23F7A41D.svg?style=for-the-badge&logo=zig&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Nim](https://img.shields.io/badge/nim-%23FFE953.svg?style=for-the-badge&logo=nim&logoColor=white) ![MATLAB](https://img.shields.io/badge/MATLAB-%23ED8B00.svg?style=for-the-badge&logo=MATLAB&logoColor=white) ![Octave](https://img.shields.io/badge/OCTAVE-darkblue?style=for-the-badge&logo=octave&logoColor=fcd683) ![SQL](https://img.shields.io/badge/sql-%23FF4500.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![TLA+](https://img.shields.io/badge/tla+-%239B30FF.svg?style=for-the-badge&logo=tla+&logoColor=white) ![Bash](https://img.shields.io/badge/bash-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Perl](https://img.shields.io/badge/perl-%230D467A.svg?style=for-the-badge&logo=perl&logoColor=white) ![Mojo](https://img.shields.io/badge/Mojo-FF7139?style=for-the-badge&logo=Mojo&logoColor=white) ![ASM](https://img.shields.io/badge/asm-%23121011.svg?style=for-the-badge&logo=asm&logoColor=white) ![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge&logo=json&logoColor=blue) ![YAML](https://img.shields.io/badge/yaml-%23000000.svg?style=for-the-badge&logo=yaml&logoColor=yellow) ![TOML](https://img.shields.io/badge/toml-%23000000.svg?style=for-the-badge&logo=toml&logoColor=white) ![XML](https://img.shields.io/badge/xml-%23000111.svg?style=for-the-badge&logo=xml&logoColor=white) ![CSV](https://img.shields.io/badge/csv-%23239120.svg?style=for-the-badge&logo=csv&logoColor=white) ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Git](https://img.shields.io/badge/git-%23000000.svg?style=for-the-badge&logo=git&logoColor=white)
 
@@ -24,97 +24,97 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Table of Contents
 
--   [Quick Start](#quick-start)
--   [Prerequisites](#prerequisites)
-    -   [Installing an IDE](#installing-an-ide)
-    -   [Installing Git](#installing-git)
-    -   [Installing NodeJS and NPM](#installing-nodejs-and-npm)
-    -   [Installing SASS](#installing-sass)
-    -   [Installing Tailwind CSS](#installing-tailwind-css)
-    -   [Installing ReScript](#installing-rescript)
-    -   [Installing CoffeeScript](#installing-coffeescript)
-    -   [Installing JavaScript](#installing-javascript)
-    -   [Installing TypeScript](#installing-typescript)
-    -   [Installing React](#installing-react)
-    -   [Installing Next.js](#installing-nextjs)
-    -   [Installing Three.js](#installing-threejs)
-    -   [Installing Vue.js](#installing-vuejs)
-    -   [Installing Svelte](#installing-svelte)
-    -   [Installing Astro](#installing-astro)
-    -   [Installing Angular](#installing-angular)
-    -   [Installing Solid.js](#installing-solidjs)
-    -   [Installing Ember.js](#installing-emberjs)
-    -   [Installing GraphQL](#installing-graphql)
-    -   [Installing NGINX](#installing-nginx)
-    -   [Installing Express.js](#installing-expressjs)
-    -   [Installing Electron.js](#installing-electronjs)
-    -   [Installing Jest](#installing-jest)
-    -   [Installing Jasmine](#installing-jasmine)
-    -   [Installing Vitest](#installing-vitest)
-    -   [Installing C](#installing-c)
-    -   [Installing C++](#installing-c)
-    -   [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
-    -   [Installing Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk)
-    -   [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
-    -   [Installing F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
-    -   [Installing Ada](#installing-ada)
-    -   [Installing Java](#installing-java)
-    -   [Installing Kotlin](#installing-kotlin)
-    -   [Installing Scala](#installing-scala)
-    -   [Installing Groovy](#installing-groovy)
-    -   [Installing Python](#installing-python)
-    -   [Installing Flask](#installing-flask)
-    -   [Installing Django](#installing-django)
-    -   [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity-truffle-ethereum-development-environment)
-    -   [Installing Vyper](#installing-vyper)
-    -   [Installing Ruby](#installing-ruby)
-    -   [Installing Rails](#installing-rails)
-    -   [Installing Elixir](#installing-elixir)
-    -   [Installing Crystal](#installing-crystal)
-    -   [Installing PHP](#installing-php)
-    -   [Installing Laravel](#installing-laravel)
-    -   [Installing Golang](#installing-golang)
-    -   [Installing Dart](#installing-dart)
-    -   [Installing Flutter](#installing-flutter)
-    -   [Installing Swift](#installing-swift)
-    -   [Installing React Native](#installing-react-native)
-    -   [Installing Julia](#installing-julia)
-    -   [Installing Rust](#installing-rust)
-    -   [Installing Haskell](#installing-haskell)
-    -   [Installing Lua](#installing-lua)
-    -   [Installing Clojure](#installing-clojure)
-    -   [Installing OCaml](#installing-ocaml)
-    -   [Installing LaTeX](#installing-latex)
-    -   [Installing Lisp](#installing-lisp)
-    -   [Installing Fortran](#installing-fortran)
-    -   [Installing Pascal](#installing-pascal)
-    -   [Installing COBOL](#installing-cobol)
-    -   [Installing Erlang](#installing-erlang)
-    -   [Installing Smalltalk](#installing-smalltalk)
-    -   [Installing Zig](#installing-zig)
-    -   [Installing R](#installing-r)
-    -   [Installing Nim](#installing-nim)
-    -   [Installing MATLAB](#installing-matlab)
-    -   [Installing Octave](#installing-octave)
-    -   [Installing sqlite3](#installing-sqlite3)
-    -   [Installing TLA+](#installing-tla-toolbox)
-    -   [Installing Bash](#installing-bash)
-    -   [Installing Perl](#installing-perl)
-    -   [Installing Mojo](#installing-mojo)
-    -   [Installing ASM (Assembly)](#installing-asm-assembly)
-    -   [Installing Docker](#installing-docker)
-    -   [Installing Kubernetes](#installing-kubernetes)
--   [Setup Instructions](#setup-instructions)
--   [Tasks](#tasks)
--   [Submitting Your Changes](#submitting-your-changes)
--   [Best Practices](#best-practices)
--   [Influences](#influences)
--   [What's Next?](#whats-next)
--   [Sponsors](#sponsors)
--   [Creating New Tasks](#creating-new-tasks)
--   [Contact](#contact)
--   [License](#license)
--   [List of Contibutors](#list-of-contributors)
+- [Quick Start](#quick-start)
+- [Prerequisites](#prerequisites)
+  - [Installing an IDE](#installing-an-ide)
+  - [Installing Git](#installing-git)
+  - [Installing NodeJS and NPM](#installing-nodejs-and-npm)
+  - [Installing SASS](#installing-sass)
+  - [Installing Tailwind CSS](#installing-tailwind-css)
+  - [Installing ReScript](#installing-rescript)
+  - [Installing CoffeeScript](#installing-coffeescript)
+  - [Installing JavaScript](#installing-javascript)
+  - [Installing TypeScript](#installing-typescript)
+  - [Installing React](#installing-react)
+  - [Installing Next.js](#installing-nextjs)
+  - [Installing Three.js](#installing-threejs)
+  - [Installing Vue.js](#installing-vuejs)
+  - [Installing Svelte](#installing-svelte)
+  - [Installing Astro](#installing-astro)
+  - [Installing Angular](#installing-angular)
+  - [Installing Solid.js](#installing-solidjs)
+  - [Installing Ember.js](#installing-emberjs)
+  - [Installing GraphQL](#installing-graphql)
+  - [Installing NGINX](#installing-nginx)
+  - [Installing Express.js](#installing-expressjs)
+  - [Installing Electron.js](#installing-electronjs)
+  - [Installing Jest](#installing-jest)
+  - [Installing Jasmine](#installing-jasmine)
+  - [Installing Vitest](#installing-vitest)
+  - [Installing C](#installing-c)
+  - [Installing C++](#installing-c)
+  - [Installing C# (Dotnet-SDK)](#installing-c-dotnet-sdk)
+  - [Installing Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk)
+  - [Installing D (DMD Compiler)](#installing-d-dmd-compiler)
+  - [Installing F# (Dotnet-SDK)](#installing-f-dotnet-sdk)
+  - [Installing Ada](#installing-ada)
+  - [Installing Java](#installing-java)
+  - [Installing Kotlin](#installing-kotlin)
+  - [Installing Scala](#installing-scala)
+  - [Installing Groovy](#installing-groovy)
+  - [Installing Python](#installing-python)
+  - [Installing Flask](#installing-flask)
+  - [Installing Django](#installing-django)
+  - [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity-truffle-ethereum-development-environment)
+  - [Installing Vyper](#installing-vyper)
+  - [Installing Ruby](#installing-ruby)
+  - [Installing Rails](#installing-rails)
+  - [Installing Elixir](#installing-elixir)
+  - [Installing Crystal](#installing-crystal)
+  - [Installing PHP](#installing-php)
+  - [Installing Laravel](#installing-laravel)
+  - [Installing Golang](#installing-golang)
+  - [Installing Dart](#installing-dart)
+  - [Installing Flutter](#installing-flutter)
+  - [Installing Swift](#installing-swift)
+  - [Installing React Native](#installing-react-native)
+  - [Installing Julia](#installing-julia)
+  - [Installing Rust](#installing-rust)
+  - [Installing Haskell](#installing-haskell)
+  - [Installing Lua](#installing-lua)
+  - [Installing Clojure](#installing-clojure)
+  - [Installing OCaml](#installing-ocaml)
+  - [Installing LaTeX](#installing-latex)
+  - [Installing Lisp](#installing-lisp)
+  - [Installing Fortran](#installing-fortran)
+  - [Installing Pascal](#installing-pascal)
+  - [Installing COBOL](#installing-cobol)
+  - [Installing Erlang](#installing-erlang)
+  - [Installing Smalltalk](#installing-smalltalk)
+  - [Installing Zig](#installing-zig)
+  - [Installing R](#installing-r)
+  - [Installing Nim](#installing-nim)
+  - [Installing MATLAB](#installing-matlab)
+  - [Installing Octave](#installing-octave)
+  - [Installing sqlite3](#installing-sqlite3)
+  - [Installing TLA+](#installing-tla-toolbox)
+  - [Installing Bash](#installing-bash)
+  - [Installing Perl](#installing-perl)
+  - [Installing Mojo](#installing-mojo)
+  - [Installing ASM (Assembly)](#installing-asm-assembly)
+  - [Installing Docker](#installing-docker)
+  - [Installing Kubernetes](#installing-kubernetes)
+- [Setup Instructions](#setup-instructions)
+- [Tasks](#tasks)
+- [Submitting Your Changes](#submitting-your-changes)
+- [Best Practices](#best-practices)
+- [Influences](#influences)
+- [What's Next?](#whats-next)
+- [Sponsors](#sponsors)
+- [Creating New Tasks](#creating-new-tasks)
+- [Contact](#contact)
+- [License](#license)
+- [List of Contibutors](#list-of-contributors)
 
 ![line]
 
@@ -128,81 +128,81 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 
 ## Prerequisites
 
--   Before you start, you'll need to install [Git](#installing-git).
--   For HTML, HTMX, CSS, Bootstrap, JSON, YAML, TOML, XML or Markdown related issues, you don't need to install anything extra.
--   For SASS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
--   For Tailwind CSS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
--   For ReScript related issues, you need to install [Node.js and NPM](#installing-rescript).
--   For CoffeeScript related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [CoffeeScript](#installing-coffeescript).
--   For JavaScript related issues, you need to install [Node.js and NPM](#installing-javascript).
--   For TypeScript related issues, you need to install [Node.js and NPM](#installing-typescript).
--   For React related issues, you need to install [Node.js and NPM](#installing-react).
--   For Next.js related issues, you need to install [Node.js and NPM](#installing-nextjs).
--   For Three.js related issues, you need to install [Node.js and NPM](#installing-threejs).
--   For Vue.js related issues, you need to install [Node.js and NPM](#installing-vue).
--   For Svelte related issues, you need to install [Node.js and NPM](#installing-svelte).
--   For Astro related issues, you need to install [Node.js and NPM](#installing-astro).
--   For Angular related issues, you need to install [Node.js and NPM](#installing-angular).
--   For Ember.js related issues, you need to install [Node.js and NPM](#installing-emberjs).
--   For GraphQL related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
--   For NGINX related issues, you need to install [NGINX](#installing-nginx).
--   For Express.js related issues, you need to install [Node.js and NPM](#installing-expressjs).
--   For Electron.js related issues, you need to install [Node.js and NPM](#installing-electronjs).
--   For Jest related issues, you need to install [Node.js and NPM](#installing-jest).
--   For Jasmine related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
--   For Vitest related issues, you need to install [Node.js and NPM](#installing-vitest).
--   For C related issues, you need to install [C](#installing-c).
--   For C++ related issues, you need to install [C++](#installing-c).
--   For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c-dotnet-sdk).
--   For Blazor related issues, you need to install [Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk).
--   For D related issues, you need to install [D (DMD Compiler)](#installing-d-dmd-compiler).
--   For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
--   For Ada related issues, you need to install [Ada](#installing-ada).
--   For Java related issues, you need to install [Java](#installing-java).
--   For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
--   For Scala related issues, you need to install [Scala](#installing-scala).
--   For Groovy related issues, you need to install [Java](#installing-java) and [Groovy](#installing-groovy).
--   For Python related issues, you need to install [Python](#installing-python).
--   For Flask related issues, you need to install [Python](#installing-python) and [Flask](#installing-flask).
--   For Django related issues, you need to install [Python](#installing-python) and [Django](#installing-django).
--   For Solidity related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity-truffle-ethereum-development-environment).
--   For Vyper related issues, you need to install [Vyper](#installing-vyper).
--   For Ruby related issues, you need to install [Ruby](#installing-ruby).
--   For Rails related issues, you need to install [Ruby](#installing-ruby) and [Rails](#installing-rails).
--   For Elixir related issues, you need to install [Elixir](#installing-elixir).
--   For Crystal related issues, you need to install [Crystal](#installing-crystal).
--   For PHP related issues, you need to install [PHP](#installing-php).
--   For Laravel related issues, you need to install [PHP](#installing-php) and [Laravel](#installing-laravel).
--   For Go related issues, you need to install [Golang](#installing-golang).
--   For Dart related issues, you need to install [Dart](#installing-dart).
--   For Flutter related issues, you need to install [Dart](#installing-dart) and [Flutter](#installing-flutter).
--   For Swift related issues, you need to install [Swift](#installing-swift).
--   For React Native related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [React Native](#installing-react-native).
--   For Julia related issues, you need to install [Julia](#installing-julia).
--   For Rust related issues, you need to install [Rust](#installing-rust).
--   For Haskell related issues, you need to install [Haskell](#installing-haskell).
--   For Lua related issues, you need to install [Lua](#installing-lua).
--   For Clojure related issues, you need to install [Clojure](#installing-clojure).
--   For OCaml related issues, you need to install [OCaml](#installing-ocaml).
--   For LaTeX related issues, you need to install [LaTeX](#installing-latex).
--   For Lisp related issues, you need to install [Lisp](#installing-lisp).
--   For Fortran related issues, you need to install [Fortran](#installing-fortran).
--   For Pascal related issues, you need to install [Pascal](#installing-pascal).
--   For COBOL related issues, you need to install [COBOL](#installing-cobol).
--   For Erlang related issues, you need to install [Erlang](#installing-erlang).
--   For Smalltalk related issues, you need to install [Smalltalk](#installing-smalltalk).
--   For Zig related issues, you need to install [Zig](#installing-zig).
--   For R related issues, you need to install [R](#installing-r).
--   For Nim related issues, you need to install [Nim](#installing-nim).
--   For MATLAB related issues, you need to install [MATLAB](#installing-matlab).
--   For Octave related issues, you need to install [Octave](#installing-octave).
--   For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
--   For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-toolbox).
--   For Bash related issues, you need to install [Bash](#installing-bash).
--   For Perl related issues, you need to install [Perl](#installing-perl).
--   For ASM (Assembly) related issues, you need to install [ASM](#installing-asm).
--   For Docker related issues, you need to install [Docker](#installing-docker).
--   For Kubernetes related issues, you need to install [Kubernetes](#installing-kubernetes).
+- Before you start, you'll need to install [Git](#installing-git).
+- For HTML, HTMX, CSS, Bootstrap, JSON, YAML, TOML, XML or Markdown related issues, you don't need to install anything extra.
+- For SASS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+- For Tailwind CSS related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+- For ReScript related issues, you need to install [Node.js and NPM](#installing-rescript).
+- For CoffeeScript related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [CoffeeScript](#installing-coffeescript).
+- For JavaScript related issues, you need to install [Node.js and NPM](#installing-javascript).
+- For TypeScript related issues, you need to install [Node.js and NPM](#installing-typescript).
+- For React related issues, you need to install [Node.js and NPM](#installing-react).
+- For Next.js related issues, you need to install [Node.js and NPM](#installing-nextjs).
+- For Three.js related issues, you need to install [Node.js and NPM](#installing-threejs).
+- For Vue.js related issues, you need to install [Node.js and NPM](#installing-vue).
+- For Svelte related issues, you need to install [Node.js and NPM](#installing-svelte).
+- For Astro related issues, you need to install [Node.js and NPM](#installing-astro).
+- For Angular related issues, you need to install [Node.js and NPM](#installing-angular).
+- For Ember.js related issues, you need to install [Node.js and NPM](#installing-emberjs).
+- For GraphQL related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+- For NGINX related issues, you need to install [NGINX](#installing-nginx).
+- For Express.js related issues, you need to install [Node.js and NPM](#installing-expressjs).
+- For Electron.js related issues, you need to install [Node.js and NPM](#installing-electronjs).
+- For Jest related issues, you need to install [Node.js and NPM](#installing-jest).
+- For Jasmine related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm).
+- For Vitest related issues, you need to install [Node.js and NPM](#installing-vitest).
+- For C related issues, you need to install [C](#installing-c).
+- For C++ related issues, you need to install [C++](#installing-c).
+- For C# related issues, you need to install [C# (Dotnet-SDK)](#installing-c-dotnet-sdk).
+- For Blazor related issues, you need to install [Blazor (Dotnet-SDK)](#installing-blazor-dotnet-sdk).
+- For D related issues, you need to install [D (DMD Compiler)](#installing-d-dmd-compiler).
+- For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
+- For Ada related issues, you need to install [Ada](#installing-ada).
+- For Java related issues, you need to install [Java](#installing-java).
+- For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
+- For Scala related issues, you need to install [Scala](#installing-scala).
+- For Groovy related issues, you need to install [Java](#installing-java) and [Groovy](#installing-groovy).
+- For Python related issues, you need to install [Python](#installing-python).
+- For Flask related issues, you need to install [Python](#installing-python) and [Flask](#installing-flask).
+- For Django related issues, you need to install [Python](#installing-python) and [Django](#installing-django).
+- For Solidity related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [Installing Solidity (Truffle Ethereum Development Environment)](#installing-solidity-truffle-ethereum-development-environment).
+- For Vyper related issues, you need to install [Vyper](#installing-vyper).
+- For Ruby related issues, you need to install [Ruby](#installing-ruby).
+- For Rails related issues, you need to install [Ruby](#installing-ruby) and [Rails](#installing-rails).
+- For Elixir related issues, you need to install [Elixir](#installing-elixir).
+- For Crystal related issues, you need to install [Crystal](#installing-crystal).
+- For PHP related issues, you need to install [PHP](#installing-php).
+- For Laravel related issues, you need to install [PHP](#installing-php) and [Laravel](#installing-laravel).
+- For Go related issues, you need to install [Golang](#installing-golang).
+- For Dart related issues, you need to install [Dart](#installing-dart).
+- For Flutter related issues, you need to install [Dart](#installing-dart) and [Flutter](#installing-flutter).
+- For Swift related issues, you need to install [Swift](#installing-swift).
+- For React Native related issues, you need to install [Node.js and NPM](#installing-nodejs-and-npm) as well as [React Native](#installing-react-native).
+- For Julia related issues, you need to install [Julia](#installing-julia).
+- For Rust related issues, you need to install [Rust](#installing-rust).
+- For Haskell related issues, you need to install [Haskell](#installing-haskell).
+- For Lua related issues, you need to install [Lua](#installing-lua).
+- For Clojure related issues, you need to install [Clojure](#installing-clojure).
+- For OCaml related issues, you need to install [OCaml](#installing-ocaml).
+- For LaTeX related issues, you need to install [LaTeX](#installing-latex).
+- For Lisp related issues, you need to install [Lisp](#installing-lisp).
+- For Fortran related issues, you need to install [Fortran](#installing-fortran).
+- For Pascal related issues, you need to install [Pascal](#installing-pascal).
+- For COBOL related issues, you need to install [COBOL](#installing-cobol).
+- For Erlang related issues, you need to install [Erlang](#installing-erlang).
+- For Smalltalk related issues, you need to install [Smalltalk](#installing-smalltalk).
+- For Zig related issues, you need to install [Zig](#installing-zig).
+- For R related issues, you need to install [R](#installing-r).
+- For Nim related issues, you need to install [Nim](#installing-nim).
+- For MATLAB related issues, you need to install [MATLAB](#installing-matlab).
+- For Octave related issues, you need to install [Octave](#installing-octave).
+- For SQL related issues, you need to install [sqlite3](#installing-sqlite3).
+- For TLA+ related issues, you need to install [TLA+ Toolbox](#installing-tla-toolbox).
+- For Bash related issues, you need to install [Bash](#installing-bash).
+- For Perl related issues, you need to install [Perl](#installing-perl).
+- For ASM (Assembly) related issues, you need to install [ASM](#installing-asm).
+- For Docker related issues, you need to install [Docker](#installing-docker).
+- For Kubernetes related issues, you need to install [Kubernetes](#installing-kubernetes).
 
 ---
 
@@ -212,17 +212,17 @@ An Integrated Development Environment (IDE) is a software application that conso
 
 Here are a few reasons why developers use IDEs:
 
--   Efficiency: With everything in one place, developers can write, test, and debug code without needing to switch between different tools.
+- Efficiency: With everything in one place, developers can write, test, and debug code without needing to switch between different tools.
 
--   Code Assistance: Many IDEs offer features like autocompletion, syntax highlighting, and suggestions, making the code-writing process smoother.
+- Code Assistance: Many IDEs offer features like autocompletion, syntax highlighting, and suggestions, making the code-writing process smoother.
 
--   Integrated Debugging: Integrated debuggers allow developers to test and debug their programs within the IDE, speeding up the development cycle.
+- Integrated Debugging: Integrated debuggers allow developers to test and debug their programs within the IDE, speeding up the development cycle.
 
--   Extensions & Plugins: Most modern IDEs support a wide range of extensions and plugins, enabling developers to customize their environment and add even more functionalities.
+- Extensions & Plugins: Most modern IDEs support a wide range of extensions and plugins, enabling developers to customize their environment and add even more functionalities.
 
 We recommend using VS Code as your IDE for this project. It's free, open-source, and supports a wide range of languages and extensions. You can download it from the [VS Code - Official website](https://code.visualstudio.com/). However, if you prefer to use another IDE, that's fine too!
 
-Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.vercel.app/ide](https://forkcommitmerge.vercel.app/ide)!
+Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.dev/ide](https://forkcommitmerge.dev/ide)!
 
 ---
 
@@ -230,9 +230,9 @@ Instructions on how to install an IDE that suits for you can be found on our web
 
 Git is a version control system that lets you manage and keep track of your source code history.
 
--   For Linux users, you can install Git via your distribution's package manager. For example, on Arch you would use the command: `sudo pacman -S git` and in Ubuntu/Debian: `sudo apt-get install git`
--   For macOS users, you can install Git via [Homebrew](https://brew.sh/) with the command: `brew install git`
--   For Windows users, download Git from [Git for Windows](https://gitforwindows.org/) and follow the installation instructions.
+- For Linux users, you can install Git via your distribution's package manager. For example, on Arch you would use the command: `sudo pacman -S git` and in Ubuntu/Debian: `sudo apt-get install git`
+- For macOS users, you can install Git via [Homebrew](https://brew.sh/) with the command: `brew install git`
+- For Windows users, download Git from [Git for Windows](https://gitforwindows.org/) and follow the installation instructions.
 
 ---
 
@@ -240,7 +240,7 @@ Git is a version control system that lets you manage and keep track of your sour
 
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and NPM is a package manager for Node.js.
 
--   You can download Node.js and NPM from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and NPM on your machine. Follow the instructions on the website to install them.
+- You can download Node.js and NPM from the [official Node.js website](https://nodejs.org/en/download/). This will install both Node.js and NPM on your machine. Follow the instructions on the website to install them.
 
 ---
 
@@ -350,26 +350,29 @@ For GraphQL related issues, you need to install [Node.js and NPM](#installing-no
 
 ### Installing NGINX
 
--   For macOS:
+- For macOS:
 
 Install Homebrew if you haven't:
+
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Install NGINX:
+
 ```bash
 brew install nginx
 ```
 
--   For Linux (Ubuntu/Debian):
+- For Linux (Ubuntu/Debian):
 
 Install NGINX:
+
 ```bash
 sudo apt install nginx
 ```
 
--   For Windows:
+- For Windows:
 
 Follow [this guide](https://nginx.org/en/docs/windows.html) to install NGINX on Windows.
 
@@ -403,18 +406,17 @@ For Vitest related issues, you need to install [Node.js and NPM](#installing-nod
 
 ---
 
-
 ### Installing C
 
 Setup the C environment in VS Code:
 
--   Install the C/C++ extension for VS Code.
+- Install the C/C++ extension for VS Code.
 
 Set up a compiler:
 
--   Windows: Install [MinGW](https://www.mingw-w64.org/).
--   macOS: Ensure you have the Xcode Command Line Tools installed (xcode-select --install).
--   Linux: Most distributions come with gcc installed, but if not, you can typically install it using your package manager (e.g., `sudo apt install gcc` for Debian-based distributions).
+- Windows: Install [MinGW](https://www.mingw-w64.org/).
+- macOS: Ensure you have the Xcode Command Line Tools installed (xcode-select --install).
+- Linux: Most distributions come with gcc installed, but if not, you can typically install it using your package manager (e.g., `sudo apt install gcc` for Debian-based distributions).
 
 ---
 
@@ -425,9 +427,9 @@ Launch VS Code, head to Extensions (or press Ctrl+Shift+X), and search for C++. 
 
 Install a C++ Compiler:
 
--   Windows: Install [Mingw-w64](https://www.mingw-w64.org/doku.php) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/). After installation, make sure the compiler's bin directory is in your system's PATH.
--   Linux: You can usually install the GCC compiler with your distribution's package manager. For example, on Ubuntu/Debian, you'd run `sudo apt-get install g++`.
--   Mac: Install Xcode from the App Store. Once Xcode is installed, you'll also have the compiler.
+- Windows: Install [Mingw-w64](https://www.mingw-w64.org/doku.php) or [TDM-GCC](https://jmeubank.github.io/tdm-gcc/). After installation, make sure the compiler's bin directory is in your system's PATH.
+- Linux: You can usually install the GCC compiler with your distribution's package manager. For example, on Ubuntu/Debian, you'd run `sudo apt-get install g++`.
+- Mac: Install Xcode from the App Store. Once Xcode is installed, you'll also have the compiler.
 
 ---
 
@@ -437,10 +439,10 @@ Install a C++ Compiler:
 
 Using the Installer:
 
--   Go to the .NET download page.
--   Under the ".NET SDK" section, choose your preferred version.
--   Click on the "Download x64" or "Download Arm" button for Windows.
--   Once downloaded, run the installer and follow the on-screen instructions.
+- Go to the .NET download page.
+- Under the ".NET SDK" section, choose your preferred version.
+- Click on the "Download x64" or "Download Arm" button for Windows.
+- Once downloaded, run the installer and follow the on-screen instructions.
 
 Using the Command Line with Chocolatey:
 
@@ -454,9 +456,9 @@ choco install dotnet-sdk
 
 The instructions can vary depending on the Linux distribution. Here's a general overview:
 
--   Go to the .NET download page.
--   Under the ".NET SDK" section, choose your preferred version.
--   Select your specific Linux distribution from the list to get detailed instructions.
+- Go to the .NET download page.
+- Under the ".NET SDK" section, choose your preferred version.
+- Select your specific Linux distribution from the list to get detailed instructions.
 
 For example, for Ubuntu, the instructions at the time of writing are:
 
@@ -482,10 +484,10 @@ Please note that the version and specific commands can change, so always refer t
 
 Using the Installer:
 
--   Go to the .NET download page.
--   Under the ".NET SDK" section, choose your preferred version.
--   Click on the "Download .NET SDK" button for macOS.
--   Once downloaded, run the installer and follow the on-screen instructions.
+- Go to the .NET download page.
+- Under the ".NET SDK" section, choose your preferred version.
+- Click on the "Download .NET SDK" button for macOS.
+- Once downloaded, run the installer and follow the on-screen instructions.
 
 Using Homebrew:
 
@@ -503,10 +505,10 @@ dotnet --version
 
 Setting up C# in Visual Studio Code:
 
--   Launch Visual Studio Code.
--   Open the Extensions view (Ctrl+Shift+X).
--   Search for the C# extension provided by Microsoft and install it.
--   Once the extension is installed, it will prompt you to install the .NET Core SDK if it's not already installed. Please follow the link and instructions to install it.
+- Launch Visual Studio Code.
+- Open the Extensions view (Ctrl+Shift+X).
+- Search for the C# extension provided by Microsoft and install it.
+- Once the extension is installed, it will prompt you to install the .NET Core SDK if it's not already installed. Please follow the link and instructions to install it.
 
 ---
 
@@ -523,8 +525,8 @@ For Linux you can use your package manager, for example in Arch Linux you can in
 
 VS Code Setup:
 
--   Open VS Code and go to Extensions (or press Ctrl+Shift+X).
--   Search for "D Programming Language (code-d)" and install it. This will add D language support in VS Code.
+- Open VS Code and go to Extensions (or press Ctrl+Shift+X).
+- Search for "D Programming Language (code-d)" and install it. This will add D language support in VS Code.
 
 ---
 
@@ -532,17 +534,17 @@ VS Code Setup:
 
 For Windows Users:
 
--   F# comes bundled with Visual Studio, so installing [Visual Studio](https://visualstudio.microsoft.com/vs/features/net-development/) with .NET support should suffice.
--   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
+- F# comes bundled with Visual Studio, so installing [Visual Studio](https://visualstudio.microsoft.com/vs/features/net-development/) with .NET support should suffice.
+- Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
 
 For macOS and Linux Users:
 
--   Install [Mono](https://www.mono-project.com/).
--   Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
+- Install [Mono](https://www.mono-project.com/).
+- Alternatively, you can also install F# through the [.NET SDK](https://dotnet.microsoft.com/en-us/download).
 
 Visual Studio Code:
 
--   Install the Ionide for F# extension for F# support in VS Code.
+- Install the Ionide for F# extension for F# support in VS Code.
 
 ---
 
@@ -550,15 +552,15 @@ Visual Studio Code:
 
 Windows:
 
--   Download GNAT Community edition for Ada from here.
--   Install GNAT.
--   Add the GNAT bin directory to your PATH environment variable.
+- Download GNAT Community edition for Ada from here.
+- Install GNAT.
+- Add the GNAT bin directory to your PATH environment variable.
 
 macOS/Linux:
 
--   Open your terminal.
--   Install GNAT via package manager. For example, on macOS with Homebrew: `brew install gnat` or on Ubuntu: `sudo apt install gnat`.
--   Confirm installation by running `gnatls --version`.
+- Open your terminal.
+- Install GNAT via package manager. For example, on macOS with Homebrew: `brew install gnat` or on Ubuntu: `sudo apt install gnat`.
+- Confirm installation by running `gnatls --version`.
 
 ---
 
@@ -568,36 +570,36 @@ Install Java Development Kit (JDK):
 
 Before working with Java in VS Code, you must have the Java Development Kit (JDK) installed on your machine.
 
--   Windows/Mac/Linux: You can download the JDK from [Oracle's official website](https://www.oracle.com/java/technologies/downloads/#java11) or opt for OpenJDK.
+- Windows/Mac/Linux: You can download the JDK from [Oracle's official website](https://www.oracle.com/java/technologies/downloads/#java11) or opt for OpenJDK.
 
 Install Java Extensions for VS Code:
 
--   Open VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X. Search for "Java Extension Pack" by Microsoft and install it. This pack includes essential Java extensions like Language Support, Debugging, Testing, and more.
+- Open VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X. Search for "Java Extension Pack" by Microsoft and install it. This pack includes essential Java extensions like Language Support, Debugging, Testing, and more.
 
 Configure Java in VS Code:
 
--   VS Code should automatically detect the JDK you installed. If not, you can set the `java.home` setting in VS Code to point to your JDK location.
+- VS Code should automatically detect the JDK you installed. If not, you can set the `java.home` setting in VS Code to point to your JDK location.
 
 ---
 
 ### Installing Kotlin
 
--   macOS: `brew install kotlin`
--   Linux:
-    -   Arch: `sudo pacman -S kotlin`
-    -   Ubuntu/Debian: `sudo snap install --classic kotlin`
--   Windows: Download [Kotlin Compiler](https://github.com/JetBrains/kotlin/releases/tag/v1.9.0) and add it to the PATH.
+- macOS: `brew install kotlin`
+- Linux:
+  - Arch: `sudo pacman -S kotlin`
+  - Ubuntu/Debian: `sudo snap install --classic kotlin`
+- Windows: Download [Kotlin Compiler](https://github.com/JetBrains/kotlin/releases/tag/v1.9.0) and add it to the PATH.
 
 Install Kotlin Language Extension:
 
 For VS Code you can install the Kotlin Language Extension like this:
 
--   Go to Extensions (you can use the shortcut Ctrl+Shift+X).
--   Search for "Kotlin" and install the "Kotlin Language" extension by FWCD.
+- Go to Extensions (you can use the shortcut Ctrl+Shift+X).
+- Search for "Kotlin" and install the "Kotlin Language" extension by FWCD.
 
 Install Java Development Kit (JDK):
 
--   Kotlin runs on the JVM, so you'll need the [Java Development Kit - JDK](#installing-java) installed.
+- Kotlin runs on the JVM, so you'll need the [Java Development Kit - JDK](#installing-java) installed.
 
 ---
 
@@ -623,21 +625,23 @@ You can download and install from the official websites: [Scala](https://www.sca
 
 Install the Scala Language Extension for VS Code:
 
--   Open VS Code.
--   Navigate to Extensions (shortcut: Ctrl+Shift+X).
--   Search for "Scala" and install the "Scala (Metals)" extension, which is the official Scala language server.
+- Open VS Code.
+- Navigate to Extensions (shortcut: Ctrl+Shift+X).
+- Search for "Scala" and install the "Scala (Metals)" extension, which is the official Scala language server.
 
 ---
 
 ### Installing Groovy
 
 Install Java:
--   Groovy runs on the JVM, so you'll need [Java](#installing-java) installed.
+
+- Groovy runs on the JVM, so you'll need [Java](#installing-java) installed.
 
 Install Groovy:
--   On Windows: You can use the [Groovy Windows Installer](https://groovy.apache.org/download.html) to install Groovy easily.
--   On macOS: You can use Homebrew to install Groovy. Open your terminal and run `brew install groovy`.
--   On Linux: You can use a your distribution's package manager to install Groovy. For example, on Ubuntu/Debian, you can run `sudo apt-get install groovy` and on Arch Linux `sudo pacman -S groovy`.
+
+- On Windows: You can use the [Groovy Windows Installer](https://groovy.apache.org/download.html) to install Groovy easily.
+- On macOS: You can use Homebrew to install Groovy. Open your terminal and run `brew install groovy`.
+- On Linux: You can use a your distribution's package manager to install Groovy. For example, on Ubuntu/Debian, you can run `sudo apt-get install groovy` and on Arch Linux `sudo pacman -S groovy`.
 
 ---
 
@@ -645,19 +649,19 @@ Install Groovy:
 
 #### Windows:
 
--   Visit the official Python website's [download page](https://www.python.org/downloads/).
--   Click on the latest Python release.
--   Scroll down to the Files section and download the Windows x86-64 executable installer for 64-bit version of Windows.
--   Run the installer file and follow the instructions, making sure to tick the box that says "Add Python to PATH" before clicking Install Now.
+- Visit the official Python website's [download page](https://www.python.org/downloads/).
+- Click on the latest Python release.
+- Scroll down to the Files section and download the Windows x86-64 executable installer for 64-bit version of Windows.
+- Run the installer file and follow the instructions, making sure to tick the box that says "Add Python to PATH" before clicking Install Now.
 
 #### Mac OS:
 
 Mac OS X should come pre-installed with Python, but in case it's not installed, here's how to install it:
 
--   Visit the official Python website's [download page](https://www.python.org/downloads/).
--   Click on the latest Python release.
--   Download the macOS 64-bit installer.
--   Open the downloaded .pkg file and follow the instructions to install Python.
+- Visit the official Python website's [download page](https://www.python.org/downloads/).
+- Click on the latest Python release.
+- Download the macOS 64-bit installer.
+- Open the downloaded .pkg file and follow the instructions to install Python.
 
 #### Linux:
 
@@ -691,10 +695,10 @@ sudo pacman -S python-flask
 
 ### Installing Django
 
--   Install [Python](#installing-python) if you haven't already.
--   Install Django:
-    -   With pip: `pip install django`
-    -   In Arch Linux you can use: `sudo pacman -S python-django`
+- Install [Python](#installing-python) if you haven't already.
+- Install Django:
+  - With pip: `pip install django`
+  - In Arch Linux you can use: `sudo pacman -S python-django`
 
 ---
 
@@ -787,21 +791,21 @@ Install [Ruby](#installing-ruby) if you haven't already.
 
 MacOS:
 
--   Install Homebrew if you haven't already: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
--   Install Ruby: `brew install ruby`
--   Install Rails: `gem install rails`
+- Install Homebrew if you haven't already: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+- Install Ruby: `brew install ruby`
+- Install Rails: `gem install rails`
 
 On Windows:
 
--   Download RubyInstaller from [here](https://rubyinstaller.org/).
--   Follow the installation steps.
--   Open command prompt and run `gem install rails`.
+- Download RubyInstaller from [here](https://rubyinstaller.org/).
+- Follow the installation steps.
+- Open command prompt and run `gem install rails`.
 
 On Linux:
 
--   Install RVM (Ruby Version Manager): `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
--   Install Ruby: `rvm install ruby`
--   Install Rails: `gem install rails`
+- Install RVM (Ruby Version Manager): `\curl -sSL https://get.rvm.io | bash -s stable --ruby`
+- Install Ruby: `rvm install ruby`
+- Install Rails: `gem install rails`
 
 ---
 
@@ -812,14 +816,14 @@ Launch VS Code, head to Extensions (or press Ctrl+Shift+X), and search for Elixi
 
 Install Elixir:
 
--   Windows: The easiest way to install Elixir on Windows is by using Windows Subsystem for Linux (WSL).
--   Linux: You can typically install Elixir through your distribution's package manager. For example, on Ubuntu/Debian:
+- Windows: The easiest way to install Elixir on Windows is by using Windows Subsystem for Linux (WSL).
+- Linux: You can typically install Elixir through your distribution's package manager. For example, on Ubuntu/Debian:
 
 ```bash
 sudo apt-get install elixir
 ```
 
--   Mac: You can use Homebrew:
+- Mac: You can use Homebrew:
 
 ```bash
 brew install elixir
@@ -836,7 +840,7 @@ Windows: [Official Installation Guide](https://crystal-lang.org/install/)
 
 VS Code Extension:
 
--   Install the Crystal Language extension by The Crystal Programming Language for syntax highlighting, code completion, and more.
+- Install the Crystal Language extension by The Crystal Programming Language for syntax highlighting, code completion, and more.
 
 ---
 
@@ -844,20 +848,20 @@ VS Code Extension:
 
 Windows:
 
--   Download the PHP ZIP package from https://windows.php.net/download.
--   Extract the ZIP file and rename the extracted directory to php.
--   Move the php directory to C:\.
--   Add C:\php to your system's PATH environment variable.
+- Download the PHP ZIP package from https://windows.php.net/download.
+- Extract the ZIP file and rename the extracted directory to php.
+- Move the php directory to C:\.
+- Add C:\php to your system's PATH environment variable.
 
 Mac OS:
 
 PHP comes pre-installed on Mac OS X. To upgrade or install a different version, consider using Homebrew:
 
--   Open Terminal and type `brew install php`.
+- Open Terminal and type `brew install php`.
 
 Linux (Ubuntu/Debian):
 
--   Open Terminal and type `sudo apt install php`.
+- Open Terminal and type `sudo apt install php`.
 
 ---
 
@@ -865,13 +869,13 @@ Linux (Ubuntu/Debian):
 
 Install PHP:
 
--   If you haven't already, you need to install [PHP](#installing-php) first to work with Laravel.
+- If you haven't already, you need to install [PHP](#installing-php) first to work with Laravel.
 
 Install Laravel:
 
--   Make sure you have [Composer](https://getcomposer.org/) installed. If not, download and install it from the [Official Composer website](https://getcomposer.org/).
--   After installing Composer, open your terminal and run `composer global require laravel/installer` to install Laravel.
--   You might need to add the composer's bin directory to your PATH environment variable. For example, on Windows, you would add `C:\Users\<username>\AppData\Roaming\Composer\vendor\bin` to your PATH and in Linux `export PATH=$PATH:~/.config/composer/vendor/bin` to your `.bashrc` file.
+- Make sure you have [Composer](https://getcomposer.org/) installed. If not, download and install it from the [Official Composer website](https://getcomposer.org/).
+- After installing Composer, open your terminal and run `composer global require laravel/installer` to install Laravel.
+- You might need to add the composer's bin directory to your PATH environment variable. For example, on Windows, you would add `C:\Users\<username>\AppData\Roaming\Composer\vendor\bin` to your PATH and in Linux `export PATH=$PATH:~/.config/composer/vendor/bin` to your `.bashrc` file.
 
 ---
 
@@ -879,9 +883,9 @@ Install Laravel:
 
 For macOS and Linux, you can use the terminal to install Go:
 
--   On macOS, if you have Homebrew installed, type: `brew install go`.
--   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install golang`.
--   On Windows, go to the official [Go downloads page](https://go.dev/dl/), and download the binary release suitable. Use the MSI installer and follow the prompts to install the Go tools. It is recommended to leave the default settings for when asked about installation directory or PATH variables.
+- On macOS, if you have Homebrew installed, type: `brew install go`.
+- On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install golang`.
+- On Windows, go to the official [Go downloads page](https://go.dev/dl/), and download the binary release suitable. Use the MSI installer and follow the prompts to install the Go tools. It is recommended to leave the default settings for when asked about installation directory or PATH variables.
 
 To check your installation, open a terminal and type: `go version`. This should return the installed version of Go.
 
@@ -891,8 +895,8 @@ To check your installation, open a terminal and type: `go version`. This should 
 
 For macOS and Linux, you can use the terminal to install Dart:
 
--   On macOS, if you have Homebrew installed, type: `brew install dart`.
--   On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install dart`.
+- On macOS, if you have Homebrew installed, type: `brew install dart`.
+- On Linux, the command will depend on your distro's package manager. For example, on Ubuntu or Debian, you would type: `sudo apt-get install dart`.
 
 For Windows, go to the official [Dart SDK Install page](https://dart.dev/get-dart), and download the SDK suitable for your system. Use the Dart installer and follow the prompts to install the Dart SDK. It is recommended to leave the default settings for when asked about installation directory or PATH variables.
 
@@ -909,9 +913,9 @@ However, you can also install Flutter without installing Android Studio or Xcode
 
 Install Flutter and Dart Plugins in VS Code:
 
--   Open VS Code and go to Extensions (Ctrl+Shift+X).
--   Search for "Flutter" and install it.
--   The Dart plugin will be automatically installed along with Flutter.
+- Open VS Code and go to Extensions (Ctrl+Shift+X).
+- Search for "Flutter" and install it.
+- The Dart plugin will be automatically installed along with Flutter.
 
 ---
 
@@ -919,12 +923,12 @@ Install Flutter and Dart Plugins in VS Code:
 
 Install Swift:
 
--   For macOS: Swift comes pre-installed. If not, you can download it from the [Swift website](https://swift.org/download/).
--   For Linux: Follow the instructions on the [Swift website](https://swift.org/download/) for Linux installations.
+- For macOS: Swift comes pre-installed. If not, you can download it from the [Swift website](https://swift.org/download/).
+- For Linux: Follow the instructions on the [Swift website](https://swift.org/download/) for Linux installations.
 
 VS Code Setup:
 
--   Search for the "Swift" extension by Swift Server Work Group and install it. This extension provides support for Swift language, including features like autocomplete, linting, and debugging.
+- Search for the "Swift" extension by Swift Server Work Group and install it. This extension provides support for Swift language, including features like autocomplete, linting, and debugging.
 
 Additional Resources:
 
@@ -946,14 +950,14 @@ Set up the Android development environment by following the [React Native Enviro
 
 ### Installing Julia
 
--   Windows: Download the installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
--   macOS: Download the macOS installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
--   Linux: Use the appropriate package manager for your distribution. For example in Arch Linux you would use `sudo pacman -S julia`, or download the binaries from the [Official Julia website](https://julialang.org/downloads/).
+- Windows: Download the installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
+- macOS: Download the macOS installer from the [Official Julia website](https://julialang.org/downloads/) and follow the instructions.
+- Linux: Use the appropriate package manager for your distribution. For example in Arch Linux you would use `sudo pacman -S julia`, or download the binaries from the [Official Julia website](https://julialang.org/downloads/).
 
 Install the Julia extension for VS Code:
 
--   Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
--   Search for "Julia" and install the extension provided by the Julia Language team.
+- Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+- Search for "Julia" and install the extension provided by the Julia Language team.
 
 ---
 
@@ -961,22 +965,22 @@ Install the Julia extension for VS Code:
 
 Windows:
 
--   Go to rust-lang.org to download the "rustup-init.exe" installer.
--   Run the installer and follow the on-screen instructions.
--   Once installation is complete, open a new Command Prompt and verify with `rustc --version`.
+- Go to rust-lang.org to download the "rustup-init.exe" installer.
+- Run the installer and follow the on-screen instructions.
+- Once installation is complete, open a new Command Prompt and verify with `rustc --version`.
 
 Mac and Linux:
 
--   Open a terminal.
--   Run the following command:
+- Open a terminal.
+- Run the following command:
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
--   Follow the on-screen instructions.
--   Restart your terminal (or source the changes as instructed at the end of the installation) to ensure the cargo and rustc commands are available.
--   You can verify the installation with `rustc --version`.
+- Follow the on-screen instructions.
+- Restart your terminal (or source the changes as instructed at the end of the installation) to ensure the cargo and rustc commands are available.
+- You can verify the installation with `rustc --version`.
 
 ---
 
@@ -986,21 +990,21 @@ Install Haskell Platform:
 
 The Haskell Platform provides everything needed to get started with Haskell.
 
--   Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
--   Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
+- Windows: You can download the Haskell Platform from [Haskell's official website](https://www.haskell.org/downloads/).
+- Mac/Linux: You can install GHCup for Haskell by running `curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh` in your Terminal and following the instructions.
 
 Install Haskell Extensions for VS Code:
 
--   Open VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X. Search for "Haskell Syntax Highlighting" and install it. Also, consider installing "Haskell Language Server" for enhanced features such as type information, autocompletion, and more.
+- Open VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X. Search for "Haskell Syntax Highlighting" and install it. Also, consider installing "Haskell Language Server" for enhanced features such as type information, autocompletion, and more.
 
 ---
 
 ### Installing Lua
 
--   macOS: `brew install lua`
--   Ubuntu/Debian: `sudo apt-get install lua5.3`
--   Arch Linux: `sudo pacman -S lua`
--   Windows: Download and install from the official website: [Lua.org](https://www.lua.org/start.html)
+- macOS: `brew install lua`
+- Ubuntu/Debian: `sudo apt-get install lua5.3`
+- Arch Linux: `sudo pacman -S lua`
+- Windows: Download and install from the official website: [Lua.org](https://www.lua.org/start.html)
 
 ---
 
@@ -1028,11 +1032,11 @@ sudo pacman -S clojure
 
 On Windows:
 
--   Download the Windows installer from the [Clojure Official Site](https://clojure.org/guides/getting_started).
+- Download the Windows installer from the [Clojure Official Site](https://clojure.org/guides/getting_started).
 
 Setting up Calva for VS Code:
 
--   Install the Calva extension from the VS Code marketplace. Calva is a rich integrated development environment for Clojure, providing an interactive REPL, linting, and more.
+- Install the Calva extension from the VS Code marketplace. Calva is a rich integrated development environment for Clojure, providing an interactive REPL, linting, and more.
 
 Install Leiningen, a popular Clojure build tool:
 
@@ -1055,6 +1059,7 @@ sudo pacman -S leiningen
 You can use the OPAM (OCaml Package Manager) to install the OCaml compiler and tools.
 
 On macOS:
+
 ```bash
 brew install opam
 opam init
@@ -1063,6 +1068,7 @@ eval $(opam env)
 ```
 
 On Linux (Ubuntu/Debian):
+
 ```bash
 sudo apt-get install opam
 opam init
@@ -1080,9 +1086,9 @@ Installation is a bit more involved. Consider using [WSL (Windows Subsystem for 
 
 Depending on your operating system, you'll need a TeX distribution:
 
--   Windows: [MikTeX](https://miktex.org/download) or [TeX Live](https://www.tug.org/texlive/acquire-netinstall.html)
--   macOS: [MacTeX](https://www.tug.org/mactex/)
--   Linux: TeX Live (`sudo apt-get install texlive` for Debian/Ubuntu distributions)
+- Windows: [MikTeX](https://miktex.org/download) or [TeX Live](https://www.tug.org/texlive/acquire-netinstall.html)
+- macOS: [MacTeX](https://www.tug.org/mactex/)
+- Linux: TeX Live (`sudo apt-get install texlive` for Debian/Ubuntu distributions)
 
 While you can use any text editor (like VS Code) to write LaTeX, specialized LaTeX editors make the process smoother. You can download for example [TeXstudio](https://www.texstudio.org/), [TeXmaker](https://www.xm1math.net/texmaker/), or [Overleaf](https://www.overleaf.com/).
 
@@ -1096,9 +1102,9 @@ Depending on your OS, you can follow the instructions on the [Official SBCL webs
 
 Install the Lisp Extension for VS Code:
 
--   Open Visual Studio Code.
--   Go to Extensions.
--   Search for Lisp and install any Lisp extension you like. Usually the one that has the most downloads is the most safest.
+- Open Visual Studio Code.
+- Go to Extensions.
+- Search for Lisp and install any Lisp extension you like. Usually the one that has the most downloads is the most safest.
 
 Set Up Your Lisp Environment (Windows):
 
@@ -1114,8 +1120,8 @@ Depending on your OS, here's how you install the Fortran compiler:
 
 **Windows:**
 
--   Download and install the [MinGW-w64](https://www.mingw-w64.org/) compiler which includes Fortran.
--   Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
+- Download and install the [MinGW-w64](https://www.mingw-w64.org/) compiler which includes Fortran.
+- Add the bin directory of your MinGW-w64 installation to your PATH environment variable.
 
 **Linux:**
 
@@ -1141,29 +1147,32 @@ brew install gcc
 
 Setting up Visual Studio Code:
 
--   Install Visual Studio Code.
--   Open VS Code and go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X.
--   Search for and install the "Modern Fortran" extension for Fortran support.
--   For better integration, you can also install the "Code Runner" extension which will allow you to run your Fortran code directly from VS Code.
+- Install Visual Studio Code.
+- Open VS Code and go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X.
+- Search for and install the "Modern Fortran" extension for Fortran support.
+- For better integration, you can also install the "Code Runner" extension which will allow you to run your Fortran code directly from VS Code.
 
 ---
 
 ### Installing Pascal
 
 Windows:
--   Download and install the Free Pascal compiler from [here](https://www.freepascal.org/download.html).
--   Install the Pascal extension from the Visual Studio Code marketplace.
--   Configure the path for the Free Pascal compiler in your settings if needed.
+
+- Download and install the Free Pascal compiler from [here](https://www.freepascal.org/download.html).
+- Install the Pascal extension from the Visual Studio Code marketplace.
+- Configure the path for the Free Pascal compiler in your settings if needed.
 
 Linux:
--   Install the Free Pascal compiler using your package manager, e.g., sudo apt install fp-compiler on Ubuntu.
--   Install the Pascal extension from the Visual Studio Code marketplace.
--   Configure the path for the Free Pascal compiler in your settings if needed.
+
+- Install the Free Pascal compiler using your package manager, e.g., sudo apt install fp-compiler on Ubuntu.
+- Install the Pascal extension from the Visual Studio Code marketplace.
+- Configure the path for the Free Pascal compiler in your settings if needed.
 
 macOS:
--   Install Free Pascal via Homebrew with brew install fpc.
--   Install the Pascal extension from the Visual Studio Code marketplace.
--   Configure the path for the Free Pascal compiler in your settings if needed.
+
+- Install Free Pascal via Homebrew with brew install fpc.
+- Install the Pascal extension from the Visual Studio Code marketplace.
+- Configure the path for the Free Pascal compiler in your settings if needed.
 
 ---
 
@@ -1171,9 +1180,9 @@ macOS:
 
 Installing GnuCOBOL:
 
--   For Windows: Download from [SourceForge](https://sourceforge.net/projects/gnucobol/).
--   For Linux: Use the package manager, like `sudo apt install gnucobol` or equivalent for your distribution.
--   For macOS: Use Homebrew with `brew install gnu-cobol`.
+- For Windows: Download from [SourceForge](https://sourceforge.net/projects/gnucobol/).
+- For Linux: Use the package manager, like `sudo apt install gnucobol` or equivalent for your distribution.
+- For macOS: Use Homebrew with `brew install gnu-cobol`.
 
 ---
 
@@ -1181,8 +1190,8 @@ Installing GnuCOBOL:
 
 **Windows:**
 
--   Download the installer from the official Erlang website: [Erlang Downloads](https://www.erlang.org/downloads)
--   Run the installer and follow the on-screen instructions.
+- Download the installer from the official Erlang website: [Erlang Downloads](https://www.erlang.org/downloads)
+- Run the installer and follow the on-screen instructions.
 
 **Linux:**
 Ubuntu/Debian:
@@ -1207,7 +1216,7 @@ brew install erlang
 
 Setting up VS Code extension:
 
--   Search for erlang and install the Erlang extension provided by "Pierrick Gourlain".
+- Search for erlang and install the Erlang extension provided by "Pierrick Gourlain".
 
 ---
 
@@ -1233,9 +1242,9 @@ For other OS installations, you can visit [GNU Smalltalk official website](https
 
 **Windows and macOS:**
 
--   Download the Zig compiler from the official Zig website: Zig Downloads
--   Extract the downloaded package to a directory of your choice.
--   Add the bin directory inside the extracted folder to your system's PATH.
+- Download the Zig compiler from the official Zig website: Zig Downloads
+- Extract the downloaded package to a directory of your choice.
+- Add the bin directory inside the extracted folder to your system's PATH.
 
 **Linux:**
 
@@ -1255,8 +1264,8 @@ sudo pacman -S zig
 
 Setting up VS Code extension:
 
--   Open the Extensions view (Ctrl+Shift+X).
--   Search for zig and install the Zig Language extension provided by "ziglang".
+- Open the Extensions view (Ctrl+Shift+X).
+- Search for zig and install the Zig Language extension provided by "ziglang".
 
 ---
 
@@ -1264,35 +1273,38 @@ Setting up VS Code extension:
 
 Windows:
 
--   Download R from [CRAN](https://cran.r-project.org/mirrors.html) and install it.
--   Download [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and install it.
--   Add R and Rtools to your system PATH.
+- Download R from [CRAN](https://cran.r-project.org/mirrors.html) and install it.
+- Download [Rtools](https://cran.r-project.org/bin/windows/Rtools/) and install it.
+- Add R and Rtools to your system PATH.
 
 macOS:
 
--   You can install R using [Homebrew](https://brew.sh/): `brew install R`.
+- You can install R using [Homebrew](https://brew.sh/): `brew install R`.
 
 Linux:
 
--   Use your package manager to install R. For example, on Ubuntu: `sudo apt-get install r-base` and on Arch: `sudo pacman -S r`.
+- Use your package manager to install R. For example, on Ubuntu: `sudo apt-get install r-base` and on Arch: `sudo pacman -S r`.
 
 Setting up VS Code extension:
 
--   Open the Extensions view (Ctrl+Shift+X).
--   Search for `R` and install the R extension provided by "REditorSupport".
+- Open the Extensions view (Ctrl+Shift+X).
+- Search for `R` and install the R extension provided by "REditorSupport".
 
 ---
 
 ### Installing Nim
 
 On Windows:
--   Download the Nim installer from the [Official Nim website](https://nim-lang.org/install_windows.html) and follow the installation instructions.
+
+- Download the Nim installer from the [Official Nim website](https://nim-lang.org/install_windows.html) and follow the installation instructions.
 
 On macOS:
--   You can use Homebrew to install Nim. Open your terminal and run `brew install nim`.
+
+- You can use Homebrew to install Nim. Open your terminal and run `brew install nim`.
 
 On Linux:
--   You can use a package manager like apt, dnf, or pacman to install Nim. For example, on Ubuntu/Debian-based systems, run `sudo apt-get install nim` or on Arch Linux `sudo pacman -S nim`.
+
+- You can use a package manager like apt, dnf, or pacman to install Nim. For example, on Ubuntu/Debian-based systems, run `sudo apt-get install nim` or on Arch Linux `sudo pacman -S nim`.
 
 ---
 
@@ -1300,26 +1312,28 @@ On Linux:
 
 Install MATLAB:
 
--   Ensure you have MATLAB installed on your computer. You can download and install MATLAB from the official MathWorks website: [Download MATLAB](https://www.mathworks.com/login?uri=%2Fdownloads%2Fweb_downloads)
+- Ensure you have MATLAB installed on your computer. You can download and install MATLAB from the official MathWorks website: [Download MATLAB](https://www.mathworks.com/login?uri=%2Fdownloads%2Fweb_downloads)
 
 Install the MATLAB Extension for Visual Studio Code:
 
--   Open Visual Studio Code and go to the Extensions view by clicking on the square icon in the sidebar on the left or using the shortcut Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS).
--   Search for "MATLAB" in the Extensions view search bar. You should find an extension named "MATLAB" by MathWorks. Click the Install button to install it.
+- Open Visual Studio Code and go to the Extensions view by clicking on the square icon in the sidebar on the left or using the shortcut Ctrl+Shift+X (Windows/Linux) or Cmd+Shift+X (macOS).
+- Search for "MATLAB" in the Extensions view search bar. You should find an extension named "MATLAB" by MathWorks. Click the Install button to install it.
 
 Configure the MATLAB Extension:
 
--   Once the extension is installed, configure it to work with your MATLAB installation. You may need to specify the MATLAB executable path in the VS Code settings.
+- Once the extension is installed, configure it to work with your MATLAB installation. You may need to specify the MATLAB executable path in the VS Code settings.
 
 ---
 
 ### Installing Octave
 
 Install Octave:
--   Download and install Octave for your operating system from the official [Octave website](https://www.octave.org/download.html).
+
+- Download and install Octave for your operating system from the official [Octave website](https://www.octave.org/download.html).
 
 Install the Octave extension for VS Code:
--   Open VS Code, go to the Extensions view by clicking on the square icon in the sidebar or pressing Ctrl+Shift+X, and search for "Octave". Install the "Octave" extension provided by Juan Manuel Franco C.
+
+- Open VS Code, go to the Extensions view by clicking on the square icon in the sidebar or pressing Ctrl+Shift+X, and search for "Octave". Install the "Octave" extension provided by Juan Manuel Franco C.
 
 ---
 
@@ -1339,11 +1353,11 @@ If SQLite is installed, this will output the version number.
 
 To install SQLite on Windows:
 
--   Visit the SQLite download page.
--   In the "Precompiled Binaries for Windows" section, download the `sqlite-tools-win32-x86-xxxxxx.zip` file.
--   Unzip the downloaded file. It will create a directory named `sqlite-tools-win32-x86-xxxxxx`.
--   Move the directory to `C:\` (or another location if you prefer) and rename it to `sqlite`.
--   Add `C:\sqlite` to your PATH environment variable.
+- Visit the SQLite download page.
+- In the "Precompiled Binaries for Windows" section, download the `sqlite-tools-win32-x86-xxxxxx.zip` file.
+- Unzip the downloaded file. It will create a directory named `sqlite-tools-win32-x86-xxxxxx`.
+- Move the directory to `C:\` (or another location if you prefer) and rename it to `sqlite`.
+- Add `C:\sqlite` to your PATH environment variable.
 
 To check whether SQLite has been installed successfully, open Terminal window and run:
 
@@ -1375,13 +1389,13 @@ Ensure you have a UNIX-like environment. If you're on Linux or MacOS, you're alr
 
 ### Installing Perl
 
--   Windows: Use Strawberry Perl. Download the installer and follow the on-screen instructions.
--   macOS: Perl comes pre-installed. You can check its version by typing perl -v in your terminal.
--   Linux: Depending on your distribution, you can use your package manager. For example, on Debian-based systems, you can use `sudo apt-get install perl` and in Arch Linux `sudo pacman -S perl`.
+- Windows: Use Strawberry Perl. Download the installer and follow the on-screen instructions.
+- macOS: Perl comes pre-installed. You can check its version by typing perl -v in your terminal.
+- Linux: Depending on your distribution, you can use your package manager. For example, on Debian-based systems, you can use `sudo apt-get install perl` and in Arch Linux `sudo pacman -S perl`.
 
 Setting up VS Code for Perl:
 
--   Search for the extension "Perl" in VS Code's extensions marketplace and install it for syntax highlighting and basic debugging support.
+- Search for the extension "Perl" in VS Code's extensions marketplace and install it for syntax highlighting and basic debugging support.
 
 ---
 
@@ -1413,11 +1427,12 @@ modular install mojo
 ### Installing ASM (Assembly)
 
 #### Windows
+
 Using NASM with Cygwin:
 
--   Download the Cygwin installer from [Cygwin's website](https://cygwin.com/install.html).
--   Run the installer and select the packages "nasm" and "gcc-core" for installation.
--   Complete the installation process.
+- Download the Cygwin installer from [Cygwin's website](https://cygwin.com/install.html).
+- Run the installer and select the packages "nasm" and "gcc-core" for installation.
+- Complete the installation process.
 
 Now you can use the Cygwin terminal to assemble and run your Assembly programs.
 
@@ -1450,21 +1465,22 @@ brew install nasm
 
 #### Windows
 
--   Docker Desktop for Windows: You must have Hyper-V and Containers Windows features enabled.
-    -   Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/windows-install/).
-    -   Run the installer and follow the instructions.
-    -   After installation, the Docker daemon should start automatically. You can manage it through the system tray.
+- Docker Desktop for Windows: You must have Hyper-V and Containers Windows features enabled.
 
--   Docker Toolbox: For older systems that do not meet the Docker Desktop for Windows requirements.
-    -   Download the installer from [Docker Toolbox GitHub releases](https://github.com/docker-archive/toolbox/releases).
-    -   Run the installer and follow the instructions.
+  - Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/windows-install/).
+  - Run the installer and follow the instructions.
+  - After installation, the Docker daemon should start automatically. You can manage it through the system tray.
+
+- Docker Toolbox: For older systems that do not meet the Docker Desktop for Windows requirements.
+  - Download the installer from [Docker Toolbox GitHub releases](https://github.com/docker-archive/toolbox/releases).
+  - Run the installer and follow the instructions.
 
 #### macOS
 
--   Docker Desktop for Mac:
-    -   Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/mac-install/).
-    -   Drag and drop the Docker app into the Applications folder.
-    -   Run the Docker app. Docker will prompt you for permissions to install its components. Allow it.
+- Docker Desktop for Mac:
+  - Download the installer from [Docker Hub](https://docs.docker.com/desktop/install/mac-install/).
+  - Drag and drop the Docker app into the Applications folder.
+  - Run the Docker app. Docker will prompt you for permissions to install its components. Allow it.
 
 #### Linux (Ubuntu/Debian)
 
@@ -1505,17 +1521,17 @@ After installation on any of these platforms, you can verify the installation by
 
 Remember to consult the official documentation for the most up-to-date and detailed instructions:
 
--   [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/) installation guide
--   [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/) installation guide
--   [Docker for Linux (Ubuntu/Debian)](https://docs.docker.com/engine/install/ubuntu/) installation guide
+- [Docker for Windows](https://docs.docker.com/desktop/install/windows-install/) installation guide
+- [Docker for Mac](https://docs.docker.com/desktop/install/mac-install/) installation guide
+- [Docker for Linux (Ubuntu/Debian)](https://docs.docker.com/engine/install/ubuntu/) installation guide
 
 ---
 
 ### Installing Kubernetes
 
--   Install [Docker](https://docs.docker.com/get-docker/) if you haven't already.
--   Install [kubectl](https://kubernetes.io/docs/tasks/tools/), the Kubernetes CLI tool.
--   Install [Minikube](https://minikube.sigs.k8s.io/docs/start/) for local Kubernetes deployment.
+- Install [Docker](https://docs.docker.com/get-docker/) if you haven't already.
+- Install [kubectl](https://kubernetes.io/docs/tasks/tools/), the Kubernetes CLI tool.
+- Install [Minikube](https://minikube.sigs.k8s.io/docs/start/) for local Kubernetes deployment.
 
 ![line]
 
@@ -1576,109 +1592,108 @@ git switch -c fix-issue
 Now you are ready to start working on the issues!
 Remember every once in a while to pull from the upstream repository to keep your local repository up to date with the main project.
 
-If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.vercel.app/resources](https://forkcommitmerge.vercel.app/resources).
+If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.dev/resources](https://forkcommitmerge.dev/resources).
 
 _Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts._
 
-
 ## Tasks
 
-*Note: These tasks will not count towards Hacktoberfest or any other similar "coding competitions", since this repository is an educational repository, hence against the Hacktoberfest guidelines.*
+_Note: These tasks will not count towards Hacktoberfest or any other similar "coding competitions", since this repository is an educational repository, hence against the Hacktoberfest guidelines._
 
 We present over 130 several tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
 
 Firstly, open the `tasks` directory and select which language you want to work with by opening one of the following directories:
 
--   HTML
--   HTMX
--   CSS
--   SASS
--   Tailwind CSS
--   Bootstrap CSS
--   ReScript
--   CoffeeScript
--   JavaScript
--   JavaScript/Jest
--   JavaScript/Jasmine
--   TypeScript
--   TypeScript/Vitest
--   React
--   Next.js
--   Three.js
--   Vue.js
--   Svelte
--   Astro
--   Angular
--   Solid.js
--   Ember.js
--   GraphQL
--   NGINX
--   Express.js
--   Electron.js
--   C
--   C++
--   C#
--   Blazor
--   D
--   F#
--   Ada
--   Java
--   Kotlin
--   Scala
--   Groovy
--   Python
--   Flask
--   Django
--   Solidity
--   Vyper
--   Ruby
--   Rails
--   Elixir
--   Crystal
--   PHP
--   Laravel
--   Go
--   Dart
--   Flutter
--   Swift
--   React Native
--   Julia
--   Rust
--   Haskell
--   Lua
--   Clojure
--   OCaml
--   LaTeX
--   Lisp
--   Fortran
--   Pascal
--   COBOL
--   Erlang
--   Smalltalk
--   Zig
--   R
--   Nim
--   MATLAB
--   Octave
--   SQL
--   TLA+
--   Bash
--   Perl
--   Mojo
--   ASM (Assembly)
--   JSON
--   YAML
--   TOML
--   XML
--   Markdown
--   Docker
--   Kubernetes
+- HTML
+- HTMX
+- CSS
+- SASS
+- Tailwind CSS
+- Bootstrap CSS
+- ReScript
+- CoffeeScript
+- JavaScript
+- JavaScript/Jest
+- JavaScript/Jasmine
+- TypeScript
+- TypeScript/Vitest
+- React
+- Next.js
+- Three.js
+- Vue.js
+- Svelte
+- Astro
+- Angular
+- Solid.js
+- Ember.js
+- GraphQL
+- NGINX
+- Express.js
+- Electron.js
+- C
+- C++
+- C#
+- Blazor
+- D
+- F#
+- Ada
+- Java
+- Kotlin
+- Scala
+- Groovy
+- Python
+- Flask
+- Django
+- Solidity
+- Vyper
+- Ruby
+- Rails
+- Elixir
+- Crystal
+- PHP
+- Laravel
+- Go
+- Dart
+- Flutter
+- Swift
+- React Native
+- Julia
+- Rust
+- Haskell
+- Lua
+- Clojure
+- OCaml
+- LaTeX
+- Lisp
+- Fortran
+- Pascal
+- COBOL
+- Erlang
+- Smalltalk
+- Zig
+- R
+- Nim
+- MATLAB
+- Octave
+- SQL
+- TLA+
+- Bash
+- Perl
+- Mojo
+- ASM (Assembly)
+- JSON
+- YAML
+- TOML
+- XML
+- Markdown
+- Docker
+- Kubernetes
 
 Then you can open one of these directories to choose between three difficulties:
 
--   Easy
--   Medium
--   Hard
+- Easy
+- Medium
+- Hard
 
 After that you are ready to get solving!
 
@@ -1982,15 +1997,15 @@ git push origin fix-issue
 
 Once you've pushed your changes to GitHub, you're ready to create a pull request. Go to your forked repository on GitHub.
 
--   You should see text "fix-issue had recent pushes" (or whatever your branch name is) and button "Compare & pull request" next to it.
+- You should see text "fix-issue had recent pushes" (or whatever your branch name is) and button "Compare & pull request" next to it.
 
 ![Compare & Pull request](/assets/images/compare-and-pull-request.png)
 
--   Click the "Compare & pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
+- Click the "Compare & pull request" button to proceed to the pull request page of the original fork-commit-merge repository.
 
--   Fill in the title and description boxes to inform what you did in the task and how you got it to work. You can also add some additional information such as screenshots, if you want or if they are required in the task description.
+- Fill in the title and description boxes to inform what you did in the task and how you got it to work. You can also add some additional information such as screenshots, if you want or if they are required in the task description.
 
--   Finally, click "Create pull request" to finish creating the pull request.
+- Finally, click "Create pull request" to finish creating the pull request.
 
 Congratulations on making your first open source contribution on GitHub!
 
@@ -2002,7 +2017,7 @@ If you don't respond to the review and make the necessary changes within 4 days,
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.vercel.app/contributors).
+All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.dev/contributors).
 
 ![line]
 
@@ -2012,17 +2027,17 @@ Programming languages, despite their diverse syntax and underlying paradigms, un
 
 Why Follow Best Practices?
 
--   Readability: Code is read more often than it's written. Adopting best practices ensures your code remains accessible and comprehensible to other developers, or even to your future self!
+- Readability: Code is read more often than it's written. Adopting best practices ensures your code remains accessible and comprehensible to other developers, or even to your future self!
 
--   Maintainability: Idiomatic code, by adhering to established patterns and standards, is easier to update, debug, and expand upon.
+- Maintainability: Idiomatic code, by adhering to established patterns and standards, is easier to update, debug, and expand upon.
 
--   Performance: Often, best practices evolve in response to the understanding of a language's performance characteristics. Writing idiomatic code might also mean squeezing the best performance out of your programs.
+- Performance: Often, best practices evolve in response to the understanding of a language's performance characteristics. Writing idiomatic code might also mean squeezing the best performance out of your programs.
 
--   Community Support: If you're writing code in the way that the broader community expects, you're more likely to receive help when you run into issues. Moreover, you can benefit from tools, linters, and extensions built with these practices in mind.
+- Community Support: If you're writing code in the way that the broader community expects, you're more likely to receive help when you run into issues. Moreover, you can benefit from tools, linters, and extensions built with these practices in mind.
 
--   Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
+- Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
 
-In our [Fork, Commit, Merge website](https://forkcommitmerge.vercel.app), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+In our [Fork, Commit, Merge website](https://forkcommitmerge.dev), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
 
 ![line]
 
@@ -2030,10 +2045,10 @@ In our [Fork, Commit, Merge website](https://forkcommitmerge.vercel.app), you'll
 
 This project was inspired by a number of fantastic resources designed to help newcomers make their first contributions to open source. In particular, we would like to acknowledge:
 
--   [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
--   [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
--   [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
--   [Hello Open Source](https://github.com/mazipan/hello-open-source): A repository to learn about open source code contributions flow (for beginners only).
+- [First Contributions](https://github.com/firstcontributions/first-contributions): A hands-on guide to making your first open source contribution.
+- [Contribute To This Project](https://github.com/Syknapse/Contribute-To-This-Project): A project that encourages contributors to add their own profile information.
+- [Contribute to Open Source](https://github.com/danthareja/contribute-to-open-source): A project that simulates the GitHub workflow to help beginners get their first taste of open source.
+- [Hello Open Source](https://github.com/mazipan/hello-open-source): A repository to learn about open source code contributions flow (for beginners only).
 
 I highly recommend checking out these projects if you want to learn more about contributing to open source!
 
@@ -2043,7 +2058,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React.js, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Clerk. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
-You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.vercel.app/roadmaps/how-to-contribute) of our website.
+You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.dev/roadmaps/how-to-contribute) of our website.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
@@ -2055,9 +2070,9 @@ You can sponsor this project by clicking the "Sponsor" button at the top of this
 
 ![Sponsor](/assets/images/sponsor.png)
 
-Your sponsorship will help me to keep this project alive and to continue developing it further. You will also get your name and/or logo listed in our website at [forkcommitmerge.vercel.app](https://forkcommitmerge.vercel.app) as well as in this repository.
+Your sponsorship will help me to keep this project alive and to continue developing it further. You will also get your name and/or logo listed in our website at [forkcommitmerge.dev](https://forkcommitmerge.dev) as well as in this repository.
 
-You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](https://www.buymeacoffee.com/nikohoffren) or clicking the "Buy me a coffee" button at the header of our [website](https://forkcommitmerge.vercel.app).
+You can also support me by buying me a coffee at [buymeacoffee.com/nikohoffren](https://www.buymeacoffee.com/nikohoffren) or clicking the "Buy me a coffee" button at the header of our [website](https://forkcommitmerge.dev).
 
 ![line]
 

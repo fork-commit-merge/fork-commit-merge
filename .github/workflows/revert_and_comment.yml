@@ -6,7 +6,7 @@ on:
       - closed
   push:
     paths:
-      - 'README.md'
+      - "README.md"
   issues:
     types:
       - opened
@@ -60,7 +60,7 @@ jobs:
 
           ### What's next?
 
-          If you're looking for more ways to contribute, I invite you to check out our [forkcommitmerge.vercel.app](https://github.com/fork-commit-merge/fork-commit-merge-web) website repository. The repository contain real issues that you can help to resolve or create some of your own if you see any bugs or want to add new features to the site, etc. You can also check out the [Influences](https://github.com/fork-commit-merge/fork-commit-merge#influences) section in the README to find more projects similar to this one.
+          If you're looking for more ways to contribute, I invite you to check out our [forkcommitmerge.dev](https://github.com/fork-commit-merge/fork-commit-merge-web) website repository. The repository contain real issues that you can help to resolve or create some of your own if you see any bugs or want to add new features to the site, etc. You can also check out the [Influences](https://github.com/fork-commit-merge/fork-commit-merge#influences) section in the README to find more projects similar to this one.
 
           Also please leave a star to this project if you feel it helped you, i would really appreciate it.
 
@@ -117,69 +117,69 @@ jobs:
       needs.add-contributor-to-readme.outputs.contributor_added == 'true' &&
       !contains(github.event.pull_request.user.login, 'dependabot')
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-      with:
-        token: ${{ secrets.REPO_PAT }}
-        fetch-depth: 0
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.REPO_PAT }}
+          fetch-depth: 0
 
-    - name: Extract contributor info
-      id: extract_contributor
-      run: |
-        CONTRIBUTOR_LOGIN="${{ github.event.pull_request.user.login }}"
-        CONTRIBUTOR_ID="${{ github.event.pull_request.user.id }}"
-        echo "login=$CONTRIBUTOR_LOGIN" >> $GITHUB_OUTPUT
-        echo "id=$CONTRIBUTOR_ID" >> $GITHUB_OUTPUT
+      - name: Extract contributor info
+        id: extract_contributor
+        run: |
+          CONTRIBUTOR_LOGIN="${{ github.event.pull_request.user.login }}"
+          CONTRIBUTOR_ID="${{ github.event.pull_request.user.id }}"
+          echo "login=$CONTRIBUTOR_LOGIN" >> $GITHUB_OUTPUT
+          echo "id=$CONTRIBUTOR_ID" >> $GITHUB_OUTPUT
 
-    - name: Checkout web repository
-      uses: actions/checkout@v2
-      with:
-        repository: 'fork-commit-merge/fork-commit-merge-web'
-        token: ${{ secrets.REPO_PAT }}
-        path: 'fork-commit-merge-web'
+      - name: Checkout web repository
+        uses: actions/checkout@v2
+        with:
+          repository: "fork-commit-merge/fork-commit-merge-web"
+          token: ${{ secrets.REPO_PAT }}
+          path: "fork-commit-merge-web"
 
-    - name: Add contributor to web repository
-      run: |
-        set -e  # Exit on any error
+      - name: Add contributor to web repository
+        run: |
+          set -e  # Exit on any error
 
-        CONTRIBUTOR_LOGIN="${{ steps.extract_contributor.outputs.login }}"
-        CONTRIBUTOR_ID="${{ steps.extract_contributor.outputs.id }}"
+          CONTRIBUTOR_LOGIN="${{ steps.extract_contributor.outputs.login }}"
+          CONTRIBUTOR_ID="${{ steps.extract_contributor.outputs.id }}"
 
-        echo "Processing contributor: $CONTRIBUTOR_LOGIN (ID: $CONTRIBUTOR_ID)"
+          echo "Processing contributor: $CONTRIBUTOR_LOGIN (ID: $CONTRIBUTOR_ID)"
 
-        if ! grep -q "id: '$CONTRIBUTOR_LOGIN'" fork-commit-merge-web/components/data/contributorData.ts; then
-          echo "Adding new contributor to contributorData.ts"
+          if ! grep -q "id: '$CONTRIBUTOR_LOGIN'" fork-commit-merge-web/components/data/contributorData.ts; then
+            echo "Adding new contributor to contributorData.ts"
 
-          # Create temporary file
-          TEMP_FILE=$(mktemp)
+            # Create temporary file
+            TEMP_FILE=$(mktemp)
 
-          # Remove the last line (the closing bracket)
-          head -n -1 fork-commit-merge-web/components/data/contributorData.ts > "$TEMP_FILE"
+            # Remove the last line (the closing bracket)
+            head -n -1 fork-commit-merge-web/components/data/contributorData.ts > "$TEMP_FILE"
 
-          # Add the new contributor and closing bracket
-          echo "  {" >> "$TEMP_FILE"
-          echo "    id: \"$CONTRIBUTOR_LOGIN\"," >> "$TEMP_FILE"
-          echo "    url: \"https://github.com/$CONTRIBUTOR_LOGIN\"," >> "$TEMP_FILE"
-          echo "    avatar: \"https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\"," >> "$TEMP_FILE"
-          echo "    name: \"$CONTRIBUTOR_LOGIN\"" >> "$TEMP_FILE"
-          echo "  }," >> "$TEMP_FILE"
-          echo "]" >> "$TEMP_FILE"
+            # Add the new contributor and closing bracket
+            echo "  {" >> "$TEMP_FILE"
+            echo "    id: \"$CONTRIBUTOR_LOGIN\"," >> "$TEMP_FILE"
+            echo "    url: \"https://github.com/$CONTRIBUTOR_LOGIN\"," >> "$TEMP_FILE"
+            echo "    avatar: \"https://avatars.githubusercontent.com/u/$CONTRIBUTOR_ID?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d\"," >> "$TEMP_FILE"
+            echo "    name: \"$CONTRIBUTOR_LOGIN\"" >> "$TEMP_FILE"
+            echo "  }," >> "$TEMP_FILE"
+            echo "]" >> "$TEMP_FILE"
 
-          # Replace the original file
-          mv "$TEMP_FILE" fork-commit-merge-web/components/data/contributorData.ts
+            # Replace the original file
+            mv "$TEMP_FILE" fork-commit-merge-web/components/data/contributorData.ts
 
-          cd fork-commit-merge-web
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add components/data/contributorData.ts
-          git commit -m "Add $CONTRIBUTOR_LOGIN to contributors list"
-          git push || (
-            echo "Failed to push changes. Error: $?"
-            exit 1
-          )
-          echo "Successfully added contributor to web repository"
-        else
-          echo "Contributor already exists in contributorData.ts"
-        fi
-      env:
-        GH_TOKEN: ${{ secrets.REPO_PAT }}
+            cd fork-commit-merge-web
+            git config user.name "GitHub Action"
+            git config user.email "action@github.com"
+            git add components/data/contributorData.ts
+            git commit -m "Add $CONTRIBUTOR_LOGIN to contributors list"
+            git push || (
+              echo "Failed to push changes. Error: $?"
+              exit 1
+            )
+            echo "Successfully added contributor to web repository"
+          else
+            echo "Contributor already exists in contributorData.ts"
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.REPO_PAT }}
