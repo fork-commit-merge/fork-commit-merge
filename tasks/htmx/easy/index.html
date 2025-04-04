@@ -11,21 +11,18 @@
 <body>
     <h1>Fork, Commit, Merge - HTMX - Easy</h1>
 
-    <button id="click-me" hx-get="/your-endpoint" hx-trigger="click" hx-target="#result">
-        Click me!
-    </button>
-    
+    <!-- TODO: Add your HTMX button here -->
+
     <div id="result"></div>
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const button = document.getElementById('click-me');
-            const result = document.getElementById('result');
-
-            button.addEventListener('click', function () {
-                result.innerText = 'Client-side action executed!';
-            });
-        });
-    </script>
 </body>
 </html>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const button = document.getElementById('click-me');
+        const result = document.getElementById('result');
+
+        button.addEventListener('click', function () {
+            result.innerText = 'Client-side action executed!';
+        });
+    });
+</script>
