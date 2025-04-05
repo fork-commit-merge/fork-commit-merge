@@ -1,9 +1,13 @@
 // React/Vite - Easy
+import Card from "./Card";
 import "./index.css";
 
 function App() {
   return (
-    <div className="center">{/* TODO: Implement the card component */}</div>
+    <div className="center">
+      <h1>React/Vite - Easy</h1>
+      <Card />
+    </div>
   );
 }
 
