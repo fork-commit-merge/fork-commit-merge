@@ -222,7 +222,7 @@ Here are a few reasons why developers use IDEs:
 
 We recommend using VS Code as your IDE for this project. It's free, open-source, and supports a wide range of languages and extensions. You can download it from the [VS Code - Official website](https://code.visualstudio.com/). However, if you prefer to use another IDE, that's fine too!
 
-Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.dev/ide](https://forkcommitmerge.dev/ide)!
+Instructions on how to install an IDE that suits for you can be found on our website at [forkcommitmerge.dev/tools/ide](https://www.forkcommitmerge.dev/tools/ide)!
 
 ---
 
@@ -1592,7 +1592,7 @@ git switch -c fix-issue
 Now you are ready to start working on the issues!
 Remember every once in a while to pull from the upstream repository to keep your local repository up to date with the main project.
 
-If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.dev/resources](https://forkcommitmerge.dev/resources).
+If you are not familiar about the contribution process, you can check out some useful videos in our website's Resources section: [forkcommitmerge.dev/resources](https://www.forkcommitmerge.dev/resources/resources).
 
 _Note: We recommend to always create new branch with each Issue you solve! Otherwise the pull requests will get too large and there could be possible merge conflicts._
 
@@ -2017,7 +2017,7 @@ If you don't respond to the review and make the necessary changes within 4 days,
 
 After the merge, actions-user bot will reset the files for the next contributor.
 
-All the contributors of this project will also be added to the List of Contributors in our [website](https://forkcommitmerge.dev/contributors).
+All the contributors of this project will also be added to the List of Contributors in our [website](https://www.forkcommitmerge.dev/community/contributors).
 
 ![line]
 
@@ -2058,7 +2058,7 @@ I highly recommend checking out these projects if you want to learn more about c
 
 Congratulations on making your first open source contribution! If you're looking for more ways to contribute, you are also welcome to work with the Fork, Commit, Merge website repo, which is located [here](https://github.com/fork-commit-merge/fork-commit-merge-web). The website is built with React.js, NextJS, TypeScript, TailwindCSS, MongoDB Atlas and Clerk. So if you are interested of those technologies, you can contribute to the website repo by creating new features, fixing bugs or improving the code quality.
 
-You can also check out more information about how to make open source contributions in [How to Contribute](https://forkcommitmerge.dev/roadmaps/how-to-contribute) of our website.
+You can also check out more information about how to make open source contributions in [How to Contribute](https://www.forkcommitmerge.dev/roadmaps/how-to-contribute) of our website.
 
 Also i would really appreciate if you could leave a star, so more developers can find this project. I look forward to seeing your contributions!
 
