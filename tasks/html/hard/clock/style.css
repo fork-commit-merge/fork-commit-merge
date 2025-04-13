@@ -58,16 +58,10 @@ body {
   background-color: red;
 }
 
-.clock .hand.minute {
-  width: 5px;
-  height: 40%;
-  background-color: black;
-}
-
+/* Clock Minute and Hour Hands */
+.clock .hand.minute,
 .clock .hand.hour {
-  width: 7px;
-  height: 30%;
-  background-color: black;
+  /* TODO: Define styles for minute and hour hands */
 }
 
 /* Clock Center */
