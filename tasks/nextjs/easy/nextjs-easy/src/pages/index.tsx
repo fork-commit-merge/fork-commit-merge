@@ -2,14 +2,7 @@
 
 export default function Home() {
   const sampleProducts = [
-    { name: "Laptop", price: "$1200" },
-    { name: "Smartphone", price: "$799" },
-    { name: "Wireless Headphones", price: "$149.99" },
-    { name: "Bluetooth Speaker", price: "$59.99" },
-    { name: "Tablet", price: "$299.99" },
-    { name: "Smartwatch", price: "$199.99" },
-    { name: "Gaming Mouse", price: "$49.99" },
-    { name: "Mechanical Keyboard", price: "$89.99" }
+    // TODO: Create a sample product list with names and prices
   ];
 
   return (
