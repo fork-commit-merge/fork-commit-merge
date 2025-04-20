@@ -4,16 +4,8 @@
 pragma solidity ^0.8.0;
 
 contract SimpleStorage {
-    // State variable to store the number
-    uint256 private storedNumber;
+    uint256 _number;
+    // TODO: Implement function to set the number
 
-    // Function to store a number
-    function set(uint256 _number) public {
-        storedNumber = _number;
-    }
-
-    // Function to retrieve the stored number
-    function get() public view returns (uint256) {
-        return storedNumber;
-    }
+    // TODO: Implement function to get the number
 }
