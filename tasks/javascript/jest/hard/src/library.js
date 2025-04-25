@@ -36,11 +36,17 @@ class Library {
     }
 
     searchBooks(query) {
-        // TODO: Implement search functionality
+        const lowerQuery = query.toLowerCase();
+        return this.books.filter(book =>
+            book.title.toLowerCase().includes(lowerQuery) ||
+            book.author.toLowerCase().includes(lowerQuery)
+        );
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        return this.books.filter(book => {
+            return Object.entries(criteria).every(([key, value]) => book[key] === value);
+        });
     }
 }
 

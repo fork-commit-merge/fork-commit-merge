@@ -10,12 +10,28 @@ interface Product {
 let products: Product[] = [];
 
 async function fetchData() {
-    // TODO: Implement the fetch function
+    await fetch('https://dummyjson.com/products')
+          .then(res => res.json())
+          .then(data => products = data.products);
+
     displayProducts(products);
 }
 
 function displayProducts(products: Product[]) {
-    // TODO: Implement the display function
+    const tbody = document.getElementById("productBody");
+
+    if(!tbody) return;
+
+    tbody.innerHTML = '';
+    products.forEach(product => {
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td>${product.title}</td>
+            <td>$${product.price.toFixed(2)}</td>
+            <td>${product.rating}</td>
+        `;
+        tbody.appendChild(tr);
+    });
 }
 
 function applyFilters() {
@@ -32,9 +48,15 @@ function applyFilters() {
         (document.getElementById("maxRating") as HTMLInputElement).value
     );
 
-    const filteredProducts = products.filter(
-        // TODO: Implement the filter function
-    );
+    const filteredProducts = products.filter(product => {
+        const priceFilter = (isNaN(minPrice) || product.price >= minPrice) &&
+                        (isNaN(maxPrice) || product.price <= maxPrice);
+
+        const ratingFilter = (isNaN(minRating) || product.rating >= minRating) &&
+                         (isNaN(maxRating) || product.rating <= maxRating);
+
+        return priceFilter && ratingFilter;
+    });
 
     displayProducts(filteredProducts);
 }
