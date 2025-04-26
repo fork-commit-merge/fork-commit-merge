@@ -10,23 +10,51 @@
     </head>
     <body>
         <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
+            <ul id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-
+        
         <section id="about">
-            <!-- TODO: Implement the about section -->
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repudiandae est inventore accusamus consequuntur quae, suscipit voluptas cupiditate nihil quisquam fugit quibusdam ad odit, libero eum incidunt eveniet fugiat aspernatur?</p>
+                </div>
+                <img src="https://loremflickr.com/320/240" alt="About Us Image">
+            </div>
         </section>
 
         <section id="services">
-            <!-- TODO: Implement the services section -->
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis repudiandae est inventore accusamus consequuntur quae, suscipit voluptas cupiditate nihil quisquam fugit quibusdam ad odit, libero eum incidunt eveniet fugiat aspernatur?</p>
+                </div>
+                <img src="https://loremflickr.com/320/240" alt="Services Image">
+            </div>
         </section>
 
         <section id="contact">
-            <!-- TODO: Implement the contact section  -->
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" type="text" required>
+                
+                <label for="email">Email</label>
+                <input id="email" type="email" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" cols="21" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
         </section>
 
         <footer>
-            <!-- TODO: Implement the footer -->
+            <p>&copy; 2025 Fork, Commit, Merge. All rights reserved.</p>
         </footer>
     </body>
 </html>
