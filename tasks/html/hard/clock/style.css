@@ -34,7 +34,6 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
 }
 
 /* Clock Hands */
@@ -61,7 +60,16 @@ body {
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+  width: 5px;
+  background-color: black;
+}
+
+.clock .hand.minute{
+  height: 40%;
+}
+
+.clock .hand.hour {
+  height: 30%;
 }
 
 /* Clock Center */
