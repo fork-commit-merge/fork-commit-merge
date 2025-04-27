@@ -8,4 +8,9 @@ $primary-color: #3498db;
     padding: 0;
 }
 
-// TODO: Implement the Container class, do not change the code above
+.container {
+    background-color: $primary-color;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
