@@ -1,60 +1,12 @@
 // SASS - Medium
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 $primary-color: #0b0049;
 $secondary-color: #412eee;
 
-nav {
-  background-color: $primary-color;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-
-  .logo {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
-
-  .nav-links {
-    list-style: none;
-    display: flex;
-
-    li {
-      margin-left: 2rem;
-
-      a {
-        color: white;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 1rem;
-        transition: color 0.3s ease;
-
-        &:hover {
-          color: $secondary-color;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  nav {
-    flex-direction: column;
-
-    .nav-links {
-      flex-direction: column;
-      align-items: center;
-
-      li {
-        margin: 1rem 0;
-      }
-    }
-  }
-}
+// TODO: Add classes for the navbar
