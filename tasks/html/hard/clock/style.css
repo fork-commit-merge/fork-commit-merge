@@ -43,36 +43,30 @@ body {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   transform-origin: bottom;
-  z-index: 12;
-  border-radius: 10px;
+  z-index: 10;
+  transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-/* Hour hand */
-.clock .hand.hour {
-  width: 6px;
-  height: 25%;
-  background-color: black;
-}
-
-/* Minute hand */
-.clock .hand.minute {
-  width: 4px;
-  height: 35%;
-  background-color: gray;
-}
-
-/* Second hand */
+/* Clock Second Hand */
 .clock .hand.second {
-  width: 2px;
+  width: 3px;
   height: 45%;
   background-color: red;
 }
 
+/* Clock Minute and Hour Hands */
+.clock .hand.minute,
+.clock .hand.hour {
+  /* TODO: Define styles for minute and hour hands */
+}
+
 /* Clock Center */
 .clock::after {
-  content: '';
+  content: "";
   position: absolute;
   background-color: black;
   z-index: 11;
@@ -85,7 +79,7 @@ body {
 }
 
 /* Background Styles Only (No changes needed) */
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 .side-links {
   position: absolute;
@@ -125,42 +119,4 @@ body {
 .side-link-icon {
   color: white;
   font-size: 30px;
-}
-
-/* Positions the clock numbers correctly */
-.clock .number1 {
-  --rotation: 30deg;
-}
-.clock .number2 {
-  --rotation: 60deg;
-}
-.clock .number3 {
-  --rotation: 90deg;
-}
-.clock .number4 {
-  --rotation: 120deg;
-}
-.clock .number5 {
-  --rotation: 150deg;
-}
-.clock .number6 {
-  --rotation: 180deg;
-}
-.clock .number7 {
-  --rotation: 210deg;
-}
-.clock .number8 {
-  --rotation: 240deg;
-}
-.clock .number9 {
-  --rotation: 270deg;
-}
-.clock .number10 {
-  --rotation: 300deg;
-}
-.clock .number11 {
-  --rotation: 330deg;
-}
-.clock .number12 {
-  --rotation: 0deg;
 }

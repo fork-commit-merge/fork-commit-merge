@@ -1,28 +1,12 @@
-// Update the positions of the hour, minute, and second hands on the clock based on the current time
-const hourHand = document.querySelector('[data-hour-hand]');
-const minuteHand = document.querySelector('[data-minute-hand]');
-const secondHand = document.querySelector('[data-second-hand]');
+// Implement the setClock function to update the positions of the hour, minute, and second hands on the clock based on the current time.
+setInterval(() => {
+  // TODO: Calculate the current time and update the clock hands' positions here.
+  // You need to calculate the rotation ratios and update the hand rotations.
+}, 1000);
 
-function setClock() {
-  const currentDate = new Date();
-  const secondsRatio = currentDate.getSeconds() / 60;
-  const minutesRatio = (currentDate.getMinutes() + secondsRatio) / 60;
-  const hoursRatio = (currentDate.getHours() + minutesRatio) / 12;
-
-  setRotation(secondHand, secondsRatio);
-  setRotation(minuteHand, minutesRatio);
-  setRotation(hourHand, hoursRatio);
-}
-
-// Rotate a DOM element around its center point based on the provided rotation ratio
-function setRotation(element, rotationRatio) {
-  element.style.setProperty('--rotation', rotationRatio * 360);
-}
-
-// Initialize clock position when the page loads
-setClock();
-// Update clock position every second
-setInterval(setClock, 1000);
+const hourHand = document.querySelector("[data-hour-hand]");
+const minuteHand = document.querySelector("[data-minute-hand]");
+const secondHand = document.querySelector("[data-second-hand]");
 
 // Create setRotation function to rotate a DOM element around its center point. This function will be used to rotate the hour, minute, and second hands on the clock.
 // TODO: Implement the setRotation function to update the rotation of a DOM element based on the provided rotationRatio.
