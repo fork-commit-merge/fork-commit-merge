@@ -1697,8 +1697,8 @@ Then you can open one of these directories to choose between three difficulties:
 
 After that you are ready to get solving!
 
-In the GitHub page of the Fork Commit Merge repository, you can find a list of all tasks in the `issues` tab, which you can use to solve the tasks.
-In issues, you can search for the task you want to solve and then click on the issue to open it.
+In the GitHub page of the Fork Commit Merge repository, you can find a list of all tasks in the [issues](https://github.com/fork-commit-merge/fork-commit-merge/issues) tab, which you can use to solve the tasks.
+You can search for the task you want to solve and then click on the issue to open it.
 
 _Note: You don't have to ask a permission to start solving the issue or get assigned, since these issues are supposed to always be open for new contributors. You can just simply start working with the issue right away! Remember that in real world issues you would usually need to ask permission to get assigned to certain issue to prevent multiple people to working on the same issue at the same time, which would result some contributors wasting their time._
 
