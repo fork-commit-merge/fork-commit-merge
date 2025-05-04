@@ -3,7 +3,6 @@
 public class GreetingApp {
 
     public static void main(String[] args) {
-        System.out.println("Hello There Contributors , I am New Here !!");
-        //i have done the Task..
+
     }
 }
