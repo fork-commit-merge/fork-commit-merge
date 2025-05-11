@@ -4,3 +4,23 @@
 **/.vscode/
 **/.DS_Store
 
+# IDE and editor folders
+.idea/
+*.iml
+
+# VS Code settings (already included)
+.vscode/
+
+# macOS metadata
+.DS_Store
+
+# Clojure tooling
+.clj-kondo/
+.lsp/
+
+# Node.js modules
+node_modules/
+
+# Optional: IntelliJ logs and workspace files
+out/
+*.iws
