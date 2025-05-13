@@ -1,24 +1,4 @@
 # YAML - Easy
 
-
-
 # TODO: Create a Basic YAML Configuration File
-
-name: basic yaml test
-
-on:
-push:
-    branch:[ master ]
-
-jobs:
-build:
-
-   runs-on: ubuntu-latest
-
-name: Install dependencies
-run: npm install
-
-name: Run script
-run: npm run start
-
 
