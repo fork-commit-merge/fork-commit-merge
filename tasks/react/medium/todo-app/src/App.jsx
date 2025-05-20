@@ -40,6 +40,10 @@ function App() {
   function handleDelete(ind){
     setList(prev => prev.filter((v,i)=> i !== ind ? true : false))
   }
+
+  function handleCancel(){
+    setUpdateNum(-1);
+  }
   return (
     <div className="App">
       <h1>To-Do List</h1>
@@ -49,6 +53,7 @@ function App() {
             <li key={i}>
             {i === updateNum ? <input value={updateInput} onChange={(e)=>{setUpdateInput(e.target.value)}}></input> : val}
             <button onClick={(e)=>handleUpdate(e,i,val)}>Update</button>
+            {updateNum === i ? <button onClick={handleCancel}>Cancel</button> : ""}
             <button onClick={(e)=>handleDelete(i)}>Delete</button>
             </li>
           ))
