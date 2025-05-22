@@ -1,6 +1,6 @@
 // ExpressJS - Easy
 
-const { get } = require("cheerio/lib/api/traversing");
+// const { get } = require("cheerio/lib/api/traversing");
 const express = require("express");
 const app = express();
 const port = 6969;
