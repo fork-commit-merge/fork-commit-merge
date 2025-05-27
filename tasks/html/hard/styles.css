@@ -1,164 +1,103 @@
-/* General styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* HTML - Hard */
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    margin: 0;
+    padding-top: 80px;
 }
 
-/* Navigation */
 #navbar {
-    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
     color: white;
-    padding: 1rem;
+    padding: 15px;
 }
 
-#navbar ul {
-    display: flex;
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#menu {
     list-style: none;
-    justify-content: space-around;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-#navbar a {
+#menu li a {
     color: white;
     text-decoration: none;
+    padding: 10px 15px;
 }
 
-/* Sections */
 section {
-    padding: 2rem;
-    min-height: 50vh;
+    padding: 20px;
+    background: rgb(210, 223, 245);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Clock styles */
-.clock {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: #f0f0f0;
-    border: 2px solid black;
-    position: relative;
-    margin: 2rem auto;
-}
-
-.clock-face {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transform: translateY(-3px);
-}
-
-.center-point {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: black;
-    transform: translate(-50%, -50%);
-    z-index: 10;
-}
-
-.hand {
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform-origin: bottom;
-    z-index: 5;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.hour-hand {
-    width: 6px;
-    height: 30%;
-    background-color: black;
-    transform: translateX(-50%) rotate(0deg);
-}
-
-.minute-hand {
-    width: 4px;
-    height: 40%;
-    background-color: #444;
-    transform: translateX(-50%) rotate(0deg);
-}
-
-.second-hand {
-    width: 2px;
-    height: 45%;
-    background-color: red;
-    transform: translateX(-50%) rotate(0deg);
-}
-
-/* Clock numbers */
-.number {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.number1 { transform: rotate(30deg); }
-.number2 { transform: rotate(60deg); }
-.number3 { transform: rotate(90deg); }
-.number4 { transform: rotate(120deg); }
-.number5 { transform: rotate(150deg); }
-.number6 { transform: rotate(180deg); }
-.number7 { transform: rotate(210deg); }
-.number8 { transform: rotate(240deg); }
-.number9 { transform: rotate(270deg); }
-.number10 { transform: rotate(300deg); }
-.number11 { transform: rotate(330deg); }
-.number12 { transform: rotate(0deg); }
-
-/* Rotate the numbers to make them readable */
-.number1 span { transform: rotate(-30deg); }
-.number2 span { transform: rotate(-60deg); }
-.number3 span { transform: rotate(-90deg); }
-.number4 span { transform: rotate(-120deg); }
-.number5 span { transform: rotate(-150deg); }
-.number6 span { transform: rotate(-180deg); }
-.number7 span { transform: rotate(-210deg); }
-.number8 span { transform: rotate(-240deg); }
-.number9 span { transform: rotate(-270deg); }
-.number10 span { transform: rotate(-300deg); }
-.number11 span { transform: rotate(-330deg); }
-.number12 span { transform: rotate(0deg); }
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-}
-
-/* Form styles */
-form {
+.content-wrapper {
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    max-width: 500px;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
-input, textarea, button {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
+.text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+img {
+    flex-shrink: 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+p {
+    margin: 0 0 10px;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
 }
 
 button {
-    background-color: #333;
+    padding: 10px;
+    background: #333;
     color: white;
     border: none;
     cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
 }
