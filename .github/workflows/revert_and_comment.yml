@@ -32,9 +32,10 @@ jobs:
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git revert -m 1 HEAD -m "Reset file(s) for next contributor
+          echo "Reset file(s) for next contributor
 
-          This reverts commit $(git rev-parse HEAD)"
+          This reverts commit $(git rev-parse HEAD)" > /tmp/commit_msg
+          git revert -m 1 HEAD -F /tmp/commit_msg
           git push origin main
 
   comment:
