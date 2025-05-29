@@ -112,11 +112,30 @@ body {
 }
 
 .fire-right .main-fire {
-  /* TODO: Add the necessary styles here */
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  right: -20%;
+  top: 10%;
+  background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+  transform: scaleX(0.6) rotate(25deg);
+  border-radius: 0 40% 60% 40%;
+  filter: drop-shadow(0 0 8px #d43322);
 }
 
 .fire-right .particle-fire {
-  /* TODO: Add the necessary styles here */
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  width: 8px;
+  height: 8px;
+  background-color: #ef5a00;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px #d43322);
+  animation: particleUp 2.5s ease-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
 }
 
 .fire-left {
@@ -129,11 +148,30 @@ body {
 }
 
 .fire-left .main-fire {
-  /* TODO: Add the necessary styles here */
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: -20%;
+  top: 10%;
+  background-image: radial-gradient(farthest-corner at 10px 0, #d43300 0%, #ef5a00 95%);
+  transform: scaleX(0.6) rotate(65deg);
+  border-radius: 0 40% 60% 40%;
+  filter: drop-shadow(0 0 8px #d43322);
 }
 
 .fire-left .particle-fire {
-  /* TODO: Add the necessary styles here */
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  width: 8px;
+  height: 8px;
+  background-color: #ef5a00;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px #d43322);
+  animation: particleUp 2.2s ease-out;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-delay: 1s;
 }
 
 .fire-bottom .main-fire {
