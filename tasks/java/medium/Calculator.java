@@ -3,37 +3,7 @@
 package tasks.java.medium;
 
 public class Calculator {
-    /**
-     * Adds two numbers and returns the result.
-     */
-    public double add(double a, double b) {
-        return a + b;
-    }
-
-    /**
-     * Subtracts the second number from the first and returns the result.
-     */
-    public double subtract(double a, double b) {
-        return a - b;
-    }
-
-    /**
-     * Multiplies two numbers and returns the result.
-     */
-    public double multiply(double a, double b) {
-        return a * b;
-    }
-
-    /**
-     * Divides the first number by the second and returns the result.
-     * If the divisor is zero, throws an IllegalArgumentException.
-     */
-    public double divide(double a, double b) {
-        if (b == 0) {
-            throw new IllegalArgumentException("Cannot divide by zero.");
-        }
-        return a / b;
-    }
+    // TODO: Implement the Calculator class
 
     public static void main(String[] args) {
         //! Don't change the tests in the main method!
