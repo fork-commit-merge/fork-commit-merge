@@ -3,7 +3,6 @@
 package tasks.java.medium;
 
 public class Calculator {
-    // TODO: Implement the Calculator class
     /**
      * Adds two numbers and returns the result.
      */
