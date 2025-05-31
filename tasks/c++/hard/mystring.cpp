@@ -1,6 +1,3 @@
-// C++ - Hard
-
-#include "mystring.h"
 #include <cstring>
 #include <iostream>
 
