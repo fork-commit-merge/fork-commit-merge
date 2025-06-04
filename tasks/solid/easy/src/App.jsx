@@ -26,7 +26,7 @@ function App() {
         <button
           onClick={() => {
             // Implement the function to decrement the counter state here.
-                    setCount(count-1)
+          setCount(count-1)
     
           }}
           className={styles.countButtons}
