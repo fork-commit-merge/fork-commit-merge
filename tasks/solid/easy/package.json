@@ -15,8 +15,6 @@
     "vite-plugin-solid": "^2.11.6"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
     "solid-js": "^1.9.5",
     "vite-template-solid": "file:"
   }
