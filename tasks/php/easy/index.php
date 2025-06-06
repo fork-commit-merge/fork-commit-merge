@@ -5,5 +5,4 @@
 $hello = "Hello";
 $world = "World!";
 
-$message = $hello . " " . $world;
-echo $message;
+// TODO: Implement rest of the string concatenation program
