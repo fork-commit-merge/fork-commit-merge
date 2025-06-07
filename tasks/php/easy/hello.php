@@ -1,5 +1,5 @@
 <?php
 
 // PHP - Easy 2
-echo "Hello, PHP!\n";
-?>
+
+// TODO: Print "Hello, PHP!" to the console
