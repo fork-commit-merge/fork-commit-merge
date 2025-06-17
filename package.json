@@ -8,7 +8,7 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "@types/react": "^19.1.7",
+    "@types/react": "^19.1.8",
     "@types/react-native": "^0.73.0",
     "jest": "^30.0.0",
     "ts-node": "^10.9.1",
