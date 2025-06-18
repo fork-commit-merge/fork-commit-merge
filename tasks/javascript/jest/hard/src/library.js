@@ -36,11 +36,26 @@ class Library {
     }
 
     searchBooks(query) {
-        // TODO: Implement search functionality
+        return this.books.filter((book) => {
+            const value = query.toString().toLowerCase();
+            return (
+                book.title?.toLowerCase().includes(value) ||
+                book.author?.toLowerCase().includes(value) ||
+                book.id?.toString() === value
+      );
+    });
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        return this.books.filter((book) => {
+            return Object.entries(criteria).every(([key, value]) => {
+                const propValue = book[key];
+                if (typeof propValue === "string" && typeof value === "string") {
+                    return propValue.toLowerCase().includes(value.toLowerCase());
+                }
+                return propValue === value;
+      });
+    });
     }
 }
 
