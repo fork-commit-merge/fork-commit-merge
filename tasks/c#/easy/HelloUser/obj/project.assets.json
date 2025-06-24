@@ -1,36 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net7.0": []
   },
   "packageFolders": {
-    "/home/myles/.nuget/packages/": {}
+    "/home/nikohoffren/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/myles/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+      "projectUniqueName": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
       "projectName": "HelloUser",
-      "projectPath": "/home/myles/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
-      "packagesPath": "/home/myles/.nuget/packages/",
-      "outputPath": "/home/myles/fork-commit-merge/tasks/c#/easy/HelloUser/obj/",
+      "projectPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+      "packagesPath": "/home/nikohoffren/.nuget/packages/",
+      "outputPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/myles/.nuget/NuGet/NuGet.Config"
+        "/home/nikohoffren/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "imports": [
           "net461",
           "net462",
@@ -54,12 +54,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.10, 7.0.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
       }
     }
   }
