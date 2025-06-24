@@ -1203,3 +1203,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/ifaakash"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/192798446?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Dani234jf"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/171485774?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/farahmahfouz"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122357697?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/soumik-saha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/103322943?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
