@@ -24,4 +24,3 @@ node_modules/
 # Optional: IntelliJ logs and workspace files
 out/
 *.iws
-/bin/
