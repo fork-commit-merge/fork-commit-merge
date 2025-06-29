@@ -1,3 +1,49 @@
-/* CSS - Hard */
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* TODO: Add CSS for the card */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1000px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease-in-out;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.card-front {
+    background-color: #ff9f00;
+}
+
+.card-back {
+    background-color: #4caf50;
+    transform: rotateY(180deg);
+}
