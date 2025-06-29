@@ -1,13 +1,12 @@
-/* Reset box model for all elements */
 *,
 *::after,
 *::before {
   box-sizing: border-box;
 }
 
-/* Body Styles */
 body {
-  background: linear-gradient(to right, red, yellow);
+  background: linear-gradient(to right, #f8d7da, #d3f9d8);
+  font-family: 'Arial', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,17 +14,15 @@ body {
   overflow: hidden;
 }
 
-/* Clock Styles */
 .clock {
   width: 300px;
   height: 300px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
-  border: 6px solid black;
+  border: 6px solid #aaa;
   position: relative;
 }
 
-/* Clock Numbers */
 .clock .number {
   --rotation: 0;
   position: absolute;
@@ -34,10 +31,9 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+  font-family: 'Arial', sans-serif;
 }
 
-/* Clock Hands */
 .clock .hand {
   --rotation: 0;
   position: absolute;
@@ -51,24 +47,28 @@ body {
   transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
-/* Clock Second Hand */
 .clock .hand.second {
   width: 3px;
   height: 45%;
-  background-color: red;
+  background-color: #f44336;
 }
 
-/* Clock Minute and Hour Hands */
-.clock .hand.minute,
+.clock .hand.minute {
+  width: 4px;
+  height: 40%;
+  background-color: #4caf50;
+}
+
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+  width: 6px;
+  height: 30%;
+  background-color: #2196f3;
 }
 
-/* Clock Center */
 .clock::after {
   content: "";
   position: absolute;
-  background-color: black;
+  background-color: #333;
   z-index: 11;
   width: 15px;
   height: 15px;
@@ -76,47 +76,4 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-}
-
-/* Background Styles Only (No changes needed) */
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-
-.side-links {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
-
-.side-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 180px;
-  padding: 10px 0;
-  border-radius: 10px;
-}
-
-.side-link-youtube {
-  background-color: indigo;
-}
-
-.side-link-twitter {
-  background-color: navy;
-}
-
-.side-link-github {
-  background-color: #6e5494;
-}
-
-.side-link-text {
-  margin-left: 10px;
-  font-size: 18px;
-}
-
-.side-link-icon {
-  color: white;
-  font-size: 30px;
 }
