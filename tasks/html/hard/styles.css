@@ -2,7 +2,6 @@
 
 body {
     font-family: Arial, sans-serif;
-    font-size:16px;
     margin: 0;
     padding-top: 80px;
 }
@@ -44,8 +43,8 @@ section {
 .content-wrapper {
     display: flex;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .text {
@@ -92,16 +91,6 @@ footer {
     color: white;
     padding: 15px;
     text-align: center;
-}
-
-#footer-links{
-    display:flex;
-    justify-content: center;
-    list-style:none
-}
-
-#footer-links li{
-    margin: 0 10px;
 }
 
 #footer-links a {
