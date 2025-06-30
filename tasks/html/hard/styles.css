@@ -94,6 +94,16 @@ footer {
     text-align: center;
 }
 
+#footer-links{
+    display:flex;
+    justify-content: center;
+    list-style:none
+}
+
+#footer-links li{
+    margin: 0 10px;
+}
+
 #footer-links a {
     color: white;
     text-decoration: none;
