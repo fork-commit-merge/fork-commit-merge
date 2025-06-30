@@ -2,6 +2,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    font-size:16px;
     margin: 0;
     padding-top: 80px;
 }
@@ -43,8 +44,8 @@ section {
 .content-wrapper {
     display: flex;
     align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .text {
