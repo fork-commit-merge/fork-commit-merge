@@ -1,9 +1,55 @@
 # YAML/Docker - Medium
 
-version: '3'
+version: '3.8'
 
 services:
-  # TODO: Define your services here
+  # Web server
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - app
+    networks:
+      - frontend
+      - backend
+
+  # Application service
+  app:
+    build: .
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - DB_PORT=5432
+    depends_on:
+      - postgres
+    networks:
+      - backend
+    volumes:
+      - app_data:/app/data
+
+  # Database service
+  postgres:
+    image: postgres:13-alpine
+    environment:
+      - POSTGRES_DB=myapp
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - backend
+    ports:
+      - "5432:5432"
 
 networks:
-  # TODO: Define your networks here
+  frontend:
+    driver: bridge
+  backend:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  app_data:
