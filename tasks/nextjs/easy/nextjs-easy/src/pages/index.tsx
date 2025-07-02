@@ -3,14 +3,6 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
-      {
-          name:"One Piece TCG Pack",
-          price:4.99
-      },
-      {
-          name:"One Piece Bundle",
-          price:9.99
-      }
   ];
 
   return (
