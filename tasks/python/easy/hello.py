@@ -1,3 +1,6 @@
-# Python - Easy
+def hello_python():
+    print("Hello, Python!")
 
-# TODO: Write a function that prints "Hello, Python!" to the console
+# Test the function
+if __name__ == "__main__":
+    hello_python()
