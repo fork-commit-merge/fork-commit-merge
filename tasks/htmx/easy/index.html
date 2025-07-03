@@ -1,28 +1,29 @@
-<!-- HTMX - Easy -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fork, Commit, Merge - HTMX - Easy</title>
-    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTMX Alternative Structure</title>
+  <script src="https://unpkg.com/htmx.org@1.9.6"></script>
 </head>
 <body>
-    <h1>Fork, Commit, Merge - HTMX - Easy</h1>
+  <h1>HTMX Demo</h1>
 
-    <!-- TODO: Add your HTMX button here -->
+  <div>
+    <input type="button" value="Load Content" 
+           hx-get="/your-endpoint" 
+           hx-trigger="click" 
+           hx-target="#output">
+  </div>
 
-    <div id="result"></div>
+  <section id="output"></section>
 </body>
 </html>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const button = document.getElementById('click-me');
-        const result = document.getElementById('result');
 
-        button.addEventListener('click', function () {
-            result.innerText = 'Client-side action executed!';
-        });
+<script>
+  window.onload = () => {
+    document.querySelector('input').addEventListener('click', () => {
+      document.getElementById('output').textContent = 'required action executed!';
     });
+  };
 </script>
