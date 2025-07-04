@@ -1,26 +1,4 @@
 # YAML - Easy
 
 # TODO: Create a Basic YAML Configuration File
-app:
-  name: "My Application"
-  version: "1.0.0"
-  debug: false
-
-database:
-  host: "localhost"
-  port: 5432
-  name: "myapp_db"
-  user: "admin"
-  password: "secret123"
-
-server:
-  host: "0.0.0.0"
-  port: 8080
-  timeout: 30
-
-features:
-  - "authentication"
-  - "logging"
-  - "caching"
-  - "api"
 
