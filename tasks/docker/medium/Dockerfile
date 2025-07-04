@@ -9,7 +9,7 @@
 
 
 # ===== Build Stage =====
-FROM node:20-alpine AS builder      //Alpine base images used for smaller image size
+FROM node:20-alpine AS builder
 
 WORKDIR /app
 
