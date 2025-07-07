@@ -3,13 +3,7 @@
 What kind of change does this PR introduce?
 
 - [ ] Solved an issue/task
-- [ ] Bugfix
-- [ ] Feature
-- [ ] Code style update (formatting, local variables)
-- [ ] Refactoring (no functional changes, no api changes)
-- [ ] Build related changes
-- [ ] CI related changes
-- [ ] Documentation content changes
+- [ ] Suggest new feature/task for Fork, Commit, Merge
 - [ ] Other... Please describe:
 
 ## Issue Number
