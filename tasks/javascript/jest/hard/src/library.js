@@ -1,5 +1,3 @@
-// JavaScript - Hard
-
 class Library {
     constructor() {
         this.books = [];
@@ -36,11 +34,28 @@ class Library {
     }
 
     searchBooks(query) {
-        // TODO: Implement search functionality
+        const lowerQuery = String(query).toLowerCase();
+        return this.books.filter(book => {
+            return (
+                book.title.toLowerCase().includes(lowerQuery) ||
+                book.author.toLowerCase().includes(lowerQuery) ||
+                String(book.id) === lowerQuery
+            );
+        });
     }
 
     filterBooks(criteria) {
-        // TODO: Implement filter functionality
+        return this.books.filter(book => {
+            return Object.keys(criteria).every(key => {
+                if (key === 'id') {
+                    return book.id === criteria.id;
+                }
+                return (
+                    typeof book[key] === 'string' &&
+                    book[key].toLowerCase() === criteria[key].toLowerCase()
+                );
+            });
+        });
     }
 }
 
