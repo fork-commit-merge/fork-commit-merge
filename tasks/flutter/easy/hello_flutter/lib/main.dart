@@ -13,18 +13,7 @@ class ForkCommitMerge extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Fork Commit Merge'),
-        ),
-        body: const Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text('Welcome to Fork Commit Merge!'),
-              Text('First open source contribution.'),
-            ],
-          ),
-        ),
+          // TODO: Implement the appbar and body properties
       ),
     );
   }
