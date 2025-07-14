@@ -1,5 +1,3 @@
-def main():
-    print("Hello, Python!")
+# Python - Easy
 
-if __name__ == "__main__":
-    main()
+# TODO: Write a function that prints "Hello, Python!" to the console
