@@ -4,127 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <title>Product Landing Page</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        header {
+            background-color: #f4f6f8;
+            padding: 80px 20px 60px;
+            text-align: center;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        footer {
+            background-color: #1e2a38;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #a3b9cc;
+        }
+        .btn-primary {
+            background-color: #004080;
+            border-color: #004080;
+        }
+        .btn-success {
+            background-color: #006d5b;
+            border-color: #006d5b;
+        }
+        .card-header {
+            background-color: #dee6ee;
+            font-weight: 600;
+        }
+        .card {
+            box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: #333;
+        }
+    </style>
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Logo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="" id="navbarNav">
-            <ul class="">
-                <li class="">
-                    <a class="" href="#home">Home</a>
-                </li>
-                <li class="">
-                    <a class="" href="#features">Features</a>
-                </li>
-                <li class="">
-                    <a class="" href="#pricing">Pricing</a>
-                </li>
-                <li class="">
-                    <a class="" href="#contact">Contact</a>
-                </li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
-            <a class="" href="#">Get Started</a>
+            <a class="btn btn-primary" href="#">Get Started</a>
         </div>
     </nav>
 
-    <!-- Header Section -->
-    <header class="" id="home">
-        <h1 class="">Our Amazing Product</h1>
-        <p class="">Learn how our product can enhance your life.</p>
-        <a class="" href="#features">Learn More</a>
+    <header id="home" class="mt-5 pt-5">
+        <h1 class="display-4">Our Amazing Product</h1>
+        <p class="lead">Learn how our product can enhance your life.</p>
+        <a class="btn btn-success mt-3" href="#features">Learn More</a>
     </header>
 
-    <!-- Features Section -->
-    <section class="" id="features">
-        <div class="">
-            <div class="">
-                <i class=""></i>
-                <h3 class="">Feature One</h3>
-                <p>Description here</p>
-            </div>
-            <div class="">
-                <i class=""></i>
-                <h3 class="">Feature Two</h3>
-                <p>Description here</p>
-            </div>
-            <div class="">
-                <i class=""></i>
-                <h3 class="">Feature Three</h3>
-                <p>Description here</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="" id="pricing">
-        <div class="">
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <h5 class="">Basic</h5>
-                        <h6 class="">$10 / month</h6>
-                        <p class="">Basic access to all features.</p>
-                        <a href="#" class="">Choose Plan</a>
-                    </div>
+    <section id="features" class="pb-0">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-star fa-2x mb-3 text-primary"></i>
+                    <h3 class="h5">Feature One</h3>
+                    <p class="mb-0">Description here</p>
                 </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <h5 class="">Pro</h5>
-                        <h6 class="">$25 / month</h6>
-                        <p class="">Pro access with additional benefits.</p>
-                        <a href="#" class="">Choose Plan</a>
-                    </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-cog fa-2x mb-3 text-primary"></i>
+                    <h3 class="h5">Feature Two</h3>
+                    <p class="mb-0">Description here</p>
                 </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <h5 class="">Enterprise</h5>
-                        <h6 class="">$50 / month</h6>
-                        <p class="">Full access to all features.</p>
-                        <a href="#" class="">Choose Plan</a>
-                    </div>
+                <div class="col-md-4 mb-4">
+                    <i class="fas fa-rocket fa-2x mb-3 text-primary"></i>
+                    <h3 class="h5">Feature Three</h3>
+                    <p class="mb-0">Description here</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Form -->
-    <section class="" id="contact">
-        <form>
-            <div class="">
-                <label for="name">Name</label>
-                <input type="text" class="" id="name" placeholder="Enter your name">
+    <section id="pricing" class="pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header">Basic</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$10 / month</h5>
+                            <p class="card-text">Basic access to all features.</p>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header">Pro</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$25 / month</h5>
+                            <p class="card-text">Pro access with additional benefits.</p>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center h-100">
+                        <div class="card-header">Enterprise</div>
+                        <div class="card-body">
+                            <h5 class="card-title">$50 / month</h5>
+                            <p class="card-text">Full access to all features.</p>
+                            <a href="#" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="">
-                <label for="email">Email address</label>
-                <input type="email" class="" id="email" placeholder="Enter your email">
-            </div>
-            <div class="">
-                <label for="message">Message</label>
-                <textarea class="" id="message" rows="3" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" class="">Submit</button>
-        </form>
+        </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="">
-        <p>&copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
+    <section id="contact">
+        <div class="container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p class="mb-1">&copy; 2023 Fork, Commit, Merge. All rights reserved.</p>
         <div>
-            <a href="#" class="">Terms & Conditions</a> |
-            <a href="#" class="">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">Privacy Policy</a>
         </div>
     </footer>
 
-    <!-- Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/js/all.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
