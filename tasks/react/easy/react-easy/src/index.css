@@ -21,3 +21,32 @@
   margin-bottom: 16px;
 }
 
+.todo {
+  max-width: 400px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.todo input {
+  padding: 0.5rem;
+  width: 70%;
+  margin-right: 0.5rem;
+}
+
+.todo button {
+  padding: 0.5rem;
+}
+
+.todo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  background: #f9f9f9;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
