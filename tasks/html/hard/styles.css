@@ -42,14 +42,11 @@ section {
 
 .content-wrapper {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 40px;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
+    align-items: center;
+    padding-left: 400px;
+    padding-right: 400px;
 }
+
 .text {
     flex: 1;
     padding-right: 20px;
@@ -81,17 +78,12 @@ button {
     margin-bottom: 10px;
 }
 
-textarea{
-    height: 70px;
-}
-
 button {
     padding: 10px;
     background: #333;
     color: white;
     border: none;
     cursor: pointer;
-
 }
 
 footer {
