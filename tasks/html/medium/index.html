@@ -5,10 +5,23 @@
     <head>
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
+    <style>
+        textarea {
+  max-height: 130px;
+  max-width: 500px;
+}
+    </style>
     <body>
         <div class="container">
             <h1>Contact Form</h1>
-            <!-- TODO: Implement the contact form here -->
+            <form action="form.php">
+                <input type="text" placeholder="Name"><br>
+                <input type="text" placeholder="E-Mail"><br>
+<textarea name="textarea" rows="5" cols="30" minlength="10" maxlength="20">
+Write something here…
+</textarea>
+
+            </form>
         </div>
     </body>
 </html>
