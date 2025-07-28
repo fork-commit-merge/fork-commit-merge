@@ -1,3 +1,1 @@
-// Docker - Easy
-
-console.log("Hello, Docker!");
+console.log('this is Node.js running inside Docker');
