@@ -2,7 +2,6 @@
 
 //! Don't mmodify this file!
 
-
 #include "mystring.h"
 #include <iostream>
 
