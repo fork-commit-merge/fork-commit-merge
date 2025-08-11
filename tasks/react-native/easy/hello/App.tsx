@@ -3,9 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 const App: React.FC = () => {
   return (
-
-    <Text>Hello, React Native!</Text>
-
+    // TODO: Create a text component with the text "Hello, React Native!"
   );
 };
 
