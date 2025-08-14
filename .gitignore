@@ -8,12 +8,6 @@
 .idea/
 *.iml
 
-# VS Code settings (already included)
-.vscode/
-
-# macOS metadata
-.DS_Store
-
 # Clojure tooling
 .clj-kondo/
 .lsp/
