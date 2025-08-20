@@ -1,26 +1,4 @@
 # YAML - Easy
 
 # TODO: Create a Basic YAML Configuration File
-# Application Configuration
-
-app:
-  name: MyApp
-  version: 1.0.0
-  debug: true
-
-server:
-  host: localhost
-  port: 8080
-
-database:
-  type: mysql
-  host: 127.0.0.1
-  port: 3306
-  username: root
-  password: secret123
-  name: myapp_db
-
-logging:
-  level: info
-  file: logs/app.log
 
