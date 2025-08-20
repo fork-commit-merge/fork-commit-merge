@@ -1,13 +1,4 @@
 # YAML - Easy
 
 # TODO: Create a Basic YAML Configuration File
-application:
-  name: MyAwesomeApp 
-  version: 1.0.2
-  host: localhost
-  port: 8080 
 
-database:
-  name: my_database
-  username: db_user
-  password: db_password
