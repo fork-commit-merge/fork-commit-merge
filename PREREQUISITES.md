@@ -33,6 +33,7 @@ This document contains installation instructions for various programming languag
 - For F# related issues, you need to install [F# (Dotnet-SDK)](#installing-f-dotnet-sdk).
 - For Ada related issues, you need to install [Ada](#installing-ada).
 - For Java related issues, you need to install [Java](#installing-java).
+- For Spring Boot related issues, you need to install [Java](#installing-java) and [Maven](#installing-maven).
 - For Kotlin related issues, you need to install [Kotlin](#installing-kotlin) and [Java](#installing-java).
 - For Scala related issues, you need to install [Scala](#installing-scala).
 - For Groovy related issues, you need to install [Java](#installing-java) and [Groovy](#installing-groovy).
@@ -453,6 +454,18 @@ Install Java Extensions for VS Code:
 Configure Java in VS Code:
 
 - VS Code should automatically detect the JDK you installed. If not, you can set the `java.home` setting in VS Code to point to your JDK location.
+
+---
+
+### Installing Maven
+
+Install Maven:
+
+- Windows/Mac/Linux: You can download the Maven from [Apache's official website](https://maven.apache.org/download.cgi) or opt for OpenJDK.
+
+Install Maven Extensions for VS Code:
+
+- Open VS Code, go to the Extensions view by clicking on the square icon on the sidebar or pressing Ctrl+Shift+X. Search for "Maven for Java" by Microsoft and install it. This extension provides Maven support in VS Code.
 
 ---
 
