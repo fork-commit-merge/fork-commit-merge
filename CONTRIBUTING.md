@@ -16,12 +16,9 @@ This project, along with everyone involved, adheres to the [Code of Conduct](COD
 
 You can start by solving a task from the [Tasks](README.md#tasks) section. You can find instructions for installing the required tools for each task in [Prerequisites](README.md#prerequisites).
 
-### Suggesting Enhancements
+### Suggesting Enhancements and New Tasks
 
-This section guides you through submitting an enhancement suggestion for this project, which can range from entirely new features to minor improvements in existing functionality. These guidelines help maintainers and the community grasp your suggestion and make decisions regarding its implementation.
-
-- Use a clear and descriptive title for the issue to identify the suggestion.
-- Furnish a step-by-step description of the suggested enhancement, including as many details as possible.
+You can suggest enhancements and new tasks by creating an issue in this repository. You can also suggest new tasks by designing them by creating new directories and files in the `tasks` folder and creating a pull request. It can be about existing programming languages, libraries, frameworks, or even new programming languages. If the task seems good, we will add it to the Issues section and add you as a creator of the task.
 
 ## Pull Request Process
 
