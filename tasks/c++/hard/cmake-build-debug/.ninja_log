@@ -1,0 +1,5 @@
+# ninja log v6
+1	532	1755887632572653472	CMakeFiles/Issue2.dir/mystring.cpp.o	849a0487aadef2a6
+3	535	1755887669310842185	CMakeFiles/Issue2.dir/main.cpp.o	bd85ffdb8d6ad86e
+3	535	1755887669311380119	CMakeFiles/Issue2.dir/mystring.cpp.o	849a0487aadef2a6
+535	663	1755887669843012523	Issue2	cb73c1f387bac1f4
