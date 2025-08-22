@@ -5,5 +5,8 @@
 
 class FileHandler {
 public:
-    // TODO: Implement the FileHandler class
+    static std::string ReadFile(std::string filepath);
+    static bool WriteFile(std::string filepath, std::string content);
+    static bool AppendFile(std::string filepath, std::string content);
+    static bool FileExists(std::string filepath);
 };
