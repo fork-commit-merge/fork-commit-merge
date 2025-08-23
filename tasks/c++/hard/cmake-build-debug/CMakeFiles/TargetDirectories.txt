@@ -1,3 +1,0 @@
-/Users/roma/fork-commit-merge/tasks/c++/hard/cmake-build-debug/CMakeFiles/Issue2.dir
-/Users/roma/fork-commit-merge/tasks/c++/hard/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/roma/fork-commit-merge/tasks/c++/hard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
