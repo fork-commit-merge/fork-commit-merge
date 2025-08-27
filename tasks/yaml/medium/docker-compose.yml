@@ -4,24 +4,6 @@ version: '3'
 
 services:
   # TODO: Define your services here
-  web:
-    image: nginx:latest
-    container_name: web-server
-    ports:
-      - "8080:80"
-    networks:
-      - app_network
 
-  db:
-    image: postgres:latest
-    container_name: database-server
-    environment:
-      POSTGRES_DB: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-    networks:
-      - app_network
 networks:
   # TODO: Define your networks here
-  app_network:
-    driver: bridge
