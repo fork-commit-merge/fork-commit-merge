@@ -1,8 +1,25 @@
 // NextJS - Easy
 
+type sampleProducts = {
+      price: number,
+      name: string
+  }[]
+
 export default function Home() {
-  const sampleProducts = [
+  const sampleProducts : sampleProducts = [
     // TODO: Create a sample product list with names and prices
+    {
+        price : 30,
+        name : "Camiseta blanca"
+    },
+    {
+        price : 40,
+        name : "Camiseta negra"
+    },
+    {
+        price : 50,
+        name : "Camiseta azul"
+    }
   ];
 
   return (
