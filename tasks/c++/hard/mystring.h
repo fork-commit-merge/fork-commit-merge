@@ -7,11 +7,11 @@
 class MyString
 {
    private:
-    std::unique_ptr<const char> content;
+    std::unique_ptr<char[]> content;
     size_t len;
 
    public:
-    MyString();
+    MyString() = default;
 
     MyString(const char* s);
 
@@ -32,6 +32,8 @@ class MyString
     bool operator==(const MyString& other) const;
 
     friend std::ostream& operator<<(std::ostream& os, const MyString& s);
+
+    MyString substring(int start, int end);
 };
 
 #endif
