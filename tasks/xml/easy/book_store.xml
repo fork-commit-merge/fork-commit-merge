@@ -1,24 +1,3 @@
 <!-- XML - Easy -->
 
 <!-- TODO: Create an XML Representation of a Bookstore -->
-<?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
-    <book>
-        <title>The Hitchhiker's Guide to the Galaxy</title>
-        <author>Douglas Adams</author>
-        <year>1979</year>
-        <price>12.99</price>
-    </book>
-    <book>
-        <title>1984</title>
-        <author>George Orwell</author>
-        <year>1949</year>
-        <price>9.99</price>
-    </book>
-    <book>
-        <title>To Kill a Mockingbird</title>
-        <author>Harper Lee</author>
-        <year>1960</year>
-        <price>14.50</price>
-    </book>
-</bookstore>
