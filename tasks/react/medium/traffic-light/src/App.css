@@ -33,34 +33,3 @@
   justify-content: center;
   gap: 20px;
 }
-
-.traffic-light {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: black;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100px;
-}
-
-.circle {
-  width: 60px;
-  height: 60px;
-  margin: 10px 0;
-  border-radius: 50%;
-  background: gray; /* default off */
-  transition: background 0.3s;
-}
-
-.circle.red {
-  background: red;
-}
-
-.circle.yellow {
-  background: yellow;
-}
-
-.circle.green {
-  background: green;
-}
