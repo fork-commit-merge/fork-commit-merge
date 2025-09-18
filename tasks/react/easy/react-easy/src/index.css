@@ -11,13 +11,12 @@
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 16px;
-  width: 300px;
+  width: 400px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-  width: 100%;
+  width: 90%;
   border-radius: 8px;
   margin-bottom: 16px;
 }
-
