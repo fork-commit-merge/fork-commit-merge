@@ -11,29 +11,6 @@ _Note: You don't need to seek permission to tackle an issue or get assigned. The
 This project, along with everyone involved, adheres to the [Code of Conduct](CODE_OF_CONDUCT.md). When participating, you are expected to uphold this code. If you encounter inappropriate behavior, please report it to [niko.hoffren@gmail.com](mailto:niko.hoffren@gmail.com).
 
 ## How Can I Contribute?
-There are several ways you can contribute to this project:
-
-1. **Solve Tasks:**
-	- Browse the [Tasks](README.md#tasks) section and pick any open task.
-	- Follow the instructions in the task file and submit your solution.
-	- No need to ask for permission—just start working and submit a pull request when ready.
-
-2. **Suggest Enhancements or New Tasks:**
-	- Create an issue describing your idea or enhancement.
-	- You can also propose new tasks by adding files/directories in the `tasks` folder and opening a pull request.
-	- If your suggestion is accepted, you’ll be credited as the creator of the task.
-
-3. **Improve Documentation:**
-	- Help us improve guides like the README, PREREQUISITES, or this CONTRIBUTING file.
-	- Fix typos, clarify instructions, or add helpful examples.
-
-4. **Report Bugs or Issues:**
-	- If you find a bug, open an issue with details and steps to reproduce.
-	- You can also suggest fixes or improvements directly via pull requests.
-
-5. **Review Pull Requests:**
-	- Provide feedback on open pull requests to help maintain code quality and clarity.
-
 
 ### Solving Issues
 
