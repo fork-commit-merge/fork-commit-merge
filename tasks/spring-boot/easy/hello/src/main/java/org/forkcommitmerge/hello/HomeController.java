@@ -1,14 +1,9 @@
 package org.forkcommitmerge.hello;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.RequestMapping;
-
 
 @Controller
 public class HomeController {
-
-    private static final String MESSAGE_HOME = "Hello, Spring Boot";
 
     /*
      * TASK: Create a GET mapping for the index page ("/")
@@ -22,9 +17,4 @@ public class HomeController {
      * with the expression: th:text="${message}"
      */
 
-    @RequestMapping("/")
-    public String sayHello(Model model) {
-        model.addAttribute("message", MESSAGE_HOME); 
-        return "index";
-    }
 }
