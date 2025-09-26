@@ -14,27 +14,25 @@ function App() {
     setItem({title, desc})
   },[title, desc])
   return (
-    <div className="App">
+    <div className="App card">
       <h1>To-Do List</h1>
       {/* TODO: Add the To-Do list here */}
       <div className="box">
-        <form className="f">
-          <input type='text' className="pclass" placeholder='Enter Title' value={title} onChange={(e)=>{
-            setTitle(e.target.value)
-          }}/>
-          <input type='text' className="pclass" placeholder='Enter The Description' value={desc} onChange={(e)=>{
-            setDesc(e.target.value)
-          }}/>
-          <button type='button' className="but" onClick={(e)=>{
-            setTitle('')
-            setDesc('')
-            setItem({})
-            setArr([...arr,item])
-            console.log(arr)
-          }}>Add</button>
-        </form>        
+        <input type='text' className="pclass" placeholder='Enter Title' value={title} onChange={(e)=>{
+          setTitle(e.target.value)
+        }}/>
+        <input type='text' className="pclass" placeholder='Enter The Description' value={desc} onChange={(e)=>{
+          setDesc(e.target.value)
+        }}/>
+        <button type='button' className="but" onClick={(e)=>{
+          setTitle('')
+          setDesc('')
+          setItem({})
+          setArr([...arr,item])
+          console.log(arr)
+        }}>Add</button>      
       </div>
-      <div className="boxf">
+      <div className="onlyflex">
         {
           arr.map((mal)=>{
             return(
