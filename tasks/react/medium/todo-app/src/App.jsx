@@ -1,6 +1,7 @@
 // React - Medium
 import { useState , useEffect} from "react";
 import "./App.css";
+import Items from "./Components/Items";
 
 function App() {
   // TODO: Add the necessary functionality such as hooks here
@@ -33,7 +34,15 @@ function App() {
           }}>Add</button>
         </form>        
       </div>
-      
+      <div className="box">
+        {
+          arr.map((mal)=>{
+            return(
+              <Items title={mal.title} desc={mal.desc}/>
+            )
+          })
+        }
+      </div>      
     </div>
   );
 }
