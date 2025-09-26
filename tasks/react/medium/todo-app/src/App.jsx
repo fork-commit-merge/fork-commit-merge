@@ -29,14 +29,13 @@ function App() {
           setDesc('')
           setItem({})
           setArr([...arr,item])
-          console.log(arr)
         }}>Add</button>      
       </div>
       <div className="onlyflex">
         {
-          arr.map((mal)=>{
+          arr.map((mal, ind)=>{
             return(
-              <Items title={mal.title} desc={mal.desc}/>
+              <Items val={ind} title={mal.title} desc={mal.desc} arr={arr} setArr={setArr}/>
             )
           })
         }

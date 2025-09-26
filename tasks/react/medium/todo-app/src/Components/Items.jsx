@@ -1,4 +1,4 @@
-function  Items({title, desc}){
+function  Items({val, title, desc, arr, setArr}){
     return(
         <>
         <div>
@@ -6,8 +6,10 @@ function  Items({title, desc}){
                 <h3>{title}</h3>
                 <p>{desc}</p>
             </div>
-            <button className='but'>Edit</button>
-            <button className='but'>Delete</button>
+            <button type='button' className='but' onClick={()=>{
+                setArr(prev=>[...prev.slice(0,val),...prev.slice(val+1)])
+            }}>Delete</button>
+            <button type='button' className='but' >Edit</button>
         </div>
         </>
     )
