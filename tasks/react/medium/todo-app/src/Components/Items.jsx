@@ -1,8 +1,8 @@
 function  Items({title, desc}){
     return(
         <>
-        <div>
-            <p>{title}</p>
+        <div className="boxingitem">
+            <h3>{title}</h3>
             <p>{desc}</p>
         </div>
         </>

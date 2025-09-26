@@ -34,7 +34,7 @@ function App() {
           }}>Add</button>
         </form>        
       </div>
-      <div className="box">
+      <div className="boxf">
         {
           arr.map((mal)=>{
             return(
