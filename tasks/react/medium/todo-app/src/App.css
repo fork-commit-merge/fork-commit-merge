@@ -42,3 +42,12 @@
 .read-the-docs {
   color: #888;
 }
+
+.box{
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+  height: 100px;
+  width: auto;
+  background-color: rgb(255, 227, 243);
+}
