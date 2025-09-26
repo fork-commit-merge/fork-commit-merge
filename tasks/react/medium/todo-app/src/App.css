@@ -44,10 +44,27 @@
 }
 
 .box{
+  padding:10px;
+  height: auto;
+  width: auto;
+  background-color: rgb(86, 103, 127);
+  border: none;
+  border-radius: 10px;
+}
+
+.f{
   display: flex;
   flex-direction: column;
-  padding:10px;
-  height: 100px;
-  width: auto;
-  background-color: rgb(255, 227, 243);
+}
+
+.pclass{
+  margin: 5px;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.but{
+  margin: 5px;
+  background-color: rgb(255, 143, 143);
 }
