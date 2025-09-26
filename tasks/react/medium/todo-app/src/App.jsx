@@ -10,8 +10,8 @@ function App() {
   const [item, setItem]=useState({})
 
   useEffect(()=>{
-    
-  },[])
+    setItem({title, desc})
+  },[title, desc])
   return (
     <div className="App">
       <h1>To-Do List</h1>
@@ -25,7 +25,11 @@ function App() {
             setDesc(e.target.value)
           }}/>
           <button type='button' className="but" onClick={(e)=>{
-            setItem({title, desc})
+            setTitle('')
+            setDesc('')
+            setItem({})
+            setArr([...arr,item])
+            console.log(arr)
           }}>Add</button>
         </form>        
       </div>
