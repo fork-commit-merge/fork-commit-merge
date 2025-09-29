@@ -13,11 +13,14 @@ body {
 
 
 @keyframes scaleUpDown {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scaleY(1) scaleX(1);
   }
 
-  50%, 90% {
+  50%,
+  90% {
     transform: scaleY(1.1);
   }
 
@@ -35,7 +38,8 @@ body {
 
 @keyframes shake {
 
-  0%, 100% {
+  0%,
+  100% {
     transform: skewX(0) scale(1);
   }
 
@@ -81,7 +85,8 @@ body {
 
 @keyframes glow {
 
-  0%, 100% {
+  0%,
+  100% {
 
     background-color: #ef5a00;
 
@@ -193,13 +198,33 @@ body {
 
 .fire-right .main-fire {
   /* TODO: Add the necessary styles here */
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-image: radical-gradient(farthest-corner at 10px 0. #d43300 0%, #ef5a00 95%);
+  transform: scalex(0.6)rotate (45deg) translateX(10%);
+  border-radius: 0 40% 60% 40%;
+  filter: drop-shadow(0 0 8px #d43322);
+  top: 10%;
+  left: 10%;
+
 }
 
 
 
 .fire-right .particle-fire {
   /* TODO: Add the necessary styles here */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 8px;
+  background-color: #ef5a00;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px #d43322);
+  animation: particleUP 1.5s ease-out 0.5s;
+  animation-fill-mode: both;
 }
+
 
 .fire-left {
 
@@ -221,12 +246,33 @@ body {
 
 .fire-left .main-fire {
   /* TODO: Add the necessary styles here */
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-image: radiial_gradient(farthest-corner at, #d43300 0%, #ef5a00 95%);
+  transform: scaleX(0.6) rotate(45deg) translateX(-10%);
+  border-radius: 0 40% 60% 40%;
+  filter: drop-shadow(0 0 8px #d43322);
+  top: 10%;
+  left: 10%;
+
 }
 
 
 
 .fire-left .particle-fire {
   /* TODO: Add the necessary styles here */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: n8px;
+  height: 8px;
+  background-color: #ef5a00;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 8px #d43322);
+  animation: particleUp 2s ease-out ls;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
 }
 
 .fire-bottom .main-fire {
