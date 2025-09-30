@@ -6,3 +6,15 @@ void main() {
 
 // TODO: Implement a function called 'calculateMean' that takes a list of integers as input and returns the mean as a double.
 
+//Function to calculate the mean of a list of integer
+double calculateMean(List<int> numbers) {
+  if (numbers.isEmpty) {
+    return 0.0; //Avoid division by zero
+  }
+
+  int sum = 0;
+  for (int num in numbers) {
+    sum += num;
+  }
+  return sum / numbers.length;
+}
