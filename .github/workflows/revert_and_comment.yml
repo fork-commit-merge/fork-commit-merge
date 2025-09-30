@@ -56,15 +56,15 @@ jobs:
 
           > This is an automated message from Fork, Commit, Merge [BOT].
 
-          Thank you for your contribution! Your pull request has been merged. The files have been reset for the next contributor.
+          Thank you for your contribution! Your Pull Request has been merged, and the files have been reset for the next contributor.
 
           ### What's next?
 
-          If you're looking for more ways to contribute, I invite you to check out our [forkcommitmerge.dev](https://github.com/fork-commit-merge/fork-commit-merge-web) website repository. The repository contain real issues that you can help to resolve or create some of your own if you see any bugs or want to add new features to the site, etc. You can also check out the [Influences](https://github.com/fork-commit-merge/fork-commit-merge#influences) section in the README to find more projects similar to this one.
+          If you're looking for more ways to contribute, we invite you to check out our [forkcommitmerge.dev](https://github.com/fork-commit-merge/fork-commit-merge-web) website repository. The repository contains real issues you can help resolve, or you can create some of your own if you notice any bugs or want to suggest new features. You can also check out the [Influences](https://github.com/fork-commit-merge/fork-commit-merge#influences) section in the README to find more projects similar to this one.
 
-          Also please leave a star to this project if you feel it helped you, i would really appreciate it.
+          Also please leave a star to this project if you found it helpful.
 
-          I look forward to seeing your contributions!"
+          We look forward to seeing your contributions!"
 
   add-contributor-to-readme:
     needs: auto-revert
