@@ -6,23 +6,16 @@ VARIABLES count
 
 MaxCount == 100
 
+Init == \* TODO: Implement the Init operator
 
-Init ==
-    count = 0
+Increment ==
+  \* TODO: Implement the Increment operator
 
+Decrement ==
+  \* TODO: Implement the Decrement operator
 
-  Increment ==
-    count' = count + 1
+Next == \* TODO: Implement the Next operator
 
-
-  Decrement ==
-    /\ count > 0
-    /\ count' = count - 1
-
-Next ==
-    Increment \/ Decrement
-
-Spec ==
-    Init /\ [][Next]_count
+Spec == \* TODO: Implement the Spec operator
 
 =============================================================================
