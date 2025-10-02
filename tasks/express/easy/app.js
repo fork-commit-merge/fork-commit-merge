@@ -6,5 +6,10 @@ const app = express();
 const port = 6969;
 
 // TODO: Implement `get` method for / route
-
+app.get("/", (req, res) => {
+    res.send("Hello, EXpressJS")
+});
 // TODO: Implement `listen` method
+app.listen(port, () => {
+    console.log(`server is running on http://localhost:${port}`);
+});
