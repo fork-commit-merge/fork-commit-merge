@@ -3,6 +3,18 @@
     "JSON": "Easy"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation""project": "fork-commit-merge",
+    "task": "JSON Data Implementation",
+    "difficulty": "Easy",
+    "requirements": [
+      "Create Valid JSON structure",
+      "Include required fields",
+      "Follow JSON syntax rules"
+    ],
+    "author": {
+      "name": "Kubanja Elijah Eldred",
+      "username": "eldre16"
+    },
+    "completed": false
   }
 ]
