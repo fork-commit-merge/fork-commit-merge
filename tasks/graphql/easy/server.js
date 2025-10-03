@@ -11,7 +11,6 @@ const typeDefs = gql`
 
 const resolvers = {
     // TODO: Implement the `hello` query resolver here
-
 };
 
 const startServer = async () => {
