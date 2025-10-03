@@ -1,6 +1,31 @@
 # CoffeeScript - Medium
 
 # TODO: Create functions for addition, subtraction, multiplication, and division. Each function should take two arguments and return the result.
+# Validate inputs
+validate = (a, b) ->
+  if typeof a isnt 'number' or typeof b isnt 'number'
+    throw new Error("Both arguments must be numbers")
+
+# Addition
+add = (a, b) ->
+  validate(a, b)
+  a + b
+
+# Subtraction
+subtract = (a, b) ->
+  validate(a, b)
+  a - b
+
+# Multiplication
+multiply = (a, b) ->
+  validate(a, b)
+  a * b
+
+# Division
+divide = (a, b) ->
+  validate(a, b)
+  throw new Error("Cannot divide by zero") if b == 0
+  a / b
 
 #! Don't modify or remove the tests below!
 try
