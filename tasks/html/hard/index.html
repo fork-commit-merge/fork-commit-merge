@@ -2,31 +2,68 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
-        </nav>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+</head>
+<body>
+<nav id="navbar">
+    <!-- TODO: Implement the navigation bar -->
+    <ul id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+<section id="about">
+    <!-- TODO: Implement the about section -->
+    <div class="container">
+        <h2>About</h2>
+        I created this website to contribute to the fork-commit-merge repository.
+        It uses HTML and CSS, the two most modern languages for modern static website
+        development.
+    </div>
+    <img src="https://picsum.photos/320/240" alt="Random image"/>
+</section>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
+<section id="services">
+    <!-- TODO: Implement the services section -->
+    <div class="container">
+        <h2>Services</h2>
+        Some services include: The fork-commit-merge repository is made for aspiring
+        developers to learn how to build software at a large scale and contribute to
+        open-source projects. It has close to 9,000 commits and has been shown to be
+        extremely useful for software developers.
+    </div>
+    <img src="https://picsum.photos/320/240" alt="Random image"/>
+</section>
 
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
+<section id="contact">
+    <!-- TODO: Implement the contact section  -->
+    <h2>Contact Us</h2>
 
-        <footer>
-            <!-- TODO: Implement the footer -->
-        </footer>
-    </body>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" required><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+    <button type="submit">Send</button>
+</section>
+
+<footer>
+    <!-- TODO: Implement the footer -->
+    <ul id="footmenu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</footer>
+</body>
 </html>
