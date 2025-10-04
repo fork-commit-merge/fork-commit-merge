@@ -2,19 +2,28 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fork, Commit, Merge - HTMX - Easy</title>
     <script src="https://unpkg.com/htmx.org@1.9.6"></script>
 </head>
+
 <body>
     <h1>Fork, Commit, Merge - HTMX - Easy</h1>
 
     <!-- TODO: Add your HTMX button here -->
+    <button hx-get="/snippet" hx-target="#result" hx-swap="innerHTML">
+        HTMX Button
+    </button>
+
+    <!-- Plan JS button -->
+    <button id="click-me">JS Button</button>
 
     <div id="result"></div>
 </body>
+
 </html>
 <script>
     document.addEventListener('DOMContentLoaded', function () {
