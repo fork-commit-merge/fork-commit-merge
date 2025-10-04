@@ -4,31 +4,9 @@ package tasks.java.medium;
 
 public class Calculator {
     // TODO: Implement the Calculator class
-    public int add(int a, int b) {
-        return a + b;
-
-    }
-
-    public int subtract(int a, int b) {
-        return a - b;
-
-    }
-
-    public int multiply(int a, int b) {
-        return a * b;
-
-    }
-
-    public double division(int a, int b) {
-        if (b == 0) {
-            throw new ArithmeticException("Division by zero is not allowed.");
-        }
-        return (double) a / b;
-
-    }
 
     public static void main(String[] args) {
-        // ! Don't change the tests in the main method!
+        //! Don't change the tests in the main method!
         Calculator calc = new Calculator();
 
         System.out.println("Addition: " + calc.add(5, 3));
