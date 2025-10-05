@@ -1,3 +1,128 @@
 /* CSS - Hard */
 
 /* TODO: Add CSS for the card */
+
+/* CSS - Hard
+   3D rotating card effect
+   - front color: #ff9f00
+   - back color:  #4caf50
+*/
+
+/* Layout + center the demo on the page */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: #f6f8fb;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* Container gives the 3D perspective */
+.card-container {
+    perspective: 1200px;
+    /* depth of 3D */
+    -webkit-perspective: 1200px;
+    display: inline-block;
+    padding: 1rem;
+}
+
+/* The card itself: establishes size and the 3D-preserved inner */
+.card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transition: transform 600ms cubic-bezier(.2, .9, .3, 1);
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(.2, .9, .3, 1);
+    /* border-radius: 12px; */
+    box-shadow: 0 10px 30px rgba(15, 20, 30, 0.12);
+    cursor: pointer;
+    overflow: visible;
+}
+
+/* Flip on hover or when any descendant receives keyboard focus */
+.card-container:hover .card,
+.card:focus-within {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+/* Face common styles */
+.card-front,
+.card-back {
+    position: absolute;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    /* border-radius: 12px; */
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.25rem;
+    user-select: none;
+    padding: 1rem;
+}
+
+/* Front face (visible initially) */
+.card-front {
+    background: #ff9f00;
+    /* required front color */
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+}
+
+/* Back face (rotated so it becomes visible after flip) */
+.card-back {
+    background: #4caf50;
+    /* required back color */
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+}
+
+/* Optional subtle lift + stronger shadow when hovered to enhance depth */
+.card-container:hover .card {
+    box-shadow: 0 20px 45px rgba(15, 20, 30, 0.18);
+    transform: rotateY(180deg) translateZ(2px);
+    -webkit-transform: rotateY(180deg) translateZ(2px);
+}
+
+/* Make card keyboard accessible: allow tab focus inside and visible focus ring */
+.card:focus-within {
+    outline: 3px solid rgba(0, 0, 0, 0.06);
+    outline-offset: 6px;
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+
+    .card,
+    .card-container:hover .card {
+        transition: none !important;
+        transform: none !important;
+        -webkit-transform: none !important;
+    }
+}
+
+/* Responsive tweak for very small screens */
+@media (max-width: 360px) {
+    .card {
+        width: 260px;
+        height: 360px;
+    }
+
+    .card-front,
+    .card-back {
+        font-size: 1rem;
+    }
+}
