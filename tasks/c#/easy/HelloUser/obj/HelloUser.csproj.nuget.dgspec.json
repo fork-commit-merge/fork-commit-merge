@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MEDISOFT\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj": {}
+    "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MEDISOFT\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj": {
+    "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MEDISOFT\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
+        "projectUniqueName": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
         "projectName": "HelloUser",
-        "projectPath": "C:\\Users\\MEDISOFT\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
-        "packagesPath": "C:\\Users\\MEDISOFT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MEDISOFT\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\obj\\",
+        "projectPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+        "packagesPath": "/home/nikohoffren/.nuget/packages/",
+        "outputPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MEDISOFT\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/nikohoffren/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,13 +32,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -57,19 +51,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[7.0.10, 7.0.10]"
             }
           ],
           "frameworkReferences": {
@@ -77,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
         }
       }
     }
