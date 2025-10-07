@@ -4,12 +4,48 @@
 \usepackage{amsmath}
 
 \title{Typesetting Mathematics in LaTeX}
-\author{Your Name}
+\author{DEMAGA LAWRENCE}
 \date{\today}
 
 \begin{document}
 \maketitle
 
 % TODO: Add your content here
+\section*{Fractions}
+To typeset fractions in \LaTeX, we use the \verb|\frac{}{}| command.
+
+For example, the equation:
+\[
+\frac{a}{b} + \frac{c}{d} = \frac{ad + bc}{bd}
+\]
+Here, \(a, b, c, d\) are variables, and the expression demonstrates the addition of two fractions with denominators \(b\) and \(d\).
+
+\section*{Integrals}
+Integrals are typeset using the \verb|\int| command. For example:
+\[
+\int_{a}^{b} f(x)\,dx
+\]
+In this equation:
+\begin{itemize}
+    \item \(a\) is the \textbf{lower limit of integration}.
+    \item \(b\) is the \textbf{upper limit of integration}.
+    \item \(f(x)\) is the \textbf{integrand}, and \(dx\) represents the variable of integration.
+\end{itemize}
+
+\section*{Matrices}
+Matrices can be written using the \verb|bmatrix| environment:
+\[
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+\]
+In this \(2 \times 2\) matrix:
+\begin{itemize}
+    \item \(a\) is the element in the first row, first column.
+    \item \(b\) is the element in the first row, second column.
+    \item \(c\) is the element in the second row, first column.
+    \item \(d\) is the element in the second row, second column.
+\end{itemize}
 
 \end{document}
