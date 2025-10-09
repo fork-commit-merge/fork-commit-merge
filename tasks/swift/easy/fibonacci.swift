@@ -4,11 +4,6 @@ import Foundation
 
 func fibonacci(n: Int) -> Int {
     // TODO: Implement the fibonacci sequence function
-    if n <= 1 {
-        return n
-    } else {
-        return fibonacci(n: n - 1) + fibonacci(n: n - 2)
-    }
 }
 
 // Test cases (Don't touch!)
