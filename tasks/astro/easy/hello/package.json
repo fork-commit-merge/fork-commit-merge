@@ -10,7 +10,7 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.19",
+    "astro": "^5.14.3",
     "hello": "file:"
   }
 }
