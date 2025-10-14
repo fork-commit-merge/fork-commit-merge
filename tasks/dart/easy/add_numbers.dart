@@ -4,3 +4,6 @@ void main() {
 }
 
 // TODO: Implement addNumbers function that returns the sum of two numbers
+int addNumbers(int a, int b) {
+  return a + b;
+}
