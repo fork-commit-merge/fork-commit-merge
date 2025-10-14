@@ -1,6 +1,5 @@
 #include <iostream>
 
-int main()
-{
+int main() {
   // TODO: Implement the temperature converter
 }
