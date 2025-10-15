@@ -4,8 +4,4 @@
 
 $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
 
-
 // TODO: Display All Data From The Array
-
-
-print_r($data);
