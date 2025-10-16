@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj": {}
+    "C:\\Users\\ELDRED\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj": {}
   },
   "projects": {
-    "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj": {
+    "C:\\Users\\ELDRED\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+        "projectUniqueName": "C:\\Users\\ELDRED\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
         "projectName": "HelloUser",
-        "projectPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
-        "packagesPath": "/home/nikohoffren/.nuget/packages/",
-        "outputPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/",
+        "projectPath": "C:\\Users\\ELDRED\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
+        "packagesPath": "C:\\Users\\ELDRED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ELDRED\\Desktop\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/nikohoffren/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ELDRED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,7 +36,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -51,7 +61,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.10, 7.0.10]"
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
             }
           ],
           "frameworkReferences": {
@@ -59,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305\\RuntimeIdentifierGraph.json"
         }
       }
     }
