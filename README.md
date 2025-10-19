@@ -29,7 +29,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 - [Setup Instructions](#setup-instructions)
 - [Tasks](#tasks)
 - [Submitting Your Changes](#submitting-your-changes)
-- [Best Practices](#best-practices)
+- [Resolving Merge Conflicts](#resolving-merge-conflicts)
 - [Influences](#influences)
 - [What's Next?](#whats-next)
 - [Sponsors](#sponsors)
@@ -274,23 +274,40 @@ All the contributors of this project will also be added to the List of Contribut
 
 ![line]
 
-## Best Practices
+## Resolving Merge Conflicts
 
-Programming languages, despite their diverse syntax and underlying paradigms, universally emphasize the importance of adhering to best practices. These practices evolve over time, influenced by shared challenges faced by developers, innovations in the field, and the inherent features and limitations of the languages themselves. This section serves as a compass, guiding you through the idiomatic ways of coding in various languages, ensuring not only that your code works but also that it aligns with the conventions and norms of the community.
+Merge conflicts occur when Git cannot automatically merge changes from different branches because the same lines of code have been modified in different ways. This is a common situation in collaborative development and is nothing to worry about.
 
-Why Follow Best Practices?
+### Why Do Merge Conflicts Happen?
 
-- Readability: Code is read more often than it's written. Adopting best practices ensures your code remains accessible and comprehensible to other developers, or even to your future self!
+- **Simultaneous edits**: Two or more developers modify the same lines of code
+- **File deletions**: One person deletes a file while another modifies it
+- **Branch divergence**: Changes made in parallel branches that affect the same code
 
-- Maintainability: Idiomatic code, by adhering to established patterns and standards, is easier to update, debug, and expand upon.
+### How to Resolve Merge Conflicts
 
-- Performance: Often, best practices evolve in response to the understanding of a language's performance characteristics. Writing idiomatic code might also mean squeezing the best performance out of your programs.
+1. **Identify the conflict**: Git will mark conflicted sections with special markers:
 
-- Community Support: If you're writing code in the way that the broader community expects, you're more likely to receive help when you run into issues. Moreover, you can benefit from tools, linters, and extensions built with these practices in mind.
+   ```
+   <<<<<<< HEAD
+   Your changes
+   =======
+   Incoming changes
+   >>>>>>> branch-name
+   ```
 
-- Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
+2. **Edit the file**: Remove the conflict markers and choose which changes to keep, or combine them appropriately
 
-In our [Fork, Commit, Merge website](https://forkcommitmerge.dev), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+3. **Stage the resolved file**: Use `git add <filename>` to mark the conflict as resolved
+
+4. **Complete the merge**: Run `git commit` to finish the merge process
+
+### Tips for Avoiding Conflicts
+
+- Pull the latest changes before starting work
+- Create a new branch for your changes
+- Keep your changes focused and small
+- Use meaningful commit messages to track changes
 
 ![line]
 
