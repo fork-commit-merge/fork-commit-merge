@@ -1,13 +1,8 @@
 from flask import Flask
 
-# Initialize Flask app
-app = Flask(__name__)
+app = Flask(__name)
 
-# Define route for root URL
-@app.route('/')
-def hello():
-    return "Hello, Flask!"
+# TODO: Implement the task requested in the issue description
 
-# Run the app
-if __name__ == '__main__':
+if __name__ == "__main__":
     app.run(debug=True)
