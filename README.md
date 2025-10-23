@@ -296,7 +296,7 @@ Merge conflicts occur when Git cannot automatically merge changes from different
    >>>>>>> branch-name
    ```
 
-2. **Edit the file**: Remove the conflict markers and choose which changes to keep, or combine them appropriately
+2. **Edit the file**: Remove the conflict markers and choose which changes to keep, or combine them appropriately. In real life scenarios, you would likely have to consult your fellow developers about which changes to keep and which to discard, but since this is an educational repository, it doesn't matter which changes you keep in the conflicts, you can just remove either the current change or incoming change. You can resolve the conflicts when you click the resolve conflicts button in this PR.
 
 3. **Stage the resolved file**: Use `git add <filename>` to mark the conflict as resolved
 
@@ -307,6 +307,7 @@ Merge conflicts occur when Git cannot automatically merge changes from different
 - Pull the latest changes before starting work
 - Create a new branch for your changes
 - Keep your changes focused and small
+- Commit only the files you have changed, nothing else
 - Use meaningful commit messages to track changes
 
 ![line]
