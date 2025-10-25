@@ -65,7 +65,6 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
       }
     }
