@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main() {
-    // Implement Hello, Go!
-    fmt.Println("Hello, Go!")
+    // TODO: Implement Hello, Go!
 }
