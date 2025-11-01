@@ -2,15 +2,10 @@
 
 object FactorialCalculator {
   def main(args: Array[String]): Unit = {
-    println("Enter a number to calculate its factorial:")
-    val input = scala.io.StdIn.readLine()
-    val n = input.toInt
-    val result = factorial(n)
-    println(s"Factorial of $n is $result")
+    // TODO: Create a simple Scala program that takes a number from the user and prints the factorial of that number
   }
 
   def factorial(n: Int): BigInt = {
-    if (n <= 1) 1
-    else n * factorial(n - 1)
+    // TODO: Create factorial function
   }
 }
