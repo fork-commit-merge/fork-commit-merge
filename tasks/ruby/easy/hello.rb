@@ -1,3 +1,3 @@
 # Ruby - Easy 2
 
-puts "Hello, Ruby"
+# TODO: Print "Hello, Ruby" to the console
