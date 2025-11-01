@@ -2,4 +2,4 @@
 
 // PHP - Easy 2
 
-echo "Hello, PHP!";
+// TODO: Print "Hello, PHP!" to the console
