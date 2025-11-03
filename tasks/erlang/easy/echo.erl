@@ -4,4 +4,7 @@
 -export([start/0]).
 
 start() ->
-    % TODO: Implement the echo program
+    % Implement the echo program
+    io:format("Enter a message: "),
+    Input = io:get_line(""),
+    io:format("Echo: ~s", [Input]).
