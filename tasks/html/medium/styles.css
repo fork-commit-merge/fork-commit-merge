@@ -1,120 +1,44 @@
-/* Modern Contact Form Design */
-
-:root {
-  --primary-color: #4f46e5;
-  --primary-hover: #4338ca;
-  --background: #f9fafb;
-  --text-color: #111827;
-  --border-color: #d1d5db;
-  --input-bg: #ffffff;
-}
-
-body {
-  font-family: "Inter", Arial, sans-serif;
-  background: var(--background);
-  color: var(--text-color);
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+/* HTML - Medium */
 
 .container {
-  background: white;
-  max-width: 600px;
-  width: 90%;
-  padding: 40px 30px;
-  border-radius: 16px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
-}
-
-.container:hover {
-  transform: translateY(-3px);
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 10px;
-  color: var(--primary-color);
-  font-size: 2rem;
-}
-
-.subtitle {
-  text-align: center;
-  color: #6b7280;
-  margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 label {
-  font-weight: 600;
-  margin-bottom: 6px;
-  display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 12px 14px;
-  border-radius: 10px;
-  border: 1px solid var(--border-color);
-  background-color: var(--input-bg);
-  font-size: 15px;
-  transition: all 0.3s ease;
-  box-sizing: border-box;
+input[type=text], input[type=email], textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 6px rgba(79, 70, 229, 0.4);
+input[type=submit] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
 }
 
-textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-input[type="submit"] {
-  background-color: var(--primary-color);
-  color: white;
-  padding: 14px 20px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  letter-spacing: 0.5px;
-}
-
-input[type="submit"]:hover {
-  background-color: var(--primary-hover);
-  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
-  transform: translateY(-2px);
+input[type=submit]:hover {
+    background-color: #45a049;
 }
 
 @media screen and (max-width: 600px) {
-  .container {
-    padding: 25px 20px;
-  }
-
-  h1 {
-    font-size: 1.6rem;
-  }
-
-  input[type="submit"] {
-    font-size: 15px;
-  }
+    .container {
+        padding: 10px;
+    }
 }
