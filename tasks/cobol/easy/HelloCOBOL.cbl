@@ -5,5 +5,4 @@
       * This is a simple program to print "Hello, COBOL!" to the console.
 
        PROCEDURE DIVISION.
-           DISPLAY "Hello, COBOL!".
-           STOP RUN.
+      * TODO: Implement the program logic here
