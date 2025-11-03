@@ -120,3 +120,15 @@ body {
   color: white;
   font-size: 30px;
 }
+
+.clock .hand.hour {
+  width: 6px;
+  height: 30%;
+  background-color: black;
+}
+
+.clock .hand.minute {
+  width: 4px;
+  height: 40%;
+  background-color: white;
+}
