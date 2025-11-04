@@ -5,4 +5,9 @@
 $hello = "Hello";
 $world = "World!";
 
-// TODO: Implement rest of the string concatenation program
+// Concatenate the two strings
+
+$greeting = $hello . ", " . $world;
+
+// Print result in terminal
+echo $greeting;
