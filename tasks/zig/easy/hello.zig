@@ -2,6 +2,7 @@
 
 const std = @import("std");
 
-pub fn main() void {
-    // TODO: Implement the code for printing the string "Hello, world!"
+pub fn main() !void {
+    const stdout = std.io.getStdOut().writer();
+    try stdout.print("Hello, world!\n", .{});
 }
