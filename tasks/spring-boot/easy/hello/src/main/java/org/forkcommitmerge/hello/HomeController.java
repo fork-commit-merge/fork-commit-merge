@@ -1,6 +1,8 @@
 package org.forkcommitmerge.hello;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class HomeController {
@@ -17,4 +19,9 @@ public class HomeController {
      * with the expression: th:text="${message}"
      */
 
+    @GetMapping("/")
+    public String home(Model model){
+        model.addAttribute("message", "Hello, Spring Boot");
+        return "index";
+    }
 }
