@@ -3,6 +3,4 @@
 open System
 
 [<EntryPoint>]
-let main argv =
-    printfn "Hello World!"
-    0
+// TODO: Implement the main function that prints "Hello World!" to the console
