@@ -1,3 +1,5 @@
-// Pascal - Easy
+program HelloPascal;
 
-// TODO: Create a simple Pascal program that prints "Hello, Pascal!" to the console when executed
+begin
+  writeln('Hello, Pascal!');
+end.
