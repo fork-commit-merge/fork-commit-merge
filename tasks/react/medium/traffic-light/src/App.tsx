@@ -1,11 +1,9 @@
-// src/App.tsx
 import "./App.css";
-import TrafficLight from "./TrafficLight";
+import { TrafficLight } from "./TrafficLight.tsx";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Traffic Light</h1>
+    <div className="traffic-light-div">
       <TrafficLight />
     </div>
   );
