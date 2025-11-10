@@ -1,31 +1,3 @@
 <!-- XML - Easy -->
 
-<!-- XML Representation of a Bookstore -->
-
-<?xml version="1.0" encoding="UTF-8"?>
-<bookstore>
-    <book category="fiction">
-        <title>The Great Gatsby</title>
-        <author>F. Scott Fitzgerald</author>
-        <year>1925</year>
-        <price>10.99</price>
-    </book>
-    <book category="fiction">
-        <title>To Kill a Mockingbird</title>
-        <author>Harper Lee</author>
-        <year>1960</year>
-        <price>12.99</price>
-    </book>
-    <book category="programming">
-        <title>Clean Code</title>
-        <author>Robert C. Martin</author>
-        <year>2008</year>
-        <price>32.99</price>
-    </book>
-    <book category="science">
-        <title>A Brief History of Time</title>
-        <author>Stephen Hawking</author>
-        <year>1988</year>
-        <price>15.99</price>
-    </book>
-</bookstore>
+<!-- TODO: Create an XML Representation of a Bookstore -->
