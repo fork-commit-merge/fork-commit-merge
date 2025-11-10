@@ -4,7 +4,7 @@
 [![Version 1.3.0](https://img.shields.io/badge/Version-1.3.0-orange.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/issues)
-[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stars)
+[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stargazers)
 [![Forks](https://img.shields.io/github/forks/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/forks)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
