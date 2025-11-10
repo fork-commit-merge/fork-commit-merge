@@ -1,5 +1,3 @@
-program HelloPascal;
+// Pascal - Easy
 
-begin
-  writeln('Hello, Pascal!');
-end.
+// TODO: Create a simple Pascal program that prints "Hello, Pascal!" to the console when executed
