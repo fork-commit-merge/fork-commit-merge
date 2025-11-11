@@ -1,8 +1,37 @@
 [
   {
-    "JSON": "Easy"
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "age": 28,
+    "city": "New York"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "age": 35,
+    "city": "Los Angeles"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Brown",
+    "email": "charlie.brown@example.com",
+    "age": 42,
+    "city": "Chicago"
+  },
+  {
+    "id": 4,
+    "name": "Diana Prince",
+    "email": "diana.prince@example.com",
+    "age": 31,
+    "city": "San Francisco"
+  },
+  {
+    "id": 5,
+    "name": "Ethan Hunt",
+    "email": "ethan.hunt@example.com",
+    "age": 39,
+    "city": "Seattle"
   }
 ]
