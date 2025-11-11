@@ -1,3 +1,43 @@
 # TOML - Easy
+# Application Configuration File
 
-# TODO: Create the TOML configuration file requested in the issue
+[application]
+name = "MyApp"
+version = "1.0.0"
+description = "A sample application configuration"
+
+[server]
+host = "localhost"
+port = 8080
+timeout = 30
+ssl_enabled = false
+
+[database]
+type = "postgresql"
+host = "localhost"
+port = 5432
+name = "myapp_db"
+username = "admin"
+password = "secret"
+max_connections = 100
+
+[logging]
+level = "info"
+file = "logs/app.log"
+max_size = "10MB"
+rotation = true
+
+[features]
+authentication = true
+api_versioning = true
+rate_limiting = false
+
+[cache]
+enabled = true
+ttl = 3600
+provider = "redis"
+
+[cache.redis]
+host = "localhost"
+port = 6379
+db = 0
