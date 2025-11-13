@@ -4,7 +4,7 @@
 [![Version 1.3.0](https://img.shields.io/badge/Version-1.3.0-orange.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/issues)
-[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stars)
+[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stargazers)
 [![Forks](https://img.shields.io/github/forks/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/forks)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
@@ -29,7 +29,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 - [Setup Instructions](#setup-instructions)
 - [Tasks](#tasks)
 - [Submitting Your Changes](#submitting-your-changes)
-- [Best Practices](#best-practices)
+- [Resolving Merge Conflicts](#resolving-merge-conflicts)
 - [Influences](#influences)
 - [What's Next?](#whats-next)
 - [Sponsors](#sponsors)
@@ -274,23 +274,41 @@ All the contributors of this project will also be added to the List of Contribut
 
 ![line]
 
-## Best Practices
+## Resolving Merge Conflicts
 
-Programming languages, despite their diverse syntax and underlying paradigms, universally emphasize the importance of adhering to best practices. These practices evolve over time, influenced by shared challenges faced by developers, innovations in the field, and the inherent features and limitations of the languages themselves. This section serves as a compass, guiding you through the idiomatic ways of coding in various languages, ensuring not only that your code works but also that it aligns with the conventions and norms of the community.
+Merge conflicts occur when Git cannot automatically merge changes from different branches because the same lines of code have been modified in different ways. This is a common situation in collaborative development and is nothing to worry about.
 
-Why Follow Best Practices?
+### Why Do Merge Conflicts Happen?
 
-- Readability: Code is read more often than it's written. Adopting best practices ensures your code remains accessible and comprehensible to other developers, or even to your future self!
+- **Simultaneous edits**: Two or more developers modify the same lines of code
+- **File deletions**: One person deletes a file while another modifies it
+- **Branch divergence**: Changes made in parallel branches that affect the same code
 
-- Maintainability: Idiomatic code, by adhering to established patterns and standards, is easier to update, debug, and expand upon.
+### How to Resolve Merge Conflicts
 
-- Performance: Often, best practices evolve in response to the understanding of a language's performance characteristics. Writing idiomatic code might also mean squeezing the best performance out of your programs.
+1. **Identify the conflict**: Git will mark conflicted sections with special markers:
 
-- Community Support: If you're writing code in the way that the broader community expects, you're more likely to receive help when you run into issues. Moreover, you can benefit from tools, linters, and extensions built with these practices in mind.
+   ```
+   <<<<<<< HEAD
+   Your changes
+   =======
+   Incoming changes
+   >>>>>>> branch-name
+   ```
 
-- Reducing Errors: Many best practices are born from the lessons of countless debugged issues. By adhering to them, you’re sidestepping many pitfalls before they even occur.
+2. **Edit the file**: Remove the conflict markers and choose which changes to keep, or combine them appropriately. In real life scenarios, you would likely have to consult your fellow developers about which changes to keep and which to discard, but since this is an educational repository, it doesn't matter which changes you keep in the conflicts, you can just remove either the current change or incoming change. You can resolve the conflicts when you click the resolve conflicts button in this PR.
 
-In our [Fork, Commit, Merge website](https://forkcommitmerge.dev), you'll find guides tailored to various languages, libraries and frameworks. Whether you're dabbling in a new language or revisiting a familiar one, these insights will help ensure your code is elegant, efficient, and effective.
+3. **Stage the resolved file**: Use `git add <filename>` to mark the conflict as resolved
+
+4. **Complete the merge**: Run `git commit` to finish the merge process
+
+### Tips for Avoiding Conflicts
+
+- Pull the latest changes before starting work
+- Create a new branch for your changes
+- Keep your changes focused and small
+- Commit only the files you have changed, nothing else
+- Use meaningful commit messages to track changes
 
 ![line]
 
@@ -1324,3 +1342,29 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/RijuPandey"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/166269290?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/irfankhansajid"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/56930422?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/PsydoV2"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/98661733?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/KubanjaElijahEldred"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/185238919?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/4eab"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/193944771?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/nabayousuf27"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/171433928?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/arch92"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/3901126?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/CharanBoddu"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/53311574?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/vinothini19"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/232061426?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/jcs-denverdev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/63527561?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/MaelBallereau"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157124771?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Aravind30648"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/221258979?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/David24330"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/157124826?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/anumolusneha"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/221060438?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SagarKharat94440"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/153504870?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/justynakwasniak"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/152686572?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AkhilChowdary2222"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/203651605?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/LuisoJSM"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/132158051?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/DivaneWangue"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/163726583?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/gregpuzzles1"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/1620160?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shardulkulk297"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107064681?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/manikonda-anjali"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/221044812?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Talasudeepk"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/193252434?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/v-hasini"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/220831395?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shanaya-Gupta"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116062563?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Sirireddy1910"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/220830818?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Olexandr88"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93856062?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/egenuise"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145421063?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SrDyw"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96890386?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
