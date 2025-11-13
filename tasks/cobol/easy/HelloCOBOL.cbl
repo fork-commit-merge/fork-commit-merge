@@ -1,9 +1,8 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. HelloCOBOL.
-       AUTHOR. Greg Christian.
+       AUTHOR. Fork, Commit, Merge
 
       * This is a simple program to print "Hello, COBOL!" to the console.
 
        PROCEDURE DIVISION.
-           DISPLAY "Hello, COBOL!".
-           STOP RUN.
+      * TODO: Implement the program logic here
