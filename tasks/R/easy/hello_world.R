@@ -1,4 +1,4 @@
 # R - Easy
 
-# Program that prints "Hello, World!" to the console
+# Write a program that prints the string "Hello, World!" to the console.
 print("Hello, World!")
