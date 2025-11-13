@@ -1,21 +1,8 @@
 // NextJS - Easy
 
-import { Product } from "@/types/models";
-
 export default function Home() {
-  const sampleProducts: Product[] = [
-    {
-      name: "Bouquet (XXL)",
-      price: 45
-    },
-    {
-      name: "Bouquet (xs)",
-      price: 25
-    },
-    {
-      name: "Flower arrangement",
-      price: 15
-    }
+  const sampleProducts = [
+    // TODO: Create a sample product list with names and prices
   ];
 
   return (
