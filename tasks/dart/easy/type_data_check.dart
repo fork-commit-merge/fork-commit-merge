@@ -1,9 +1,25 @@
 void main() {
-  // print(typeDataCheck(5));
-  // print(typeDataCheck(3.14));
-  // print(typeDataCheck("Hello"));
-  // print(typeDataCheck(true));
-  // print(typeDataCheck(null));
+  print(typeDataCheck(5));          // Output: int
+  print(typeDataCheck(3.14));      // Output: double
+  print(typeDataCheck("Hello"));   // Output: String
+  print(typeDataCheck(true));      // Output: bool
+  print(typeDataCheck(null));      // Output: Null
 }
 
-// TODO: Implement a function that accepts a parameter of any type and returns a string describing its data type.
+/// Returns a string describing the data type of the given value
+/// 
+/// This function uses runtime type checking to determine and return
+/// the type of the provided value as a string.
+/// 
+/// Example:
+/// ```dart
+/// print(typeDataCheck(42));        // 'int'
+/// print(typeDataCheck('Dart'));    // 'String'
+/// print(typeDataCheck(3.14));      // 'double'
+/// print(typeDataCheck(true));      // 'bool'
+/// print(typeDataCheck(null));      // 'Null'
+/// ```
+String typeDataCheck(dynamic value) {
+  if (value == null) return 'Null';
+  return value.runtimeType.toString();
+}
