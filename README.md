@@ -4,7 +4,7 @@
 [![Version 1.3.0](https://img.shields.io/badge/Version-1.3.0-orange.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Issues](https://img.shields.io/github/issues/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/issues)
-[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stars)
+[![Stars](https://img.shields.io/github/stars/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/stargazers)
 [![Forks](https://img.shields.io/github/forks/fork-commit-merge/fork-commit-merge.svg?style=flat)](https://github.com/fork-commit-merge/fork-commit-merge/forks)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/fork-commit-merge/fork-commit-merge/pulls)
@@ -1360,3 +1360,11 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/DivaneWangue"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/163726583?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/gregpuzzles1"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/1620160?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/shardulkulk297"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/107064681?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/manikonda-anjali"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/221044812?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Talasudeepk"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/193252434?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/v-hasini"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/220831395?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/shanaya-Gupta"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/116062563?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Sirireddy1910"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/220830818?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Olexandr88"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/93856062?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/egenuise"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/145421063?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/SrDyw"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/96890386?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
