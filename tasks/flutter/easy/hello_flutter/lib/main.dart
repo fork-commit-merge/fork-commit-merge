@@ -13,7 +13,12 @@ class ForkCommitMerge extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-          // TODO: Implement the appbar and body properties
+        appBar: AppBar(
+          title: const Text("Fork, Commit, Merge"),
+        ),
+        body: const Center(
+          child: Text("Hello, Flutter!"),
+        ),
       ),
     );
   }
