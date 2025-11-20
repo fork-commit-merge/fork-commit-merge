@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #0b0049;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+nav ul li a:hover {
+  background-color: #412eee;
+}
+
+@media screen and (max-width: 600px) {
+  nav ul li {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

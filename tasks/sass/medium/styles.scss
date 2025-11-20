@@ -10,3 +10,38 @@ $primary-color: #0b0049;
 $secondary-color: #412eee;
 
 // TODO: Add classes for the navbar
+nav {
+    background-color: $primary-color;
+    overflow: hidden;
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      
+      li {
+        float: left;
+        
+        a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-family: Arial, sans-serif;
+          
+          &:hover {
+            background-color: $secondary-color;
+          }
+        }
+      }
+    }
+  }
+  
+  // Responsive
+  @media screen and (max-width: 600px) {
+    nav ul li {
+      float: none;
+      width: 100%;
+    }
+  }
