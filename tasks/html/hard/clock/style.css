@@ -25,16 +25,60 @@ body {
   position: relative;
 }
 
+.number[data-number="1"] {
+  --index: 1;
+}
+.number[data-number="2"] {
+  --index: 2;
+}
+.number[data-number="3"] {
+  --index: 3;
+}
+.number[data-number="4"] {
+  --index: 4;
+}
+.number[data-number="5"] {
+  --index: 5;
+}
+.number[data-number="6"] {
+  --index: 6;
+}
+.number[data-number="7"] {
+  --index: 7;
+}
+.number[data-number="8"] {
+  --index: 8;
+}
+.number[data-number="9"] {
+  --index: 9;
+}
+.number[data-number="10"] {
+  --index: 10;
+}
+.number[data-number="11"] {
+  --index: 11;
+}
+.number[data-number="12"] {
+  --index: 12;
+}
+
 /* Clock Numbers */
 .clock .number {
-  --rotation: 0;
+  --rotation: calc(var(--index) * 30deg);
   position: absolute;
   width: 100%;
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
+  transform-origin: center;
   /* TODO: Define rotations for numbers (1 to 12) */
+}
+
+.number::before {
+  display: block;
+  content: attr(data-number);
+  transform: rotate(calc(-1 * var(--rotation)));
 }
 
 /* Clock Hands */
@@ -62,6 +106,9 @@ body {
 .clock .hand.minute,
 .clock .hand.hour {
   /* TODO: Define styles for minute and hour hands */
+  width: 4px;
+  height: 50%;
+  background-color: black;
 }
 
 /* Clock Center */
