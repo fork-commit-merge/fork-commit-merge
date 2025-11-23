@@ -25,40 +25,40 @@ body {
   position: relative;
 }
 
-.number:nth-child(1) {
+.number[data-number="1"] {
   --index: 1;
 }
-.number:nth-child(2) {
+.number[data-number="2"] {
   --index: 2;
 }
-.number:nth-child(3) {
+.number[data-number="3"] {
   --index: 3;
 }
-.number:nth-child(4) {
+.number[data-number="4"] {
   --index: 4;
 }
-.number:nth-child(5) {
+.number[data-number="5"] {
   --index: 5;
 }
-.number:nth-child(6) {
+.number[data-number="6"] {
   --index: 6;
 }
-.number:nth-child(7) {
+.number[data-number="7"] {
   --index: 7;
 }
-.number:nth-child(8) {
+.number[data-number="8"] {
   --index: 8;
 }
-.number:nth-child(9) {
+.number[data-number="9"] {
   --index: 9;
 }
-.number:nth-child(10) {
+.number[data-number="10"] {
   --index: 10;
 }
-.number:nth-child(11) {
+.number[data-number="11"] {
   --index: 11;
 }
-.number:nth-child(12) {
+.number[data-number="12"] {
   --index: 12;
 }
 
