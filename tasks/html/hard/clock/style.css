@@ -25,9 +25,45 @@ body {
   position: relative;
 }
 
+.number:nth-child(1) {
+  --index: 1;
+}
+.number:nth-child(2) {
+  --index: 2;
+}
+.number:nth-child(3) {
+  --index: 3;
+}
+.number:nth-child(4) {
+  --index: 4;
+}
+.number:nth-child(5) {
+  --index: 5;
+}
+.number:nth-child(6) {
+  --index: 6;
+}
+.number:nth-child(7) {
+  --index: 7;
+}
+.number:nth-child(8) {
+  --index: 8;
+}
+.number:nth-child(9) {
+  --index: 9;
+}
+.number:nth-child(10) {
+  --index: 10;
+}
+.number:nth-child(11) {
+  --index: 11;
+}
+.number:nth-child(12) {
+  --index: 12;
+}
+
 /* Clock Numbers */
 .clock .number {
-  --index: calc(sibling-index() - 3);
   --rotation: calc(var(--index) * 30deg);
   position: absolute;
   width: 100%;
