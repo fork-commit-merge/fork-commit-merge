@@ -1,26 +1,8 @@
 void main() {
-  // Example usage:
-  List<int> numbers = [2, 4, 6, 8, 10];
-  double meanValue = calculateMean(numbers);
-  print("Mean: $meanValue");
+  // List<int> data = [5, 10, 15, 20, 25];
+  // double mean = calculateMean(data);
+  // print('Mean: $mean');  // Expected output: Mean: 15.0
 }
 
-// Function to calculate the mean of a list of integers
-double calculateMean(List<int> values) {
-  // Manually count length
-  int count = 0;
-  for (int _ in values) {
-    count = count + 1;
-  }
+// TODO: Implement a function called 'calculateMean' that takes a list of integers as input and returns the mean as a double.
 
-  // Manually calculate sum
-  int sum = 0;
-  for (int i = 0; i < count; i = i + 1) {
-    sum = sum + values[i];
-  }
-
-  // Convert to double manually
-  double mean = sum / count;
-
-  return mean;
-}
