@@ -1,4 +1,5 @@
 # Elixir - Easy
 
 defmodule ElixirSumList do
-  def sum_list(list), do: Enum.sum(list)end
+  # TODO: Implement a Basic Elixir Function to Sum a List of Numbers
+end
