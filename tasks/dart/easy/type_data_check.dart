@@ -1,9 +1,47 @@
 void main() {
-  // print(typeDataCheck(5));
-  // print(typeDataCheck(3.14));
-  // print(typeDataCheck("Hello"));
-  // print(typeDataCheck(true));
-  // print(typeDataCheck(null));
+  print(typeDataCheck(42));        // "int"
+  print(typeDataCheck(3.14));      // "double"
+  print(typeDataCheck(true));      // "bool"
+  print(typeDataCheck("hello"));   // "String"
+  print(typeDataCheck([1, 2, 3])); // "List"
+  print(typeDataCheck({'a': 1}));  // "Map"
+  print(typeDataCheck(null));      // "null"
+  print(typeDataCheck({'x'}));     // "Set"
 }
 
-// TODO: Implement a function that accepts a parameter of any type and returns a string describing its data type.
+String typeDataCheck(dynamic value) {
+  // Manually checking types without using built-in helpers
+  if (value == null) {
+    return "null";
+  }
+
+  // Check number types
+  if (value is int) {
+    return "int";
+  }
+  if (value is double) {
+    return "double";
+  }
+
+  // Check other primitives
+  if (value is bool) {
+    return "bool";
+  }
+  if (value is String) {
+    return "String";
+  }
+
+  // Collections
+  if (value is List) {
+    return "List";
+  }
+  if (value is Map) {
+    return "Map";
+  }
+  if (value is Set) {
+    return "Set";
+  }
+
+  // Fallback
+  return "unknown";
+}
