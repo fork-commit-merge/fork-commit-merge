@@ -1,47 +1,68 @@
+import 'dart:io';
+
 void main() {
-  print(typeDataCheck(42));        // "int"
-  print(typeDataCheck(3.14));      // "double"
-  print(typeDataCheck(true));      // "bool"
-  print(typeDataCheck("hello"));   // "String"
-  print(typeDataCheck([1, 2, 3])); // "List"
-  print(typeDataCheck({'a': 1}));  // "Map"
-  print(typeDataCheck(null));      // "null"
-  print(typeDataCheck({'x'}));     // "Set"
+  stdout.write("Enter a value: ");
+  String? input = stdin.readLineSync();
+
+  String type = typeDataCheck(input);
+  print("Input type: $type");
 }
 
 String typeDataCheck(dynamic value) {
-  // Manually checking types without using built-in helpers
-  if (value == null) {
-    return "null";
+  if (value == null) return "null";
+
+  // Always a string when coming from input
+  String v = value.toString();
+
+  if (isInt(v)) return "int";
+  if (isDouble(v)) return "double";
+  if (isBool(v)) return "bool";
+
+  return "String";
+}
+
+// ---------- Custom manual parsing functions ----------
+
+bool isInt(String s) {
+  // digits only, optional leading minus
+  for (int i = 0; i < s.length; i++) {
+    int c = s.codeUnitAt(i);
+    if (i == 0 && c == 45) {
+      // allow leading '-'
+      continue;
+    }
+    if (c < 48 || c > 57) {
+      return false;
+    }
+  }
+  return s.isNotEmpty;
+}
+
+bool isDouble(String s) {
+  int dotCount = 0;
+
+  for (int i = 0; i < s.length; i++) {
+    int c = s.codeUnitAt(i);
+
+    // Leading minus allowed
+    if (i == 0 && c == 45) continue;
+
+    // One decimal point allowed
+    if (c == 46) {
+      dotCount++;
+      if (dotCount > 1) return false;
+      continue;
+    }
+
+    // Must be digit
+    if (c < 48 || c > 57) return false;
   }
 
-  // Check number types
-  if (value is int) {
-    return "int";
-  }
-  if (value is double) {
-    return "double";
-  }
+  // must contain exactly one dot to be considered a double
+  return dotCount == 1;
+}
 
-  // Check other primitives
-  if (value is bool) {
-    return "bool";
-  }
-  if (value is String) {
-    return "String";
-  }
-
-  // Collections
-  if (value is List) {
-    return "List";
-  }
-  if (value is Map) {
-    return "Map";
-  }
-  if (value is Set) {
-    return "Set";
-  }
-
-  // Fallback
-  return "unknown";
+bool isBool(String s) {
+  String lower = s.toLowerCase();
+  return lower == "true" || lower == "false";
 }
