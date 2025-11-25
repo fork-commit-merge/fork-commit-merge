@@ -1,6 +1,5 @@
 // Kotlin - Easy
 
 fun main() {
-  val userInput = readLine() ?: "" 
-  println("Hello, $userInput!")}
+    // TODO: Create a Simple Kotlin Program to Print User's Input
 }
