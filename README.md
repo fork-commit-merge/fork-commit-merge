@@ -119,7 +119,7 @@ _Note: We recommend to always create new branch with each Issue you solve! Other
 
 ## Tasks
 
-_Note: These tasks will not count towards Hacktoberfest or any other similar "coding competitions", since this repository is an educational repository, hence against the Hacktoberfest guidelines._
+_Note: These tasks will not count towards Hacktoberfest, school projects or any other similar "coding competitions", since this repository is an educational repository, hence against the Hacktoberfest guidelines._
 
 We present over 139 tasks for different languages, libraries and frameworks with varying difficulty. You can choose which task you want to work with and which difficulty you want to solve. You can also choose to solve multiple tasks if you want to. Just remember to create a new branch for each task you solve.
 
