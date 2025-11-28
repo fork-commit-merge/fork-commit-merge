@@ -1,0 +1,4 @@
+[dependency-groups]
+dev = [
+    "flask>=3.1.2",
+]
