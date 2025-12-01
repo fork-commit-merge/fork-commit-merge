@@ -2,31 +2,104 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
-        </nav>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+</head>
+<body>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+    <!-- NAVIGATION BAR -->
+    <nav id="navbar">
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Us</h2>
 
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
+        <div class="content-wrapper">
+            <div class="text">
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                </p>
+                <p>
+                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
+                </p>
+                <p>
+                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                    laboriosam nisi ut aliquid ex ea commodi consequatur?
+                </p>
+            </div>
 
-        <footer>
-            <!-- TODO: Implement the footer -->
-        </footer>
-    </body>
+            <img src="https://loremflickr.com/320/240" alt="About Image">
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services">
+        <h2>Services</h2>
+
+        <div class="content-wrapper">
+            <div class="text">
+                <p>
+                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                    excepturi sint occaecati cupiditate non provident.
+                </p>
+                <p>
+                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+                    quo minus id quod maxime placeat facere possimus.
+                </p>
+                <p>
+                    Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus
+                    saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
+                </p>
+            </div>
+
+            <img src="https://loremflickr.com/320/240" alt="Services Image">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="content-wrapper">
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input id="name" type="text" />
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" />
+
+                <label for="message">Message:</label>
+                <textarea id="message"></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Fork, Commit, Merge – Hard Task</p>
+
+        <div id="footer-links">
+            <a href="#about">About</a> |
+            <a href="#services">Services</a> |
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+</body>
 </html>
