@@ -6,7 +6,6 @@ body {
     padding-top: 80px;
 }
 
-/* NAVBAR */
 #navbar {
     position: fixed;
     top: 0;
@@ -23,7 +22,6 @@ body {
 #menu {
     list-style: none;
     padding: 0;
-    margin: 0;
     display: flex;
     justify-content: center;
 }
@@ -34,72 +32,42 @@ body {
     padding: 10px 15px;
 }
 
-/* SECTION GENERAL */
 section {
-    padding: 40px 0;
+    padding: 20px;
     background: rgb(210, 223, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* LEFT-ALIGNED HEADINGS FOR ABOUT & SERVICES */
-section h2 {
-    max-width: 1100px;
-    margin: 0 auto 10px;   /* only one line of spacing */
-    padding: 0 40px;
-    text-align: left;
-}
-
-/* CONTACT heading stays centered */
-#contact h2 {
-    max-width: 400px;
-    margin: 0 auto 10px;
-    padding: 0;
-    text-align: center;
-}
-
-/* CONTENT WRAPPER (text + image) */
 .content-wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 40px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
-/* CONTACT form wrapper — centered */
-#contact .content-wrapper {
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-/* TEXT BLOCK */
 .text {
     flex: 1;
     padding-right: 20px;
 }
 
-/* IMAGES */
 img {
     flex-shrink: 0;
-    max-width: 320px;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* TYPOGRAPHY */
-h1, h2, p {
+h1,
+h2,
+p {
     margin: 0 0 10px;
-}
-
-/* CONTACT FORM — centered under heading */
-#contact-form {
-    max-width: 400px;
-    width: 100%;
-    margin: 0 auto;
-    text-align: left;  /* keeps labels + fields aligned nicely */
 }
 
 label,
@@ -118,7 +86,6 @@ button {
     cursor: pointer;
 }
 
-/* FOOTER */
 footer {
     background: #333;
     color: white;
