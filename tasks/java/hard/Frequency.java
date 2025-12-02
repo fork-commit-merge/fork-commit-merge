@@ -6,8 +6,6 @@ import java.util.Map;
 public class Frequency {
 
     public static void main(String[] args) {
-        // TODO: Given an array of integers, write a Java program to find the frequency
-        // of each element using a Map
 
         int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 9, 9, 3, 2, 2, 3, 4, 5 };
         Map<Integer, Integer> frequencyMap = new HashMap<>();
