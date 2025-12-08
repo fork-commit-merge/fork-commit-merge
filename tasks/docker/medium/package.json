@@ -1,0 +1,10 @@
+{
+    "name": "docker-medium-webapp",
+    "version": "1.0.0",
+    "description": "Docker medium task web application",
+    "scripts": {
+        "build": "node -e \"require('fs').cpSync('public', 'build', {recursive: true})\""
+    },
+    "dependencies": {},
+    "devDependencies": {}
+}
