@@ -5,7 +5,6 @@ function App() {
   return (
     <div className="center">
       {/* TODO: Implement the card component */}
-      
     </div>
   );
 }
