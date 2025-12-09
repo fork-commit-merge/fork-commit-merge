@@ -8,8 +8,13 @@
  */
 
 function startScreenTimeWarning(limitMinutes = 30) {
-
+  const limitMilliseconds = limitMinutes * 60 * 1000;
+  
+  setTimeout(() => {
+    console.log(`You've been on this page for ${limitMinutes} minutes. Remember to take a break!`);
+  }, limitMilliseconds);
 }
 
 // Example usage
 startScreenTimeWarning(10);
+startScreenTimeWarning
