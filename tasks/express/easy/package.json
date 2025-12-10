@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "easy": "file:",
+    "expess": "^0.0.1-security",
     "express": "^4.18.2"
   }
 }
