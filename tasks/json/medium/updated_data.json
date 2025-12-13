@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Product 1",
+    "price": 121.00000000000001,
+    "status": "active"
+  },
+  {
+    "name": "Product 3",
+    "price": 363.00000000000006,
+    "status": "active"
+  }
+]

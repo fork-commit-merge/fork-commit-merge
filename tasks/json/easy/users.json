@@ -1,8 +1,27 @@
 [
   {
-    "JSON": "Easy"
+    "id": 1,
+    "name": "Amit Kumar",
+    "email": "amit@gmail.com"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 2,
+    "name": "Neha Sharma",
+    "email": "neha@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "Rahul Verma",
+    "email": "rahul@gmail.com"
+  },
+  {
+    "id": 4,
+    "name": "Pooja Singh",
+    "email": "pooja@gmail.com"
+  },
+  {
+    "id": 5,
+    "name": "Ankit Patel",
+    "email": "ankit@gmail.com"
   }
 ]
