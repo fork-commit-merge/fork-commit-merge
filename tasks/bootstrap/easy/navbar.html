@@ -6,6 +6,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Fork, Commit, Merge - Bootstrap - Easy</title>
+
         <!-- Bootstrap CSS -->
         <link
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -14,11 +15,14 @@
     </head>
 
     <body>
-        <!-- TODO: Add all the missing Bootstrap classes to the elements below -->
-        <nav class="">
-            <a class="" href="#">Logo</a>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">Logo</a>
+
+            <!-- Toggle button (mobile view) -->
             <button
-                class=""
+                class="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
                 data-target="#navbarNav"
@@ -26,27 +30,29 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span class=""></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="" id="navbarNav">
-                <ul class="">
-                    <li class="">
-                        <a class="" href="#">Home</a>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li class="">
-                        <a class="" href="#">About</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
                     </li>
-                    <li class="">
-                        <a class="" href="#">Services</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
                     </li>
-                    <li class="">
-                        <a class="" href="#">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <!-- Scripts for Bootstrap's dynamic components -->
+        <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
