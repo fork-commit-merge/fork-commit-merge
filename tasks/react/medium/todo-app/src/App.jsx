@@ -1,14 +1,13 @@
+// React - Medium
+
 import "./App.css";
-import Hading from "./Components/Hading";
-import AddTask from "./Components/AddTask";
-
-
 
 function App() {
+  // TODO: Add the necessary functionality such as hooks here
   return (
     <div className="App">
-      <Hading />
-      <AddTask/>
+      <h1>To-Do List</h1>
+      {/* TODO: Add the To-Do list here */}
     </div>
   );
 }
