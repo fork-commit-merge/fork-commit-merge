@@ -3,7 +3,6 @@
 class Library {
   constructor() {
     this.books = [];
-    this.totalBooks = 0;
   }
 
   createBook(title, author) {
@@ -13,7 +12,6 @@ class Library {
       id: this.books.length + 1,
     };
     this.books.push(book);
-    this.totalBooks++;
     return book;
   }
 
@@ -38,27 +36,11 @@ class Library {
   }
 
   searchBooks(query) {
-    query = query.trim().toLowerCase();
-    const result = this.books.filter((book) => {
-      // case-insensitive and trim spaces
-      const title = book.title.trim().toLowerCase();
-      const author = book.author.trim().toLowerCase();
-      return title.includes(query) || author.includes(query);
-    });
-    return result;
+    // TODO: Implement search functionality
   }
 
   filterBooks(criteria) {
-    const result = this.books.filter((book) => {
-      // case-insensitive and trim spaces
-      const title = book.title.trim().toLowerCase();
-      const author = book.author.trim().toLowerCase();
-      return (
-        title == criteria?.title?.trim()?.toLowerCase() ||
-        author == criteria?.author?.trim()?.toLowerCase()
-      );
-    });
-    return result;
+    // TODO: Implement filter functionality
   }
 }
 
