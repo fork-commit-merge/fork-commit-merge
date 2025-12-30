@@ -1,7 +1,3 @@
-const sum = (a, b) => {
-  return a + b;
-}
-const num1 = 3;
-const num2 = 5;
-console.log(sum(num1, num2));
+// JavaScript - Easy
 
+// TODO: Write a function that returns the sum of two numbers

@@ -1,5 +1,4 @@
 
-
 const products = [
   { name: "Book", inStock: true },
   { name: "Pen", inStock: false },
