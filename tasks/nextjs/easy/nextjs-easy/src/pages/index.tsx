@@ -3,6 +3,14 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
+      { id: 1, name: "Xiaomi Redmi 15C (8GB RAM/256GB)", price: 125.00 },
+  { id: 2, name: "Eco Notebook", price: 12.5 },
+  { id: 3, name: "Reusable Water Bottle", price: 18.00 },
+  {id: 4, name: "43-inch LG Smart TV",price: 250.00},
+  {id:5,name:"Jordan 5 off white sail", price: 300.00},
+
+
+    
   ];
 
   return (
