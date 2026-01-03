@@ -12,7 +12,7 @@
   "dependencies": {
     "apollo-server": "^3.12.1",
     "easy": "file:",
-    "express": "^4.21.2",
+    "express": "^4.22.1",
     "graphql": "^16.8.1"
   }
 }
