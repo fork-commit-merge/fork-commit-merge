@@ -2,19 +2,17 @@
 
 ## Multi-Stage Dockerfile for Web Application
 
-This task requires creating a multi-stage Dockerfile that builds a web application and serves it using nginx.
+This project demonstrates a production-ready multi-stage Docker setup
+that builds a web application using Node.js and serves it using Nginx.
 
-### Requirements:
+## Features
 
-1. **Build Stage**: Use Node.js to build the application
-2. **Production Stage**: Use nginx to serve the built application
-3. **Optimization**: Minimize the final image size
-4. **Configuration**: Set proper environment variables and nginx configuration
+- Multi-stage Docker build
+- Optimized production image
+- Nginx static file serving
+- SPA-friendly routing
 
-### Files:
-- `Dockerfile` - Multi-stage Dockerfile
-- `nginx.conf` - Nginx configuration file
-- `README.md` - This file
+## Build the Docker Image
 
-### Expected Outcome:
-A production-ready Docker image that efficiently builds and serves a web application. 
+```bash
+docker build -t docker-medium-app .
