@@ -49,7 +49,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'hello_world.urls'
 
-# removed secret key as instructions
+SECRET_KEY = 'django-insecure-=i7itqe#e13f=u97*99+@yrj!saeke=ctb2zf(o2e#p^v#n*01'
 
 TEMPLATES = [
     {
