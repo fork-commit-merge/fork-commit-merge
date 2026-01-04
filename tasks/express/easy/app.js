@@ -1,10 +1,15 @@
 // ExpressJS - Easy
 
-const { get } = require("cheerio/lib/api/traversing");
-const express = require("express");
+import express from "express";
 const app = express();
-const port = 6969;
+const PORT = 6969;
 
-// TODO: Implement `get` method for / route
+// Root route
+app.get("/", (req, res) => {
+  res.send("Hello, Express!");
+});
 
-// TODO: Implement `listen` method
+// Start server
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
