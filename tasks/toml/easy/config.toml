@@ -1,3 +1,19 @@
 # TOML - Easy
 
-# TODO: Create the TOML configuration file requested in the issue
+# Application Settings
+[application]
+name = "MyApp"
+version = "1.0.0"
+debug = false
+
+# Database Settings
+[database]
+host = "localhost"
+port = 5432
+user = "user"
+password = "password"
+
+# Log Settings
+[log]
+path = "/path/to/log/file.log"
+level = "info"
