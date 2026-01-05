@@ -1,8 +1,27 @@
 [
   {
-    "JSON": "Easy"
+    "id": 1,
+    "name": "Carmen Berzatto",
+    "email": "carmen.berzatto@thebear.com"
   },
   {
-    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
+    "id": 2,
+    "name": "Richie Jerimovich",
+    "email": "richie.jerimovich@thebear.com"
+  },
+  {
+    "id": 3,
+    "name": "Sydney Adamu",
+    "email": "sydney.adamu@thebear.com"
+  },
+  {
+    "id": 4,
+    "name": "Marcus",
+    "email": "marcus@thebear.com"
+  },
+  {
+    "id": 5,
+    "name": "Tina",
+    "email": "tina@thebear.com"
   }
 ]
