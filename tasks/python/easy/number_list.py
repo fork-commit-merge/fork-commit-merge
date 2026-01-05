@@ -5,5 +5,10 @@
 # prints that list to the console and,
 # prints the sum of the numbers of that list
 
-def function(numbers):
-    pass
+def function():
+    numbers = list(range(1,11))
+    print(numbers)
+    print(sum(numbers))
+
+
+function()
