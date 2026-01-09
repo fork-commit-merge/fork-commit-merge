@@ -1,6 +1,6 @@
+// F# - Easy
+
 open System
 
 [<EntryPoint>]
-let main _ =
-    printfn "Hello, World!"
-    0
+// TODO: Implement the main function that prints "Hello World!" to the console
