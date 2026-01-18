@@ -2,22 +2,6 @@
 
 namespace Calculator {
     // TODO: Implement a Simple TypeScript Calculator
-    export function add(num1: number = 0, num2: number = 0){
-        return num1 + num2
-    }
-
-    export function subtract(num1: number = 0, num2: number = 0){
-        return num1 - num2
-    }
-
-    export function multiply(num1: number = 0, num2: number = 0){
-        return num1 * num2
-    }
-
-    export function divide(num1: number = 0, num2: number = 0){
-        if(!num2) return "Infinity! Can't divide by zero!"
-        return num1 / num2
-    }
 }
 
 // Test cases
