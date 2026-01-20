@@ -1,19 +1,26 @@
-// Flutter - Easy
-
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const ForkCommitMerge());
+  runApp(const MyApp());
 }
 
-class ForkCommitMerge extends StatelessWidget {
-  const ForkCommitMerge({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-          // TODO: Implement the appbar and body properties
+        appBar: AppBar(
+          title: const Text('Fork, Commit, Merge'),
+        ),
+        body: const Center(
+          child: Text(
+            'Hello, Flutter!',
+            style: TextStyle(fontSize: 24),
+          ),
+        ),
       ),
     );
   }
