@@ -1459,3 +1459,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/PavaraM"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/101268553?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/chirayu-lab"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/188750287?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/lemmargo"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/256362674?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/2d-game-dev"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/203641036?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
