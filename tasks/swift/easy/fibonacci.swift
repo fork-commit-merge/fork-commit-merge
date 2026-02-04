@@ -3,10 +3,7 @@
 import Foundation
 
 func fibonacci(n: Int) -> Int {
-    if n <= 1 {
-        return n
-    }
-    return fibonacci(n: n - 1) + fibonacci(n: n - 2)
+// TODO: Implement the fibonacci sequence function
 }
 
 // Test cases (Don't touch!)
