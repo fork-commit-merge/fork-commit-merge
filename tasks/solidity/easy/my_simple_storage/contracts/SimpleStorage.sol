@@ -4,16 +4,8 @@
 pragma solidity ^0.8.0;
 
 contract SimpleStorage {
-    uint256 private _number;
+    uint256 _number;
+    // TODO: Implement function to set the number
 
-    // Set the number
-    function setNumber(uint256 newNumber) external {
-        _number = newNumber;
-    }
-
-    // Get the number
-    function getNumber() external view returns (uint256) {
-        return _number;
-    }
+    // TODO: Implement function to get the number
 }
-
