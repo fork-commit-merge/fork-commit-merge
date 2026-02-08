@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/nikohoffren/.nuget/packages/": {}
+    "C:\\Users\\Chaimae GRICH\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
+      "projectUniqueName": "C:\\Users\\Chaimae GRICH\\Documents\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
       "projectName": "HelloUser",
-      "projectPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/HelloUser.csproj",
-      "packagesPath": "/home/nikohoffren/.nuget/packages/",
-      "outputPath": "/home/nikohoffren/dev/open-source/fork-commit-merge-files/fork-commit-merge/tasks/c#/easy/HelloUser/obj/",
+      "projectPath": "C:\\Users\\Chaimae GRICH\\Documents\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\HelloUser.csproj",
+      "packagesPath": "C:\\Users\\Chaimae GRICH\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Chaimae GRICH\\Documents\\fork-commit-merge\\tasks\\c#\\easy\\HelloUser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/nikohoffren/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Chaimae GRICH\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -57,7 +62,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.10, 7.0.10]"
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
           }
         ],
         "frameworkReferences": {
@@ -65,7 +82,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.110/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
