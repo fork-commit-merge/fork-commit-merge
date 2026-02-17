@@ -13,6 +13,8 @@ body {
     background: #333;
     color: white;
     padding: 15px;
+    display: flex;
+    align-items: center;
 }
 
 #navbar a:hover {
