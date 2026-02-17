@@ -10,34 +10,3 @@ $primary-color: #0b0049;
 $secondary-color: #412eee;
 
 // TODO: Add classes for the navbar
-header{
-    background:#0b0049; //Backgrround of navbar
-    color:#ffffff
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    max-width: 1000px;
-    margin:0 auto
-}
-
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 1rem
-}
-
-.nav-links a{
-    color:#fff;
-    text-decoration: none; 
-    padding: .25rem .5rem; 
-    border-radius: 4px
-}
-
-.nav-links a:hover{
-    background: $secondary-color; 
-    color:#fff
-}
