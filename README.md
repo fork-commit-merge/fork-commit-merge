@@ -1479,5 +1479,3 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Shaylapham-05"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/196226534?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/apoorvdarshan"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/90602809?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/ianma5"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/173874486?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
-- [Khushhal Singh](https://github.com/Meatix)
-
