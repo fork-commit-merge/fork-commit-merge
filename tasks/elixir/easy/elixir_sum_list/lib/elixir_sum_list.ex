@@ -1,5 +1,6 @@
 # Elixir - Easy
 
 defmodule ElixirSumList do
-  # TODO: Implement a Basic Elixir Function to Sum a List of Numbers
+  def sum([]), do: 0
+  def sum([head | tail]), do: head + sum(tail)
 end
