@@ -8,7 +8,29 @@
  */
 
 function startScreenTimeWarning(limitMinutes = 30) {
+    const limitMs = limitMinutes * 60 * 1000;
+    const startTime = Date.now();
 
+    console.log(
+        "Screen time tracking started. You will be reminded to take a break after " +
+            limitMinutes +
+            " minute(s)."
+    );
+
+    const intervalId = setInterval(function () {
+        const elapsed = Date.now() - startTime;
+
+        if (elapsed >= limitMs) {
+            console.log(
+                "Hey! You have been on this page for " +
+                    limitMinutes +
+                    " minute(s). Time to take a break!"
+            );
+            clearInterval(intervalId);
+        }
+    }, 1000);
+
+    return intervalId;
 }
 
 // Example usage
