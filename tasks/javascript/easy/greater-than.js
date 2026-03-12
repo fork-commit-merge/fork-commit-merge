@@ -11,3 +11,4 @@ const GreaterThan = array.filter(function(num) {
 console.log(GreaterThan);
 
 // output: [12, 15, 19];
+
