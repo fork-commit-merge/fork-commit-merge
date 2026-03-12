@@ -8,6 +8,6 @@ const GreaterThan = array.filter(function(num) {
   return num > 10 && num < 20;
 });
 
-console.log(GreaterThan)
+console.log(GreaterThan);
 
 // output: [12, 15, 19];
