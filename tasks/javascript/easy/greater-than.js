@@ -4,10 +4,4 @@
 
 const array = [2, 5, 8, 10, 12, 15, 19, 20, 25];
 
-const GreaterThan = array.filter(function(num) {
-  return num > 10 && num < 20;
-});
-
-console.log(GreaterThan);
-
 // output: [12, 15, 19];
