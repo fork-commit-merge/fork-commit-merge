@@ -13,4 +13,4 @@ contract SimpleStorage {
     function getNumber() public view returns (uint256){
         return _number;
     }
-}
+} 
