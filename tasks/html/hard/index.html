@@ -2,31 +2,83 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
-        </nav>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+</head>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
+<body>
+    <nav id="navbar">
+        <!-- TODO: Implement the navigation bar -->
+        <div class="container">
+            <ul id="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
+    <section id="about">
+        <!-- TODO: Implement the about section -->
+        <div class="content-wrapper">
+            <div class="text">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Lorem ipsum dolor, sit amet
+                    consectetur adipisicing elit. At veniam pariatur ipsa animi molestiae assumenda soluta enim
+                    reprehenderit. Itaque consequuntur aut iste debitis nihil enim iusto accusantium ab fuga alias!
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis cupiditate assumenda provident
+                    quaerat amet, commodi ut, sunt error officia deserunt, aut nostrum quibusdam quae placeat hic sequi
+                    rem velit ipsa.</p>
+            </div>
+            <img src="https://loremflickr.com/320/240" alt="About Image" />
+        </div>
+    </section>
 
-        <footer>
-            <!-- TODO: Implement the footer -->
-        </footer>
-    </body>
+    <section id="services">
+        <!-- TODO: Implement the services section -->
+        <div class="content-wrapper">
+            <div class="text">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Our services are top-notch. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, deserunt? Perspiciatis excepturi maiores nobis dolorem neque fugit eveniet vel laborum expedita. Deserunt dicta voluptatibus veniam beatae facilis voluptate nobis dolores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro facilis sed, fugiat suscipit commodi possimus, harum quam unde delectus vel ex quod, sint nulla consequatur id nesciunt dicta quisquam laudantium.</p>
+            </div>
+            <img src="https://loremflickr.com/320/240" alt="Services Image" />
+        </div>
+    </section>
+
+    <section id="contact">
+        <!-- TODO: Implement the contact section  -->
+        <h2>Contact Us</h2>
+        <div class="content-wrapper">
+            <div class="text">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" />
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" />
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="4"></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- TODO: Implement the footer -->
+        <div id="footer-links">
+            <a href="#about">About</a> |
+            <a href="#services">Services</a> |
+            <a href="#contact">Contact</a>
+        </div>
+        <p>© 2026 My Website</p>
+    </footer>
+</body>
+
 </html>
