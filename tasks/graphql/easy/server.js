@@ -1,9 +1,10 @@
 // GraphQL - Easy
+// GraphQL + express doesn't support now
 
-const { ApolloServer, gql } = require("apollo-server-express");
-const express = require("express");
+import { ApolloServer } from '@apollo/server'
+import { startStandaloneServer } from '@apollo/server/standalone'
 
-const typeDefs = gql`
+const typeDefs = `
     type Query {
         hello: String
     }
@@ -11,20 +12,17 @@ const typeDefs = gql`
 
 const resolvers = {
     // TODO: Implement the `hello` query resolver here
+    Query: {
+        hello: () => "Hello, GraphQL!"
+    }
 };
 
 const startServer = async () => {
-    const app = express();
     const server = new ApolloServer({ typeDefs, resolvers });
-
-    await server.start();
-    server.applyMiddleware({ app });
-
-    app.listen({ port: 4000 }, () =>
-        console.log(
-            `🚀 Server ready at http://localhost:4000${server.graphqlPath}`
-        )
-    );
+    const { url } = await startStandaloneServer(server, {
+        listen: { port: 4000 }
+    })
+    console.log(`Server ready at: ${url}`)
 };
 
 startServer();
