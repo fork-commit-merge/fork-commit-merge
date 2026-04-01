@@ -1,9 +1,10 @@
 // GraphQL - Easy
+// Issue created by navneet-97 - https://github.com/navneet-97
 
-const { ApolloServer, gql } = require("apollo-server-express");
-const express = require("express");
+import { ApolloServer } from '@apollo/server'
+import { startStandaloneServer } from '@apollo/server/standalone'
 
-const typeDefs = gql`
+const typeDefs = `
     type Query {
         hello: String
     }
@@ -14,17 +15,11 @@ const resolvers = {
 };
 
 const startServer = async () => {
-    const app = express();
     const server = new ApolloServer({ typeDefs, resolvers });
-
-    await server.start();
-    server.applyMiddleware({ app });
-
-    app.listen({ port: 4000 }, () =>
-        console.log(
-            `🚀 Server ready at http://localhost:4000${server.graphqlPath}`
-        )
-    );
+    const { url } = await startStandaloneServer(server, {
+        listen: { port: 4000 }
+    })
+    console.log(`Server ready at: ${url}`)
 };
 
 startServer();
