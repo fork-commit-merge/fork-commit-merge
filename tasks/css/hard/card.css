@@ -21,7 +21,7 @@
 
 .card-back{
     background-color: #4caf50;
-    transform: rotateY(180deg); 
+    transform: rotateY(180deg);
 }
 
 .card-front, .card-back{
@@ -38,4 +38,3 @@
 .card-container:hover .card{
     transform: rotateY(180deg);
 }
-
