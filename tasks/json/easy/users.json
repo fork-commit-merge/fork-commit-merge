@@ -1,31 +1,8 @@
 [
   {
-    "id": "1",
-    "name": "Name1",
-    "email": "User1@example.com"
+    "JSON": "Easy"
   },
-
-    {
-    "id": "2",
-    "name": "Name2",
-    "email": "User2@example.com"
-  },
-
-    {
-    "id": "3",
-    "name": "Name3",
-    "email": "User3@example.com"
-  },
-
-    {
-    "id": "4",
-    "name": "Name4",
-    "email": "User4@example.com"
-  },
-
-    {
-    "id": "5",
-    "name": "Name5",
-    "email": "User5@example.com"
+  {
+    "TODO": "Remove these and implement JSON data file with the requirements in the Issue documentation"
   }
 ]
