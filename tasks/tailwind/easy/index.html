@@ -9,21 +9,24 @@
     <link href="../output.css" rel="stylesheet" />
   </head>
   <body class="m-5 flex justify-center">
-    <!-- TODO: Add Tailwind CSS classes to the card -->
-    <div class="">
-      <div class="">
-        <div class="">
+    <!-- Card component with Tailwind CSS -->
+    <div class="max-w-md w-full bg-white rounded-lg shadow-md overflow-hidden md:max-w-2xl">
+      <div class="md:flex">
+        <!-- Image on left -->
+        <div class="md:flex-shrink-0">
           <img
             class="h-48 w-full object-cover md:h-full md:w-48"
             src="https://source.unsplash.com/random/480x480"
             alt="Random Image"
           />
         </div>
-        <div class="">
-          <div class="">Card Title</div>
-          <a href="#" class="">Card Subtitle</a>
-          <p class="">This is some body text to explain more about the card.</p>
-          <button class="">Call to Action</button>
+        <!-- Content on right -->
+        <div class="p-8">
+          <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Category</div>
+          <div class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Card Title</div>
+          <a href="#" class="text-sm text-gray-600 mt-2 block">Card Subtitle</a>
+          <p class="mt-2 text-gray-500">This is some body text to explain more about the card.</p>
+          <button class="mt-4 px-4 py-2 bg-indigo-600 text-white font-semibold rounded hover:bg-indigo-700 transition-colors">Call to Action</button>
         </div>
       </div>
     </div>
