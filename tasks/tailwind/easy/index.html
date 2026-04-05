@@ -8,11 +8,10 @@
     <title>Fork, Commit, Merge - Tailwind CSS - Easy</title>
     <link href="../output.css" rel="stylesheet" />
   </head>
-  <body class="m-5 flex justify-center">
-    <!-- Card component with Tailwind CSS -->
-    <div class="max-w-md w-full bg-white rounded-lg shadow-md overflow-hidden md:max-w-2xl">
+  <body class="m-5 flex justify-center items-center min-h-screen bg-gray-100">
+    <!-- Card Component with Tailwind CSS -->
+    <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-2xl w-full">
       <div class="md:flex">
-        <!-- Image on left -->
         <div class="md:flex-shrink-0">
           <img
             class="h-48 w-full object-cover md:h-full md:w-48"
@@ -20,13 +19,12 @@
             alt="Random Image"
           />
         </div>
-        <!-- Content on right -->
-        <div class="p-8">
+        <div class="p-6">
           <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Category</div>
-          <div class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Card Title</div>
-          <a href="#" class="text-sm text-gray-600 mt-2 block">Card Subtitle</a>
-          <p class="mt-2 text-gray-500">This is some body text to explain more about the card.</p>
-          <button class="mt-4 px-4 py-2 bg-indigo-600 text-white font-semibold rounded hover:bg-indigo-700 transition-colors">Call to Action</button>
+          <h2 class="block mt-1 text-xl leading-tight font-bold text-black">Card Title</h2>
+          <a href="#" class="block mt-1 text-sm text-indigo-600 hover:text-indigo-500">Card Subtitle</a>
+          <p class="mt-2 text-gray-600">This is some body text to explain more about the card.</p>
+          <button class="mt-4 bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Call to Action</button>
         </div>
       </div>
     </div>
