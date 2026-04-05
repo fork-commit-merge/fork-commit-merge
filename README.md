@@ -36,7 +36,7 @@ _Find awesome badges for your project in this repository: [markdown-badges](http
 - [Creating New Tasks](#creating-new-tasks)
 - [Contact](#contact)
 - [License](#license)
-- [List of Contibutors](#list-of-contributors)
+- [List of Contributors](#list-of-contributors)
 
 ![line]
 
