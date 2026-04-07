@@ -16,7 +16,7 @@ namespace Calculator {
 
     export function divide(a: number, b: number): string | null {
     if (b === 0) {
-      console.log("Warning message & Null");
+      console.log("Warning message & null");
       return "";
     }
     const result = a / b;
