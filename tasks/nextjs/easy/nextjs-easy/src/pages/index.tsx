@@ -5,6 +5,7 @@ export default function Home() {
     // TODO: Create a sample product list with names and prices
     {name: 'apple', price: '$25'},
     {name: 'orange', price: '$25'},
+    {name: 'lemon', price: '$25'},
   ];
 
   return (
