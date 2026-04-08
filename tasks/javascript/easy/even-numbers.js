@@ -4,3 +4,11 @@
 
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // output: [2, 4, 6, 8, 10]
+
+function even_output(n) { 
+    if(n % 2 == 0){
+        return n
+    }
+ }
+
+const even = array.filter(even_output);
