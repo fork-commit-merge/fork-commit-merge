@@ -1507,3 +1507,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/universe7creator"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/270255806?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/geozar26"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/208685185?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Aakif-Kohari"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/159609181?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/Adityacs502004"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/193675628?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
