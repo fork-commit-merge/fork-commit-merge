@@ -37,26 +37,10 @@ class Library {
 
   searchBooks(query) {
     // TODO: Implement search functionality
-    const book_index = this.books.findIndex((book) => book.title == query);
-    if (book_index != -1){
-      return this.books[book_index]
-    }
   }
 
   filterBooks(criteria) {
     // TODO: Implement filter functionality
-    const keys = Object.keys(criteria);
-    return this.books.filter((book) => {
-      let key_len = keys.length;
-      for (let i = 0 ; i < key_len ; i++){
-        if((book[keys[i]] != criteria[keys[i]])){
-          return false
-        }
-      }
-      return true
-      
-    })
-  
   }
 }
 
