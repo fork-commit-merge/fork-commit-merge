@@ -3,6 +3,16 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
+    {name: 'Apple', price: '$25'},
+    {name: 'Orange', price: '$25'},
+    {name: 'Lemon', price: '$25'},
+    {name: 'Peach', price: '$25'},
+    {name: 'Grapes', price: '$25'},
+    {name: 'Strawberry', price: '$25'},
+    {name: 'Pineapple', price: '$25'},
+    {name: 'Melon', price: '$25'},
+    {name: 'Lime', price: '$25'},
+    {name: 'Muscat grapes', price: '$25'},
   ];
 
   return (
