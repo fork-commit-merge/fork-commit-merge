@@ -8,4 +8,5 @@ function sum(a, b) {
   return a + b;
 }
 
+//result
 console.log('The sum of 1 and 2 is ' + sum(a, b));
