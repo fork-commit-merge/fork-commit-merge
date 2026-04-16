@@ -8,18 +8,7 @@
  */
 
 function startScreenTimeWarning(limitMinutes = 30) {
-    if (typeof limitMinutes !== "number" || limitMinutes <= 0) {
-        console.log("Please provide a valid time limit in minutes.");
-        return;
-    }
 
-    const limitMilliseconds = limitMinutes * 60 * 1000;
-
-    console.log(`Screen time warning started. Reminder will appear in ${limitMinutes} minute(s).`);
-
-    setTimeout(() => {
-        console.log("Time for a short break! Step away, stretch, and rest your eyes.");
-    }, limitMilliseconds);
 }
 
 // Example usage
