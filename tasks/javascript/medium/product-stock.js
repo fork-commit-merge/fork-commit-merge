@@ -1,6 +1,6 @@
 // JavaScript - Medium
 
-  // Task: return only products that are in stock using .filter() method;
+  // TODO: return only products that are in stock using .filter() method;
   // Extra Challenge: return only the names of products in stock;
 
 const products = [
@@ -9,16 +9,5 @@ const products = [
     { name: "Phone", inStock: true },
     { name: "Mug", inStock: false }
   ];
-
-// only products that are in stock
-const inStockProducts = products.filter(product => product.inStock);
-
-// Extra challenge: only the names of products in stock
-const inStockProductNames = products
-  .filter(product => product.inStock)
-  .map(product => product.name);
-
-console.log(inStockProducts);
-console.log(inStockProductNames);
-  // Task output = [ { name: 'Book', inStock: true }, { name: 'Phone', inStock: true } ];
+  // TODO output = [ { name: 'Book', inStock: true }, { name: 'Phone', inStock: true } ];
   // Challenge output = ['Book', 'Phone'];
