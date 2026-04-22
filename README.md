@@ -1513,3 +1513,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/Athish-frontend"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/180030978?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/vj1932"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/60979845?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/wahajahmed010"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/57330918?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/zakitahraoui123-cmd"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/238212499?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
