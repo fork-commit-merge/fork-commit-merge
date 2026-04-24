@@ -7,7 +7,7 @@
 
 /* Body Styles */
 body {
-  background: linear-gradient(to right, rgb(13, 0, 255), yellow);
+  background: linear-gradient(to right, red, yellow);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +34,7 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
+  /* TODO: Define rotations for numbers (1 to 12) */
 }
 
 /* Clock Hands */
@@ -53,22 +54,14 @@ body {
 /* Clock Second Hand */
 .clock .hand.second {
   width: 3px;
-  height: 40%;
+  height: 45%;
   background-color: red;
 }
 
 /* Clock Minute and Hour Hands */
-.clock .hand.minute{
-  width: 6px;
-  height: 41%;
-  background-color: black;
-}
+.clock .hand.minute,
 .clock .hand.hour {
   /* TODO: Define styles for minute and hour hands */
-  width: 7px;
-  height: 32%;
-  background-color: black;
-
 }
 
 /* Clock Center */
