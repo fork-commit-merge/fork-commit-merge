@@ -4,3 +4,4 @@ procedure Hello is
 begin
   -- Print "Hello, World!" to the console
 end Hello;
+python class rocks 
