@@ -36,22 +36,11 @@ class Library {
   }
 
   searchBooks(query) {
-    // Convert query to a lowercase string for case-insensitive matching
-    const lowerCaseQuery = String(query).toLowerCase();
-    
-    // Filter books where the title, author, or ID contains the query
-    return this.books.filter(book => 
-      String(book.title).toLowerCase().includes(lowerCaseQuery) ||
-      String(book.author).toLowerCase().includes(lowerCaseQuery) ||
-      String(book.id) === lowerCaseQuery
-    );
+    // TODO: Implement search functionality
   }
 
   filterBooks(criteria) {
-    // Filter books that match every key-value pair in the criteria object
-    return this.books.filter(book => {
-      return Object.keys(criteria).every(key => book[key] === criteria[key]);
-    });
+    // TODO: Implement filter functionality
   }
 }
 
