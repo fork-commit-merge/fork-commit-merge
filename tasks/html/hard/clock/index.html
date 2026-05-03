@@ -7,67 +7,11 @@
     <title>Simple Clock</title>
   </head>
   <body>
-    <div class="container">
-      <!-- Timezone Selector Panel -->
-      <div class="timezone-panel">
-        <h3>World Clock</h3>
-        <label for="timezone-search">Search Timezone:</label>
-        <input type="text" id="timezone-search" placeholder="Search country or city..." autocomplete="off">
-        
-        <label for="timezone-select">Select Timezone:</label>
-        <select id="timezone-select" size="8">
-          <!-- Timezones will be populated by JavaScript -->
-        </select>
-        
-        <div class="current-timezone" id="current-timezone">Local Time (GMT±0)</div>
-        
-        <div class="format-toggle">
-          <label class="toggle-switch">
-            <input type="checkbox" id="format-toggle">
-            <span class="slider"></span>
-          </label>
-          <span class="toggle-label">24-Hour Format</span>
-        </div>
-      </div>
+    <!-- Create a clock container with clock hands and numbers. -->
+    <div class="clock">
+      <!-- TODO: Add code for clock hands using div elements with appropriate class names and data attributes. -->
 
-      <!-- Clock Container -->
-      <div class="clock-wrapper">
-        <div class="clock">
-          <!-- Hour markers -->
-          <div class="hour-markers"></div>
-          
-          <!-- Clock hands -->
-          <div class="hand hour" data-hour-hand></div>
-          <div class="hand minute" data-minute-hand></div>
-          <div class="hand second" data-second-hand></div>
-
-          <!-- Clock numbers -->
-          <div class="number" style="--rotation: 30deg"><span>1</span></div>
-          <div class="number" style="--rotation: 60deg"><span>2</span></div>
-          <div class="number" style="--rotation: 90deg"><span>3</span></div>
-          <div class="number" style="--rotation: 120deg"><span>4</span></div>
-          <div class="number" style="--rotation: 150deg"><span>5</span></div>
-          <div class="number" style="--rotation: 180deg"><span>6</span></div>
-          <div class="number" style="--rotation: 210deg"><span>7</span></div>
-          <div class="number" style="--rotation: 240deg"><span>8</span></div>
-          <div class="number" style="--rotation: 270deg"><span>9</span></div>
-          <div class="number" style="--rotation: 300deg"><span>10</span></div>
-          <div class="number" style="--rotation: 330deg"><span>11</span></div>
-          <div class="number" style="--rotation: 0deg"><span>12</span></div>
-        </div>
-      </div>
-
-      <!-- Calendar Panel -->
-      <div class="calendar-panel">
-        <h3>Calendar</h3>
-        <div class="date-display">
-          <div class="day-name" id="day-name">Monday</div>
-          <div class="date-number" id="date-number">01</div>
-          <div class="month-year" id="month-year">January 2024</div>
-        </div>
-        <div class="full-date" id="full-date">Monday, January 1, 2024</div>
-        <div class="digital-time" id="digital-time">12:00:00 AM</div>
-      </div>
+      <!-- TODO: Add code for clock numbers (1 to 12) using div elements with appropriate class names. -->
     </div>
 
     <script src="index.js"></script>
