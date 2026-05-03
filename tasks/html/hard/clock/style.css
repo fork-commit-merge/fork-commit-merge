@@ -7,29 +7,28 @@
 
 /* Body Styles */
 body {
-  background: radial-gradient(ellipse at top, #1e3c72 0%, #2a5298 20%, #7e22ce 40%, #ec4899 60%, #f97316 80%, #fbbf24 100%);
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   overflow: hidden;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Clock Styles */
 .clock {
-  width: 320px;
-  height: 320px;
-  background: linear-gradient(145deg, #ffffff, #f8fafc, #e2e8f0);
+  width: 340px;
+  height: 340px;
+  background: linear-gradient(145deg, #1e293b, #0f172a);
   border-radius: 50%;
-  border: 10px solid #1e293b;
+  border: 2px solid #3b82f6;
   position: relative;
   box-shadow: 
-    0 25px 50px rgba(0, 0, 0, 0.4),
-    0 15px 30px rgba(0, 0, 0, 0.3),
-    inset 0 4px 8px rgba(255, 255, 255, 0.9),
-    inset 0 -4px 8px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(15px);
+    0 0 60px rgba(59, 130, 246, 0.3),
+    0 0 120px rgba(59, 130, 246, 0.1),
+    inset 0 0 40px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
 }
 
 /* Clock Numbers */
@@ -40,25 +39,24 @@ body {
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  font-size: 1.9rem;
-  font-weight: 700;
-  color: #0f172a;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #e2e8f0;
 }
 
 .clock .number span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transform: rotate(calc(var(--rotation) * -1));
-  padding: 10px;
-  background: linear-gradient(145deg, #ffffff, #f1f5f9);
+  background: rgba(59, 130, 246, 0.1);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 20px;
-  box-shadow: 
-    0 4px 12px rgba(0, 0, 0, 0.15),
-    inset 0 2px 4px rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(8px);
-  border: 2px solid #e2e8f0;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  box-shadow: 0 0 10px rgba(59, 130, 246, 0.2);
+  backdrop-filter: blur(10px);
+  font-family: 'Monaco', 'Courier New', monospace;
 }
 
 /* Clock Hands */
@@ -67,39 +65,38 @@ body {
   position: absolute;
   bottom: 50%;
   left: 50%;
-  border-radius: 12px;
+  border-radius: 8px;
   transform-origin: bottom;
   z-index: 10;
   transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
-  transition: transform 0.1s linear;
 }
 
 /* Clock Second Hand */
 .clock .hand.second {
-  width: 5px;
+  width: 3px;
   height: 45%;
-  background: linear-gradient(to top, #dc2626, #ef4444, #f87171);
+  background: linear-gradient(to top, #ef4444, #f87171);
   box-shadow: 
-    0 0 15px rgba(220, 38, 38, 0.6),
-    0 2px 8px rgba(0, 0, 0, 0.2);
+    0 0 10px rgba(239, 68, 68, 0.8),
+    0 0 20px rgba(239, 68, 68, 0.4);
 }
 
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-  background: linear-gradient(to top, #1e293b, #334155, #475569);
+  background: linear-gradient(to top, #3b82f6, #60a5fa);
   box-shadow: 
-    0 0 12px rgba(30, 41, 59, 0.5),
-    0 2px 6px rgba(0, 0, 0, 0.3);
+    0 0 15px rgba(59, 130, 246, 0.6),
+    0 0 30px rgba(59, 130, 246, 0.3);
 }
 
 .clock .hand.minute {
-  width: 10px;
+  width: 8px;
   height: 40%;
 }
 
 .clock .hand.hour {
-  width: 14px;
+  width: 12px;
   height: 30%;
 }
 
@@ -117,62 +114,74 @@ body {
   height: 100%;
   background: conic-gradient(
     from 0deg,
-    #1e293b 0deg 3deg,
-    transparent 3deg 27deg,
-    #1e293b 27deg 30deg,
-    transparent 30deg 57deg,
-    #1e293b 57deg 60deg,
-    transparent 60deg 87deg,
-    #1e293b 87deg 90deg,
-    transparent 90deg 117deg,
-    #1e293b 117deg 120deg,
-    transparent 120deg 147deg,
-    #1e293b 147deg 150deg,
-    transparent 150deg 177deg,
-    #1e293b 177deg 180deg,
-    transparent 180deg 207deg,
-    #1e293b 207deg 210deg,
-    transparent 210deg 237deg,
-    #1e293b 237deg 240deg,
-    transparent 240deg 267deg,
-    #1e293b 267deg 270deg,
-    transparent 270deg 297deg,
-    #1e293b 297deg 300deg,
-    transparent 300deg 327deg,
-    #1e293b 327deg 330deg,
-    transparent 330deg 357deg,
-    #1e293b 357deg 360deg
+    #3b82f6 0deg 2deg,
+    transparent 2deg 28deg,
+    #3b82f6 28deg 30deg,
+    transparent 30deg 58deg,
+    #3b82f6 58deg 60deg,
+    transparent 60deg 88deg,
+    #3b82f6 88deg 90deg,
+    transparent 90deg 118deg,
+    #3b82f6 118deg 120deg,
+    transparent 120deg 148deg,
+    #3b82f6 148deg 150deg,
+    transparent 150deg 178deg,
+    #3b82f6 178deg 180deg,
+    transparent 180deg 208deg,
+    #3b82f6 208deg 210deg,
+    transparent 210deg 238deg,
+    #3b82f6 238deg 240deg,
+    transparent 240deg 268deg,
+    #3b82f6 268deg 270deg,
+    transparent 270deg 298deg,
+    #3b82f6 298deg 300deg,
+    transparent 300deg 328deg,
+    #3b82f6 328deg 330deg,
+    transparent 330deg 358deg,
+    #3b82f6 358deg 360deg
   );
   border-radius: 50%;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 
 /* Clock Center */
 .clock::after {
   content: "";
   position: absolute;
-  background: radial-gradient(circle, #1e293b, #0f172a);
+  background: radial-gradient(circle, #3b82f6, #1e40af);
   z-index: 11;
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   box-shadow: 
-    0 0 20px rgba(30, 41, 59, 0.7),
-    inset 0 2px 4px rgba(0, 0, 0, 0.3),
-    0 3px 6px rgba(0, 0, 0, 0.4);
+    0 0 20px rgba(59, 130, 246, 0.8),
+    0 0 40px rgba(59, 130, 246, 0.4),
+    inset 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Subtle pulse animation for clock */
-@keyframes subtle-pulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.02); }
+@keyframes tech-pulse {
+  0%, 100% { 
+    transform: scale(1);
+    box-shadow: 
+      0 0 60px rgba(59, 130, 246, 0.3),
+      0 0 120px rgba(59, 130, 246, 0.1),
+      inset 0 0 40px rgba(0, 0, 0, 0.5);
+  }
+  50% { 
+    transform: scale(1.01);
+    box-shadow: 
+      0 0 80px rgba(59, 130, 246, 0.4),
+      0 0 140px rgba(59, 130, 246, 0.15),
+      inset 0 0 40px rgba(0, 0, 0, 0.5);
+  }
 }
 
 .clock:hover {
-  animation: subtle-pulse 2s ease-in-out infinite;
+  animation: tech-pulse 3s ease-in-out infinite;
 }
 
 /* Background Styles Only (No changes needed) */

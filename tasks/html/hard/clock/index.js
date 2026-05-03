@@ -20,7 +20,7 @@ function setClock() {
 }
 
 // Update the clock continuously for smooth second hand movement
-setInterval(setClock, 50);
+setInterval(setClock, 100);
 
 // Initialize the clock's position when the page loads
 setClock();
