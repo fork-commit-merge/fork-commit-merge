@@ -34,7 +34,11 @@ body {
   text-align: center;
   transform: rotate(var(--rotation));
   font-size: 1.5rem;
-  /* TODO: Define rotations for numbers (1 to 12) */
+}
+
+.clock .number span {
+  display: inline-block;
+  transform: rotate(calc(var(--rotation) * -1));
 }
 
 /* Clock Hands */
