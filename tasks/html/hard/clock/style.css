@@ -61,7 +61,17 @@ body {
 /* Clock Minute and Hour Hands */
 .clock .hand.minute,
 .clock .hand.hour {
-  /* TODO: Define styles for minute and hour hands */
+  background-color: black;
+}
+
+.clock .hand.minute {
+  width: 6px;
+  height: 40%;
+}
+
+.clock .hand.hour {
+  width: 8px;
+  height: 30%;
 }
 
 /* Clock Center */
