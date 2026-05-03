@@ -10,7 +10,7 @@ function setRotation(element, rotationRatio) {
 // Implement the setClock function to update the positions of the hour, minute, and second hands
 function setClock() {
   const currentDate = new Date();
-  const seconds = currentDate.getSeconds() / 60;
+  const seconds = (currentDate.getSeconds() + currentDate.getMilliseconds() / 1000) / 60;
   const minutes = (seconds + currentDate.getMinutes()) / 60;
   const hours = (minutes + currentDate.getHours()) / 12;
   
@@ -19,8 +19,8 @@ function setClock() {
   setRotation(hourHand, hours);
 }
 
-// Update the clock every second
-setInterval(setClock, 1000);
+// Update the clock continuously for smooth second hand movement
+setInterval(setClock, 50);
 
 // Initialize the clock's position when the page loads
 setClock();
