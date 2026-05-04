@@ -11,3 +11,5 @@ const products = [
   ];
   // TODO output = [ { name: 'Book', inStock: true }, { name: 'Phone', inStock: true } ];
   // Challenge output = ['Book', 'Phone'];
+
+const inStockProducts = products.filter(product => product.inStock);
