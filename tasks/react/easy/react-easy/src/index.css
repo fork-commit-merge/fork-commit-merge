@@ -5,58 +5,19 @@
   justify-content: center;
   height: 100vh;
   font-family: Arial, sans-serif;
-  background: #f4f6fb;
-  gap: 20px;
 }
 
-/* Card */
 .card {
-  border-radius: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
   padding: 16px;
-  width: 320px;
-  background: #ffffff;
-
-  /* soft base shadow */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-
-  transition: all 0.3s ease;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* 🔥 Premium Hover Effect */
-.card:hover {
-  transform: translateY(-8px) scale(1.02);
-
-  /* layered shadow (depth effect) */
-  box-shadow: 
-    0 10px 25px rgba(0, 0, 0, 0.15),
-    0 0 25px rgba(79, 70, 229, 0.15); /* soft colored glow */
-}
-
-/* Image */
 .card img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
-  margin-bottom: 12px;
-  transition: transform 0.3s ease;
+  border-radius: 8px;
+  margin-bottom: 16px;
 }
 
-/* Image zoom */
-.card:hover img {
-  transform: scale(1.04);
-}
-
-/* Title */
-.card h2 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: #1f2937;
-}
-
-/* Description */
-.card p {
-  margin-top: 8px;
-  font-size: 0.95rem;
-  color: #4b5563;
-}
