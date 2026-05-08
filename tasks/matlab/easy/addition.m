@@ -1,3 +1,8 @@
 % MATLAB - Easy
 
-% TODO: Create a MATLAB script that adds two numbers together and prints the result
+% Create a MATLAB script that adds two numbers together and prints the result
+
+a = 5;
+b = 3;
+result = a + b;
+fprintf('The sum of %d and %d is %d\n', a, b, result);
