@@ -4,13 +4,13 @@
 import std.stdio;
 
 void main() {
-    string input = "hello";
+    string input = "Hello, World!";
     string reversed;
     
     foreach (c; input) {
         reversed = c ~ reversed;
     }
     
-    writeln("Original: ", input);
-    writeln("Reversed: ", reversed);
+    writeln("Original String: ", input);
+    writeln("Reversed String: ", reversed);
 }
