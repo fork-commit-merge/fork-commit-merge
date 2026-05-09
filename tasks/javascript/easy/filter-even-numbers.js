@@ -1,7 +1,5 @@
 // JavaScript - Easy
 
-// Create a function called `getEvenNumber` that filters even numbers from an array
-
-const getEvenNumber = (arr) => arr.filter(num => num % 2 === 0);
+// TODO: Create a function called `getEvenNumber` that filters even numbers from an array
 
 console.log(getEvenNumber([1, 2, 3, 4, 5, 6])); // Expected output: [2, 4, 6]

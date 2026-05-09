@@ -1,6 +1,5 @@
 # Elixir - Easy
 
 defmodule ElixirSumList do
-  def sum([]), do: 0
-  def sum(list), do: Enum.reduce(list, 0, &+/2)
+  # TODO: Implement a Basic Elixir Function to Sum a List of Numbers
 end
