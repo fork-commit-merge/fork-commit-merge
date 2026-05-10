@@ -6,23 +6,9 @@ procedure Number_Stats is
    Min, Max, Sum : Integer;
    Avg : Float;
 begin
-   -- Calculate Sum, Min, Max
-   Sum := Numbers (Numbers'First);
-   Min := Numbers (Numbers'First);
-   Max := Numbers (Numbers'First);
-
-   for I in Numbers'Range loop
-      Sum := Sum + Numbers (I);
-      if Numbers (I) < Min then
-         Min := Numbers (I);
-      end if;
-      if Numbers (I) > Max then
-         Max := Numbers (I);
-      end if;
-   end loop;
-
-   -- Calculate Avg
-   Avg := Float (Sum) / Float (Numbers'Length);
+   -- TODO: Use Numbers in the fixed-size array above to
+   -- implement the calculations for Min, Max, Sum, and Avg
+   
 
    -- Print the Min, Max, Sum, and Avg on separate lines
    -- using the statements below
