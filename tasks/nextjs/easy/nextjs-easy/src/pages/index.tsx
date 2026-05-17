@@ -2,12 +2,8 @@
 
 export default function Home() {
   const sampleProducts = [
-  { name: "Laptop", price: 999 },
-  { name: "Headphones", price: 199 },
-  { name: "Keyboard", price: 89 },
-  { name: "Mouse", price: 49 },
-  { name: "Monitor", price: 299 },
-];
+    // TODO: Create a sample product list with names and prices
+  ];
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
