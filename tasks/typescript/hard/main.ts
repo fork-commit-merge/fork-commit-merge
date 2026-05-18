@@ -10,33 +10,12 @@ interface Product {
 let products: Product[] = [];
 
 async function fetchData() {
-    const response = await fetch('https://dummyjson.com/products');
-    const data = await response.json();
-    products = data.products;
+    // TODO: Implement the fetch function
     displayProducts(products);
 }
 
 function displayProducts(products: Product[]) {
-    const tableBody = document.getElementById("productBody") as HTMLTableSectionElement;
-    tableBody.innerHTML = "";
-    
-    products.forEach(product => {
-        const row = document.createElement("tr");
-        
-        const titleCell = document.createElement("td");
-        titleCell.textContent = product.title;
-        row.appendChild(titleCell);
-        
-        const priceCell = document.createElement("td");
-        priceCell.textContent = product.price.toString();
-        row.appendChild(priceCell);
-        
-        const ratingCell = document.createElement("td");
-        ratingCell.textContent = product.rating.toString();
-        row.appendChild(ratingCell);
-        
-        tableBody.appendChild(row);
-    });
+    // TODO: Implement the display function
 }
 
 function applyFilters() {
@@ -53,12 +32,9 @@ function applyFilters() {
         (document.getElementById("maxRating") as HTMLInputElement).value
     );
 
-    const filteredProducts = products.filter(product => {
-        return (minPrice ? product.price >= minPrice : true) &&
-               (maxPrice ? product.price <= maxPrice : true) &&
-               (minRating ? product.rating >= minRating : true) &&
-               (maxRating ? product.rating <= maxRating : true);
-    });
+    const filteredProducts = products.filter(
+        // TODO: Implement the filter function
+    );
 
     displayProducts(filteredProducts);
 }
