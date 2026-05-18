@@ -1,68 +1,40 @@
 // TypeScript - Hard
-
-interface Product {
-    id: number;
-    title: string;
-    price: number;
-    rating: number;
-}
-
-let products: Product[] = [];
-
+let products = [];
 async function fetchData() {
     const response = await fetch('https://dummyjson.com/products');
     const data = await response.json();
     products = data.products;
     displayProducts(products);
 }
-
-function displayProducts(products: Product[]) {
-    const tableBody = document.getElementById("productBody") as HTMLTableSectionElement;
+function displayProducts(products) {
+    const tableBody = document.getElementById("productBody");
     tableBody.innerHTML = "";
-    
     products.forEach(product => {
         const row = document.createElement("tr");
-        
         const titleCell = document.createElement("td");
         titleCell.textContent = product.title;
         row.appendChild(titleCell);
-        
         const priceCell = document.createElement("td");
         priceCell.textContent = product.price.toString();
         row.appendChild(priceCell);
-        
         const ratingCell = document.createElement("td");
         ratingCell.textContent = product.rating.toString();
         row.appendChild(ratingCell);
-        
         tableBody.appendChild(row);
     });
 }
-
 function applyFilters() {
-    const minPrice = parseFloat(
-        (document.getElementById("minPrice") as HTMLInputElement).value
-    );
-    const maxPrice = parseFloat(
-        (document.getElementById("maxPrice") as HTMLInputElement).value
-    );
-    const minRating = parseFloat(
-        (document.getElementById("minRating") as HTMLInputElement).value
-    );
-    const maxRating = parseFloat(
-        (document.getElementById("maxRating") as HTMLInputElement).value
-    );
-
+    const minPrice = parseFloat(document.getElementById("minPrice").value);
+    const maxPrice = parseFloat(document.getElementById("maxPrice").value);
+    const minRating = parseFloat(document.getElementById("minRating").value);
+    const maxRating = parseFloat(document.getElementById("maxRating").value);
     const filteredProducts = products.filter(product => {
         return (minPrice ? product.price >= minPrice : true) &&
-               (maxPrice ? product.price <= maxPrice : true) &&
-               (minRating ? product.rating >= minRating : true) &&
-               (maxRating ? product.rating <= maxRating : true);
+            (maxPrice ? product.price <= maxPrice : true) &&
+            (minRating ? product.rating >= minRating : true) &&
+            (maxRating ? product.rating <= maxRating : true);
     });
-
     displayProducts(filteredProducts);
 }
-
 fetchData();
-
-(window as any).applyFilters = applyFilters;
+window.applyFilters = applyFilters;
