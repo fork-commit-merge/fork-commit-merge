@@ -1,6 +1,8 @@
 <?php
-$hello = "Hello, ";
+
+// PHP - Easy 1
+
+$hello = "Hello";
 $world = "World!";
 
-echo $hello . $world;
-?>
+echo $hello . ", " . $world;
