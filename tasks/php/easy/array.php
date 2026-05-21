@@ -1,5 +1,7 @@
 <?php
-$meats = array("Chicken", "Beef", "Pork", "Fish");
 
-echo $meats[1];
-?>
+// PHP - Easy 3
+
+$data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
+
+echo $data[2];
