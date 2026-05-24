@@ -1,18 +1,3 @@
-const timer = document.getElementById("timer");
+// JavaScript - Medium
 
-let timeLeft = 10;
-
-timer.textContent = timeLeft;
-
-const countdown = setInterval(() => {
-
-    timeLeft--;
-
-    timer.textContent = timeLeft;
-
-    if (timeLeft === 0) {
-        clearInterval(countdown);
-        timer.textContent = "Time's up!";
-    }
-
-}, 1000);
+// Create functionality for a countdown timer that counts down from 10 seconds to zero using JavaScript
