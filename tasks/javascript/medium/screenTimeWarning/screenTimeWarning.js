@@ -8,16 +8,7 @@
  */
 
 function startScreenTimeWarning(limitMinutes = 30) {
-  const startTime = Date.now();
-  const limitMs = limitMinutes * 60 * 1000;
 
-  const interval = setInterval(() => {
-    const elapsed = Date.now() - startTime;
-    if (elapsed >= limitMs) {
-      console.log("Time to take a break! You've been browsing for " + limitMinutes + " minutes.");
-      clearInterval(interval);
-    }
-  }, 1000);
 }
 
 // Example usage
