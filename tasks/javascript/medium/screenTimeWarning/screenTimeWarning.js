@@ -6,10 +6,16 @@
  * Author: v-hasini (GitHub)
  * Date: November 2025
  */
-
 function startScreenTimeWarning(limitMinutes = 30) {
-
+    if (typeof limitMinutes !== 'number' || isNaN(limitMinutes) || limitMinutes <= 0) {
+        console.error('Error: limitMinutes must be a positive number.');
+        return null;
+    }
+    const timerId = setTimeout(() => {
+        const plural = limitMinutes === 1 ? '' : 's';
+        console.log(`You've been using this page for ${limitMinutes} minute${plural}. Take a break! 🧘`);
+    }, limitMinutes * 60 * 1000);
+    return timerId;
 }
-
 // Example usage
 startScreenTimeWarning(10);
