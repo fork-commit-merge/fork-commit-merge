@@ -21,6 +21,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
     resize: vertical;
+    width: calc(100% - 20px);
 }
 
 input[type=submit] {
