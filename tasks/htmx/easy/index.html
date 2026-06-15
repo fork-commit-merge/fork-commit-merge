@@ -11,7 +11,13 @@
 <body>
     <h1>Fork, Commit, Merge - HTMX - Easy</h1>
 
-    <!-- TODO: Add your HTMX button here -->
+     <button type      ="button"
+             hx-get    ="/content"
+             hx-trigger="click"
+             hx-target ="#result"
+    >
+        Click me
+     </button>
 
     <div id="result"></div>
 </body>
