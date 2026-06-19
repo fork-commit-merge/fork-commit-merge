@@ -8,7 +8,115 @@
     <title>Fork, Commit, Merge - Tailwind CSS - Medium</title>
     <link href="../output.css" rel="stylesheet" />
 </head>
-<body>
-    <!-- Create a responsive pricing table using Tailwind CSS -->
+<body class="bg-slate-900 text-white min-h-screen flex flex-col justify-center items-center font-sans py-12 px-4">
+
+    <!-- Header Section -->
+    <div class="text-center mb-12">
+        <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
+            Choose the Perfect Plan
+        </h1>
+        <p class="mt-4 text-lg text-slate-400 max-w-md mx-auto">
+            Scale your development workflow with simple, transparent pricing.
+        </p>
+    </div>
+
+    <!-- Responsive Grid for Pricing Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full">
+        
+        <!-- Card 1: Basic Plan -->
+        <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 flex flex-col justify-between shadow-xl hover:scale-105 hover:border-slate-600 transition-all duration-300">
+            <div>
+                <h3 class="text-xl font-bold text-slate-300">Basic</h3>
+                <p class="mt-4 flex items-baseline text-slate-100">
+                    <span class="text-5xl font-extrabold tracking-tight">$19</span>
+                    <span class="ml-1 text-xl font-semibold text-slate-400">/mo</span>
+                </p>
+                <p class="mt-2 text-sm text-slate-400">Essential tools for individual developers starting their journey.</p>
+                
+                <ul class="mt-8 space-y-4 text-slate-300 border-t border-slate-700 pt-6">
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>1 Core Project</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>5GB Cloud Storage</span>
+                    </li>
+                    <li class="flex items-center space-x-3 text-slate-500 line-through">
+                        <span>✗</span>
+                        <span>Analytics Dashboard</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="mt-8 w-full bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200">
+                Get Started
+            </button>
+        </div>
+
+        <!-- Card 2: Pro Plan (Highlighted Card) -->
+        <div class="bg-slate-800 p-8 rounded-2xl border-2 border-blue-500 flex flex-col justify-between shadow-2xl hover:scale-105 relative transition-all duration-300">
+            <span class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-blue-500 text-white text-xs uppercase tracking-wider font-extrabold px-4 py-1 rounded-full shadow-md">
+                Most Popular
+            </span>
+            <div>
+                <h3 class="text-xl font-bold text-white">Pro Developer</h3>
+                <p class="mt-4 flex items-baseline text-white">
+                    <span class="text-5xl font-extrabold tracking-tight">$49</span>
+                    <span class="ml-1 text-xl font-semibold text-blue-400">/mo</span>
+                </p>
+                <p class="mt-2 text-sm text-slate-300">Perfect for professionals running growing production apps.</p>
+                
+                <ul class="mt-8 space-y-4 text-slate-200 border-t border-slate-700 pt-6">
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>Unlimited Projects</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>50GB Cloud Storage</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>Advanced Analytics Dashboard</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="mt-8 w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded-xl shadow-lg shadow-blue-500/20 transition-all duration-200">
+                Upgrade to Pro
+            </button>
+        </div>
+
+        <!-- Card 3: Enterprise Plan -->
+        <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 flex flex-col justify-between shadow-xl hover:scale-105 hover:border-slate-600 transition-all duration-300">
+            <div>
+                <h3 class="text-xl font-bold text-slate-300">Enterprise</h3>
+                <p class="mt-4 flex items-baseline text-slate-100">
+                    <span class="text-5xl font-extrabold tracking-tight">$99</span>
+                    <span class="ml-1 text-xl font-semibold text-slate-400">/mo</span>
+                </p>
+                <p class="mt-2 text-sm text-slate-400">Custom dedicated architecture for large scale teams.</p>
+                
+                <ul class="mt-8 space-y-4 text-slate-300 border-t border-slate-700 pt-6">
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>Everything in Pro Plan</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>500GB Cloud Storage</span>
+                    </li>
+                    <li class="flex items-center space-x-3">
+                        <span class="text-teal-400 font-bold">✓</span>
+                        <span>24/7 Dedicated Support</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="mt-8 w-full bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 px-4 rounded-xl transition-all duration-200">
+                Contact Sales
+            </button>
+        </div>
+
+    </div>
+
 </body>
 </html>
