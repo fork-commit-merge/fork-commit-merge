@@ -2,6 +2,6 @@
 
 describe("Jasmine - Easy - Boolean Test", function () {
     it("should pass this test", function () {
-        expect(true).toBe(true);
+        // TODO: Add `expect` and `toBe` statements to pass this test
     });
 });
