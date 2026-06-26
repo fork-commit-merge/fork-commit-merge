@@ -1,3 +1,35 @@
 <!-- XML - Easy -->
 
-<!-- TODO: Create an XML Representation of a Bookstore -->
+<!-- Create an XML Representation of a Bookstore -->
+<bookstore>
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <year>1925</year>
+    <price>12.99</price>
+  </book>
+  <book>
+    <title>To Kill a Mockingbird</title>
+    <author>Harper Lee</author>
+    <year>1960</year>
+    <price>14.99</price>
+  </book>
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <year>1949</year>
+    <price>11.99</price>
+  </book>
+  <book>
+    <title>Pride and Prejudice</title>
+    <author>Jane Austen</author>
+    <year>1813</year>
+    <price>9.99</price>
+  </book>
+  <book>
+    <title>The Catcher in the Rye</title>
+    <author>J.D. Salinger</author>
+    <year>1951</year>
+    <price>13.99</price>
+  </book>
+</bookstore>
