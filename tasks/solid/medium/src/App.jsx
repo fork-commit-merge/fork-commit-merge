@@ -1,4 +1,6 @@
+import { createResource, Show } from "solid-js";
 import styles from "./App.module.css";
+
 
 function App() {
   // API URL to send the request to
@@ -7,25 +9,36 @@ function App() {
   // TIP: The structure of the advice object returned from the API is:
   // { slip: { id: 123, advice: "This is an example advice." } }
   const fetchQuote = async () => {
-    // TODO: Implement the fetchQuote function to retrieve an advice quote.
+    const response = await fetch(API_URL);
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch");
+    }
+
+    const data = await response.json();
+    return data.slip.advice;
   };
 
-  // TODO: Implement a signal function to manage the fetchQuote data.
-  // TIP: You can use Solid.js's createResource utility function.
-  // Documentation: https://docs.solidjs.com/guides/fetching-data
+  const [quote, { refetch }] = createResource(fetchQuote);
 
   return (
     <main class={styles.quoteContainer}>
-      {/* TODO: Implement an element that renders while the data is being fetched.
-      TIP: Here are the elements to display for the three states of data fetching:
-
-      - Loading: <p class={styles.loadingText}>Fetching quote...</p>
-      - Error: <p class={styles.errorText}>Failed to fetch the quote.</p>
-      - Success: <p class={styles.quotes}>Quote appears here.</p> */}
+      <Show
+        when={!quote.loading && !quote.error}
+        fallback={
+          quote.loading ? (
+            <p class={styles.loadingText}>Fetching quote...</p>
+          ) : (
+            <p class={styles.errorText}>Failed to fetch the quote.</p>
+          )
+        }
+      >
+        <p class={styles.quotes}>{quote()}</p>
+      </Show>
 
       <button
         onClick={() => {
-          // Implement the refetch function here to fetch new quotes.
+          refetch();
         }}
         class={styles.newQuoteButton}
       >
