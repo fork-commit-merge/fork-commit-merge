@@ -1,14 +1,8 @@
-FROM node:20-alpine AS builder
-WORKDIR /app
+# Docker - Medium
 
-COPY package*.json ./
-RUN npm ci --omit=dev
-COPY . .
-RUN npm run build
-
-FROM nginx:alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-ENV NODE_ENV=production
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+# TODO: Create a multi-stage Dockerfile for a web application
+# Requirements:
+# 1. Build stage: Use Node.js to build the application
+# 2. Production stage: Use nginx to serve the built application
+# 3. Optimize the image size
+# 4. Set proper environment variables
