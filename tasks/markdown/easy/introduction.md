@@ -1,8 +1,10 @@
-# Header
+<!-- Markdown - Easy -->
 
-This is a list with proper formatting:
+ - Header
 
-- First item
-- Second item
+- this is
+- a list
+- with proper
+-formatting
 
-Visit our website [here](https://forkcommitmerge.dev)
+Visit our website [here] (https://forkcommitmerge.dev)
