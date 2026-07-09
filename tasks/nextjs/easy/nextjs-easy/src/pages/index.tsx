@@ -3,26 +3,6 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
-    {
-      name:"Apple",
-      price:12
-    },
-    {
-      name:"banana",
-      price:14
-    },
-    {
-      name:"Cherry",
-      price:20
-    },
-    {
-      name:"Coconut",
-      price:18
-    },
-    {
-      name:"Sugar Cane",
-      price:16
-    }
   ];
 
   return (
