@@ -1,29 +1,26 @@
 import styles from "./App.module.css";
-import { createSignal } from "solid-js";
 
 function App() {
-  // Implement the counter state with the name of "count" and a setter named "setCount"
-  const [count, setCount] = createSignal(0);
-
   return (
     <main class={styles.counterContainer}>
-      {/* Display the current count state */}
-      <p class={styles.countNumber}>{count()}</p>
+      {/* TODO: Implement the counter state with the name of "count" and a setter named "setCount"  */}
 
-      {/* Implement the setter function for incrementing and decrementing the count state. */}
+      {/* TODO: Display the current count state in here */}
+      <p class={styles.countNumber}></p>
+
+      {/* TODO: Implement the setter function for incrementing and decrementing the count state. */}
       <div class={styles.countButtonsContainer}>
         <button
           onClick={() => {
-            setCount(count() + 1);
+            // Implement the function to increment the counter state here.
           }}
           class={styles.countButtons}
         >
           +1
         </button>
-
         <button
           onClick={() => {
-            setCount(count() - 1);
+            // Implement the function to decrement the counter state here.
           }}
           class={styles.countButtons}
         >
