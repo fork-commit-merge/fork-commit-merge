@@ -10,22 +10,22 @@
   </head>
   <body class="m-5 flex justify-center items-center min-h-screen bg-gray-100">
     <!-- Add Tailwind CSS classes -->
-    <div class="">
-      <div class="">
-        <div class="">
+    <div class="bg-white rounded-2xl shadow-lg overflow-hidden max-w-2xl w-full flex flex-col md:flex-row">
+      <div class="shrink-0">
+        <div class="md:h-full md:w-48">
           <img
             class="h-48 w-full object-cover md:h-full md:w-48"
             src="https://source.unsplash.com/random/480x480"
             alt="Random Image"
           />
         </div>
-        <div class="">
-          <div class="">Category</div>
-          <h2 class="">Card Title</h2>
-          <a href="#" class="">Card Subtitle</a>
-          <p class="">This is some body text to explain more about the card.</p>
-          <button class="">Call to Action</button>
-        </div>
+      </div>
+      <div class="p-6 flex flex-col gap-2">
+        <div class="text-xs font-semibold uppercase tracking-wider text-indigo-500">Category</div>
+        <h2 class="text-xl font-bold text-gray-900">Card Title</h2>
+        <a href="#" class="text-sm text-indigo-500 hover:text-indigo-700 transition-colors">Card Subtitle</a>
+        <p class="text-gray-600 text-sm leading-relaxed">This is some body text to explain more about the card.</p>
+        <button class="mt-2 px-4 py-2 bg-indigo-500 text-white text-sm font-medium rounded-lg hover:bg-indigo-600 transition-colors self-start">Call to Action</button>
       </div>
     </div>
   </body>
