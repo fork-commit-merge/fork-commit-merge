@@ -5,7 +5,12 @@ pragma solidity ^0.8.0;
 
 contract SimpleStorage {
     uint256 _number;
-    // TODO: Implement function to set the number
 
-    // TODO: Implement function to get the number
+    function set(uint256 _number) public {
+        number = _number;
+    }
+
+    function get() public view returns (uint256) {
+        return number;
+    }
 }
