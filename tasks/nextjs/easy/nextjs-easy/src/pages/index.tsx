@@ -3,14 +3,9 @@
 export default function Home() {
   const sampleProducts = [
     // TODO: Create a sample product list with names and prices
-    { name: "Headphones", price: "Rs 1500" },
-    {name:"Smart Watch",price:"Rs 2590"},
-    {name:"Bluetooth Speaker",price:"Rs 1999"},
-    {name:" Wireless Mouse",price:"Rs 599"}
   ];
 
   return (
-    
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
       <h1 className="text-4xl font-bold mb-4">Welcome to XYZ Store!</h1>
       <p className="text-lg mb-8">
