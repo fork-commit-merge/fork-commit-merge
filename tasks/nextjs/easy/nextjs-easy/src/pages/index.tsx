@@ -2,7 +2,10 @@
 
 export default function Home() {
   const sampleProducts = [
-    // TODO: Create a sample product list with names and prices
+    { name: "Wireless Bluetooth Headphones", price: "$79.99" },
+    { name: "Mechanical Keyboard", price: "$129.99" },
+    { name: "USB-C Hub Adapter", price: "$34.99" },
+    { name: "Ergonomic Mouse", price: "$49.99" },
   ];
 
   return (
