@@ -1596,3 +1596,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/abhisheknirogi"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/205016683?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/alieeshaathecoder"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/243785810?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/harshikabodekar"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/117353432?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/HpServerZ820"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/307544153?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
