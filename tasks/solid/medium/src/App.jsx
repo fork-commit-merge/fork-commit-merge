@@ -1,31 +1,47 @@
 import styles from "./App.module.css";
+import { createSignal, Show, Switch, Match } from "solid-js";
 
 function App() {
+  const [quote, setQuote] = createSignal("");
+  const [status, setStatus] = createSignal("idle");
   // API URL to send the request to
   const API_URL = "https://api.adviceslip.com/advice";
 
-  // TIP: The structure of the advice object returned from the API is:
-  // { slip: { id: 123, advice: "This is an example advice." } }
   const fetchQuote = async () => {
-    // TODO: Implement the fetchQuote function to retrieve an advice quote.
+    setStatus("loading...");
+    try {
+      const response = await fetch(API_URL);
+      const data = await response.json();
+      setQuote(data.slip.advice);
+      setStatus("Success");
+    } catch (error) {
+      console.error(error);
+      setStatus("Error");
+    }
   };
-
-  // TODO: Implement a signal function to manage the fetchQuote data.
-  // TIP: You can use Solid.js's createResource utility function.
-  // Documentation: https://docs.solidjs.com/guides/fetching-data
 
   return (
     <main class={styles.quoteContainer}>
-      {/* TODO: Implement an element that renders while the data is being fetched.
-      TIP: Here are the elements to display for the three states of data fetching:
+      <Switch>
+        <Match when={status() === "idle"}>
+          <p class={styles.quotes}>Click the button to get a quote.</p>
+        </Match>
 
-      - Loading: <p class={styles.loadingText}>Fetching quote...</p>
-      - Error: <p class={styles.errorText}>Failed to fetch the quote.</p>
-      - Success: <p class={styles.quotes}>Quote appears here.</p> */}
+        <Match when={status() === "loading..."}>
+          <p class={styles.loadingText}>Fetching quote...</p>
+        </Match>
+        <Match when={status() === "Success"}>
+          <p class={styles.quotes}>{quote()}</p>
+        </Match>
+
+        <Match when={status() === "Error"}>
+          <p class={styles.errorText}>Failed to fetch the quote.</p>
+        </Match>
+      </Switch>
 
       <button
         onClick={() => {
-          // Implement the refetch function here to fetch new quotes.
+          fetchQuote();
         }}
         class={styles.newQuoteButton}
       >
