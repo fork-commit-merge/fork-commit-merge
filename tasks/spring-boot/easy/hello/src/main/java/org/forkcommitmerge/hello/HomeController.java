@@ -16,10 +16,5 @@ public class HomeController {
      * The template is already set up to display the message using Thymeleaf
      * with the expression: th:text="${message}"
      */
-    @GetMapping("/")
-    public String home(Model model) {
-        model.addAttribute("message", "Hello, Spring Boot");
-        return "home";
-    }
 
 }
