@@ -1,4 +1,3 @@
-// C++ - Medium
 
 //! Don't modify this file!
 
