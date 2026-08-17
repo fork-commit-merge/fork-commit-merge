@@ -1,2 +1,80 @@
-Hello, World!
-Appended text.
+#include <cstring>
+#include <iostream>
+
+class MyString {
+private:
+    char* data;
+    int len;
+
+public:
+    // Constructors & Destructor
+    MyString(const char* s = nullptr) {
+        if (s == nullptr) {
+            len = 0;
+            data = new char[1];
+            data[0] = '\0';
+        } else {
+            len = std::strlen(s);
+            data = new char[len + 1];
+            std::strcpy(data, s);
+        }
+    }
+
+    MyString(const MyString& other) {
+        len = other.len;
+        data = new char[len + 1];
+        std::strcpy(data, other.data);
+    }
+
+    ~MyString() {
+        delete[] data;
+    }
+
+    // Getters
+    int length() const { return len; }
+    const char* c_str() const { return data; }
+
+    // Operations
+    void append(const MyString& other) {
+        int new_len = len + other.len;
+        char* new_data = new char[new_len + 1];
+        
+        std::strcpy(new_data, data);
+        std::strcat(new_data, other.data);
+        
+        delete[] data;
+        data = new_data;
+        len = new_len;
+    }
+
+    MyString& operator=(const MyString& other) {
+        if (this != &other) {
+            delete[] data;
+            len = other.len;
+            data = new char[len + 1];
+            std::strcpy(data, other.data);
+        }
+        return *this;
+    }
+
+    MyString operator+(const MyString& other) const {
+        MyString temp(*this);
+        temp.append(other);
+        return temp;
+    }
+
+    friend std::ostream& operator<<(std::ostream& os, const MyString& s) {
+        os << s.c_str();
+        return os;
+    }
+};
+
+int main() {
+    // Method 1: Using append() method
+    MyString str1("Hello, World!\n");
+    str1.append("Appended text.");
+    
+    std::cout << str1 << std::endl;
+
+    return 0;
+}
