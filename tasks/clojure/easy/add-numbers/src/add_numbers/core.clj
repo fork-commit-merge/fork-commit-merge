@@ -1,5 +1,4 @@
 (ns add-numbers.core)
 
-(defn add-numbers
-  ;; TODO: Implement the Number addition function here
-)
+(defn add-numbers [x y]
+  (println (str "The sum of " x " and " y " is: " (+ x y))))
