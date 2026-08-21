@@ -1,32 +1,88 @@
 <!-- HTML - Hard -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles.css" />
-        <title>Fork, Commit, Merge - Hard Issue</title>
-    </head>
-    <body>
-        <nav id="navbar">
-            <!-- TODO: Implement the navigation bar -->
-        </nav>
 
-        <section id="about">
-            <!-- TODO: Implement the about section -->
-        </section>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fork, Commit, Merge - Hard Issue</title>
+</head>
 
-        <section id="services">
-            <!-- TODO: Implement the services section -->
-        </section>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <section id="contact">
-            <!-- TODO: Implement the contact section  -->
-        </section>
+    <!-- About Section -->
+    <section id="about">
+        <div class="content-wrapper">
+            <div class="text">
+                <h1>About Us</h1>
+                <p>
+                    We create simple and effective solutions to help businesses grow.
+                </p>
+            </div>
 
-        <footer>
-            <!-- TODO: Implement the footer -->
-        </footer>
-    </body>
+            <img src="https://via.placeholder.com/300" alt="About image" />
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+
+        <div class="content-wrapper">
+            <div class="text">
+                <p>
+                    Web development, design, and digital solutions tailored to your
+                    needs.
+                </p>
+            </div>
+
+            <img src="https://via.placeholder.com/300" alt="Services image" />
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <form>
+            <label for="name"> Name </label>
+
+            <input type="text" id="name" placeholder="Enter your name" />
+
+            <label for="email"> Email </label>
+
+            <input type="email" id="email" placeholder="Enter your email" />
+
+            <label for="message"> Message </label>
+
+            <textarea id="message" placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Fork, Commit, Merge</p>
+
+        <div id="footer-links">
+            <a href="#"> Terms & Conditions </a>
+
+            |
+
+            <a href="#"> Privacy Policy </a>
+        </div>
+    </footer>
+</body>
+
 </html>
