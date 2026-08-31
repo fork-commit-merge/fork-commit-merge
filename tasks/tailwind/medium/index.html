@@ -1,14 +1,105 @@
 <!-- Tailwind CSS - Medium -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fork, Commit, Merge - Tailwind CSS - Medium</title>
     <link href="../output.css" rel="stylesheet" />
-</head>
-<body>
-    <!-- Create a responsive pricing table using Tailwind CSS -->
-</body>
+  </head>
+  <body>
+    <main class="p-4">
+      <section>
+        <div class="pricing-container grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+          <!-- Basic Plan -->
+          <article
+            class="border-2 p-2 rounded hover:border-blue-500 hover:-translate-y-2 transition cursor-pointer shadow-lg flex flex-col gap-4 items-start"
+          >
+            <header>
+              <h2 class="font-bold text-xl">Basic</h2>
+              <p>For individuals getting started.</p>
+            </header>
+
+            <div>
+              <span class="font-bold text-5xl">$9</span>
+              <span>/month</span>
+            </div>
+
+            <ul>
+              <li>5 Projects</li>
+              <li>10 GB Storage</li>
+              <li>Basic Analytics</li>
+              <li>Email Support</li>
+            </ul>
+
+            <a
+              class="bg-blue-500 text-white p-4 inline-block rounded mt-auto"
+              href="#"
+              >Get Started</a
+            >
+          </article>
+
+          <!-- Standard Plan -->
+          <article
+            class="border-2 p-2 rounded hover:border-blue-500 hover:-translate-y-2 transition cursor-pointer flex flex-col items-start gap-4 shadow-lg"
+          >
+            <header>
+              <h2 class="font-bold text-xl">Standard</h2>
+              <p>For growing teams and businesses.</p>
+            </header>
+
+            <div>
+              <span class="font-bold text-5xl">$19</span>
+              <span>/month</span>
+            </div>
+
+            <ul>
+              <li>15 Projects</li>
+              <li>50 GB Storage</li>
+              <li>Advanced Analytics</li>
+              <li>Priority Email Support</li>
+              <li>Team Collaboration</li>
+            </ul>
+
+            <a
+              class="bg-blue-500 text-white p-4 inline-block rounded mt-auto"
+              href="#"
+              >Get Started</a
+            >
+          </article>
+
+          <!-- Premium Plan -->
+          <article
+            class="border-2 p-2 rounded hover:border-blue-500 hover:-translate-y-2 transition cursor-pointer shadow-lg flex flex-col items-start gap-4"
+          >
+            <header>
+              <h2 class="font-bold text-xl">Premium</h2>
+              <p>For businesses that need more.</p>
+            </header>
+
+            <div>
+              <span class="font-bold text-5xl">$39</span>
+              <span>/month</span>
+            </div>
+
+            <ul>
+              <li>Unlimited Projects</li>
+              <li>200 GB Storage</li>
+              <li>Advanced Analytics</li>
+              <li>24/7 Priority Support</li>
+              <li>Team Collaboration</li>
+              <li>Custom Integrations</li>
+            </ul>
+
+            <a
+              class="bg-blue-500 text-white p-4 inline-block rounded mt-auto"
+              href="#"
+              >Get Started</a
+            >
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
