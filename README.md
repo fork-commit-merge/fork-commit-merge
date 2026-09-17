@@ -62,7 +62,7 @@ You can find the prerequisites for each task in the [PREREQUISITES.md](PREREQUIS
 
 ![Fork](/assets/images/fork-button.png)
 
-2. Clone your forked repository by clicking the "Code" button:
+2. Clone your forked repository by clicking the "Code" 
 
 ![Code](/assets/images/code.png)
 
