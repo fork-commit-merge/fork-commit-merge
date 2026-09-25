@@ -5,5 +5,9 @@
 # prints that list to the console and,
 # prints the sum of the numbers of that list
 
-def function(numbers):
-    pass
+def print_numbers():
+    natural_numbers = list(range(1, 11)) # Create a list of the first natural numbers.
+    print(natural_numbers) # Print the list of natural_numbers
+    print(sum(natural_numbers)) # Print the sum of the natural_numbers
+
+print_numbers() 
