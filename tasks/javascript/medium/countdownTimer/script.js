@@ -1,3 +1,16 @@
 // JavaScript - Medium
+const timer = document.getElementById("timer");
+let sec = 10;
+function timeout() {
+    timer.textContent = `00:${sec.toString().padStart(2, "0")}`;
 
-// Create functionality for a countdown timer that counts down from 10 seconds to zero using JavaScript
+    if (sec == 0) {
+        timer.textContent = "Time's up!";
+        return;
+    }
+
+    sec--;
+    setTimeout(timeout, 1000);
+}
+
+timeout();
