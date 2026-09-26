@@ -1,13 +1,8 @@
 package org.forkcommitmerge.hello;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-
-import org.springframework.ui.Model;
 
 @Controller
-
-
 public class HomeController {
 
     /*
@@ -21,13 +16,5 @@ public class HomeController {
      * The template is already set up to display the message using Thymeleaf
      * with the expression: th:text="${message}"
      */
-
-    @GetMapping("/")
-    public String display(Model model){
-        model.addAttribute("message", "Hello, Spring Boot");
-        return "index";
-    }
-
-
 
 }
