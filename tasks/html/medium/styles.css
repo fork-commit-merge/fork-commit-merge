@@ -20,6 +20,7 @@ input[type=text], input[type=email], textarea {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    font-family: sans-serif;
     resize: vertical;
 }
 
