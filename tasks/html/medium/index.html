@@ -7,56 +7,8 @@
     </head>
     <body>
         <div class="container">
-            <h1 align="center">Contact Form</h1>
+            <h1>Contact Form</h1>
             <!-- TODO: Implement the contact form here -->
         </div>
     </body>
-
-    <script>    
-const container = document.querySelector('.container');
-
-const title = container.querySelector('h1');
-if (title) {
-    title.textContent = 'Countdown Timer';
-    title.style.textAlign = 'center';
-}
-
-const timerDisplay = document.createElement('div');
-timerDisplay.style.fontSize = '3.5rem';
-timerDisplay.style.fontWeight = 'bold';
-timerDisplay.style.textAlign = 'center';
-timerDisplay.style.marginTop = '15px';
-timerDisplay.style.fontFamily = 'sans-serif';
-
-const messageDisplay = document.createElement('div');
-messageDisplay.style.fontSize = '1.5rem';
-messageDisplay.style.textAlign = 'center';
-messageDisplay.style.marginTop = '20px';
-messageDisplay.style.color = '#333';
-
-container.appendChild(timerDisplay);
-container.appendChild(messageDisplay);
-
-let totalSeconds = 10;
-
-function formatTime(seconds) {
-    const m = Math.floor(seconds / 60);
-    const s = seconds % 60;
-    return String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
-}
-
-timerDisplay.textContent = formatTime(totalSeconds);
-
-const timerInterval = setInterval(() => {
-    totalSeconds--;
-    
-    if (totalSeconds > 0) {
-        timerDisplay.textContent = formatTime(totalSeconds);
-    } else {
-        timerDisplay.textContent = formatTime(0); 
-        messageDisplay.textContent = "Time's up!";
-        clearInterval(timerInterval);
-    }
-}, 1000);
-    </script>
 </html>
