@@ -4,4 +4,8 @@
 
 $data = ['Pizza', 'Chicken', 'Beef', 'Rice', 'Bread'];
 
-// TODO: Display All Data From The Array
+// Display All Data From The Array
+
+foreach ($data as $item) {
+    echo $item . PHP_EOL;
+}
