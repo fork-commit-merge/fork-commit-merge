@@ -1,29 +1,50 @@
 /* HTML - Hard */
 
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding-top: 80px;
+    padding-top: 73px;
 }
+
+/* =========================
+   Navigation
+   ========================= */
 
 #navbar {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
+    height: 73px;
     background: #333;
     color: white;
-    padding: 15px;
-}
+    z-index: 1000;
 
-#navbar a:hover {
-    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu {
     list-style: none;
     padding: 0;
+    margin: 0;
+
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    margin: 0 5px;
 }
 
 #menu li a {
@@ -32,42 +53,92 @@ body {
     padding: 10px 15px;
 }
 
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   Sections
+   ========================= */
+
 section {
-    padding: 20px;
     background: rgb(210, 223, 245);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+/* =========================
+   About + Services
+   ========================= */
+
+#about,
+#services {
+    padding: 34px 20px;
 }
 
 .content-wrapper {
-    display: flex;
+    width: 970px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 30px;
+
     align-items: center;
-    padding-left: 400px;
-    padding-right: 400px;
 }
 
 .text {
-    flex: 1;
-    padding-right: 20px;
-}
-
-img {
-    flex-shrink: 0;
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-right: 0;
 }
 
 h1,
 h2,
 p {
     margin: 0 0 10px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.18;
+}
+
+/* =========================
+   Images
+   ========================= */
+
+img {
+    width: 320px;
+    height: 240px;
+
+    object-fit: cover;
+
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: block;
+}
+
+/* =========================
+   Contact
+   ========================= */
+
+#contact {
+    padding: 45px 20px 26px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    width: 160px;
 }
 
 label,
@@ -78,24 +149,55 @@ button {
     margin-bottom: 10px;
 }
 
+label {
+    font-size: 14px;
+}
+
+input {
+    width: 160px;
+    height: 22px;
+    padding: 2px;
+}
+
+textarea {
+    width: 160px;
+    height: 68px;
+    resize: both;
+    padding: 2px;
+}
+
 button {
-    padding: 10px;
+    padding: 9px 11px;
     background: #333;
     color: white;
     border: none;
     cursor: pointer;
 }
 
+button:hover {
+    background: #222;
+}
+
+/* =========================
+   Footer
+   ========================= */
+
 footer {
     background: #333;
     color: white;
-    padding: 15px;
+    padding: 13px;
     text-align: center;
+    font-size: 14px;
+}
+
+#footer-links {
+    margin-bottom: 3px;
 }
 
 #footer-links a {
     color: white;
     text-decoration: none;
+    margin: 0 3px;
 }
 
 #footer-links a:hover {
