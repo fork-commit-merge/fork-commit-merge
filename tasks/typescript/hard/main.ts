@@ -10,12 +10,31 @@ interface Product {
 let products: Product[] = [];
 
 async function fetchData() {
-    // TODO: Implement the fetch function
+    const response = await fetch("https://dummyjson.com/products");
+    const data = await response.json();
+
+    products = data.products;
     displayProducts(products);
 }
 
 function displayProducts(products: Product[]) {
-    // TODO: Implement the display function
+    const productBody = document.getElementById(
+        "productBody"
+    ) as HTMLTableSectionElement;
+
+    productBody.innerHTML = "";
+
+    products.forEach((product) => {
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${product.title}</td>
+            <td>${product.price}</td>
+            <td>${product.rating}</td>
+        `;
+
+        productBody.appendChild(row);
+    });
 }
 
 function applyFilters() {
@@ -33,7 +52,11 @@ function applyFilters() {
     );
 
     const filteredProducts = products.filter(
-        // TODO: Implement the filter function
+        (product) =>
+            (isNaN(minPrice) || product.price >= minPrice) &&
+            (isNaN(maxPrice) || product.price <= maxPrice) &&
+            (isNaN(minRating) || product.rating >= minRating) &&
+            (isNaN(maxRating) || product.rating <= maxRating)
     );
 
     displayProducts(filteredProducts);
