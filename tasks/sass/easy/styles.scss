@@ -3,9 +3,16 @@
 $primary-color: #3498db;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-// TODO: Implement the Container class, do not change the code above
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: $primary-color;
+  text-align: center;
+}
