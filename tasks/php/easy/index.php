@@ -5,4 +5,4 @@
 $hello = "Hello";
 $world = "World!";
 
-echo $hello . ", " . $world . PHP_EOL;
+// TODO: Implement rest of the string concatenation program
