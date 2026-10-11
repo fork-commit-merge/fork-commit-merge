@@ -6,4 +6,9 @@
 # prints the sum of the numbers of that list
 
 def function(numbers):
-    pass
+    return sum(numbers)
+
+
+numbers = list(range(1, 11))
+print(numbers)
+print(function(numbers))
