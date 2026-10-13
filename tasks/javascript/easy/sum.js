@@ -1,3 +1,6 @@
 // JavaScript - Easy
 
 // TODO: Write a function that returns the sum of two numbers
+const sum = (a, b) => a + b;
+
+console.log(sum(5, 10)); // Expected output: 15
