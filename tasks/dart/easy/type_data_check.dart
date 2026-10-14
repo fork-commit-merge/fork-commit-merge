@@ -6,44 +6,4 @@ void main() {
   // print(typeDataCheck(null));
 }
 
-
-/**
- * 获取数据类型
- *
- * @param value
- * @return String
- * int
- * double
- * String
- * bool
- * Null
- */
-String typeDataCheck(dynamic value) {
-  if (value == null) {
-    return 'null';
-  }
-
-  
-  return value.runtimeType.toString();
-}
-
-
-
-/**
- * 获取数据类型
- *
- * @param value
- * @return Type
- * int
- * double
- * String
- * bool
- * Null
- */
-Type typeDataCheckToType(dynamic value) {
-  if (value == null) {
-    return Null;
-  }
-
-  return value.runtimeType;
-}
+// TODO: Implement a function that accepts a parameter of any type and returns a string describing its data type.
