@@ -1,11 +1,19 @@
 #include <iostream>
 #include <string>
 
-std::string reverseString(const std::string &str) {
-    // TODO: Implement the reverseString function
+using namespace std;
+
+std::string reverseString(const std::string &str)
+{
+    return string(str.rbegin(), str.rend());
 }
 
-int main() {
-    // TODO: Implement the main method
-}
+int main()
+{
+    string s;
+    cout << "Enter a string: ";
+    cin >> s;
 
+    string reversed = reverseString(s);
+    cout << "Reversed string: " << reversed << '\n';
+}
