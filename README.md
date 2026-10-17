@@ -1671,3 +1671,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/outbodyherme"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/309566087?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Fineturkey"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/122054718?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/DataEngineer2050"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/314910278?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/pranesh2006-doc"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/218973562?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
