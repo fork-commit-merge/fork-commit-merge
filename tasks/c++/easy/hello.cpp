@@ -2,10 +2,8 @@
 
 #include <iostream>
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello World" << '\n';
+int main() {
+    // TODO: Create a Basic C++ Program that Prints "Hello World"
     return 0;
 }
+
