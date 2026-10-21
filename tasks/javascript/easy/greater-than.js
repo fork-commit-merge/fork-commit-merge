@@ -4,5 +4,3 @@
 
 const array = [2, 5, 8, 10, 12, 15, 19, 20, 25];
 // output: [12, 15, 19];
-const results = array.filter((n) => n > 10 && n < 20);
-console.log(results);
