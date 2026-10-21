@@ -8,8 +8,10 @@
  */
 
 function startScreenTimeWarning(limitMinutes = 30) {
-
+  setTimeout(() => {
+    console.log("Please take a break to relax your eyes");
+  }, [limitMinutes * 60 * 1000]);
 }
 
 // Example usage
-startScreenTimeWarning(10);
+startScreenTimeWarning(1);
