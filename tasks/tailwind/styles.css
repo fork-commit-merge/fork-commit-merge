@@ -1,3 +1,13 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  .pricing-container ul li {
+    @apply flex gap-2 items-center;
+  }
+  .pricing-container ul li::before {
+    content: "✓";
+    @apply text-green-500 font-bold text-lg leading-none;
+  }
+}
