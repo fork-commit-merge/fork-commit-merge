@@ -11,3 +11,12 @@ const products = [
   ];
   // TODO output = [ { name: 'Book', inStock: true }, { name: 'Phone', inStock: true } ];
   // Challenge output = ['Book', 'Phone'];
+
+// Return only the products that are in stock
+const results = products.filter((product) => product.inStock);
+console.log(results);
+
+// Extra challenge: return only the names of the products in stock
+const names = products.filter((product) => product.inStock).map((product) => product.name);
+console.log(names);
+
