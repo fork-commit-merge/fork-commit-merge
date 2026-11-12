@@ -1690,3 +1690,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/0xposa"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/197490806?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Rev0nix"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/205598786?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/jebakishore509-sys"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/294839227?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/dbdefault"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/246079841?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
