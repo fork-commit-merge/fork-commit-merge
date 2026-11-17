@@ -1693,3 +1693,4 @@ Massive thanks to all of the these fine individuals who contributed to this proj
 <a href="https://github.com/dbdefault"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/246079841?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/Mikhal-BMJC"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/327186534?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
 <a href="https://github.com/SaifAli-S"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/233760032?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
+<a href="https://github.com/AbubakerAfzal01"><img src="https://images.weserv.nl/?url=https://avatars.githubusercontent.com/u/188573710?v=4&h=300&w=300&fit=cover&mask=circle&maxage=7d" width="80px"/></a>
