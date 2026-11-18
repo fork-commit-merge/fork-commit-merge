@@ -7,8 +7,13 @@
  * Date: November 2025
  */
 
-function startScreenTimeWarning(limitMinutes = 30) {
 
+function startScreenTimeWarning(limitMinutes = 30) {
+    const timeInMilliseconds = limitMinutes * 60 * 1000;
+
+    setTimeout(() => {
+        console.log("Hey! You've been browsing for a while. Take a short break!");
+    }, timeInMilliseconds);
 }
 
 // Example usage
