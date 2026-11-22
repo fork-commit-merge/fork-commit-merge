@@ -9,6 +9,57 @@
     <link href="../output.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- Create a responsive pricing table using Tailwind CSS -->
+    <section class="min-h-screen bg-gray-50 px-4 py-12 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-6xl">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold text-gray-900 sm:text-4xl">Simple, transparent pricing</h1>
+      <p class="mt-3 text-gray-600">Pick the plan that fits your needs.</p>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
+
+      <!-- Basic -->
+      <div class="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+        <h2 class="text-xl font-semibold text-gray-900">Basic</h2>
+        <p class="mt-4 text-4xl font-bold text-gray-900">$9<span class="text-base font-normal text-gray-500">/mo</span></p>
+        <ul class="mt-6 flex-1 space-y-3 text-gray-700">
+          <li>1 user</li>
+          <li>5 projects</li>
+          <li>2 GB storage</li>
+          <li>Email support</li>
+        </ul>
+        <a href="#" class="mt-8 block rounded-lg bg-gray-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">Get Basic</a>
+      </div>
+
+      <!-- Standard (featured) -->
+      <div class="relative flex flex-col rounded-2xl border-2 border-blue-600 bg-white p-8 shadow-lg transition duration-300 hover:-translate-y-2 hover:shadow-2xl md:scale-105">
+        <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white">Most Popular</span>
+        <h2 class="text-xl font-semibold text-gray-900">Standard</h2>
+        <p class="mt-4 text-4xl font-bold text-gray-900">$29<span class="text-base font-normal text-gray-500">/mo</span></p>
+        <ul class="mt-6 flex-1 space-y-3 text-gray-700">
+          <li>5 users</li>
+          <li>25 projects</li>
+          <li>50 GB storage</li>
+          <li>Priority email support</li>
+        </ul>
+        <a href="#" class="mt-8 block rounded-lg bg-blue-600 px-4 py-3 text-center font-semibold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">Get Standard</a>
+      </div>
+
+      <!-- Premium -->
+      <div class="flex flex-col rounded-2xl border border-gray-200 bg-white p-8 shadow-sm transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+        <h2 class="text-xl font-semibold text-gray-900">Premium</h2>
+        <p class="mt-4 text-4xl font-bold text-gray-900">$79<span class="text-base font-normal text-gray-500">/mo</span></p>
+        <ul class="mt-6 flex-1 space-y-3 text-gray-700">
+          <li>Unlimited users</li>
+          <li>Unlimited projects</li>
+          <li>500 GB storage</li>
+          <li>24/7 phone support</li>
+        </ul>
+        <a href="#" class="mt-8 block rounded-lg bg-gray-900 px-4 py-3 text-center font-semibold text-white transition hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2">Get Premium</a>
+      </div>
+
+    </div>
+  </div>
+</section>
 </body>
 </html>
