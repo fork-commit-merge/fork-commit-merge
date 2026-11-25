@@ -1,3 +1,9 @@
 # Docker - Easy
 
-# TODO: Create a Dockerfile requested in the task description
+FROM node:26-alpine
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+CMD ["node", "index.js"]
